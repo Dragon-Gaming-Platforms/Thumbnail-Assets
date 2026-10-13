@@ -19,6 +19,11 @@ characters are included beyond what the game itself draws during play.
 | `air-hockey.png` | `games/singlefiles/Air-Hockey.html` (platform single-file game) | — | Original artwork for this repo | AI-generated original illustration after inspecting the game: top-down air hockey table, two strikers, puck with pulse trail, bumpers and rebound lines (the game's 12-match cup with table gadgets). No text. |
 | `air-traffic-control.png` | `games/singlefiles/Air-Traffic-Control.html` (platform single-file game) | — | Original artwork for this repo | AI-generated original illustration after inspecting the game: radar scope with aircraft markers and heading lines, two runways, restricted-area polygon and weather cell (the game's radar-vectoring canvas). No text. |
 | `alchemy-workshop.png` | `games/singlefiles/Alchemy-Workshop.html` (platform single-file game) | — | Original artwork for this repo | AI-generated original illustration after inspecting the game: cauldron, distillation tower, flask and ingredient shelves with three property-coloured vapours (the game's apparatus / heat / duration brewing). No text. |
+| `alien-invasion.png` | [cykod/AlienInvasion](https://github.com/cykod/AlienInvasion) | Pascal Rettig (cykod) | MIT / GPL dual (`games/alien-invasion/MIT-LICENSE.txt`, `GPL-LICENSE.txt`) | Gameplay screenshot (player ship, enemy, shots) from the 320×480 canvas, lower band cropped to 3:1. |
+| `arashi-js.png` | [stephank/arashi-js](https://github.com/stephank/arashi-js) | Stéphan Kochen | GPL-2.0 (header of `arashi.js`) | Screenshot of the in-game Tempest-style web grid after the intro; the port's play state is a stub so this is the furthest the game renders. |
+| `asdf.png` | [TimPietrusky/asdf](https://github.com/TimPietrusky/asdf) | Tim Pietrusky | MIT (`games/asdf/license.txt`) | Screenshot of the CSS-rendered Simon device during a game (one pad lit). |
+| `asteroids.png` | [dmcinnes/HTML5-Asteroids](https://github.com/dmcinnes/HTML5-Asteroids) | Doug McInnes | MIT (`games/asteroids/LICENSE`) | Gameplay screenshot (ship thrusting, shot, asteroid) from the 780×540 vector canvas. |
+| `astray.png` | [wwwtyro/Astray](https://github.com/wwwtyro/Astray) | Rye Terrell (wwwtyro) | Unlicense / public domain (`games/astray/License.md`) | WebGL gameplay screenshot of the ball in the brick maze (textures ship in the same public-domain repo). |
 
 ## Pending / blocked (not added)
 
@@ -29,3 +34,10 @@ characters are included beyond what the game itself draws during play.
 - `3d-graphing-calculator`: not vendored; the page is an iframe embed of a
   turbowarp.org Scratch project by 52525rr (CC-BY-NC-SA 2.0). Could not be
   loaded from the sandbox and the licence needs a project-level decision.
+- `ancientbeast`: AGPL-3.0 code with CC-BY-SA-4.0 artwork, so a screenshot
+  would need the CC-BY-SA notice. The match loads in headless Chromium only
+  after bypassing a dev-mode asset check, and unit sprites do not render under
+  the software GL available here, so no honest gameplay capture was possible.
+- `aquastax`: MIT code, but it is an unfinished remake of the 2007 commercial
+  AquaStax and the in-game character sprite/reference art appears to derive
+  from the original game; display rights unclear.

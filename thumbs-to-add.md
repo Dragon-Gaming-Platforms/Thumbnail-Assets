@@ -2,7 +2,7 @@
 
 Catalog: [Dragon-Gaming-Platforms/Dragon-Gaming-Platforms](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms),
 revision `db88cc18c657878aacf5c896bdc69f35342b415d` (`games.js`).
-Remaining: **242 games** (120 generate=true; 122 generate=false).
+Remaining: **237 games** (120 generate=true; 117 generate=false).
 
 - `generate=true`: create original artwork based on the actual game's gameplay/theme.
 - `generate=false`: capture gameplay or reuse existing artwork after verifying display rights.
@@ -25,13 +25,8 @@ Remaining: **242 games** (120 generate=true; 122 generate=false).
 
 - `1255-burgomaster` generate=false
 - `3d-graphing-calculator` generate=false
-- `alien-invasion` generate=false
 - `ancientbeast` generate=false
 - `aquastax` generate=false
-- `arashi-js` generate=false
-- `asdf` generate=false
-- `asteroids` generate=false
-- `astray` generate=false
 - `auction-fever` generate=true
 - `auto-chess-forge` generate=true
 - `awesometanks2` generate=false
