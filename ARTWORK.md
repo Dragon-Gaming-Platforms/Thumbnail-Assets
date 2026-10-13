@@ -40,6 +40,13 @@ original additions, not logos. No audio is included.
 | `tictactoe.jpg` | Gameplay screenshot composition: an in-progress X/O round | [`games/tictactoe/LICENSE`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/db88cc18c657878aacf5c896bdc69f35342b415d/games/tictactoe/LICENSE), MIT, © 2025 Ramazan Çetinkaya. Bundled game requests Bootstrap Icons externally: restored the exact 1.11.3 CSS/font locally from npm for this capture; Bootstrap Icons is MIT, © 2019–2024 The Bootstrap Authors. |
 | `t-rex-runner.jpg` | Gameplay screenshot: dinosaur and approaching cacti | [`games/t-rex-runner/LICENSE`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/db88cc18c657878aacf5c896bdc69f35342b415d/games/t-rex-runner/LICENSE), BSD-3-Clause, © 2022 牛さん; `index.js` additionally credits © 2014 The Chromium Authors. Actual default sprite gameplay, no alternative copyrighted character skins. Original title/white margin added to preserve the player at banner aspect ratio. See BSD notice below. |
 
+## Bottom-up batch 3
+
+| ID / source file | Method and subject | Provenance / rights |
+| --- | --- | --- |
+| `sorades.jpg` | Actual scrolling-shooter gameplay screenshot with purple enemies and green player | Local browser capture of `games/sorades` in the same pinned platform snapshot, after firing for 18 seconds. **© Thiemo Mättig, CC BY-SA 3.0 Germany**, not this repo's MIT license. Source: [SORADES 13K](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/db88cc18c657878aacf5c896bdc69f35342b415d/games/sorades). License: [CC BY-SA 3.0 DE](https://creativecommons.org/licenses/by-sa/3.0/de/), [legal code](https://creativecommons.org/licenses/by-sa/3.0/de/legalcode). Changes: resized/aspect-preserved screenshot, original title and dark margins. This entire derived thumbnail is distributed under the same CC BY-SA 3.0 DE terms. No audio. |
+| `spacepi.jpg` | Actual line-defense gameplay screenshot and title | Local browser capture of `games/spacepi` in the same pinned snapshot, playing level 1 and drawing defense lines. [Source and MIT license](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/db88cc18c657878aacf5c896bdc69f35342b415d/games/spacepi); © 2014 Jack Rugile. Aspect preserved, title/margins added. |
+
 ## Pending rights checks
 
 - `zedinvaders`: bundled READMEs call it open source, but the inspected game
@@ -49,6 +56,10 @@ original additions, not logos. No audio is included.
   [`doeixd/Wordle-Vanilla`](https://github.com/doeixd/Wordle-Vanilla) repository
   has no detected license or license file, and its README reserves rights to
   Wordle's owner. Left pending until artwork rights are established.
+
+- `space-huggers`: the inspected bundled GPL file conflicts with a README
+  statement saying the game is not intended for redistribution. Left pending
+  rather than deciding the artwork license from contradictory notices.
 
 ## MIT notices for screenshot artwork
 
@@ -68,6 +79,8 @@ Copyright (c) 2012 Simon M. Laroche
 Copyright (c) 2025 Ramazan Çetinkaya
 
 Copyright (c) 2019-2024 The Bootstrap Authors
+
+Copyright (c) 2014 Jack Rugile
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
