@@ -20,6 +20,26 @@ Platform snapshot inspected:
 | `touchline-manager.jpg` | Original generated illustration: soccer formation/tactics board | AI-generated for this repo; no external artwork/reference images. Theme checked against `games/singlefiles/Touchline-Manager.html`. Repo MIT license. |
 | `tiny-factory.jpg` | Original generated illustration: conveyor production chain | AI-generated for this repo; no external artwork/reference images. Theme checked against `games/singlefiles/Tiny-Factory.html`. Repo MIT license. |
 
+## Bottom-up batch 2
+
+Same pinned platform snapshot as batch 1. Screenshot compositions use only
+one actual gameplay capture per card; plain-text labels/backgrounds are
+original additions, not logos. No audio is included.
+
+| ID / source file | Method and subject | Provenance / rights |
+| --- | --- | --- |
+| `time-post.jpg` | Original generated illustration: two causality-linked postal timelines | AI-generated for this repo without reference images; theme inspected in `games/singlefiles/Time-Post.html`. Repo MIT license. |
+| `tide-salvage.jpg` | Original generated illustration: submarine, sonar and relic salvage | AI-generated for this repo without reference images; theme inspected in `games/singlefiles/Tide-Salvage.html`. Repo MIT license. |
+| `tidal-grid.jpg` | Original generated illustration: island power/cable network | AI-generated for this repo without reference images; theme inspected in `games/singlefiles/Tidal-Grid.html`. Repo MIT license. |
+| `thunder-vanguard.jpg` | Original generated illustration: aerial bullet patterns and lightning burst | AI-generated for this repo without reference images; theme inspected in `games/singlefiles/Thunder-Vanguard.html`. Repo MIT license. |
+| `wbwwb.jpg` | Gameplay screenshot: camera and park characters | [`games/wbwwb/README.md`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/db88cc18c657878aacf5c896bdc69f35342b415d/games/wbwwb/README.md) explicitly releases Nicky Case's code/art under CC0. Local browser capture of actual gameplay; restored the bundled missing `textStrings = textStrings_EN` assignment and entered the existing Game scene. No new scene/art invented. Cropped to omit translated instructions. |
+| `tower-game.jpg` | Gameplay screenshot composition: crane and stacked building | [`games/tower-game/LICENSE`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/db88cc18c657878aacf5c896bdc69f35342b415d/games/tower-game/LICENSE), MIT, © 2018 BMQB, Inc (iamkun/tower_game). Browser capture after starting and placing a floor. |
+| `tower-defense.jpg` | Gameplay screenshot composition: tower firing at incoming enemies | Local browser capture of `games/tower-defense` during wave 2, after placing a tower. Upstream [`oldj/html5-tower-defense/LICENSE`](https://github.com/oldj/html5-tower-defense/blob/master/LICENSE), MIT, © 2017 oldj; in-game credit © 2010–2011 oldj.net. Cropped. |
+| `trust.jpg` | Gameplay screenshot: the coin-machine cooperation game | [`games/trust/LICENSE`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/db88cc18c657878aacf5c896bdc69f35342b415d/games/trust/LICENSE), CC0, Nicky Case. Local browser capture of first interactive round (intro skipped); cropped to characters and machine. |
+| `teterjs.jpg` | Gameplay screenshot composition: actual seven-piece stack with previews | [`games/teterjs/LICENSE`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/db88cc18c657878aacf5c896bdc69f35342b415d/games/teterjs/LICENSE), MIT, © 2012 Simon M. Laroche. Browser gameplay capture; aspect preserved. |
+| `tictactoe.jpg` | Gameplay screenshot composition: an in-progress X/O round | [`games/tictactoe/LICENSE`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/db88cc18c657878aacf5c896bdc69f35342b415d/games/tictactoe/LICENSE), MIT, © 2025 Ramazan Çetinkaya. Bundled game requests Bootstrap Icons externally: restored the exact 1.11.3 CSS/font locally from npm for this capture; Bootstrap Icons is MIT, © 2019–2024 The Bootstrap Authors. |
+| `t-rex-runner.jpg` | Gameplay screenshot: dinosaur and approaching cacti | [`games/t-rex-runner/LICENSE`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/db88cc18c657878aacf5c896bdc69f35342b415d/games/t-rex-runner/LICENSE), BSD-3-Clause, © 2022 牛さん; `index.js` additionally credits © 2014 The Chromium Authors. Actual default sprite gameplay, no alternative copyrighted character skins. Original title/white margin added to preserve the player at banner aspect ratio. See BSD notice below. |
+
 ## Pending rights checks
 
 - `zedinvaders`: bundled READMEs call it open source, but the inspected game
@@ -32,11 +52,22 @@ Platform snapshot inspected:
 
 ## MIT notices for screenshot artwork
 
-Applies to `xx142-b2.jpg` and `underrun.jpg` respectively:
+Applies to the MIT-licensed screenshot sources above (and the Bootstrap Icons
+font visible in `tictactoe.jpg`), with their respective copyright notices:
 
 Copyright (c) 2019 Ben Clark, Salvatore Previti
 
 Copyright (c) 2018 Dominic Szablewski
+
+Copyright (c) 2018 BMQB, Inc
+
+Copyright (c) 2017 oldj
+
+Copyright (c) 2012 Simon M. Laroche
+
+Copyright (c) 2025 Ramazan Çetinkaya
+
+Copyright (c) 2019-2024 The Bootstrap Authors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -55,3 +86,38 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+## BSD notice — t-rex-runner.jpg
+
+BSD 3-Clause License
+
+Copyright (c) 2022, 牛さん
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its
+   contributors may be used to endorse or promote products derived from
+   this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+Additional original source notice: Copyright (c) 2014 The Chromium Authors.
+All rights reserved.

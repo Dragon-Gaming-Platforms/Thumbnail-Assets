@@ -61,3 +61,10 @@ matching is the only safe rule.
 - Git LFS is forbidden (Pages does not serve LFS files); GitHub's 100 MB
   per-file cap applies.
 
+
+## Artwork provenance
+
+See [ARTWORK.md](ARTWORK.md) for source, generation/screenshot methods, author
+credits, and license notices for contributed thumbnails. Preserve those
+notices when reusing artwork. The pending work queue is `thumbs-to-add.md`;
+agent coordination and helper scripts are documented in `AGENTS.md`.

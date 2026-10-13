@@ -35,6 +35,7 @@
 - Generated art must reflect gameplay, not invent a misleading game scene.
 - Use only artwork with verified display rights. A code license does not
   automatically license bundled artwork or commercial characters/logos.
+- Record provenance in root `ARTWORK.md` (published with the artwork).
 - Record source URLs, license/permission, author, and required attribution
   when reusing art; record original/generated provenance for new artwork.
   Include license notices/share-alike obligations where applicable. If rights

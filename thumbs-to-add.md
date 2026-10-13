@@ -2,7 +2,7 @@
 
 Catalog: [Dragon-Gaming-Platforms/Dragon-Gaming-Platforms](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms),
 revision `db88cc18c657878aacf5c896bdc69f35342b415d` (`games.js`).
-Remaining: **244 games** (118 generate=true; 126 generate=false).
+Remaining: **233 games** (114 generate=true; 119 generate=false).
 
 - `generate=true`: create original artwork based on the actual game's gameplay/theme.
 - `generate=false`: capture gameplay or reuse existing artwork after verifying display rights.
@@ -252,18 +252,7 @@ Remaining: **244 games** (118 generate=true; 126 generate=false).
 - `sudoku-studio` generate=true
 - `survivor` generate=false
 - `switchyard-rush` generate=true
-- `t-rex-runner` generate=false
 - `tank-arena` generate=true
-- `teterjs` generate=false
-- `trust` generate=false
-- `thunder-vanguard` generate=true
-- `tictactoe` generate=false
-- `tidal-grid` generate=true
-- `tide-salvage` generate=true
-- `time-post` generate=true
-- `tower-defense` generate=false
-- `tower-game` generate=false
 - `vectoid-td-3d-v1.4` generate=false
-- `wbwwb` generate=false
 - `wordle` generate=false
 - `zedinvaders` generate=false
