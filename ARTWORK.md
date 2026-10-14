@@ -68,6 +68,14 @@ under this repository's MIT license; no borrowed logos or franchise characters.
 | `spud-arena.jpg` | Original potato adventurer, tools, garden enemies and crystal tubers | [`Spud-Arena.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/db88cc18c657878aacf5c896bdc69f35342b415d/games/singlefiles/Spud-Arena.html) |
 | `spectrum-console.jpg` | Noisy/target/output waveforms and connected filter modules | [`Spectrum-Console.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/db88cc18c657878aacf5c896bdc69f35342b415d/games/singlefiles/Spectrum-Console.html) |
 
+## Bottom-up batch 5
+
+| Source file | Method and provenance | Rights |
+| --- | --- | --- |
+| `space-invaders.jpg` | Local browser gameplay screenshot of [`games/space-invaders`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/db88cc18c657878aacf5c896bdc69f35342b415d/games/space-invaders), after starting, firing and moving. Cropped to the robot-alien formation and explosion. No audio. | Bundled MIT license, © 2014 Tóth Róbert. See MIT notices below. |
+| `sandspiel.jpg` | Existing official [`Screenshot.png`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/db88cc18c657878aacf5c896bdc69f35342b415d/games/sandspiel/Screenshot.png), referenced by the bundled game README. Cropped/resized to show the simulated vegetation, fire, sand and water. | Bundled MIT license, © 2018 Max Bittker. See MIT notices below. |
+| `radius-raid.jpg` | Local runtime gameplay-frame capture of [`games/radius-raid`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/db88cc18c657878aacf5c896bdc69f35342b415d/games/radius-raid), after Play and actual movement/firing. Browser screenshots stalled, so captured the six actual canvas buffers at one tick and composited them in DOM order at their live parallax offsets. No new gameplay objects or reconstructed artwork; center-cropped and brightness increased 1.4×. No audio. | Bundled MIT license, © 2014 Jack Rugile. See MIT notices below. |
+
 ## Pending rights checks
 
 - `zedinvaders`: bundled READMEs call it open source, but the inspected game
@@ -102,6 +110,10 @@ Copyright (c) 2025 Ramazan Çetinkaya
 Copyright (c) 2019-2024 The Bootstrap Authors
 
 Copyright (c) 2014 Jack Rugile
+
+Copyright (c) 2014 Tóth Róbert
+
+Copyright (c) 2018 Max Bittker
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

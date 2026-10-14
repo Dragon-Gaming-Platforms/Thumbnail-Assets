@@ -2,7 +2,7 @@
 
 Catalog: [Dragon-Gaming-Platforms/Dragon-Gaming-Platforms](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms),
 revision `db88cc18c657878aacf5c896bdc69f35342b415d` (`games.js`).
-Remaining: **221 games** (104 generate=true; 117 generate=false).
+Remaining: **218 games** (104 generate=true; 114 generate=false).
 
 - `generate=true`: create original artwork based on the actual game's gameplay/theme.
 - `generate=false`: capture gameplay or reuse existing artwork after verifying display rights.
@@ -204,7 +204,6 @@ Remaining: **221 games** (104 generate=true; 117 generate=false).
 - `pulse-studio` generate=true
 - `q1k3` generate=false
 - `radish-guard` generate=true
-- `radius-raid` generate=false
 - `raging-gardens` generate=false
 - `real-dos-windows-on-scratch` generate=false
 - `recoil` generate=false
@@ -213,7 +212,6 @@ Remaining: **221 games** (104 generate=true; 117 generate=false).
 - `river-holdem` generate=true
 - `roguish` generate=false
 - `runway-stylist` generate=true
-- `sandspiel` generate=false
 - `shadow-post` generate=true
 - `shan-hai` generate=true
 - `sight-and-light` generate=false
@@ -235,7 +233,6 @@ Remaining: **221 games** (104 generate=true; 117 generate=false).
 - `space-cadet-pinball` generate=false
 - `space-huggers` generate=false
 - `space-invaders-13k` generate=false
-- `space-invaders` generate=false
 - `spacecompany` generate=false
 - `spashal` generate=false
 - `submersible` generate=false
