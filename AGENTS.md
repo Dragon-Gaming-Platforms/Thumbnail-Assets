@@ -35,6 +35,7 @@
 - Generated art must reflect gameplay, not invent a misleading game scene.
 - Use only artwork with verified display rights. A code license does not
   automatically license bundled artwork or commercial characters/logos.
+- Record provenance in root `ARTWORK.md` (published with the artwork).
 - Record source URLs, license/permission, author, and required attribution
   when reusing art; record original/generated provenance for new artwork.
   Include license notices/share-alike obligations where applicable. If rights
@@ -68,11 +69,21 @@ git diff --check
 - Keep downloaded catalogs, upstream clones, renders, caches, and temporary
   previews out of Git; use an external scratch directory.
 
+`scripts/prepare_thumbnail.py` requires Pillow (`python3 -m pip install pillow`
+in a virtual environment). It creates a decoded, cover-cropped 800×260 JPEG
+source <=40 KiB, refuses overwrites and CI output paths, and supports explicit
+`--crop LEFT TOP RIGHT BOTTOM` and optional `--brightness` for dark captures.
+Review the finished image; compression alone is not visual validation. Example:
+
+```sh
+python3 scripts/prepare_thumbnail.py /scratch/capture.png thumbnails/<id>.jpg
+```
+
 ## Delivery and Git safety
 - Work only on the session's assigned branch. In this Arena session it is
-  `arena/1c5f6495-thumbnail-assets`; never switch branches or push to `main`.
+  `arena/44b5c1b6-thumbnail-assets`; never switch branches or push to `main`.
 - Commit small batches and push frequently: sandboxes can reset.
-  `git push origin arena/1c5f6495-thumbnail-assets`
+  `git push origin arena/44b5c1b6-thumbnail-assets`
 - Use local `git` for changes and `gh` for GitHub operations; never request
   credentials. Reconcile remote changes without force-pushing.
 - Setup/queue instructions must be committed and pushed before adding art.

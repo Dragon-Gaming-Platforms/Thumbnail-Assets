@@ -18,6 +18,12 @@ name: Build & Publish Thumbnails
 on:
   push:
     branches: ["main"]
+    paths-ignore:
+      - '.gitignore'
+      - 'scripts/**'
+      - '**.md'
+      - '.github/**'
+      - '**.gitkeep'
   workflow_dispatch:
 
 permissions:
@@ -288,7 +294,7 @@ jobs:
       - name: Setup Pages
         if: steps.convert.outputs.changed == 'true' || github.event_name == 'workflow_dispatch'
         uses: actions/configure-pages@v5
-
+        
       - name: Upload site artifact
         if: steps.convert.outputs.changed == 'true' || github.event_name == 'workflow_dispatch'
         uses: actions/upload-pages-artifact@v3
