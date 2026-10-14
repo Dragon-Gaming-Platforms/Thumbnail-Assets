@@ -88,6 +88,22 @@ All three are local headless-browser captures of actual gameplay; no audio.
 | `ancientbeast.jpg` | Gameplay screenshot of a Dark Forest hotseat match in [`games/AncientBeast`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/b4241132454e513100b67c6bee457eda62e9e140/games/AncientBeast): red Dark Priest materializing a unit (Snow Bunny), blue Dark Priest opposite. The bundled v0.5-α bundle throws at preload (debug-mode duplicate-basename check) and registers autoload images under hashed keys, so for the capture only a scratch copy was patched to skip that check and key images by basename; no art was added or altered. Cropped to the battlefield, brightness 1.15×. | Code **AGPL-3.0**, artwork **CC BY-SA 4.0** per the platform `THIRD_PARTY.md` and upstream [FreezingMoon/AncientBeast](https://github.com/FreezingMoon/AncientBeast) (© Freezing Moon and contributors). This thumbnail is distributed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), not this repo's MIT license. |
 | `ball-and-wall.jpg` | Gameplay screenshot composition of round 1 in [`games/ball-and-wall`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/b4241132454e513100b67c6bee457eda62e9e140/games/ball-and-wall) after launching the ball and breaking bricks. The brick rows and the paddle/ball strip come from one capture; the empty middle of the tall playfield was removed to fit the banner. | **MIT**, bundled `LICENSE`, © 2015 Krzysztof Budnik (budnix). See MIT notices below. |
 
+## Top-down batch 2
+
+Four original AI-generated thematic illustrations, made without external
+artwork/reference images. Each theme was checked against the actual game
+HTML/logic in platform snapshot `b4241132454e513100b67c6bee457eda62e9e140`
+(the games are Chinese-language single-file titles). Illustrations, not
+in-game graphics; distributed under this repository's MIT license; no borrowed
+logos or franchise characters.
+
+| Source file | Theme | Game inspected |
+| --- | --- | --- |
+| `auction-fever.jpg` | Auction-house podium, gavel, appraised lots (vase, painting, ring) and three rival paddle bidders | [`Auction-Fever.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Auction-Fever.html) |
+| `auto-chess-forge.jpg` | Rune-lit auto-chess board with fantasy units, synergy glyphs, forge and gold economy | [`Auto-Chess-Forge.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Auto-Chess-Forge.html) |
+| `backpack-arena.jpg` | Grid-inventory backpack of weapons, food and potions beside a small arena duel | [`Backpack-Arena.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Backpack-Arena.html) |
+| `ball-arena.jpg` | Cosmic cell-eating arena: patterned glowing orbs absorbing colored spore dots | [`Ball-Arena.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Ball-Arena.html) |
+
 ## Pending rights checks
 
 - `zedinvaders`: bundled READMEs call it open source, but the inspected game
@@ -111,6 +127,10 @@ All three are local headless-browser captures of actual gameplay; no audio.
   unverified. Left pending.
 - `banania`: remake of a DOS game; the bundled directory has no license file
   and the sprites' origin is unverified. Left pending.
+- `awesometanks2`: single-file web edition of Mad Pixel's commercial Awesome
+  Tanks 2; the platform `THIRD_PARTY.md` lists no open license. Left pending.
+- `balatro`: fan/community web port of LocalThunk's commercial Balatro; no
+  display rights for its artwork. Left pending.
 
 ## MIT notices for screenshot artwork
 
