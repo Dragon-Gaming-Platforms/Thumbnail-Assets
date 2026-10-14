@@ -76,6 +76,31 @@ under this repository's MIT license; no borrowed logos or franchise characters.
 | `sandspiel.jpg` | Existing official [`Screenshot.png`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/db88cc18c657878aacf5c896bdc69f35342b415d/games/sandspiel/Screenshot.png), referenced by the bundled game README. Cropped/resized to show the simulated vegetation, fire, sand and water. | Bundled MIT license, © 2018 Max Bittker. See MIT notices below. |
 | `radius-raid.jpg` | Local runtime gameplay-frame capture of [`games/radius-raid`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/db88cc18c657878aacf5c896bdc69f35342b415d/games/radius-raid), after Play and actual movement/firing. Browser screenshots stalled, so captured the six actual canvas buffers at one tick and composited them in DOM order at their live parallax offsets. No new gameplay objects or reconstructed artwork; center-cropped and brightness increased 1.4×. No audio. | Bundled MIT license, © 2014 Jack Rugile. See MIT notices below. |
 
+## Bottom-up batch 6
+
+Ten original AI-generated thematic illustrations made without external
+artwork/reference images. Gameplay themes were inspected in the actual
+single-file game HTML/logic at platform revision
+[`b4241132454e513100b67c6bee457eda62e9e140`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/b4241132454e513100b67c6bee457eda62e9e140).
+These are illustrations, not gameplay screenshots or exact puzzle states.
+Distributed under this repository's MIT license; no borrowed logos, card-deck
+illustrations, commercial mascots or franchise characters. Sources were
+center-cover-cropped and JPEG-optimized to 800×260, <=40 KiB, then visually
+reviewed at game-card size.
+
+| Source file | Theme | Game inspected |
+| --- | --- | --- |
+| `solitaire-classic.jpg` | Klondike stock, descending red/black columns and foundation piles | [`Solitaire-Classic.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Solitaire-Classic.html) |
+| `sokoban-quest.jpg` | Warehouse walls, wooden crates, target pads and a crate-pushing worker | [`Sokoban-Quest.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Sokoban-Quest.html) |
+| `snow-ridge.jpg` | Snowboard rider, fixed mountain slope, jumps and an avalanche plume | [`Snow-Ridge.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Snow-Ridge.html) |
+| `snake-game.jpg` | Segmented neon grid snake, glowing collectibles and obstacles | [`Snake-Game.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Snake-Game.html) |
+| `slingstorm.jpg` | Slingshot projectile arc, wind and a collapsing timber/stone structure | [`Slingstorm.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Slingstorm.html) |
+| `skyline-planner.jpg` | Connected city parcels, housing, employment, parks and electricity | [`Skyline-Planner.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Skyline-Planner.html) |
+| `sky-hop.jpg` | Bouncing jumper, spring/moving/fragile platforms and star fragments | [`Sky-Hop.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Sky-Hop.html) |
+| `silent-rescue.jpg` | Three sensor nodes, mountain echoes and a candidate beacon on a terrain map | [`Silent-Rescue.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Silent-Rescue.html) |
+| `signal-caravan.jpg` | Cargo convoy, escort guard, shield and a deployed route beacon | [`Signal-Caravan.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Signal-Caravan.html) |
+| `shan-hai.jpg` | Chinese-mythology deckbuilding cards, sword/talisman/herbal motifs and a relic | [`Shan-Hai.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Shan-Hai.html) |
+
 ## Pending rights checks
 
 - `zedinvaders`: bundled READMEs call it open source, but the inspected game

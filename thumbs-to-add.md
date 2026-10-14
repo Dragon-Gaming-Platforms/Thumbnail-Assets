@@ -1,8 +1,8 @@
 # Thumbnails to add
 
 Catalog: [Dragon-Gaming-Platforms/Dragon-Gaming-Platforms](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms),
-revision `db88cc18c657878aacf5c896bdc69f35342b415d` (`games.js`).
-Remaining: **218 games** (104 generate=true; 114 generate=false).
+revision `b4241132454e513100b67c6bee457eda62e9e140` (`games.js`).
+Remaining: **188 games** (90 generate=true; 98 generate=false).
 
 - `generate=true`: create original artwork based on the actual game's gameplay/theme.
 - `generate=false`: capture gameplay or reuse existing artwork after verifying display rights.
@@ -78,7 +78,6 @@ Remaining: **218 games** (104 generate=true; 114 generate=false).
 - `crystalquest` generate=false
 - `curling-endgame` generate=true
 - `custom-tetris` generate=false
-- `dante` generate=false
 - `dante-13k` generate=false
 - `detective-desk` generate=true
 - `devil-glitches` generate=false
@@ -90,7 +89,6 @@ Remaining: **218 games** (104 generate=true; 114 generate=false).
 - `drakonas` generate=false
 - `dreadheadparkour` generate=false
 - `drift-racer` generate=true
-- `drive-mad` generate=false
 - `drone-survey` generate=true
 - `duck-hunt` generate=false
 - `dungeon-delver` generate=true
@@ -141,7 +139,6 @@ Remaining: **218 games** (104 generate=true; 114 generate=false).
 - `maze-chase` generate=true
 - `merge-orbit` generate=true
 - `metro-weaver` generate=true
-- `micropolisjs` generate=false
 - `midnight-chess` generate=true
 - `midnight-monitor` generate=true
 - `mine-matrix` generate=true
@@ -187,7 +184,6 @@ Remaining: **218 games** (104 generate=true; 114 generate=false).
 - `prism-orchard` generate=true
 - `progress-knight` generate=false
 - `pulse-studio` generate=true
-- `q1k3` generate=false
 - `radish-guard` generate=true
 - `raging-gardens` generate=false
 - `real-dos-windows-on-scratch` generate=false
@@ -198,24 +194,13 @@ Remaining: **218 games** (104 generate=true; 114 generate=false).
 - `roguish` generate=false
 - `runway-stylist` generate=true
 - `shadow-post` generate=true
-- `shan-hai` generate=true
 - `sight-and-light` generate=false
-- `signal-caravan` generate=true
-- `silent-rescue` generate=true
 - `simon` generate=false
 - `skifree` generate=false
-- `sky-hop` generate=true
-- `skyline-planner` generate=true
-- `slingstorm` generate=true
 - `snake` generate=false
-- `snake-game` generate=true
-- `snow-ridge` generate=true
 - `snowrider` generate=false
 - `sokoban` generate=false
-- `sokoban-quest` generate=true
 - `solitaire` generate=false
-- `solitaire-classic` generate=true
-- `space-cadet-pinball` generate=false
 - `space-huggers` generate=false
 - `space-invaders-13k` generate=false
 - `spacecompany` generate=false
