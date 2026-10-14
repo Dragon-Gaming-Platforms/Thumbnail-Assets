@@ -2,7 +2,7 @@
 
 Catalog: [Dragon-Gaming-Platforms/Dragon-Gaming-Platforms](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms),
 revision `db88cc18c657878aacf5c896bdc69f35342b415d` (`games.js`).
-Remaining: **231 games** (114 generate=true; 117 generate=false).
+Remaining: **221 games** (104 generate=true; 117 generate=false).
 
 - `generate=true`: create original artwork based on the actual game's gameplay/theme.
 - `generate=false`: capture gameplay or reuse existing artwork after verifying display rights.
@@ -238,19 +238,9 @@ Remaining: **231 games** (114 generate=true; 117 generate=false).
 - `space-invaders` generate=false
 - `spacecompany` generate=false
 - `spashal` generate=false
-- `spectrum-console` generate=true
-- `spud-arena` generate=true
-- `stack-tower` generate=true
-- `starforge-idle` generate=true
-- `starline-route` generate=true
-- `starship-suspects` generate=true
-- `stratigraphy-lab` generate=true
 - `submersible` generate=false
 - `sudoku` generate=false
-- `sudoku-studio` generate=true
 - `survivor` generate=false
-- `switchyard-rush` generate=true
-- `tank-arena` generate=true
 - `vectoid-td-3d-v1.4` generate=false
 - `wordle` generate=false
 - `zedinvaders` generate=false

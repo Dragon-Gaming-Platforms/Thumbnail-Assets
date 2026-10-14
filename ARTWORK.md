@@ -47,6 +47,27 @@ original additions, not logos. No audio is included.
 | `sorades.jpg` | Actual scrolling-shooter gameplay screenshot with purple enemies and green player | Local browser capture of `games/sorades` in the same pinned platform snapshot, after firing for 18 seconds. **© Thiemo Mättig, CC BY-SA 3.0 Germany**, not this repo's MIT license. Source: [SORADES 13K](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/db88cc18c657878aacf5c896bdc69f35342b415d/games/sorades). License: [CC BY-SA 3.0 DE](https://creativecommons.org/licenses/by-sa/3.0/de/), [legal code](https://creativecommons.org/licenses/by-sa/3.0/de/legalcode). Changes: resized/aspect-preserved screenshot, original title and dark margins. This entire derived thumbnail is distributed under the same CC BY-SA 3.0 DE terms. No audio. |
 | `spacepi.jpg` | Actual line-defense gameplay screenshot and title | Local browser capture of `games/spacepi` in the same pinned snapshot, playing level 1 and drawing defense lines. [Source and MIT license](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/db88cc18c657878aacf5c896bdc69f35342b415d/games/spacepi); © 2014 Jack Rugile. Aspect preserved, title/margins added. |
 
+## Bottom-up batch 4
+
+Ten original AI-generated thematic illustrations, made without external
+artwork/reference images. Each theme was checked against the actual game
+HTML/logic in the same pinned platform snapshot as the earlier batches. These
+are illustrations, not claims about in-game graphics. All are distributed
+under this repository's MIT license; no borrowed logos or franchise characters.
+
+| Source file | Theme | Game inspected |
+| --- | --- | --- |
+| `tank-arena.jpg` | Neon tank combat, destructible walls and ricochets | [`Tank-Arena.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/db88cc18c657878aacf5c896bdc69f35342b415d/games/singlefiles/Tank-Arena.html) |
+| `switchyard-rush.jpg` | Rail switches, train dispatch and colored route signals | [`Switchyard-Rush.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/db88cc18c657878aacf5c896bdc69f35342b415d/games/singlefiles/Switchyard-Rush.html) |
+| `sudoku-studio.jpg` | Sudoku grid, diagonal variant and candidate-note motif | [`Sudoku-Studio.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/db88cc18c657878aacf5c896bdc69f35342b415d/games/singlefiles/Sudoku-Studio.html) |
+| `stratigraphy-lab.jpg` | Relative layers, archaeological evidence and chronology cards | [`Stratigraphy-Lab.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/db88cc18c657878aacf5c896bdc69f35342b415d/games/singlefiles/Stratigraphy-Lab.html) |
+| `starship-suspects.jpg` | Crew dossiers, ship map and linked investigation evidence | [`Starship-Suspects.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/db88cc18c657878aacf5c896bdc69f35342b415d/games/singlefiles/Starship-Suspects.html) |
+| `starline-route.jpg` | Starport graph and highlighted patrol route | [`Starline-Route.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/db88cc18c657878aacf5c896bdc69f35342b415d/games/singlefiles/Starline-Route.html) |
+| `starforge-idle.jpg` | Orbital forge, crystal resources and research/production stations | [`Starforge-Idle.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/db88cc18c657878aacf5c896bdc69f35342b415d/games/singlefiles/Starforge-Idle.html) |
+| `stack-tower.jpg` | Moving block, overlapping neon stack and falling offcut | [`Stack-Tower.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/db88cc18c657878aacf5c896bdc69f35342b415d/games/singlefiles/Stack-Tower.html) |
+| `spud-arena.jpg` | Original potato adventurer, tools, garden enemies and crystal tubers | [`Spud-Arena.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/db88cc18c657878aacf5c896bdc69f35342b415d/games/singlefiles/Spud-Arena.html) |
+| `spectrum-console.jpg` | Noisy/target/output waveforms and connected filter modules | [`Spectrum-Console.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/db88cc18c657878aacf5c896bdc69f35342b415d/games/singlefiles/Spectrum-Console.html) |
+
 ## Pending rights checks
 
 - `zedinvaders`: bundled READMEs call it open source, but the inspected game
