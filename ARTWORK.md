@@ -104,6 +104,27 @@ logos or franchise characters.
 | `backpack-arena.jpg` | Grid-inventory backpack of weapons, food and potions beside a small arena duel | [`Backpack-Arena.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Backpack-Arena.html) |
 | `ball-arena.jpg` | Cosmic cell-eating arena: patterned glowing orbs absorbing colored spore dots | [`Ball-Arena.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Ball-Arena.html) |
 
+## Top-down batch 3
+
+Same pinned platform snapshot (`b4241132454e513100b67c6bee457eda62e9e140`).
+
+| Source file | Method and provenance | Rights |
+| --- | --- | --- |
+| `behind-asteroids.jpg` | Gameplay screenshot composition from [`games/behind-asteroids`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/b4241132454e513100b67c6bee457eda62e9e140/games/behind-asteroids) (js13kGames 2015 entry by Gaëtan Renaudeau / greweb): the in-game arcade screen with the reflected player and vector asteroids, plus the game's own "send asteroids to make players waste their money" caption from the same session, placed on black at banner aspect. Brightness 1.3×. No audio. | **ISC** per the bundled `package.json`; © Gaëtan Renaudeau. See ISC notice below. |
+| `blockrain.jpg` | Gameplay screenshot of [`games/blockrain`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/b4241132454e513100b67c6bee457eda62e9e140/games/blockrain) (candy theme) after the game's built-in autoplay stacked and cleared pieces; the widget container was enlarged for a sharper capture and the lower playfield rows were cropped to 3:1. | **MIT**, © 2015 Aerolab, header of `blockrain.jquery.js` ([LICENSE](http://aerolab.github.io/blockrain.js/LICENSE.txt)). See MIT notices below. |
+
+Original AI-generated illustrations (no external artwork/reference images),
+themes checked against the game HTML/logic in the same snapshot; repo MIT
+license; no borrowed logos or characters:
+
+| Source file | Theme | Game inspected |
+| --- | --- | --- |
+| `basin-control.jpg` | Dam with sluice gates, reservoir, farmland, powerhouse, rain and flood-peak chart | [`Basin-Control.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Basin-Control.html) |
+| `battery-cycle.jpg` | Lab battery cell with six charge-mode tiles, heat-peak graph and health gauge | [`Battery-Cycle.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Battery-Cycle.html) |
+| `beat-bento.jpg` | Night-market rice-ball stall with falling ingredient note lanes | [`Beat-Bento.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Beat-Bento.html) |
+| `blackjack-table.jpg` | Neon-trimmed green blackjack table, dealer/player hands, chips and shoe | [`Blackjack-Table.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Blackjack-Table.html) |
+| `block-forge.jpg` | Forge-well tetromino playfield with blueprint outline, falling pieces and slag embers | [`Block-Forge.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Block-Forge.html) |
+
 ## Pending rights checks
 
 - `zedinvaders`: bundled READMEs call it open source, but the inspected game
@@ -158,6 +179,8 @@ Copyright (c) 2014 Tóth Róbert
 Copyright (c) 2018 Max Bittker
 
 Copyright (c) 2015 Krzysztof Budnik
+
+Copyright (c) 2015 Aerolab
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -219,3 +242,19 @@ licensed under the GNU General Public License version 3. This thumbnail is a
 screenshot-derived work distributed under the same GPL-3.0 terms, without any
 warranty; see <https://www.gnu.org/licenses/gpl-3.0.html>. Corresponding
 source: <https://github.com/Areso/1255-burgomaster>.
+
+## ISC notice — behind-asteroids.jpg
+
+Copyright (c) 2015 Gaëtan Renaudeau
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+PERFORMANCE OF THIS SOFTWARE.
