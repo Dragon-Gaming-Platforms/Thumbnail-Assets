@@ -23,25 +23,10 @@ Remaining: **218 games** (104 generate=true; 114 generate=false).
 
 ## Queue
 
-- `0hh1` generate=false
-- `0hn0` generate=false
 - `1255-burgomaster` generate=false
-- `2048` generate=false
-- `3d-chess` generate=false
-- `3d-city` generate=false
 - `3d-graphing-calculator` generate=false
-- `abyss-sonar` generate=true
-- `adarkroom` generate=false
-- `air-hockey` generate=true
-- `air-traffic-control` generate=true
-- `alchemy-workshop` generate=true
-- `alien-invasion` generate=false
 - `ancientbeast` generate=false
 - `aquastax` generate=false
-- `arashi-js` generate=false
-- `asdf` generate=false
-- `asteroids` generate=false
-- `astray` generate=false
 - `auction-fever` generate=true
 - `auto-chess-forge` generate=true
 - `awesometanks2` generate=false
