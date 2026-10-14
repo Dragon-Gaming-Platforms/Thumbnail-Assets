@@ -101,6 +101,33 @@ reviewed at game-card size.
 | `signal-caravan.jpg` | Cargo convoy, escort guard, shield and a deployed route beacon | [`Signal-Caravan.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Signal-Caravan.html) |
 | `shan-hai.jpg` | Chinese-mythology deckbuilding cards, sword/talisman/herbal motifs and a relic | [`Shan-Hai.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Shan-Hai.html) |
 
+## Bottom-up batch 7
+
+Ten original AI-generated thematic illustrations made without external
+artwork/reference images. Themes were inspected in the actual single-file
+HTML/logic at platform revision
+[`b4241132454e513100b67c6bee457eda62e9e140`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/b4241132454e513100b67c6bee457eda62e9e140).
+These are illustrations, not screenshots or exact game/puzzle states. They
+are distributed under this repository's MIT license. Card suit pips and
+wardrobe designs are original generic motifs, with no borrowed branded card
+art, fashion logos, commercial mascots or franchise characters. The relay
+illustration is an abstract puzzle motif, not an electrical design diagram.
+Each source was center-cover-cropped and JPEG-optimized to 800×260, <=40 KiB,
+then visually reviewed at card size.
+
+| Source file | Theme | Game inspected |
+| --- | --- | --- |
+| `shadow-post.jpg` | Stealth courier, mailboxes, guard light cone and safe alley shadows | [`Shadow-Post.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Shadow-Post.html) |
+| `runway-stylist.jpg` | Fashion editorial studio, dress form and coordinated wardrobe selections | [`Runway-Stylist.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Runway-Stylist.html) |
+| `river-holdem.jpg` | Three-seat Holdem table, five community cards, hole cards and tournament chips | [`River-Holdem.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/River-Holdem.html) |
+| `relay-coordination.jpg` | Simplified feeder paths, relay modules, an isolated fault and upstream backup | [`Relay-Coordination.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Relay-Coordination.html) |
+| `radish-guard.jpg` | Garden defense path, modular turrets, build foundations and a protected radish | [`Radish-Guard.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Radish-Guard.html) |
+| `pulse-studio.jpg` | Six-track step-sequencer, varied note strengths and a playhead | [`Pulse-Studio.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Pulse-Studio.html) |
+| `prism-orchard.jpg` | Mirrors, prisms and RGB beams meeting fruit-tree spectrum requirements | [`Prism-Orchard.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Prism-Orchard.html) |
+| `prism-breaker.jpg` | Paddle, reflected light ball, prism bricks and an optical core | [`Prism-Breaker.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Prism-Breaker.html) |
+| `pocket-golf.jpg` | One miniature golf hole with sand, ice, water and a putting line | [`Pocket-Golf.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Pocket-Golf.html) |
+| `pocket-farm.jpg` | Seasonal crop beds, watering/harvest tools, farmhouse and creekside bridge | [`Pocket-Farm.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Pocket-Farm.html) |
+
 ## Pending rights checks
 
 - `zedinvaders`: bundled READMEs call it open source, but the inspected game
