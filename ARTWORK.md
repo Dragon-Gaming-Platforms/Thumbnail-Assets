@@ -76,6 +76,18 @@ under this repository's MIT license; no borrowed logos or franchise characters.
 | `sandspiel.jpg` | Existing official [`Screenshot.png`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/db88cc18c657878aacf5c896bdc69f35342b415d/games/sandspiel/Screenshot.png), referenced by the bundled game README. Cropped/resized to show the simulated vegetation, fire, sand and water. | Bundled MIT license, © 2018 Max Bittker. See MIT notices below. |
 | `radius-raid.jpg` | Local runtime gameplay-frame capture of [`games/radius-raid`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/db88cc18c657878aacf5c896bdc69f35342b415d/games/radius-raid), after Play and actual movement/firing. Browser screenshots stalled, so captured the six actual canvas buffers at one tick and composited them in DOM order at their live parallax offsets. No new gameplay objects or reconstructed artwork; center-cropped and brightness increased 1.4×. No audio. | Bundled MIT license, © 2014 Jack Rugile. See MIT notices below. |
 
+## Top-down batch 1
+
+Platform snapshot inspected:
+[`b4241132454e513100b67c6bee457eda62e9e140`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/b4241132454e513100b67c6bee457eda62e9e140).
+All three are local headless-browser captures of actual gameplay; no audio.
+
+| Source file | Method and provenance | Rights |
+| --- | --- | --- |
+| `1255-burgomaster.jpg` | Gameplay screenshot of the city canvas in [`games/1255-burgomaster`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/b4241132454e513100b67c6bee457eda62e9e140/games/1255-burgomaster) after dismissing the intro and constructing a home, palisade wall, treasury, stash, stable, archery range, inn and fountain (gold raised via the browser console to afford them in one session; only the game's own buildings/tiles are shown). Center crop of the 800×480 canvas; the online chat/server UI is outside the crop. | **GPL-3.0**, bundled `LICENSE`; author Anton Gladyshev ([Areso/1255-burgomaster](https://github.com/Areso/1255-burgomaster)). Thumbnail is a derivative of GPL-3.0 artwork and is distributed under GPL-3.0 (source: the linked game repository). See GPL notice below. |
+| `ancientbeast.jpg` | Gameplay screenshot of a Dark Forest hotseat match in [`games/AncientBeast`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/b4241132454e513100b67c6bee457eda62e9e140/games/AncientBeast): red Dark Priest materializing a unit (Snow Bunny), blue Dark Priest opposite. The bundled v0.5-α bundle throws at preload (debug-mode duplicate-basename check) and registers autoload images under hashed keys, so for the capture only a scratch copy was patched to skip that check and key images by basename; no art was added or altered. Cropped to the battlefield, brightness 1.15×. | Code **AGPL-3.0**, artwork **CC BY-SA 4.0** per the platform `THIRD_PARTY.md` and upstream [FreezingMoon/AncientBeast](https://github.com/FreezingMoon/AncientBeast) (© Freezing Moon and contributors). This thumbnail is distributed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), not this repo's MIT license. |
+| `ball-and-wall.jpg` | Gameplay screenshot composition of round 1 in [`games/ball-and-wall`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/b4241132454e513100b67c6bee457eda62e9e140/games/ball-and-wall) after launching the ball and breaking bricks. The brick rows and the paddle/ball strip come from one capture; the empty middle of the tall playfield was removed to fit the banner. | **MIT**, bundled `LICENSE`, © 2015 Krzysztof Budnik (budnix). See MIT notices below. |
+
 ## Pending rights checks
 
 - `zedinvaders`: bundled READMEs call it open source, but the inspected game
@@ -89,6 +101,16 @@ under this repository's MIT license; no borrowed logos or franchise characters.
 - `space-huggers`: the inspected bundled GPL file conflicts with a README
   statement saying the game is not intended for redistribution. Left pending
   rather than deciding the artwork license from contradictory notices.
+
+- `3d-graphing-calculator`: the catalog path is an external page that only
+  embeds a TurboWarp/Scratch project (`turbowarp.org/973800483`), which is not
+  reachable from the sandbox, so the game and its project license could not be
+  inspected. Left pending.
+- `aquastax`: MIT code, but the bundled `res/` includes `original_logo.png` and
+  the README references the 2007 commercial AquaStax; artwork origin is
+  unverified. Left pending.
+- `banania`: remake of a DOS game; the bundled directory has no license file
+  and the sprites' origin is unverified. Left pending.
 
 ## MIT notices for screenshot artwork
 
@@ -114,6 +136,8 @@ Copyright (c) 2014 Jack Rugile
 Copyright (c) 2014 Tóth Róbert
 
 Copyright (c) 2018 Max Bittker
+
+Copyright (c) 2015 Krzysztof Budnik
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -167,3 +191,11 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 Additional original source notice: Copyright (c) 2014 The Chromium Authors.
 All rights reserved.
+
+## GPL notice — 1255-burgomaster.jpg
+
+1255 Burgomaster is Copyright (C) Anton Gladyshev and contributors and is
+licensed under the GNU General Public License version 3. This thumbnail is a
+screenshot-derived work distributed under the same GPL-3.0 terms, without any
+warranty; see <https://www.gnu.org/licenses/gpl-3.0.html>. Corresponding
+source: <https://github.com/Areso/1255-burgomaster>.
