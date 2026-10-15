@@ -2,7 +2,7 @@
 
 Catalog: [Dragon-Gaming-Platforms/Dragon-Gaming-Platforms](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms),
 revision `b4241132454e513100b67c6bee457eda62e9e140` (`games.js`).
-Remaining: **184 games** (91 generate=true; 93 generate=false).
+Remaining: **175 games** (86 generate=true; 89 generate=false).
 
 - `generate=true`: create original artwork based on the actual game's gameplay/theme.
 - `generate=false`: capture gameplay or reuse existing artwork after verifying display rights.
@@ -29,18 +29,9 @@ Remaining: **184 games** (91 generate=true; 93 generate=false).
 - `balatro` generate=false
 - `banania` generate=false
 - `bloons-td4` generate=false
-- `bomb-grid` generate=true
-- `bounce-back` generate=false
-- `branching-tales` generate=true
-- `breaklock` generate=false
-- `bytebot-lab` generate=true
-- `canvas-tetris` generate=false
-- `captain-callisto` generate=false
 - `captain-rogers` generate=false
 - `cellmates` generate=false
 - `ceros-snake` generate=false
-- `chalk-billiards` generate=true
-- `charm-reels` generate=true
 - `checkpoint-inspector` generate=true
 - `chess` generate=false
 - `chromatic-press` generate=true

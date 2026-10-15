@@ -125,6 +125,30 @@ license; no borrowed logos or characters:
 | `blackjack-table.jpg` | Neon-trimmed green blackjack table, dealer/player hands, chips and shoe | [`Blackjack-Table.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Blackjack-Table.html) |
 | `block-forge.jpg` | Forge-well tetromino playfield with blueprint outline, falling pieces and slag embers | [`Block-Forge.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Block-Forge.html) |
 
+## Top-down batch 4
+
+Same pinned platform snapshot (`b4241132454e513100b67c6bee457eda62e9e140`). Screenshots are local
+headless-browser captures of actual gameplay; no audio.
+
+| Source file | Method and provenance | Rights |
+| --- | --- | --- |
+| `bounce-back.jpg` | Gameplay screenshot of level 1 in [`games/bounce-back`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/b4241132454e513100b67c6bee457eda62e9e140/games/bounce-back) (js13kGames 2019 entry by Frank Force): the hero throwing the boomerang through crates toward an enemy, with coins and the minimap edge. Entered the first level by setting the game's own `loadNextLevel` flag in the console instead of walking to the hub exit (equivalent to the exit trigger; no art added). Cropped to the playfield. | **GPL-2.0**, bundled `LICENSE`; © 2019 Frank Force. The thumbnail is a derivative of GPL-2.0 artwork and is distributed under GPL-2.0; see GPL-2.0 notice below. |
+| `breaklock.jpg` | Gameplay screenshot composition from [`games/breaklock`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/b4241132454e513100b67c6bee457eda62e9e140/games/breaklock): four actual guesses from the attempt history and the pattern grid mid-drag during the fifth attempt, taken from one capture and placed side by side on the game's black background. | **MIT**, upstream [maxwellito/breaklock `LICENSE`](https://github.com/maxwellito/breaklock/blob/master/LICENSE), © 2017 maxwellito (Jean-Christophe Hoelt). See MIT notices below. |
+| `canvas-tetris.jpg` | Gameplay screenshot of [`games/canvas-tetris`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/b4241132454e513100b67c6bee457eda62e9e140/games/canvas-tetris) after dropping sixteen pieces; a 3× device-pixel capture of the 300×600 playfield, cropped to its lower rows and padded with the page's white background to banner aspect. | **MIT**, bundled `LICENSE.md`, © 2012 Dionysis Zindros. See MIT notices below. |
+| `captain-callisto.jpg` | Gameplay screenshot of the first level in [`games/captain-callisto`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/b4241132454e513100b67c6bee457eda62e9e140/games/captain-callisto) (js13kGames 2021): the hero on a floating platform with coins. The bundled directory ships the unbuilt sources (`index.html` loads a missing `index.js`), so for the capture a scratch copy was concatenated in the order listed in the game's own `build.js`; no art added or altered. Cropped, brightness 1.15×. | **MIT**, bundled `LICENSE`, © 2021 Cody Ebberson. See MIT notices below. |
+
+Original AI-generated illustrations (no external artwork/reference images),
+themes checked against the game HTML/logic in the same snapshot (Chinese-language
+single-file titles); repo MIT license; no borrowed logos or characters:
+
+| Source file | Theme | Game inspected |
+| --- | --- | --- |
+| `bomb-grid.jpg` | Top-down steel grid with chained demolition charges, cross/nine-cell blast zones, drones and crates | [`Bomb-Grid.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Bomb-Grid.html) |
+| `branching-tales.jpg` | Fleet drifting through a violet blockade, letters on branching signal paths, three-slot bandwidth console | [`Branching-Tales.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Branching-Tales.html) |
+| `bytebot-lab.jpg` | Boxy robot on isometric lab tiles following an instruction queue toward chips, switch, gate, chasm, teleport ring and exit portal | [`Bytebot-Lab.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Bytebot-Lab.html) |
+| `chalk-billiards.jpg` | Pool table with cue ball, predicted path, glowing target pocket, power arc and chalk | [`Chalk-Billiards.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Chalk-Billiards.html) |
+| `charm-reels.jpg` | Ornate rune slot machine with linked charm symbols, symbol pouch, rent bell and coins | [`Charm-Reels.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Charm-Reels.html) |
+
 ## Pending rights checks
 
 - `zedinvaders`: bundled READMEs call it open source, but the inspected game
@@ -152,6 +176,20 @@ license; no borrowed logos or characters:
   Tanks 2; the platform `THIRD_PARTY.md` lists no open license. Left pending.
 - `balatro`: fan/community web port of LocalThunk's commercial Balatro; no
   display rights for its artwork. Left pending.
+
+- `bloons-td4`: single-file web port of Ninja Kiwi's commercial Bloons TD 4;
+  the platform `THIRD_PARTY.md` lists it only as a "Web Port" with no open
+  license. Left pending.
+- `captain-rogers`: bundled `LICENSE.txt` is CC BY-NC 4.0 (Mozilla/Enclave
+  Games). The non-commercial restriction conflicts with this repository's MIT
+  distribution; left pending for a decision rather than relicensing.
+- `cellmates`: Global Game Jam 2013 entry by Matt Greer; the bundled directory
+  has no license and the platform credits only cover the ImpactJS engine (MIT),
+  not the game art. Left pending.
+- `ceros-snake`: MIT code, but `LICENSE.txt` reserves the Ceros name/logo that
+  dominates the menu. In the sandbox the round ends immediately after the
+  countdown (no snake drawn), so no usable gameplay frame was captured yet;
+  left in the queue.
 
 ## MIT notices for screenshot artwork
 
@@ -181,6 +219,12 @@ Copyright (c) 2018 Max Bittker
 Copyright (c) 2015 Krzysztof Budnik
 
 Copyright (c) 2015 Aerolab
+
+Copyright (c) 2017 maxwellito
+
+Copyright (c) 2012 Dionysis "dionyziz" Zindros dionyziz@gmail.com
+
+Copyright (c) 2021 Cody Ebberson
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -242,6 +286,14 @@ licensed under the GNU General Public License version 3. This thumbnail is a
 screenshot-derived work distributed under the same GPL-3.0 terms, without any
 warranty; see <https://www.gnu.org/licenses/gpl-3.0.html>. Corresponding
 source: <https://github.com/Areso/1255-burgomaster>.
+
+## GPL notice — bounce-back.jpg
+
+Bounce Back is Copyright (C) 2019 Frank Force and is licensed under the GNU
+General Public License version 2 (bundled `LICENSE`). This thumbnail is a
+screenshot-derived work distributed under the same GPL-2.0 terms, without any
+warranty; see <https://www.gnu.org/licenses/old-licenses/gpl-2.0.html>.
+Corresponding source: <https://github.com/KilledByAPixel/BounceBack>.
 
 ## ISC notice — behind-asteroids.jpg
 
