@@ -77,6 +77,115 @@ under this repository's MIT license; no borrowed logos or franchise characters.
 | `sandspiel.jpg` | Existing official [`Screenshot.png`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/db88cc18c657878aacf5c896bdc69f35342b415d/games/sandspiel/Screenshot.png), referenced by the bundled game README. Cropped/resized to show the simulated vegetation, fire, sand and water. | Bundled MIT license, © 2018 Max Bittker. See MIT notices below. |
 | `radius-raid.jpg` | Local runtime gameplay-frame capture of [`games/radius-raid`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/db88cc18c657878aacf5c896bdc69f35342b415d/games/radius-raid), after Play and actual movement/firing. Browser screenshots stalled, so captured the six actual canvas buffers at one tick and composited them in DOM order at their live parallax offsets. No new gameplay objects or reconstructed artwork; center-cropped and brightness increased 1.4×. No audio. | Bundled MIT license, © 2014 Jack Rugile. See MIT notices below. |
 
+## Bottom-up batch 6
+
+Ten original AI-generated thematic illustrations made without external
+artwork/reference images. Gameplay themes were inspected in the actual
+single-file game HTML/logic at platform revision
+[`b4241132454e513100b67c6bee457eda62e9e140`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/b4241132454e513100b67c6bee457eda62e9e140).
+These are illustrations, not gameplay screenshots or exact puzzle states.
+Distributed under this repository's MIT license; no borrowed logos, card-deck
+illustrations, commercial mascots or franchise characters. Sources were
+center-cover-cropped and JPEG-optimized to 800×260, <=40 KiB, then visually
+reviewed at game-card size.
+
+| Source file | Theme | Game inspected |
+| --- | --- | --- |
+| `solitaire-classic.jpg` | Klondike stock, descending red/black columns and foundation piles | [`Solitaire-Classic.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Solitaire-Classic.html) |
+| `sokoban-quest.jpg` | Warehouse walls, wooden crates, target pads and a crate-pushing worker | [`Sokoban-Quest.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Sokoban-Quest.html) |
+| `snow-ridge.jpg` | Snowboard rider, fixed mountain slope, jumps and an avalanche plume | [`Snow-Ridge.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Snow-Ridge.html) |
+| `snake-game.jpg` | Segmented neon grid snake, glowing collectibles and obstacles | [`Snake-Game.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Snake-Game.html) |
+| `slingstorm.jpg` | Slingshot projectile arc, wind and a collapsing timber/stone structure | [`Slingstorm.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Slingstorm.html) |
+| `skyline-planner.jpg` | Connected city parcels, housing, employment, parks and electricity | [`Skyline-Planner.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Skyline-Planner.html) |
+| `sky-hop.jpg` | Bouncing jumper, spring/moving/fragile platforms and star fragments | [`Sky-Hop.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Sky-Hop.html) |
+| `silent-rescue.jpg` | Three sensor nodes, mountain echoes and a candidate beacon on a terrain map | [`Silent-Rescue.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Silent-Rescue.html) |
+| `signal-caravan.jpg` | Cargo convoy, escort guard, shield and a deployed route beacon | [`Signal-Caravan.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Signal-Caravan.html) |
+| `shan-hai.jpg` | Chinese-mythology deckbuilding cards, sword/talisman/herbal motifs and a relic | [`Shan-Hai.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Shan-Hai.html) |
+
+## Bottom-up batch 7
+
+Ten original AI-generated thematic illustrations made without external
+artwork/reference images. Themes were inspected in the actual single-file
+HTML/logic at platform revision
+[`b4241132454e513100b67c6bee457eda62e9e140`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/b4241132454e513100b67c6bee457eda62e9e140).
+These are illustrations, not screenshots or exact game/puzzle states. They
+are distributed under this repository's MIT license. Card suit pips and
+wardrobe designs are original generic motifs, with no borrowed branded card
+art, fashion logos, commercial mascots or franchise characters. The relay
+illustration is an abstract puzzle motif, not an electrical design diagram.
+Each source was center-cover-cropped and JPEG-optimized to 800×260, <=40 KiB,
+then visually reviewed at card size.
+
+| Source file | Theme | Game inspected |
+| --- | --- | --- |
+| `shadow-post.jpg` | Stealth courier, mailboxes, guard light cone and safe alley shadows | [`Shadow-Post.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Shadow-Post.html) |
+| `runway-stylist.jpg` | Fashion editorial studio, dress form and coordinated wardrobe selections | [`Runway-Stylist.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Runway-Stylist.html) |
+| `river-holdem.jpg` | Three-seat Holdem table, five community cards, hole cards and tournament chips | [`River-Holdem.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/River-Holdem.html) |
+| `relay-coordination.jpg` | Simplified feeder paths, relay modules, an isolated fault and upstream backup | [`Relay-Coordination.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Relay-Coordination.html) |
+| `radish-guard.jpg` | Garden defense path, modular turrets, build foundations and a protected radish | [`Radish-Guard.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Radish-Guard.html) |
+| `pulse-studio.jpg` | Six-track step-sequencer, varied note strengths and a playhead | [`Pulse-Studio.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Pulse-Studio.html) |
+| `prism-orchard.jpg` | Mirrors, prisms and RGB beams meeting fruit-tree spectrum requirements | [`Prism-Orchard.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Prism-Orchard.html) |
+| `prism-breaker.jpg` | Paddle, reflected light ball, prism bricks and an optical core | [`Prism-Breaker.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Prism-Breaker.html) |
+| `pocket-golf.jpg` | One miniature golf hole with sand, ice, water and a putting line | [`Pocket-Golf.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Pocket-Golf.html) |
+| `pocket-farm.jpg` | Seasonal crop beds, watering/harvest tools, farmhouse and creekside bridge | [`Pocket-Farm.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Pocket-Farm.html) |
+
+## Bottom-up batch 8
+
+Ten original AI-generated thematic illustrations made without external
+artwork/reference images. Themes were inspected in the actual single-file
+HTML/logic at platform revision
+[`b4241132454e513100b67c6bee457eda62e9e140`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/b4241132454e513100b67c6bee457eda62e9e140).
+These are illustrations, not screenshots, exact puzzle states, scientific
+reports, or engineering plans. Distributed under this repository's MIT
+license. No borrowed logos, commercial pet mascots, branded sports kits,
+card-deck artwork or commercial pinball layouts were used. The pet design is
+original; the pathogen and cargo motifs are fictional game concepts, not
+real-world medical or logistics guidance. Each source was cover-cropped and
+JPEG-optimized to 800×260, <=40 KiB, and visually reviewed at card size.
+
+| Source file | Theme | Game inspected |
+| --- | --- | --- |
+| `pocket-empire.jpg` | Fixed-continent 4X strategy: cities, roads, resources and a legion | [`Pocket-Empire.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Pocket-Empire.html) |
+| `pocket-companion.jpg` | Original celestial pet, glowing egg and feeding/play/cleaning care objects | [`Pocket-Companion.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Pocket-Companion.html) |
+| `pixel-clues.jpg` | Nonogram sheet, run-length clues and a simple pixel-heart motif | [`Pixel-Clues.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Pixel-Clues.html) |
+| `photo-safari.jpg` | Camera, alert spotted deer, grassland rabbit and habitat evidence | [`Photo-Safari.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Photo-Safari.html) |
+| `penalty-rush.jpg` | Soccer penalty ball, goal and a generic diving goalkeeper | [`Penalty-Rush.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Penalty-Rush.html) |
+| `pathogen-protocol.jpg` | Conceptual region-network simulation board with spread/research motifs | [`Pathogen-Protocol.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Pathogen-Protocol.html) |
+| `orbital-stowage.jpg` | Orbital cargo bays, differentiated containers and a central balance motif | [`Orbital-Stowage.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Orbital-Stowage.html) |
+| `orbital-pinball.jpg` | Original space pinball playfield, planetary bumpers, rails, ball and flippers | [`Orbital-Pinball.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Orbital-Pinball.html) |
+| `observatory-watch.jpg` | Observatory telescopes, exposure schedule blocks and calibration gaps | [`Observatory-Watch.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Observatory-Watch.html) |
+| `noodle-shift.jpg` | Night-market noodle cart, three pots, ingredients, order slips and ready bowls | [`Noodle-Shift.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Noodle-Shift.html) |
+
+## Bottom-up batch 9
+
+Ten original AI-generated thematic illustrations, made without external
+artwork/reference images after inspecting the actual single-file HTML and
+relevant rules/logic at platform revision
+[`b4241132454e513100b67c6bee457eda62e9e140`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/b4241132454e513100b67c6bee457eda62e9e140).
+Distributed under this repository's MIT license. These are illustrations,
+not screenshots, exact solvable board states or real-world conservation,
+flight or plant-identification guidance. The creature trio, monster army,
+crystal arena and glass ornaments use original designs, not commercial
+franchise characters, branded capture devices, logos or borrowed map art.
+Inspection confirmed that Mosaic Jigsaw is stained-glass restoration (not
+an emulator) and Mole Market is vegetable reaction-tapping (not a mole
+trading game). Catalog metadata was not used as a substitute for inspection.
+Each image was cover-cropped/JPEG-optimized to 800×260, <=40 KiB and visually
+reviewed at card size before removing its queue entry.
+
+| Source file | Theme | Game inspected |
+| --- | --- | --- |
+| `neon-2048.jpg` | Number-merging neon matrix, chain trail and expedition-node motifs | [`Neon-2048.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Neon-2048.html) |
+| `museum-climate.jpg` | Museum exhibit cases, microclimate sensors and six-period control schedule | [`Museum-Climate.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Museum-Climate.html) |
+| `mosaic-jigsaw.jpg` | Rotatable square stained-glass pieces, colored seams and stamped motifs | [`Mosaic-Jigsaw.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Mosaic-Jigsaw.html) |
+| `moon-lander.jpg` | Precision lunar descent, thruster, narrow landing pad and fuel motif | [`Moon-Lander.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Moon-Lander.html) |
+| `monster-tamer.jpg` | Original fire-tail fox, water otter and sprout-ear rabbit on an island expedition | [`Monster-Tamer.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Monster-Tamer.html) |
+| `monster-horde.jpg` | Reverse tower defense: monster formations advancing along three lanes toward a defended gate | [`Monster-Horde.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Monster-Horde.html) |
+| `mole-market.jpg` | Vegetable-stall reaction targets: bad produce, smiling good produce and a thief | [`Mole-Market.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Mole-Market.html) |
+| `moba-frontier.jpg` | Three-lane crystal-core arena, towers, minions, hero and neutral objective | [`Moba-Frontier.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Moba-Frontier.html) |
+| `mist-valley-herbarium.jpg` | Four botanical specimens, leaf-margin/vein inspection and candidate reference folio | [`Mist-Valley-Herbarium.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Mist-Valley-Herbarium.html) |
+| `mine-matrix.jpg` | Space-themed Minesweeper survey board, neighboring counts, flags and fixed beacons | [`Mine-Matrix.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Mine-Matrix.html) |
+
 ## Pending rights checks
 
 - `zedinvaders`: bundled READMEs call it open source, but the inspected game
