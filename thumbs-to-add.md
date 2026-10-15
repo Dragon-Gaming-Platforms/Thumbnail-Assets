@@ -2,7 +2,7 @@
 
 Catalog: [Dragon-Gaming-Platforms/Dragon-Gaming-Platforms](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms),
 revision `b4241132454e513100b67c6bee457eda62e9e140` (`games.js`).
-Remaining: **178 games** (80 generate=true; 98 generate=false).
+Remaining: **168 games** (70 generate=true; 98 generate=false).
 
 - `generate=true`: create original artwork based on the actual game's gameplay/theme.
 - `generate=false`: capture gameplay or reuse existing artwork after verifying display rights.
@@ -157,25 +157,15 @@ Remaining: **178 games** (80 generate=true; 98 generate=false).
 - `museum-climate` generate=true
 - `island-builder` generate=false
 - `neon-2048` generate=true
-- `noodle-shift` generate=true
 - `norman-necromancer` generate=false
-- `observatory-watch` generate=true
 - `octocat-jump` generate=false
 - `offline-paradise` generate=false
 - `openpanzer` generate=false
 - `opensc2k` generate=false
-- `orbital-pinball` generate=true
-- `orbital-stowage` generate=true
 - `os13k` generate=false
 - `pacman-canvas` generate=false
 - `polygons` generate=false
-- `pathogen-protocol` generate=true
-- `penalty-rush` generate=true
-- `photo-safari` generate=true
-- `pixel-clues` generate=true
 - `play-obsidian` generate=false
-- `pocket-companion` generate=true
-- `pocket-empire` generate=true
 - `pong` generate=false
 - `predecessors` generate=false
 - `progress-knight` generate=false

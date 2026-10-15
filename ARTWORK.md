@@ -128,6 +128,33 @@ then visually reviewed at card size.
 | `pocket-golf.jpg` | One miniature golf hole with sand, ice, water and a putting line | [`Pocket-Golf.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Pocket-Golf.html) |
 | `pocket-farm.jpg` | Seasonal crop beds, watering/harvest tools, farmhouse and creekside bridge | [`Pocket-Farm.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Pocket-Farm.html) |
 
+## Bottom-up batch 8
+
+Ten original AI-generated thematic illustrations made without external
+artwork/reference images. Themes were inspected in the actual single-file
+HTML/logic at platform revision
+[`b4241132454e513100b67c6bee457eda62e9e140`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/b4241132454e513100b67c6bee457eda62e9e140).
+These are illustrations, not screenshots, exact puzzle states, scientific
+reports, or engineering plans. Distributed under this repository's MIT
+license. No borrowed logos, commercial pet mascots, branded sports kits,
+card-deck artwork or commercial pinball layouts were used. The pet design is
+original; the pathogen and cargo motifs are fictional game concepts, not
+real-world medical or logistics guidance. Each source was cover-cropped and
+JPEG-optimized to 800×260, <=40 KiB, and visually reviewed at card size.
+
+| Source file | Theme | Game inspected |
+| --- | --- | --- |
+| `pocket-empire.jpg` | Fixed-continent 4X strategy: cities, roads, resources and a legion | [`Pocket-Empire.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Pocket-Empire.html) |
+| `pocket-companion.jpg` | Original celestial pet, glowing egg and feeding/play/cleaning care objects | [`Pocket-Companion.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Pocket-Companion.html) |
+| `pixel-clues.jpg` | Nonogram sheet, run-length clues and a simple pixel-heart motif | [`Pixel-Clues.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Pixel-Clues.html) |
+| `photo-safari.jpg` | Camera, alert spotted deer, grassland rabbit and habitat evidence | [`Photo-Safari.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Photo-Safari.html) |
+| `penalty-rush.jpg` | Soccer penalty ball, goal and a generic diving goalkeeper | [`Penalty-Rush.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Penalty-Rush.html) |
+| `pathogen-protocol.jpg` | Conceptual region-network simulation board with spread/research motifs | [`Pathogen-Protocol.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Pathogen-Protocol.html) |
+| `orbital-stowage.jpg` | Orbital cargo bays, differentiated containers and a central balance motif | [`Orbital-Stowage.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Orbital-Stowage.html) |
+| `orbital-pinball.jpg` | Original space pinball playfield, planetary bumpers, rails, ball and flippers | [`Orbital-Pinball.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Orbital-Pinball.html) |
+| `observatory-watch.jpg` | Observatory telescopes, exposure schedule blocks and calibration gaps | [`Observatory-Watch.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Observatory-Watch.html) |
+| `noodle-shift.jpg` | Night-market noodle cart, three pots, ingredients, order slips and ready bowls | [`Noodle-Shift.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Noodle-Shift.html) |
+
 ## Pending rights checks
 
 - `zedinvaders`: bundled READMEs call it open source, but the inspected game
