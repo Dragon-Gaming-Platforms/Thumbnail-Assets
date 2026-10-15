@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" role="img" aria-labelledby="title desc">
+  <title id="title">Mahjong Link</title>
+  <desc id="desc">An original illustration of a mahjong matching puzzle: find two identical tiles when at least one side is open.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#10251f"/>
+      <stop offset=".55" stop-color="#174233"/>
+      <stop offset="1" stop-color="#0d2924"/>
+    </linearGradient>
+    <linearGradient id="felt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1b4438"/>
+      <stop offset="1" stop-color="#15362e"/>
+    </linearGradient>
+    <pattern id="grain" width="22" height="22" patternUnits="userSpaceOnUse">
+      <path d="M0 22L22 0" stroke="#c1d7c4" stroke-opacity=".035"/>
+    </pattern>
+    <g id="tileBase">
+      <rect x="2" y="3" width="36" height="36" rx="5" fill="#081c18" opacity=".55"/>
+      <rect x="0" y="0" width="36" height="36" rx="5" fill="#f4ecd8" stroke="#d4c8a7" stroke-width="1.3"/>
+      <path d="M4 31H32" stroke="#cfc29d" stroke-opacity=".5"/>
+    </g>
+    <g id="bamboo">
+      <path d="M12 26V10M18 26V7M24 26V12" stroke="#28745b" stroke-width="2.4" stroke-linecap="round"/>
+      <path d="M12 15L8 12M18 12L22 9M24 17L28 14" stroke="#6b9a56" stroke-width="1.8" stroke-linecap="round"/>
+      <circle cx="18" cy="28" r="1.7" fill="#ba5147"/>
+    </g>
+    <g id="dots">
+      <circle cx="11" cy="12" r="3.3" fill="#b94d43"/>
+      <circle cx="24" cy="12" r="3.3" fill="#386f8a"/>
+      <circle cx="18" cy="23" r="3.3" fill="#b94d43"/>
+      <circle cx="11" cy="23" r="1" fill="#f6d989"/>
+      <circle cx="24" cy="23" r="1" fill="#f6d989"/>
+    </g>
+    <g id="flower">
+      <circle cx="18" cy="10" r="3.2" fill="#bd5148"/>
+      <circle cx="24" cy="16" r="3.2" fill="#d6a33d"/>
+      <circle cx="18" cy="22" r="3.2" fill="#287468"/>
+      <circle cx="12" cy="16" r="3.2" fill="#326f91"/>
+      <circle cx="18" cy="16" r="2" fill="#e8d8ae"/>
+      <path d="M18 25V29M18 28L13 31M18 28L23 31" fill="none" stroke="#287468" stroke-width="1.8" stroke-linecap="round"/>
+    </g>
+    <g id="compass">
+      <path d="M18 7L27 18L18 29L9 18Z" fill="none" stroke="#326f91" stroke-width="2.4"/>
+      <path d="M18 10V26M10 18H26" stroke="#bd5148" stroke-width="1.8"/>
+      <circle cx="18" cy="18" r="2.8" fill="#d6a33d"/>
+    </g>
+  </defs>
+  <rect width="800" height="260" fill="url(#bg)"/>
+  <rect width="800" height="260" fill="url(#grain)"/>
+  <path d="M0 228H800" stroke="#d6a33d" stroke-opacity=".34"/>
+  <path d="M29 25V235" stroke="#d6a33d" stroke-width="4"/>
+
+  <text x="52" y="51" fill="#e8c56f" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="2.3">TILE MATCH · 01</text>
+  <text x="50" y="111" fill="#fff6df" font-family="Arial,Helvetica,sans-serif" font-size="39" font-weight="800" letter-spacing="1.2">MAHJONG</text>
+  <text x="50" y="159" fill="#fff6df" font-family="Arial,Helvetica,sans-serif" font-size="46" font-weight="800" letter-spacing="2.2">LINK</text>
+  <text x="53" y="188" fill="#b8d1c2" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="1.5">FIND THE OPEN PAIR</text>
+  <g transform="translate(55 211)">
+    <rect x="0" y="-8" width="14" height="16" rx="3" fill="#f4ecd8"/>
+    <path d="M4 4V-3M7 4V-6M10 4V-1" fill="none" stroke="#28745b" stroke-width="1.4" stroke-linecap="round"/>
+    <path d="M25 0H79" stroke="#d6a33d" stroke-width="2" stroke-dasharray="4 4"/>
+    <text x="93" y="4" fill="#d7e6d8" font-family="Arial,Helvetica,sans-serif" font-size="10" font-weight="700" letter-spacing="1.3">MATCH · CLEAR · REPEAT</text>
+  </g>
+
+  <rect x="322" y="28" width="446" height="204" rx="17" fill="url(#felt)" stroke="#55927b" stroke-opacity=".82"/>
+  <path d="M340 60H751" stroke="#9ec6ae" stroke-opacity=".25"/>
+  <text x="344" y="49" fill="#d7e9d9" font-family="Arial,Helvetica,sans-serif" font-size="10" font-weight="700" letter-spacing="1.5">PAIR MATCH</text>
+  <text x="747" y="49" fill="#f0d174" font-family="Arial,Helvetica,sans-serif" font-size="9" font-weight="700" letter-spacing="1.2" text-anchor="end">ONE OPEN SIDE TO SELECT</text>
+
+  <!-- Compact 8-column tile field; the two gold-outlined bamboo tiles are a matching open pair. -->
+  <g transform="translate(350 66)">
+    <g transform="translate(0 0)"><use href="#tileBase"/><use href="#bamboo"/></g>
+    <g transform="translate(45 0)"><use href="#tileBase"/><use href="#dots"/></g>
+    <g transform="translate(90 0)"><use href="#tileBase"/><use href="#flower"/></g>
+    <g transform="translate(135 0)"><use href="#tileBase"/><use href="#compass"/></g>
+    <g transform="translate(180 0)"><use href="#tileBase"/><use href="#dots"/></g>
+    <g transform="translate(225 0)"><use href="#tileBase"/><use href="#bamboo"/></g>
+    <g transform="translate(270 0)"><use href="#tileBase"/><use href="#compass"/></g>
+    <g transform="translate(315 0)"><use href="#tileBase"/><use href="#flower"/></g>
+
+    <g transform="translate(0 41)"><use href="#tileBase"/><use href="#compass"/></g>
+    <g transform="translate(45 41)"><use href="#tileBase"/><use href="#flower"/></g>
+    <g transform="translate(90 41)"><use href="#tileBase"/><use href="#dots"/></g>
+    <g transform="translate(135 41)"><use href="#tileBase"/><use href="#bamboo"/></g>
+    <g transform="translate(180 41)"><use href="#tileBase"/><use href="#flower"/></g>
+    <g transform="translate(225 41)"><use href="#tileBase"/><use href="#compass"/></g>
+    <g transform="translate(270 41)"><use href="#tileBase"/><use href="#bamboo"/></g>
+    <g transform="translate(315 41)"><use href="#tileBase"/><use href="#dots"/></g>
+
+    <g transform="translate(0 82)"><use href="#tileBase"/><use href="#dots"/></g>
+    <g transform="translate(45 82)"><use href="#tileBase"/><use href="#bamboo"/></g>
+    <g transform="translate(90 82)"><use href="#tileBase"/><use href="#compass"/></g>
+    <g transform="translate(135 82)"><use href="#tileBase"/><use href="#flower"/></g>
+    <g transform="translate(180 82)"><use href="#tileBase"/><use href="#bamboo"/></g>
+    <g transform="translate(225 82)"><use href="#tileBase"/><use href="#dots"/></g>
+    <g transform="translate(315 82)"><use href="#tileBase"/><use href="#compass"/></g>
+
+    <g transform="translate(0 123)"><use href="#tileBase"/><use href="#flower"/></g>
+    <g transform="translate(45 123)"><use href="#tileBase"/><use href="#compass"/></g>
+    <g transform="translate(90 123)"><use href="#tileBase"/><use href="#bamboo"/></g>
+    <g transform="translate(135 123)"><use href="#tileBase"/><use href="#dots"/></g>
+    <g transform="translate(180 123)"><use href="#tileBase"/><use href="#flower"/></g>
+    <g transform="translate(225 123)"><use href="#tileBase"/><use href="#compass"/></g>
+    <g transform="translate(270 123)"><use href="#tileBase"/><use href="#dots"/></g>
+    <g transform="translate(315 123)"><use href="#tileBase"/><use href="#bamboo"/></g>
+
+    <rect x="-2" y="-2" width="40" height="40" rx="7" fill="none" stroke="#ffd867" stroke-width="2.5"/>
+    <rect x="178" y="80" width="40" height="40" rx="7" fill="none" stroke="#ffd867" stroke-width="2.5"/>
+  </g>
+  <path d="M354 62L369 56L384 62M532 143L547 137L562 143" fill="none" stroke="#ffd867" stroke-opacity=".7" stroke-width="1.5"/>
+  <circle cx="369" cy="55" r="2.7" fill="#ffd867"/>
+  <circle cx="547" cy="136" r="2.7" fill="#ffd867"/>
+  <rect x="2" y="2" width="796" height="256" rx="13" fill="none" stroke="#e4e0bc" stroke-opacity=".16"/>
+</svg>

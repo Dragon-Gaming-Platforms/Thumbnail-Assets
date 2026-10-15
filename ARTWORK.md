@@ -1,8 +1,9 @@
 # Thumbnail provenance and licenses
 
 These are **source** thumbnails in the flat `thumbnails/` drop zone. The
-`thumbnails/jpg/` derivatives belong to CI. All sources below are 800×260 JPEGs
-under 40 KiB. Illustrations are thematic artwork, not gameplay screenshots.
+`thumbnails/jpg/` derivatives belong to CI. Source formats and sizes vary; CI
+creates optimized 800×260 derivatives for raster sources. Entries marked as
+illustrations are thematic artwork, not gameplay screenshots.
 
 ## Bottom-up batch 1
 
@@ -89,6 +90,14 @@ under this repository's MIT license; no borrowed logos or franchise characters.
 - `space-huggers`: the inspected bundled GPL file conflicts with a README
   statement saying the game is not intended for redistribution. Left pending
   rather than deciding the artwork license from contradictory notices.
+- `jolly-jumper`: its bundled README says “All copyright reserved by the
+  Author.” No display license for the bundled game artwork was established, so
+  no screenshot or extracted art was reused.
+- `linux-6.1.14-rv32ima-on-scratch`: the catalog points to a remote TurboWarp
+  embed, not a vendored game. The Scratch project is credited to bilman66alt
+  under CC BY-NC-SA 2.0; no gameplay capture was available in this sandbox.
+  Any future use must include attribution and comply with the noncommercial
+  and share-alike terms. No AI replacement was made.
 
 ## MIT notices for screenshot artwork
 
@@ -167,3 +176,19 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 Additional original source notice: Copyright (c) 2014 The Chromium Authors.
 All rights reserved.
+
+## Middle-of-queue batch 1
+
+These original 800×260 SVG illustrations were authored for this repository
+after inspecting each game's actual HTML and mechanics. They are not gameplay
+screenshots, and no external visual assets, sprites, or logos were copied.
+The source games are by `wangzifan396-wzf` in
+[`mini-browser-games`](https://github.com/wangzifan396-wzf/mini-browser-games),
+which declares the MIT License (copyright © 2026 wangzifan396-wzf). The SVGs
+are original work and are covered by this repository's MIT license.
+
+| Source file | Theme | Game inspected |
+| --- | --- | --- |
+| `lantern-memory.svg` | Four colored lamps illustrating the game's growing recall sequence | [`Lantern-Memory.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/db88cc18c657878aacf5c896bdc69f35342b415d/games/singlefiles/Lantern-Memory.html); [upstream source](https://github.com/wangzifan396-wzf/mini-browser-games/blob/f33cf6e1cd06b201c9910f9830e4c7285479460e/lantern-memory.html) |
+| `lockmaster-shift.svg` | Boat in a water-level lock chamber with gates and pump indicator | [`Lockmaster-Shift.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/db88cc18c657878aacf5c896bdc69f35342b415d/games/singlefiles/Lockmaster-Shift.html); [upstream source](https://github.com/wangzifan396-wzf/mini-browser-games/blob/f33cf6e1cd06b201c9910f9830e4c7285479460e/lockmaster-shift.html) |
+| `mahjong-link.svg` | Matching mahjong tile pair with an open side | [`Mahjong-Link.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/db88cc18c657878aacf5c896bdc69f35342b415d/games/singlefiles/Mahjong-Link.html); [upstream source](https://github.com/wangzifan396-wzf/mini-browser-games/blob/f33cf6e1cd06b201c9910f9830e4c7285479460e/mahjong-link.html) |
