@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" role="img" aria-labelledby="title desc">
+  <title id="title">Lockmaster Shift</title>
+  <desc id="desc">An original canal-lock illustration with a waiting boat, levelled chamber, gates, and pump controls for a waterway dispatch puzzle.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#102a31"/>
+      <stop offset=".55" stop-color="#184d5a"/>
+      <stop offset="1" stop-color="#112d36"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4a9bb1"/>
+      <stop offset="1" stop-color="#1c6178"/>
+    </linearGradient>
+    <linearGradient id="boat" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f2d079"/>
+      <stop offset="1" stop-color="#b97932"/>
+    </linearGradient>
+    <linearGradient id="stone" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#718780"/>
+      <stop offset=".5" stop-color="#a9b2a0"/>
+      <stop offset="1" stop-color="#566d69"/>
+    </linearGradient>
+    <pattern id="chart" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#d6e3d9" stroke-opacity=".045" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="260" fill="url(#bg)"/>
+  <rect width="800" height="260" fill="url(#chart)"/>
+  <path d="M0 228H800" stroke="#e5bd57" stroke-opacity=".35"/>
+  <path d="M29 25V235" stroke="#e5bd57" stroke-width="4"/>
+
+  <text x="52" y="52" fill="#f0d174" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="2.4">WATERWAY DISPATCH · 01</text>
+  <text x="50" y="105" fill="#fff8e7" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="800" letter-spacing=".5">LOCKMASTER</text>
+  <text x="50" y="153" fill="#fff8e7" font-family="Arial,Helvetica,sans-serif" font-size="46" font-weight="800" letter-spacing="2">SHIFT</text>
+  <text x="53" y="183" fill="#c4d8d6" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="1.7">LEVEL · LOAD · DELIVER</text>
+  <g transform="translate(54 207)">
+    <circle cx="5" cy="0" r="5" fill="#f0d174"/>
+    <path d="M18 0H78" stroke="#f0d174" stroke-width="2"/>
+    <path d="M83 0H137" stroke="#c7d9d2" stroke-opacity=".3" stroke-dasharray="2 6"/>
+    <text x="148" y="4" fill="#d7e4df" font-family="Arial,Helvetica,sans-serif" font-size="10" font-weight="700" letter-spacing="1.3">12 SHIFTS</text>
+  </g>
+
+  <rect x="322" y="28" width="446" height="205" rx="17" fill="#102f37" stroke="#75a19b" stroke-opacity=".72"/>
+  <path d="M341 64H750" stroke="#8eb5b3" stroke-opacity=".25"/>
+  <text x="344" y="51" fill="#d8e9e5" font-family="Arial,Helvetica,sans-serif" font-size="10" font-weight="700" letter-spacing="1.7">LOCK OPERATIONS</text>
+  <text x="747" y="51" fill="#e5bd57" font-family="Arial,Helvetica,sans-serif" font-size="10" font-weight="700" letter-spacing="1.4" text-anchor="end">WATCH 04 / 12</text>
+
+  <text x="379" y="82" fill="#9cb9b4" font-family="Arial,Helvetica,sans-serif" font-size="9" font-weight="700" letter-spacing="1" text-anchor="middle">WEST · L1</text>
+  <text x="535" y="82" fill="#f0d174" font-family="Arial,Helvetica,sans-serif" font-size="9" font-weight="700" letter-spacing="1" text-anchor="middle">CHAMBER · L1</text>
+  <text x="693" y="82" fill="#9cb9b4" font-family="Arial,Helvetica,sans-serif" font-size="9" font-weight="700" letter-spacing="1" text-anchor="middle">EAST · L3</text>
+
+  <!-- Canal basins at different levels, with the lock chamber held level to the west side. -->
+  <path d="M341 142H423V208H341Z" fill="url(#water)"/>
+  <path d="M436 142H636V208H436Z" fill="url(#water)"/>
+  <path d="M649 99H749V208H649Z" fill="url(#water)"/>
+  <path d="M341 142H423M436 142H636M649 99H749" fill="none" stroke="#a8e1df" stroke-opacity=".76" stroke-width="2"/>
+  <path d="M349 153c10-4 19 4 29 0s19 4 29 0 9 1 13 0M444 153c10-4 19 4 29 0s19 4 29 0 19 4 29 0 19 4 29 0 19 4 29 0 12 1 17 0M657 111c10-4 19 4 29 0s19 4 29 0 19 4 29 0" fill="none" stroke="#d5f1e8" stroke-opacity=".34" stroke-width="2"/>
+  <path d="M341 209H749" stroke="url(#stone)" stroke-width="12"/>
+  <path d="M341 215H749" stroke="#243f42" stroke-width="3"/>
+
+  <!-- Stone lock walls and lift machinery. -->
+  <path d="M420 90H439V211H420Z" fill="url(#stone)" stroke="#d3d5c1" stroke-opacity=".52"/>
+  <path d="M633 90H652V211H633Z" fill="url(#stone)" stroke="#d3d5c1" stroke-opacity=".52"/>
+  <path d="M419 91H440M632 91H653" stroke="#d9d4bc" stroke-width="4"/>
+  <path d="M421 106H438M421 126H438M421 183H438M634 106H651M634 126H651M634 183H651" stroke="#49605e" stroke-opacity=".55" stroke-width="2"/>
+
+  <!-- West gate raised; east gate closed across the higher water. -->
+  <path d="M423 189H436V207H423Z" fill="#e5bd57" stroke="#fff0ad" stroke-width="1.5"/>
+  <path d="M424 194H435M424 200H435" stroke="#90682b" stroke-width="2"/>
+  <path d="M635 98H650V205H635Z" fill="#644535" stroke="#bd8951" stroke-width="2"/>
+  <path d="M638 108H647M638 121H647M638 134H647M638 147H647M638 160H647M638 173H647M638 186H647" stroke="#9d754d" stroke-width="2"/>
+  <rect x="632" y="88" width="21" height="7" rx="2" fill="#f0d174"/>
+  <circle cx="642.5" cy="86" r="4" fill="#f4d77c"/>
+
+  <!-- Original, simplified barge and cargo, echoing the game's boat-and-lock canvas. -->
+  <g transform="translate(529 126)">
+    <path d="M-43 13H43L32 32Q0 42-32 32Z" fill="#17414b" opacity=".65"/>
+    <path d="M-42 4H42L31 23Q0 34-31 23Z" fill="url(#boat)" stroke="#fff0b6" stroke-width="2"/>
+    <path d="M-23 4V-8H8V4M10 4V-2H26V4" fill="#f5ead1" stroke="#d6c9a9" stroke-width="1.5"/>
+    <rect x="-18" y="-5" width="9" height="7" rx="1" fill="#3d8491"/>
+    <rect x="-5" y="-5" width="9" height="7" rx="1" fill="#3d8491"/>
+    <rect x="13" y="-1" width="9" height="5" rx="1" fill="#bd5148"/>
+    <path d="M-34 24H29" stroke="#744c2e" stroke-width="2" opacity=".8"/>
+  </g>
+  <path d="M469 129H491" stroke="#f0d174" stroke-width="2" stroke-dasharray="3 4"/>
+  <path d="M483 124L492 129L483 134" fill="none" stroke="#f0d174" stroke-width="2"/>
+
+  <!-- Compact pump indicator and level scale. -->
+  <g transform="translate(719 117)">
+    <rect x="0" y="0" width="23" height="73" rx="7" fill="#133740" stroke="#89b2af" stroke-opacity=".7"/>
+    <path d="M11.5 58V16M11.5 16L6 23M11.5 16L17 23" fill="none" stroke="#e5bd57" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="11.5" cy="58" r="3" fill="#f0d174"/>
+    <text x="11.5" y="86" fill="#b7cfca" font-family="Arial,Helvetica,sans-serif" font-size="8" font-weight="700" text-anchor="middle">PUMP</text>
+  </g>
+  <rect x="2" y="2" width="796" height="256" rx="13" fill="none" stroke="#e4dec2" stroke-opacity=".17"/>
+</svg>
