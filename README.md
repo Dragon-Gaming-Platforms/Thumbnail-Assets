@@ -1,5 +1,7 @@
 # <div align="center"> Thumbnail Assets </div>
 
+[![Build & Publish Thumbnails](https://github.com/Dragon-Gaming-Platforms/Thumbnail-Assets/actions/workflows/build-thumbnails.yml/badge.svg)](https://github.com/Dragon-Gaming-Platforms/Thumbnail-Assets/actions/workflows/build-thumbnails.yml)
+
 Companion asset repository for
 [Dragon-Gaming-Platforms](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms).
 It holds the platform's game-card artwork **outside** the main repository so the
