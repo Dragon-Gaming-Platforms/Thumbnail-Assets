@@ -2,7 +2,7 @@
 
 Catalog: [Dragon-Gaming-Platforms/Dragon-Gaming-Platforms](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms),
 revision `b4241132454e513100b67c6bee457eda62e9e140` (`games.js`).
-Remaining: **168 games** (70 generate=true; 98 generate=false).
+Remaining: **158 games** (60 generate=true; 98 generate=false).
 
 - `generate=true`: create original artwork based on the actual game's gameplay/theme.
 - `generate=false`: capture gameplay or reuse existing artwork after verifying display rights.
@@ -141,22 +141,12 @@ Remaining: **168 games** (70 generate=true; 98 generate=false).
 - `metro-weaver` generate=true
 - `midnight-chess` generate=true
 - `midnight-monitor` generate=true
-- `mine-matrix` generate=true
 - `minesweeper` generate=false
-- `mist-valley-herbarium` generate=true
-- `moba-frontier` generate=true
-- `mole-market` generate=true
-- `monster-horde` generate=true
-- `monster-tamer` generate=true
 - `monster-candy` generate=false
-- `moon-lander` generate=true
 - `moon-light-platformer` generate=false
-- `mosaic-jigsaw` generate=true
 - `moto-x3m-2` generate=false
 - `mumuy-pacman` generate=false
-- `museum-climate` generate=true
 - `island-builder` generate=false
-- `neon-2048` generate=true
 - `norman-necromancer` generate=false
 - `octocat-jump` generate=false
 - `offline-paradise` generate=false

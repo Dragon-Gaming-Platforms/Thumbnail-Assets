@@ -155,6 +155,36 @@ JPEG-optimized to 800×260, <=40 KiB, and visually reviewed at card size.
 | `observatory-watch.jpg` | Observatory telescopes, exposure schedule blocks and calibration gaps | [`Observatory-Watch.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Observatory-Watch.html) |
 | `noodle-shift.jpg` | Night-market noodle cart, three pots, ingredients, order slips and ready bowls | [`Noodle-Shift.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Noodle-Shift.html) |
 
+## Bottom-up batch 9
+
+Ten original AI-generated thematic illustrations, made without external
+artwork/reference images after inspecting the actual single-file HTML and
+relevant rules/logic at platform revision
+[`b4241132454e513100b67c6bee457eda62e9e140`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/b4241132454e513100b67c6bee457eda62e9e140).
+Distributed under this repository's MIT license. These are illustrations,
+not screenshots, exact solvable board states or real-world conservation,
+flight or plant-identification guidance. The creature trio, monster army,
+crystal arena and glass ornaments use original designs, not commercial
+franchise characters, branded capture devices, logos or borrowed map art.
+Inspection confirmed that Mosaic Jigsaw is stained-glass restoration (not
+an emulator) and Mole Market is vegetable reaction-tapping (not a mole
+trading game). Catalog metadata was not used as a substitute for inspection.
+Each image was cover-cropped/JPEG-optimized to 800×260, <=40 KiB and visually
+reviewed at card size before removing its queue entry.
+
+| Source file | Theme | Game inspected |
+| --- | --- | --- |
+| `neon-2048.jpg` | Number-merging neon matrix, chain trail and expedition-node motifs | [`Neon-2048.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Neon-2048.html) |
+| `museum-climate.jpg` | Museum exhibit cases, microclimate sensors and six-period control schedule | [`Museum-Climate.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Museum-Climate.html) |
+| `mosaic-jigsaw.jpg` | Rotatable square stained-glass pieces, colored seams and stamped motifs | [`Mosaic-Jigsaw.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Mosaic-Jigsaw.html) |
+| `moon-lander.jpg` | Precision lunar descent, thruster, narrow landing pad and fuel motif | [`Moon-Lander.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Moon-Lander.html) |
+| `monster-tamer.jpg` | Original fire-tail fox, water otter and sprout-ear rabbit on an island expedition | [`Monster-Tamer.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Monster-Tamer.html) |
+| `monster-horde.jpg` | Reverse tower defense: monster formations advancing along three lanes toward a defended gate | [`Monster-Horde.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Monster-Horde.html) |
+| `mole-market.jpg` | Vegetable-stall reaction targets: bad produce, smiling good produce and a thief | [`Mole-Market.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Mole-Market.html) |
+| `moba-frontier.jpg` | Three-lane crystal-core arena, towers, minions, hero and neutral objective | [`Moba-Frontier.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Moba-Frontier.html) |
+| `mist-valley-herbarium.jpg` | Four botanical specimens, leaf-margin/vein inspection and candidate reference folio | [`Mist-Valley-Herbarium.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Mist-Valley-Herbarium.html) |
+| `mine-matrix.jpg` | Space-themed Minesweeper survey board, neighboring counts, flags and fixed beacons | [`Mine-Matrix.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Mine-Matrix.html) |
+
 ## Pending rights checks
 
 - `zedinvaders`: bundled READMEs call it open source, but the inspected game
