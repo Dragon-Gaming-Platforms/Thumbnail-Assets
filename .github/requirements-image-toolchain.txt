@@ -1,0 +1,19 @@
+# Image toolchain for CPython 3.12 on the Ubuntu Actions runner.
+# Pin transitive dependencies too; install with --only-binary=:all: so CI
+# never silently falls back to compiling a legacy graphics stack.
+# ReportLab 3.6.x has no CPython 3.12 wheels. ReportLab 4 separates its bitmap
+# backend: rl-renderPM supplies _renderPM, selected explicitly by our helper.
+cairocffi==1.7.1
+CairoSVG==2.9.1
+cffi==2.1.1
+charset-normalizer==3.5.2
+cssselect2==0.10.1
+defusedxml==0.7.1
+lxml==6.1.3
+pillow==12.3.0
+pycparser==3.11
+reportlab==4.5.1
+rl-renderPM==4.0.3
+svglib==2.3.0
+tinycss2==1.5.1
+webencodings==0.6.1
