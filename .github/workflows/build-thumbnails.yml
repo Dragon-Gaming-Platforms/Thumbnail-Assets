@@ -11,19 +11,19 @@
 # dispatch + nightly cron).
 #
 # SVG rasterizer tiers, best fidelity first: rsvg-convert (apt librsvg2-bin),
-# svglib+reportlab, cairosvg, ImageMagick. A runner missing one tier falls
-# through to the next instead of failing the build.
+# svglib+reportlab, cairosvg, ImageMagick. Required native/Python dependencies
+# are installed and checked up front; per-file render failures try the next tier.
 name: Build & Publish Thumbnails
 
 on:
   push:
     branches: ["main"]
-    paths-ignore:
-      - '.gitignore'
-      - 'scripts/**'
-      - '**.md'
-      - '.github/**'
-      - '**.gitkeep'
+    # Toolchain/workflow fixes must rebuild too, not only new artwork.
+    paths:
+      - 'thumbnails/**'
+      - '.github/workflows/build-thumbnails.yml'
+      - '.github/requirements-image-toolchain.txt'
+      - 'scripts/image_toolchain.py'
   workflow_dispatch:
 
 permissions:
@@ -50,14 +50,18 @@ jobs:
         with:
           python-version: "3.12"
 
-      # Pinned so re-runs on identical sources produce identical bytes.
+      - name: Install SVG runtime libraries
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends librsvg2-bin libcairo2
+
+      # ReportLab 4 and its bitmap backend have CPython 3.12 wheels.
+      # Lock the complete Python stack; never compile graphics dependencies in CI.
       - name: Install image toolchain
         run: |
-          python -m pip install --upgrade pip
-          python -m pip install pillow svglib==1.5.1 reportlab==3.6.13 cairosvg
-
-      - name: Install librsvg (rsvg-convert)
-        run: sudo apt-get update -qq && sudo apt-get install -y --no-install-recommends librsvg2-bin || echo "::warning::librsvg2-bin unavailable; using fallback SVG rasterizers"
+          python -m pip install --only-binary=:all: -r .github/requirements-image-toolchain.txt
+          python -m pip check
+          python scripts/image_toolchain.py
 
       - name: Convert drop zone to published JPEGs
         id: convert
@@ -154,16 +158,8 @@ jobs:
 
           def via_svglib(src):
               def run(tmp):
-                  from svglib.svglib import svg2rlg
-                  from reportlab.graphics import renderPM
-                  drawing = svg2rlg(src)
-                  if drawing is None:
-                      raise RuntimeError("svg2rlg returned None")
-                  scale = 1600.0 / drawing.width if drawing.width else 1.0
-                  drawing.width *= scale
-                  drawing.height *= scale
-                  drawing.scale(scale, scale)
-                  renderPM.drawToFile(drawing, tmp, fmt="PNG")
+                  from scripts.image_toolchain import rasterize_svglib
+                  rasterize_svglib(src, tmp)
               return run
 
 

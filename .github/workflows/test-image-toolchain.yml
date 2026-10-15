@@ -1,0 +1,45 @@
+name: Test image toolchain
+
+on:
+  pull_request:
+    paths:
+      - '.github/workflows/build-thumbnails.yml'
+      - '.github/workflows/test-image-toolchain.yml'
+      - '.github/requirements-image-toolchain.txt'
+      - 'scripts/image_toolchain.py'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install SVG runtime libraries
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends librsvg2-bin libcairo2
+      - name: Install the publisher's locked toolchain
+        run: |
+          python -m pip install --only-binary=:all: -r .github/requirements-image-toolchain.txt
+          python -m pip check
+      - name: Render and decode SVG shapes and text through both Python backends
+        run: python scripts/image_toolchain.py
+      - name: Exercise the primary renderer with repository artwork
+        run: |
+          rsvg-convert -w 800 thumbnails/mahjong-link.svg -o "$RUNNER_TEMP/rsvg-smoke.png"
+          python - <<'PY'
+          import os
+          from pathlib import Path
+          from PIL import Image
+          with Image.open(Path(os.environ['RUNNER_TEMP']) / 'rsvg-smoke.png') as image:
+              image.load()
+              assert image.format == 'PNG' and image.size == (800, 260)
+          PY
+      - name: Test helpers
+        run: python -m unittest discover -s scripts -p 'test_*.py'
