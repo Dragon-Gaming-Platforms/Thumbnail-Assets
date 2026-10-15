@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" role="img" aria-labelledby="title desc">
+  <title id="title">Lantern Memory</title>
+  <desc id="desc">Four colored lanterns flash in a sequence against a dark patterned stage; watch, recall, and repeat.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#102024"/>
+      <stop offset=".56" stop-color="#17383a"/>
+      <stop offset="1" stop-color="#493654"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#172e31"/>
+      <stop offset="1" stop-color="#101d22"/>
+    </linearGradient>
+    <radialGradient id="warmGlow">
+      <stop offset="0" stop-color="#d6a33d" stop-opacity=".34"/>
+      <stop offset="1" stop-color="#d6a33d" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blueGlow">
+      <stop offset="0" stop-color="#326f91" stop-opacity=".4"/>
+      <stop offset="1" stop-color="#326f91" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#e7e7d0" stroke-opacity=".055" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="260" fill="url(#bg)"/>
+  <rect width="800" height="260" fill="url(#grid)"/>
+  <circle cx="670" cy="115" r="170" fill="url(#warmGlow)"/>
+  <path d="M0 226H800" stroke="#d6a33d" stroke-opacity=".32"/>
+  <path d="M29 25V235" stroke="#d6a33d" stroke-width="4"/>
+
+  <text x="52" y="51" fill="#e8c56f" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="2.6">PATTERN RECALL · 01</text>
+  <text x="50" y="111" fill="#fff9e8" font-family="Arial,Helvetica,sans-serif" font-size="39" font-weight="800" letter-spacing="1.1">LANTERN</text>
+  <text x="50" y="158" fill="#fff9e8" font-family="Arial,Helvetica,sans-serif" font-size="43" font-weight="800" letter-spacing="1.8">MEMORY</text>
+  <text x="53" y="187" fill="#b5c9bb" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="1.8">WATCH · RECALL · REPEAT</text>
+  <g transform="translate(54 211)">
+    <circle cx="0" cy="0" r="5" fill="#bd5148"/>
+    <circle cx="22" cy="0" r="5" fill="#d6a33d"/>
+    <circle cx="44" cy="0" r="5" fill="#287468"/>
+    <circle cx="66" cy="0" r="5" fill="#326f91"/>
+    <path d="M87 0H143" stroke="#d8e2cf" stroke-opacity=".35" stroke-dasharray="2 6"/>
+    <text x="153" y="4" fill="#d7dfd2" font-family="Arial,Helvetica,sans-serif" font-size="10" font-weight="700" letter-spacing="1.4">4-COLOR RECALL</text>
+  </g>
+
+  <rect x="323" y="29" width="445" height="204" rx="18" fill="url(#panel)" stroke="#71857b" stroke-opacity=".62"/>
+  <path d="M341 65H750" stroke="#a7b8a7" stroke-opacity=".18"/>
+  <text x="346" y="52" fill="#d5dfd0" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="1.9">FOUR LANTERNS · ONE GROWING SEQUENCE</text>
+
+  <circle cx="427" cy="123" r="77" fill="url(#warmGlow)"/>
+  <circle cx="512" cy="181" r="76" fill="url(#blueGlow)"/>
+  <g>
+    <rect x="365" y="77" width="72" height="61" rx="9" fill="#bd5148" stroke="#f4b29c" stroke-opacity=".7" stroke-width="2"/>
+    <rect x="371" y="83" width="60" height="49" rx="6" fill="#e36a5a" opacity=".85"/>
+    <circle cx="401" cy="107" r="10" fill="#fff1d2" opacity=".72"/>
+    <path d="M382 129H420" stroke="#6d312f" stroke-opacity=".7" stroke-width="3"/>
+  </g>
+  <g>
+    <rect x="449" y="77" width="72" height="61" rx="9" fill="#8a6a2d" stroke="#d6a33d" stroke-opacity=".62" stroke-width="2"/>
+    <rect x="455" y="83" width="60" height="49" rx="6" fill="#b68a34" opacity=".8"/>
+    <circle cx="485" cy="107" r="8" fill="#f4d87f" opacity=".65"/>
+    <path d="M466 129H504" stroke="#59451f" stroke-opacity=".75" stroke-width="3"/>
+  </g>
+  <g>
+    <rect x="365" y="148" width="72" height="61" rx="9" fill="#205c53" stroke="#55a18a" stroke-opacity=".62" stroke-width="2"/>
+    <rect x="371" y="154" width="60" height="49" rx="6" fill="#287468" opacity=".85"/>
+    <circle cx="401" cy="178" r="8" fill="#a4ddad" opacity=".7"/>
+    <path d="M382 200H420" stroke="#173c37" stroke-opacity=".75" stroke-width="3"/>
+  </g>
+  <g>
+    <rect x="449" y="148" width="72" height="61" rx="9" fill="#285d78" stroke="#77b5cf" stroke-opacity=".75" stroke-width="2"/>
+    <rect x="455" y="154" width="60" height="49" rx="6" fill="#3d8db2" opacity=".95"/>
+    <circle cx="485" cy="178" r="10" fill="#d6f4ff" opacity=".83"/>
+    <path d="M466 200H504" stroke="#173f52" stroke-opacity=".75" stroke-width="3"/>
+  </g>
+
+  <g transform="translate(548 83)">
+    <text x="0" y="0" fill="#9eb3a9" font-family="Arial,Helvetica,sans-serif" font-size="10" font-weight="700" letter-spacing="1.7">ROUND</text>
+    <text x="0" y="36" fill="#fff8e7" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="800">06</text>
+    <path d="M0 49H181" stroke="#80958a" stroke-opacity=".35"/>
+    <text x="0" y="70" fill="#9eb3a9" font-family="Arial,Helvetica,sans-serif" font-size="10" font-weight="700" letter-spacing="1.6">SCORE</text>
+    <text x="181" y="70" fill="#e5bd57" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="800" text-anchor="end">420</text>
+    <text x="0" y="101" fill="#9eb3a9" font-family="Arial,Helvetica,sans-serif" font-size="10" font-weight="700" letter-spacing="1.6">STREAK</text>
+    <g transform="translate(82 95)">
+      <rect width="15" height="7" rx="3.5" fill="#e5bd57"/>
+      <rect x="21" width="15" height="7" rx="3.5" fill="#e5bd57"/>
+      <rect x="42" width="15" height="7" rx="3.5" fill="#e5bd57"/>
+      <rect x="63" width="15" height="7" rx="3.5" fill="#829289" opacity=".48"/>
+    </g>
+  </g>
+  <rect x="2" y="2" width="796" height="256" rx="13" fill="none" stroke="#e5d6a6" stroke-opacity=".16"/>
+</svg>
