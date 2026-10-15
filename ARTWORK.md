@@ -149,6 +149,21 @@ single-file titles); repo MIT license; no borrowed logos or characters:
 | `chalk-billiards.jpg` | Pool table with cue ball, predicted path, glowing target pocket, power arc and chalk | [`Chalk-Billiards.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Chalk-Billiards.html) |
 | `charm-reels.jpg` | Ornate rune slot machine with linked charm symbols, symbol pouch, rent bell and coins | [`Charm-Reels.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Charm-Reels.html) |
 
+## Top-down batch 5
+
+Original AI-generated illustrations (no external artwork/reference images),
+themes checked against the game HTML/logic in platform snapshot `b4241132454e513100b67c6bee457eda62e9e140`
+(Chinese-language single-file titles); repo MIT license; no borrowed logos or
+characters:
+
+| Source file | Theme | Game inspected |
+| --- | --- | --- |
+| `checkpoint-inspector.jpg` | Border-booth inspection desk with passport, permit, magnifier, date ruler, approve/deny stamps and rule sheet | [`Checkpoint-Inspector.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Checkpoint-Inspector.html) |
+| `chromatic-press.jpg` | Print bench with pixel proof sheet, overlapping cyan/magenta/yellow plates, roller, ink tins and star card | [`Chromatic-Press.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Chromatic-Press.html) |
+| `chromatography-lab.jpg` | Lab bench with separating column bands, solvent bottles, flow valve and chromatogram monitor | [`Chromatography-Lab.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Chromatography-Lab.html) |
+| `cipher-relay.jpg` | Signal console with six relay switches, overlapping scope traces, one noisy readout and tally cards | [`Cipher-Relay.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Cipher-Relay.html) |
+| `claw-carnival.jpg` | Night-carnival claw cabinets, descending claw over plush prizes, tokens and collection album | [`Claw-Carnival.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Claw-Carnival.html) |
+
 ## Pending rights checks
 
 - `zedinvaders`: bundled READMEs call it open source, but the inspected game
@@ -190,6 +205,12 @@ single-file titles); repo MIT license; no borrowed logos or characters:
   dominates the menu. In the sandbox the round ends immediately after the
   countdown (no snake drawn), so no usable gameplay frame was captured yet;
   left in the queue.
+
+- `chess`: the bundled `games/chess/LICENSE` is an unfilled Apache-2.0
+  template while the platform credits say MIT (lhartikk/simple-chess-ai); the
+  visible piece sprites are the chessboard.js "wikipedia" set (Colin M.L.
+  Burnett), whose license terms could not be verified from the sandbox. Left
+  pending.
 
 ## MIT notices for screenshot artwork
 
