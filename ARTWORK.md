@@ -190,6 +190,32 @@ single-file titles); repo MIT license; no borrowed logos or characters:
 | `courtroom-clash.jpg` | Original attorney pointing at a sweating witness, judge with gavel, floating exhibits and a credibility scale | [`Courtroom-Clash.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Courtroom-Clash.html) |
 | `cozy-organizer.jpg` | Top-down cottage room on a grid with multi-cell furniture, a rotating held piece and a tray of remaining items | [`Cozy-Organizer.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Cozy-Organizer.html) |
 
+## Top-down batch 7
+
+Same pinned platform snapshot (`b4241132454e513100b67c6bee457eda62e9e140`). Screenshots are local
+headless-browser captures of actual gameplay; no audio.
+
+| Source file | Method and provenance | Rights |
+| --- | --- | --- |
+| `custom-tetris.jpg` | Gameplay screenshot of [`games/custom-tetris`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/b4241132454e513100b67c6bee457eda62e9e140/games/custom-tetris) in the default "sit and watch" configuration (AI defender, random attacker) after about 25 seconds; cropped to the stacked playfield and the attacker's piece palette. | **BSD-3-Clause**, bundled `license.txt`, © 2005–2012 Ondrej Zara. See BSD notice below. |
+| `dante-13k.jpg` | Gameplay screenshot of [`games/dante-13k`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/b4241132454e513100b67c6bee457eda62e9e140/games/dante-13k) (js13kGames 2022): Dante's boat on the lava near the first platforms, after choosing Play and walking forward. Cropped. | **MIT**, bundled `LICENSE`, © 2022 Salvatore Previti. See MIT notices below. |
+| `devil-glitches.jpg` | Gameplay screenshot of [`games/devil-glitches`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/b4241132454e513100b67c6bee457eda62e9e140/games/devil-glitches) (Evil Glitch, js13kGames 2016): a swarm of glitch enemies above the player's ship on the wireframe grid; canvas crop, brightness 1.2×. | **ISC** per the bundled `package.json` (platform credits list MIT); © agar3s (Jorge Palacios). See ISC notice below. |
+| `doom-13k.jpg` | Gameplay screenshot of [`games/doom-13k`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/b4241132454e513100b67c6bee457eda62e9e140/games/doom-13k) (Yet Another Doom Clone, js13kGames 2019): the first-person view of the starting stone room with the player's weapon; the game draws everything procedurally. Cropped. | **GPL-3.0**, bundled `LICENSE`; © Nicholas Carlini. The thumbnail is a derivative of GPL-3.0 artwork and is distributed under GPL-3.0; see GPL notice below. |
+
+Original AI-generated illustrations (no external artwork/reference images),
+themes checked against the game HTML/logic in the same snapshot (Chinese-language
+single-file titles); repo MIT license; no borrowed logos or characters:
+
+| Source file | Theme | Game inspected |
+| --- | --- | --- |
+| `crossword-cafe.jpg` | Café table with a crossword card, scattered letter tiles, pencil, latte and pastries | [`Crossword-Cafe.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Crossword-Cafe.html) |
+| `curling-endgame.jpg` | Top-down ice sheet with the house, guard stones, a launched stone's predicted path and power arc | [`Curling-Endgame.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Curling-Endgame.html) |
+| `detective-desk.jpg` | Noir desk with a red-string evidence board, magnifier, case file and foggy city window | [`Detective-Desk.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Detective-Desk.html) |
+| `dice-delver.jpg` | Locked and rolling dice on a three-region branching expedition map with three travelers and a telegraphed monster | [`Dice-Delver.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Dice-Delver.html) |
+| `dojo-duel.jpg` | Two original martial artists (kick vs. block with dodge afterimage) in a lantern-lit dojo with eight banners | [`Dojo-Duel.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Dojo-Duel.html) |
+| `drift-racer.jpg` | Bird's-eye harbor circuit with four cars drifting through a hairpin, nitro burst and gauge motifs | [`Drift-Racer.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Drift-Racer.html) |
+| `drone-survey.jpg` | Grid map with target and no-fly cells, a quadcopter flying ordered route segments, battery and checklist | [`Drone-Survey.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Drone-Survey.html) |
+
 ## Pending rights checks
 
 - `zedinvaders`: bundled READMEs call it open source, but the inspected game
@@ -243,6 +269,20 @@ single-file titles); repo MIT license; no borrowed logos or characters:
   character artwork (© .GEARS / Dong Nguyen), which the code licenses do not
   cover. Left pending.
 
+- `crystalquest`: remake of the 1987 Macintosh game; the bundled directory
+  has no license file and the alien/crystal sprites' origin is unverified.
+  Left pending.
+- `diablo-js`: MIT engine code, but the rendered monsters/tiles are Diablo
+  assets (© Blizzard Entertainment). Left pending.
+- `digger`: port of Windmill Software's 1983 Digger; the bundled directory has
+  no license and the original sprites' rights are unverified. Left pending.
+- `dreadheadparkour`: Construct web export of GameTornado's commercial
+  Dreadhead Parkour ("Web Edition" in `THIRD_PARTY.md`); no open license.
+  Left pending.
+- `drakonas`: MIT, but the bundled early prototype only shows a lone fighter
+  over blurred terrain in the sandbox (no enemies/objects rendered after a
+  minute of play), so no representative capture yet; left in the queue.
+
 ## MIT notices for screenshot artwork
 
 Applies to the MIT-licensed screenshot sources above (and the Bootstrap Icons
@@ -283,6 +323,8 @@ Copyright (C) 2011 Hakim El Hattab, http://hakim.se
 Copyright (c) 2016-2025 Caleb Evans
 
 Copyright (c) 2015 Couchfriends
+
+Copyright (c) 2022 Salvatore Previti
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -344,6 +386,40 @@ licensed under the GNU General Public License version 3. This thumbnail is a
 screenshot-derived work distributed under the same GPL-3.0 terms, without any
 warranty; see <https://www.gnu.org/licenses/gpl-3.0.html>. Corresponding
 source: <https://github.com/Areso/1255-burgomaster>.
+
+## BSD notice — custom-tetris.jpg
+
+Copyright (c) 2005-2012, Ondrej Zara
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the above copyright notice, this
+list of conditions and the following disclaimer are retained; that
+redistributions in binary form reproduce them in the documentation and/or
+other materials provided with the distribution; and that neither the name of
+Ondrej Zara nor the names of contributors are used to endorse or promote
+products derived from this software without specific prior written permission.
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES ARE DISCLAIMED (full text in the bundled
+`games/custom-tetris/license.txt`).
+
+## GPL notice — doom-13k.jpg
+
+Yet Another Doom Clone is Copyright (C) 2019 Nicholas Carlini and is licensed
+under the GNU General Public License version 3. This thumbnail is a
+screenshot-derived work distributed under the same GPL-3.0 terms, without any
+warranty; see <https://www.gnu.org/licenses/gpl-3.0.html>. Corresponding
+source: <https://github.com/carlini/js13k2019-yet-another-doom-clone>.
+
+## ISC notice — devil-glitches.jpg
+
+Copyright (c) 2016 agar3s (Jorge Palacios)
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies. THE SOFTWARE
+IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO
+THIS SOFTWARE.
 
 ## GPL notice — bounce-back.jpg
 

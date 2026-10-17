@@ -2,7 +2,7 @@
 
 Catalog: [Dragon-Gaming-Platforms/Dragon-Gaming-Platforms](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms),
 revision `b4241132454e513100b67c6bee457eda62e9e140` (`games.js`).
-Remaining: **159 games** (73 generate=true; 86 generate=false).
+Remaining: **148 games** (66 generate=true; 82 generate=false).
 
 - `generate=true`: create original artwork based on the actual game's gameplay/theme.
 - `generate=false`: capture gameplay or reuse existing artwork after verifying display rights.
@@ -35,22 +35,11 @@ Remaining: **159 games** (73 generate=true; 86 generate=false).
 - `chess` generate=false
 - `clumsy-bird` generate=false
 - `crappybird` generate=false
-- `crossword-cafe` generate=true
 - `crystalquest` generate=false
-- `curling-endgame` generate=true
-- `custom-tetris` generate=false
-- `dante-13k` generate=false
-- `detective-desk` generate=true
-- `devil-glitches` generate=false
 - `diablo-js` generate=false
-- `dice-delver` generate=true
 - `digger` generate=false
-- `dojo-duel` generate=true
-- `doom-13k` generate=false
 - `drakonas` generate=false
 - `dreadheadparkour` generate=false
-- `drift-racer` generate=true
-- `drone-survey` generate=true
 - `duck-hunt` generate=false
 - `dungeon-delver` generate=true
 - `eaglercraft-1-12-2-offline-js` generate=false
