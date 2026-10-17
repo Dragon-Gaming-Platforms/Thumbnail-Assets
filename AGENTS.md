@@ -83,10 +83,11 @@ python3 scripts/prepare_thumbnail.py /scratch/capture.png thumbnails/<id>.jpg
 ```
 
 ## Delivery and Git safety
-- Work only on the session's assigned branch. In this Arena session it is
-  `arena/04601c7c-thumbnail-assets`; never switch branches or push to `main`.
+- Work only on the branch assigned by the current session instructions.
+  Verify it with `git branch --show-current`; never switch branches or push
+  to `main`. Do not reuse branch names from previous sessions.
 - Commit small batches and push frequently: sandboxes can reset.
-  `git push origin arena/04601c7c-thumbnail-assets`
+  Push explicitly to the assigned branch, not an old branch from chat history.
 - Use local `git` for changes and `gh` for GitHub operations; never request
   credentials. Reconcile remote changes without force-pushing.
 - Setup/queue instructions must be committed and pushed before adding art.

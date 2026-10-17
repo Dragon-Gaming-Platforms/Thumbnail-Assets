@@ -1,8 +1,9 @@
 # Thumbnail provenance and licenses
 
 These are **source** thumbnails in the flat `thumbnails/` drop zone. The
-`thumbnails/jpg/` derivatives belong to CI. All sources below are 800×260 JPEGs
-under 40 KiB. Illustrations are thematic artwork, not gameplay screenshots.
+`thumbnails/jpg/` derivatives belong to CI. Source formats and sizes vary; CI
+creates optimized 800×260 derivatives for raster sources. Entries marked as
+illustrations are thematic artwork, not gameplay screenshots.
 
 ## Bottom-up batch 1
 
@@ -75,6 +76,186 @@ under this repository's MIT license; no borrowed logos or franchise characters.
 | `space-invaders.jpg` | Local browser gameplay screenshot of [`games/space-invaders`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/db88cc18c657878aacf5c896bdc69f35342b415d/games/space-invaders), after starting, firing and moving. Cropped to the robot-alien formation and explosion. No audio. | Bundled MIT license, © 2014 Tóth Róbert. See MIT notices below. |
 | `sandspiel.jpg` | Existing official [`Screenshot.png`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/db88cc18c657878aacf5c896bdc69f35342b415d/games/sandspiel/Screenshot.png), referenced by the bundled game README. Cropped/resized to show the simulated vegetation, fire, sand and water. | Bundled MIT license, © 2018 Max Bittker. See MIT notices below. |
 | `radius-raid.jpg` | Local runtime gameplay-frame capture of [`games/radius-raid`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/db88cc18c657878aacf5c896bdc69f35342b415d/games/radius-raid), after Play and actual movement/firing. Browser screenshots stalled, so captured the six actual canvas buffers at one tick and composited them in DOM order at their live parallax offsets. No new gameplay objects or reconstructed artwork; center-cropped and brightness increased 1.4×. No audio. | Bundled MIT license, © 2014 Jack Rugile. See MIT notices below. |
+
+## Bottom-up batch 6
+
+Ten original AI-generated thematic illustrations made without external
+artwork/reference images. Gameplay themes were inspected in the actual
+single-file game HTML/logic at platform revision
+[`b4241132454e513100b67c6bee457eda62e9e140`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/b4241132454e513100b67c6bee457eda62e9e140).
+These are illustrations, not gameplay screenshots or exact puzzle states.
+Distributed under this repository's MIT license; no borrowed logos, card-deck
+illustrations, commercial mascots or franchise characters. Sources were
+center-cover-cropped and JPEG-optimized to 800×260, <=40 KiB, then visually
+reviewed at game-card size.
+
+| Source file | Theme | Game inspected |
+| --- | --- | --- |
+| `solitaire-classic.jpg` | Klondike stock, descending red/black columns and foundation piles | [`Solitaire-Classic.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Solitaire-Classic.html) |
+| `sokoban-quest.jpg` | Warehouse walls, wooden crates, target pads and a crate-pushing worker | [`Sokoban-Quest.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Sokoban-Quest.html) |
+| `snow-ridge.jpg` | Snowboard rider, fixed mountain slope, jumps and an avalanche plume | [`Snow-Ridge.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Snow-Ridge.html) |
+| `snake-game.jpg` | Segmented neon grid snake, glowing collectibles and obstacles | [`Snake-Game.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Snake-Game.html) |
+| `slingstorm.jpg` | Slingshot projectile arc, wind and a collapsing timber/stone structure | [`Slingstorm.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Slingstorm.html) |
+| `skyline-planner.jpg` | Connected city parcels, housing, employment, parks and electricity | [`Skyline-Planner.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Skyline-Planner.html) |
+| `sky-hop.jpg` | Bouncing jumper, spring/moving/fragile platforms and star fragments | [`Sky-Hop.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Sky-Hop.html) |
+| `silent-rescue.jpg` | Three sensor nodes, mountain echoes and a candidate beacon on a terrain map | [`Silent-Rescue.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Silent-Rescue.html) |
+| `signal-caravan.jpg` | Cargo convoy, escort guard, shield and a deployed route beacon | [`Signal-Caravan.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Signal-Caravan.html) |
+| `shan-hai.jpg` | Chinese-mythology deckbuilding cards, sword/talisman/herbal motifs and a relic | [`Shan-Hai.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Shan-Hai.html) |
+
+## Bottom-up batch 7
+
+Ten original AI-generated thematic illustrations made without external
+artwork/reference images. Themes were inspected in the actual single-file
+HTML/logic at platform revision
+[`b4241132454e513100b67c6bee457eda62e9e140`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/b4241132454e513100b67c6bee457eda62e9e140).
+These are illustrations, not screenshots or exact game/puzzle states. They
+are distributed under this repository's MIT license. Card suit pips and
+wardrobe designs are original generic motifs, with no borrowed branded card
+art, fashion logos, commercial mascots or franchise characters. The relay
+illustration is an abstract puzzle motif, not an electrical design diagram.
+Each source was center-cover-cropped and JPEG-optimized to 800×260, <=40 KiB,
+then visually reviewed at card size.
+
+| Source file | Theme | Game inspected |
+| --- | --- | --- |
+| `shadow-post.jpg` | Stealth courier, mailboxes, guard light cone and safe alley shadows | [`Shadow-Post.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Shadow-Post.html) |
+| `runway-stylist.jpg` | Fashion editorial studio, dress form and coordinated wardrobe selections | [`Runway-Stylist.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Runway-Stylist.html) |
+| `river-holdem.jpg` | Three-seat Holdem table, five community cards, hole cards and tournament chips | [`River-Holdem.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/River-Holdem.html) |
+| `relay-coordination.jpg` | Simplified feeder paths, relay modules, an isolated fault and upstream backup | [`Relay-Coordination.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Relay-Coordination.html) |
+| `radish-guard.jpg` | Garden defense path, modular turrets, build foundations and a protected radish | [`Radish-Guard.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Radish-Guard.html) |
+| `pulse-studio.jpg` | Six-track step-sequencer, varied note strengths and a playhead | [`Pulse-Studio.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Pulse-Studio.html) |
+| `prism-orchard.jpg` | Mirrors, prisms and RGB beams meeting fruit-tree spectrum requirements | [`Prism-Orchard.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Prism-Orchard.html) |
+| `prism-breaker.jpg` | Paddle, reflected light ball, prism bricks and an optical core | [`Prism-Breaker.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Prism-Breaker.html) |
+| `pocket-golf.jpg` | One miniature golf hole with sand, ice, water and a putting line | [`Pocket-Golf.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Pocket-Golf.html) |
+| `pocket-farm.jpg` | Seasonal crop beds, watering/harvest tools, farmhouse and creekside bridge | [`Pocket-Farm.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Pocket-Farm.html) |
+
+## Bottom-up batch 8
+
+Ten original AI-generated thematic illustrations made without external
+artwork/reference images. Themes were inspected in the actual single-file
+HTML/logic at platform revision
+[`b4241132454e513100b67c6bee457eda62e9e140`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/b4241132454e513100b67c6bee457eda62e9e140).
+These are illustrations, not screenshots, exact puzzle states, scientific
+reports, or engineering plans. Distributed under this repository's MIT
+license. No borrowed logos, commercial pet mascots, branded sports kits,
+card-deck artwork or commercial pinball layouts were used. The pet design is
+original; the pathogen and cargo motifs are fictional game concepts, not
+real-world medical or logistics guidance. Each source was cover-cropped and
+JPEG-optimized to 800×260, <=40 KiB, and visually reviewed at card size.
+
+| Source file | Theme | Game inspected |
+| --- | --- | --- |
+| `pocket-empire.jpg` | Fixed-continent 4X strategy: cities, roads, resources and a legion | [`Pocket-Empire.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Pocket-Empire.html) |
+| `pocket-companion.jpg` | Original celestial pet, glowing egg and feeding/play/cleaning care objects | [`Pocket-Companion.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Pocket-Companion.html) |
+| `pixel-clues.jpg` | Nonogram sheet, run-length clues and a simple pixel-heart motif | [`Pixel-Clues.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Pixel-Clues.html) |
+| `photo-safari.jpg` | Camera, alert spotted deer, grassland rabbit and habitat evidence | [`Photo-Safari.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Photo-Safari.html) |
+| `penalty-rush.jpg` | Soccer penalty ball, goal and a generic diving goalkeeper | [`Penalty-Rush.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Penalty-Rush.html) |
+| `pathogen-protocol.jpg` | Conceptual region-network simulation board with spread/research motifs | [`Pathogen-Protocol.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Pathogen-Protocol.html) |
+| `orbital-stowage.jpg` | Orbital cargo bays, differentiated containers and a central balance motif | [`Orbital-Stowage.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Orbital-Stowage.html) |
+| `orbital-pinball.jpg` | Original space pinball playfield, planetary bumpers, rails, ball and flippers | [`Orbital-Pinball.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Orbital-Pinball.html) |
+| `observatory-watch.jpg` | Observatory telescopes, exposure schedule blocks and calibration gaps | [`Observatory-Watch.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Observatory-Watch.html) |
+| `noodle-shift.jpg` | Night-market noodle cart, three pots, ingredients, order slips and ready bowls | [`Noodle-Shift.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Noodle-Shift.html) |
+
+## Bottom-up batch 9
+
+Ten original AI-generated thematic illustrations, made without external
+artwork/reference images after inspecting the actual single-file HTML and
+relevant rules/logic at platform revision
+[`b4241132454e513100b67c6bee457eda62e9e140`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/b4241132454e513100b67c6bee457eda62e9e140).
+Distributed under this repository's MIT license. These are illustrations,
+not screenshots, exact solvable board states or real-world conservation,
+flight or plant-identification guidance. The creature trio, monster army,
+crystal arena and glass ornaments use original designs, not commercial
+franchise characters, branded capture devices, logos or borrowed map art.
+Inspection confirmed that Mosaic Jigsaw is stained-glass restoration (not
+an emulator) and Mole Market is vegetable reaction-tapping (not a mole
+trading game). Catalog metadata was not used as a substitute for inspection.
+Each image was cover-cropped/JPEG-optimized to 800×260, <=40 KiB and visually
+reviewed at card size before removing its queue entry.
+
+| Source file | Theme | Game inspected |
+| --- | --- | --- |
+| `neon-2048.jpg` | Number-merging neon matrix, chain trail and expedition-node motifs | [`Neon-2048.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Neon-2048.html) |
+| `museum-climate.jpg` | Museum exhibit cases, microclimate sensors and six-period control schedule | [`Museum-Climate.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Museum-Climate.html) |
+| `mosaic-jigsaw.jpg` | Rotatable square stained-glass pieces, colored seams and stamped motifs | [`Mosaic-Jigsaw.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Mosaic-Jigsaw.html) |
+| `moon-lander.jpg` | Precision lunar descent, thruster, narrow landing pad and fuel motif | [`Moon-Lander.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Moon-Lander.html) |
+| `monster-tamer.jpg` | Original fire-tail fox, water otter and sprout-ear rabbit on an island expedition | [`Monster-Tamer.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Monster-Tamer.html) |
+| `monster-horde.jpg` | Reverse tower defense: monster formations advancing along three lanes toward a defended gate | [`Monster-Horde.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Monster-Horde.html) |
+| `mole-market.jpg` | Vegetable-stall reaction targets: bad produce, smiling good produce and a thief | [`Mole-Market.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Mole-Market.html) |
+| `moba-frontier.jpg` | Three-lane crystal-core arena, towers, minions, hero and neutral objective | [`Moba-Frontier.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Moba-Frontier.html) |
+| `mist-valley-herbarium.jpg` | Four botanical specimens, leaf-margin/vein inspection and candidate reference folio | [`Mist-Valley-Herbarium.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Mist-Valley-Herbarium.html) |
+| `mine-matrix.jpg` | Space-themed Minesweeper survey board, neighboring counts, flags and fixed beacons | [`Mine-Matrix.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Mine-Matrix.html) |
+
+## Bottom-up batch 10
+
+Ten original AI-generated thematic illustrations, made without external
+artwork/reference images after inspecting the actual single-file HTML and
+relevant rules/logic at platform revision
+[`f077145667b5827407507ff807aef889c76ad8ac`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/f077145667b5827407507ff807aef889c76ad8ac).
+Distributed under this repository's MIT license. These are illustrations,
+not screenshots, exact legal/solvable puzzle states, financial advice or
+real-world survival/beekeeping instructions. CCTV anomalies, maze markers,
+transit routes and crystal gems are original designs rather than commercial
+horror mascots, Pac-Man characters, branded transit maps or candy-game art.
+Market charts represent a fictional game, not actual companies or returns.
+Each image was cover-cropped/JPEG-optimized to 800×260, <=40 KiB, decoded and
+visually reviewed at card size before removing its queue entry.
+
+| Source file | Theme | Game inspected |
+| --- | --- | --- |
+| `midnight-monitor.jpg` | Night-shift CCTV desk, corridor/ventilation feeds, music box and power/signal controls | [`Midnight-Monitor.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Midnight-Monitor.html) |
+| `midnight-chess.jpg` | Chess tactics: original board-and-piece composition with destination/move highlights | [`Midnight-Chess.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Midnight-Chess.html) |
+| `metro-weaver.jpg` | Original transit network, stations, river crossings, transfer hubs and trains | [`Metro-Weaver.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Metro-Weaver.html) |
+| `merge-orbit.jpg` | Gravity chamber, matching celestial cores, three delivery zones and drop predictor | [`Merge-Orbit.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Merge-Orbit.html) |
+| `maze-chase.jpg` | Neon survey maze, hexagonal beacons, fixed-patrol drones and phase/exit motifs | [`Maze-Chase.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Maze-Chase.html) |
+| `market-pulse.jpg` | Fictional company-research terminal, mixed price history, portfolio and risk motifs | [`Market-Pulse.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Market-Pulse.html) |
+| `island-survival.jpg` | Coastal campsite, supplies, shelter, signal fire and repairable radio | [`Island-Survival.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Island-Survival.html) |
+| `hive-sovereign.jpg` | Seasonal honeycomb colony, queen, brood, stores and differentiated worker tasks | [`Hive-Sovereign.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Hive-Sovereign.html) |
+| `glyph-warden.jpg` | Pinyin typing defense: scroll gate, three ink lanes, glyph spirits, brush and key tiles | [`Glyph-Warden.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Glyph-Warden.html) |
+| `gem-garden.jpg` | Match-three crystal-gem garden board, line/star matches, soil, sprouts and tools | [`Gem-Garden.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Gem-Garden.html) |
+
+## Bottom-up batch 11
+
+Eight original AI-generated thematic illustrations, made without external
+artwork/reference images after inspecting the actual single-file HTML and
+relevant rules/logic at platform revision
+[`f077145667b5827407507ff807aef889c76ad8ac`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/f077145667b5827407507ff807aef889c76ad8ac).
+Distributed under this repository's MIT license. These are illustrations,
+not screenshots, exact puzzle solutions, transmission blueprints, wireless
+frequency plans or real-world military guidance. Plant defenses, invaders,
+runner, glider, maps and game-board designs are original, not commercial
+franchise characters, logos or copied interface art. All eight images were
+cover-cropped/JPEG-optimized to 800×260, <=40 KiB, decoded and visually
+reviewed at card size before removing their queue entries.
+
+This batch stops at Flappy Glider: Drone Survey, Dungeon Delver and further
+top-down IDs were already present in the other agent's open PR #8 and were
+left untouched. The eight claimed IDs were communicated on that PR to avoid
+duplicate artwork as the work ranges converge.
+
+| Source file | Theme | Game inspected |
+| --- | --- | --- |
+| `gear-calibrator.jpg` | Clockwork cartridges, meshing gears, belt drive and output-calibration motifs | [`Gear-Calibrator.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Gear-Calibrator.html) |
+| `garden-front.jpg` | Five-lane botanical defense, original plant formations, sunlight and leaf-energy effects | [`Garden-Front.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Garden-Front.html) |
+| `fruit-slice.jpg` | Timed ingredient slicing, apples/pears/citrus/plums, order cards and a distinct iron hazard | [`Fruit-Slice.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Fruit-Slice.html) |
+| `frontier-command.jpg` | Three-lane base strategy, crystal economy, buildings and original unit-role silhouettes | [`Frontier-Command.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Frontier-Command.html) |
+| `frequency-bureau.jpg` | Abstract station-channel graph, strong interference edge, locked node and capacity tray | [`Frequency-Bureau.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Frequency-Bureau.html) |
+| `forest-dash.jpg` | Original woodland cub runner, track switching, log jump, branch gate and collectible trail | [`Forest-Dash.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Forest-Dash.html) |
+| `fleet-duel.jpg` | Ocean deduction grids, friendly fleet, reefs, hit markers and limited sonar motif | [`Fleet-Duel.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Fleet-Duel.html) |
+| `flappy-glider.jpg` | Original triangular glider, changing mint/gold wind gates and shield-feather pickup | [`Flappy-Glider.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Flappy-Glider.html) |
+
+## Middle-of-queue screenshot batch 3
+
+The reconciled 133-game queue's exact center before this addition was
+`drone-survey` (row 67), already claimed in open PR #8. Nearby items were skipped when they were claimed or
+when bundled-art display rights remained unclear; `enduro` was the nearest
+unclaimed screenshot-only title with a verified MIT source license. This is a
+local browser capture of live gameplay from the pinned platform snapshot. The
+right-hand panel adds plain text only; no logos or extra game art were used.
+
+| ID / source file | Method and subject | Provenance / rights |
+| --- | --- | --- |
+| `enduro.jpg` | Gameplay screenshot composition: retro racing road, traffic and the game's lap/position display; plain-text title and controls added outside the viewport | [`games/enduro/index.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/enduro/index.html), [README](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/enduro/README.md), and [MIT license](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/enduro/license.txt); `THIRD_PARTY.md` also lists MIT. The source credits Rafael Castro (`rafaelcastrocouto`, 2019). The screenshot uses the local game viewport only, without logos or external visual assets; see MIT notice below. |
 
 ## Top-down batch 1
 
@@ -216,30 +397,31 @@ single-file titles); repo MIT license; no borrowed logos or characters:
 | `drift-racer.jpg` | Bird's-eye harbor circuit with four cars drifting through a hairpin, nitro burst and gauge motifs | [`Drift-Racer.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Drift-Racer.html) |
 | `drone-survey.jpg` | Grid map with target and no-fly cells, a quadcopter flying ordered route segments, battery and checklist | [`Drone-Survey.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Drone-Survey.html) |
 
+## Top-down batch 8
+
+Same pinned platform snapshot (`b4241132454e513100b67c6bee457eda62e9e140`).
+
+| Source file | Method and provenance | Rights |
+| --- | --- | --- |
+| `elematter.jpg` | Gameplay screenshot of [`games/elematter`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/b4241132454e513100b67c6bee457eda62e9e140/games/elematter) (js13kGames 2014 tower defense): wave-2 elemental enemies winding along the path past earth and water towers at ×3 speed; cropped to the board, brightness 1.15×. | **MIT**, bundled `LICENSE.md`, © 2014 Jack Rugile. See MIT notices below. |
+
+Original AI-generated illustration (no external artwork/reference images),
+theme checked against the game HTML/logic in the same snapshot; repo MIT
+license; no borrowed logos or characters:
+
+| Source file | Theme | Game inspected |
+| --- | --- | --- |
+| `dungeon-delver.jpg` | Top-down candlelit stone dungeon with three original adventurer classes (dashing warrior, archer, ember mage) fighting skeletons and slimes, branching doorways and a distant ember throne | [`Dungeon-Delver.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Dungeon-Delver.html) |
+
 ## Top-down batch 9
 
 Same pinned platform snapshot (`b4241132454e513100b67c6bee457eda62e9e140`).
 
 | Source file | Method and provenance | Rights |
 | --- | --- | --- |
-| `enduro.jpg` | Gameplay screenshot of [`games/enduro`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/b4241132454e513100b67c6bee457eda62e9e140/games/enduro) (HTML5 canvas recreation; all graphics drawn by the game's code): the player's white car overtaking traffic on a left-hand bend during day 1. Frame upscaled 3× nearest-neighbour, cropped to the road. | **MIT**, bundled `license.txt`, © 2019 rafaelcastrocouto. See MIT notices below. |
 | `flappy-2048.jpg` | Gameplay screenshot of [`games/flappy-2048`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/b4241132454e513100b67c6bee457eda62e9e140/games/flappy-2048): the "0" tile flapping through a gap in the 2048-style tile wall. Cropped to the board. | **MIT**; the bundled `LICENSE.txt` is © 2014 Gabriele Cirulli (2048), port by hczhcz. See MIT notices below. |
 
-Original AI-generated illustrations (no external artwork/reference images),
-themes checked against the game HTML/logic in the same snapshot (Chinese-language
-single-file titles); repo MIT license; no borrowed logos or characters:
-
-| Source file | Theme | Game inspected |
-| --- | --- | --- |
-| `ember-tactics.jpg` | Hex-grid battlefield with a three-hero squad (guardian, healer, blade-dancer) facing ember-eyed soldiers, glowing movement sigils | [`Ember-Tactics.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Ember-Tactics.html) |
-| `fishing-harbor.jpg` | Golden-hour fishing boat hooking a big fish with a vertical catch gauge, harbor town with fish market and workshop behind | [`Fishing-Harbor.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Fishing-Harbor.html) |
-| `flappy-glider.jpg` | Original pixel bird-glider flapping through glowing wind gates, one gold gate, shield-feather pickup | [`Flappy-Glider.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Flappy-Glider.html) |
-| `fleet-duel.jpg` | Two naval grids in a command room: own fleet vs. fogged enemy sea with hit/miss markers and a sonar sweep | [`Fleet-Duel.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Fleet-Duel.html) |
-| `forest-dash.jpg` | Original chestnut runner on a three-lane forest railway collecting pinecones, dodging a barrier and branch arch, magnet and shield power-ups | [`Forest-Dash.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Forest-Dash.html) |
-| `frequency-bureau.jpg` | Night city map of colour-coded tower nodes linked by interference edges with red conflict rings | [`Frequency-Bureau.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Frequency-Bureau.html) |
-| `fruit-slice.jpg` | Fruits sliced mid-air by a glowing blade trail with juice splashes, a spiked iron ball to avoid and a kitchen order ticket | [`Fruit-Slice.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Fruit-Slice.html) |
-| `gear-calibrator.jpg` | Brass clock movement with a train of slotted gears being placed by tweezers, direction arrows, speed and torque dials | [`Gear-Calibrator.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Gear-Calibrator.html) |
-| `frontier-command.jpg` | Three battle lanes from a crystal-mining base toward an enemy fortress, original sci-fi units clashing under a crimson sky | [`Frontier-Command.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Frontier-Command.html) |
+The other twelve batch 7–9 IDs that were produced in parallel (`ecosystem-keeper`, `elemental-sandbox`, `ember-tactics`, `enduro`, `fishing-harbor`, `flappy-glider`, `fleet-duel`, `forest-dash`, `frequency-bureau`, `frontier-command`, `fruit-slice`, `gear-calibrator`) keep the versions already published from `main`; see the middle-of-queue batches.
 
 ## Pending rights checks
 
@@ -254,6 +436,45 @@ single-file titles); repo MIT license; no borrowed logos or characters:
 - `space-huggers`: the inspected bundled GPL file conflicts with a README
   statement saying the game is not intended for redistribution. Left pending
   rather than deciding the artwork license from contradictory notices.
+- `jolly-jumper`: its bundled README says “All copyright reserved by the
+  Author.” No display license for the bundled game artwork was established, so
+  no screenshot or extracted art was reused.
+- `linux-6.1.14-rv32ima-on-scratch`: the catalog points to a remote TurboWarp
+  embed, not a vendored game. The Scratch project is credited to bilman66alt
+  under CC BY-NC-SA 2.0; no gameplay capture was available in this sandbox.
+  Any future use must include attribution and comply with the noncommercial
+  and share-alike terms. No AI replacement was made.
+- `eaglercraft-1-12-2-offline-wasm` and `eaglercraft-1-8-8-offline-wasm`:
+  the 1.12.2 item was the exact queue midpoint (row 71) at platform snapshot
+  `f077145667b5827407507ff807aef889c76ad8ac`. The queue points to 20 MB and
+  15 MB [self-contained Minecraft 1.12.2](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Eaglercraft-1.12.2-offline-WASM.html)
+  and [1.8.8 browser builds](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Eaglercraft-1.8.8-offline-WASM.html).
+  Platform [`THIRD_PARTY.md`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/THIRD_PARTY.md#L105-L106)
+  attributes them to EaglercraftX and contributors and lists GPL-3.0 / MIT
+  wrapper. The linked [`EymenWSMC/eaglerarchive` snapshot](https://github.com/EymenWSMC/eaglerarchive/tree/1aebc4092d5158b928d85eed3c4a8c625d26c67b)
+  has no license metadata or root license file, and the notices do not
+  establish display rights for every embedded game-art asset. Both
+  screenshot-only queue items remain pending; no screenshot or AI substitute
+  was used.
+- `echoed-path`: the [asset-repo page](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Assets/blob/2e49b251f665e8707667ba8ebeb83e1a0e10a154/games/echoed-path/index.html)
+  is only a TurboWarp iframe to Scratch project 1254864759 by Hollow_Song.
+  Its [`THIRD_PARTY.md`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Assets/blob/2e49b251f665e8707667ba8ebeb83e1a0e10a154/THIRD_PARTY.md#L201)
+  records Scratch's default CC BY-NC-SA 2.0 terms. The project is remote, and
+  this thumbnail distribution's fit with the noncommercial/share-alike terms
+  is not established; no screenshot or AI substitute was used, so it remains
+  pending.
+- `duck-hunt`: the platform's pinned [`THIRD_PARTY.md`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/THIRD_PARTY.md#L67)
+  identifies Duck Hunt JS by Matt Surabian as MIT, but the upstream
+  [README](https://github.com/MattSurabian/DuckHunt-JS/blob/5a28db7442ebc7dc8060342413df24c0319f4190/README.md)
+  only describes its sprite-image workflow and does not give separate
+  provenance for the bundled duck/dog sprite sheet. I could not verify display
+  rights for those pixels from the code license alone; no screenshot or AI
+  substitute was made, so the item remains pending.
+- `emberwind`: the pinned game [README](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/emberwind/README.md)
+  attributes the lite game to TimeTrap AB, while its [BSD license](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/emberwind/LICENSE)
+  credits Opera Software and does not separately clarify the sprite-atlas and
+  title-art rights. No screenshot or extracted art was used; leave pending
+  until display rights for the bundled art are established.
 
 - `3d-graphing-calculator`: the catalog path is an external page that only
   embeds a TurboWarp/Scratch project (`turbowarp.org/973800483`), which is not
@@ -268,7 +489,6 @@ single-file titles); repo MIT license; no borrowed logos or characters:
   Tanks 2; the platform `THIRD_PARTY.md` lists no open license. Left pending.
 - `balatro`: fan/community web port of LocalThunk's commercial Balatro; no
   display rights for its artwork. Left pending.
-
 - `bloons-td4`: single-file web port of Ninja Kiwi's commercial Bloons TD 4;
   the platform `THIRD_PARTY.md` lists it only as a "Web Port" with no open
   license. Left pending.
@@ -282,18 +502,15 @@ single-file titles); repo MIT license; no borrowed logos or characters:
   dominates the menu. In the sandbox the round ends immediately after the
   countdown (no snake drawn), so no usable gameplay frame was captured yet;
   left in the queue.
-
 - `chess`: the bundled `games/chess/LICENSE` is an unfilled Apache-2.0
   template while the platform credits say MIT (lhartikk/simple-chess-ai); the
   visible piece sprites are the chessboard.js "wikipedia" set (Colin M.L.
   Burnett), whose license terms could not be verified from the sandbox. Left
   pending.
-
 - `clumsy-bird` and `crappybird`: GPL-3.0 / MIT code, but the bundled bird
   sprites (`data/img/clumsy.png`, `bird.png`) are the original Flappy Bird
   character artwork (© .GEARS / Dong Nguyen), which the code licenses do not
   cover. Left pending.
-
 - `crystalquest`: remake of the 1987 Macintosh game; the bundled directory
   has no license file and the alien/crystal sprites' origin is unverified.
   Left pending.
@@ -307,10 +524,6 @@ single-file titles); repo MIT license; no borrowed logos or characters:
 - `drakonas`: MIT, but the bundled early prototype only shows a lone fighter
   over blurred terrain in the sandbox (no enemies/objects rendered after a
   minute of play), so no representative capture yet; left in the queue.
-
-- `emberwind`: the HTML5 port is BSD-licensed by Opera Software, but the
-  storybook artwork belongs to TimeTrap AB's commercial Emberwind; display
-  rights for the art are unverified. Left pending.
 - `escape-road`: a Unity web build loaded from a third-party CDN (commercial
   Azgames title); no open license. Left pending.
 - `floppybird`: Apache-2.0 code, but the sprites are the Flappy Bird artwork
@@ -337,31 +550,11 @@ Copyright (c) 2019-2024 The Bootstrap Authors
 
 Copyright (c) 2014 Jack Rugile
 
-Copyright (c) 2019 by rafaelcastrocouto
-
-Copyright (c) 2014 Gabriele Cirulli (Flappy 2048 port by hczhcz)
-
 Copyright (c) 2014 Tóth Róbert
 
 Copyright (c) 2018 Max Bittker
 
-Copyright (c) 2015 Krzysztof Budnik
-
-Copyright (c) 2015 Aerolab
-
-Copyright (c) 2017 maxwellito
-
-Copyright (c) 2012 Dionysis "dionyziz" Zindros dionyziz@gmail.com
-
-Copyright (c) 2021 Cody Ebberson
-
-Copyright (C) 2011 Hakim El Hattab, http://hakim.se
-
-Copyright (c) 2016-2025 Caleb Evans
-
-Copyright (c) 2015 Couchfriends
-
-Copyright (c) 2022 Salvatore Previti
+Copyright (c) 2019 by rafaelcastrocouto
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -380,6 +573,26 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+Copyright (c) 2014 Gabriele Cirulli (Flappy 2048 port by hczhcz)
+
+Copyright (c) 2015 Krzysztof Budnik
+
+Copyright (c) 2015 Aerolab
+
+Copyright (c) 2017 maxwellito
+
+Copyright (c) 2012 Dionysis "dionyziz" Zindros dionyziz@gmail.com
+
+Copyright (c) 2021 Cody Ebberson
+
+Copyright (C) 2011 Hakim El Hattab, http://hakim.se
+
+Copyright (c) 2016-2025 Caleb Evans
+
+Copyright (c) 2015 Couchfriends
+
+Copyright (c) 2022 Salvatore Previti
 
 ## BSD notice — t-rex-runner.jpg
 
@@ -415,6 +628,41 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 Additional original source notice: Copyright (c) 2014 The Chromium Authors.
 All rights reserved.
+
+## Middle-of-queue batch 1
+
+These original 800×260 SVG illustrations were authored for this repository
+after inspecting each game's actual HTML and mechanics. They are not gameplay
+screenshots, and no external visual assets, sprites, or logos were copied.
+The source games are by `wangzifan396-wzf` in
+[`mini-browser-games`](https://github.com/wangzifan396-wzf/mini-browser-games),
+which declares the MIT License (copyright © 2026 wangzifan396-wzf). The SVGs
+are original work and are covered by this repository's MIT license.
+
+| Source file | Theme | Game inspected |
+| --- | --- | --- |
+| `lantern-memory.svg` | Four colored lamps illustrating the game's growing recall sequence | [`Lantern-Memory.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/db88cc18c657878aacf5c896bdc69f35342b415d/games/singlefiles/Lantern-Memory.html); [upstream source](https://github.com/wangzifan396-wzf/mini-browser-games/blob/f33cf6e1cd06b201c9910f9830e4c7285479460e/lantern-memory.html) |
+| `lockmaster-shift.svg` | Boat in a water-level lock chamber with gates and pump indicator | [`Lockmaster-Shift.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/db88cc18c657878aacf5c896bdc69f35342b415d/games/singlefiles/Lockmaster-Shift.html); [upstream source](https://github.com/wangzifan396-wzf/mini-browser-games/blob/f33cf6e1cd06b201c9910f9830e4c7285479460e/lockmaster-shift.html) |
+| `mahjong-link.svg` | Matching mahjong tile pair with an open side | [`Mahjong-Link.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/db88cc18c657878aacf5c896bdc69f35342b415d/games/singlefiles/Mahjong-Link.html); [upstream source](https://github.com/wangzifan396-wzf/mini-browser-games/blob/f33cf6e1cd06b201c9910f9830e4c7285479460e/mahjong-link.html) |
+
+## Middle-of-queue batch 2
+
+These original 800×260 SVG illustrations were authored after inspecting the
+actual gameplay and rules at platform revision
+[`f077145667b5827407507ff807aef889c76ad8ac`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/f077145667b5827407507ff807aef889c76ad8ac).
+The corresponding standalone game sources were also checked at upstream commit
+[`e459369b31c35658855e7ef50b46fa9f994750d`](https://github.com/wangzifan396-wzf/mini-browser-games/tree/e459369b31c35658855e7ef50b46fa9f994750d),
+whose pinned [`LICENSE`](https://github.com/wangzifan396-wzf/mini-browser-games/blob/e459369b31c35658855e7ef50b46fa9f994750d/LICENSE)
+declares MIT (© 2026 wangzifan396-wzf). No game code, sprites, screenshots,
+logos, or other third-party visual assets were copied; these are original
+vector artwork distributed under this repository's MIT license.
+
+| Source file | Theme | Game inspected |
+| --- | --- | --- |
+| `ecosystem-keeper.svg` | Biome succession, soil and water metrics, wildlife, and a connected food web | [`Ecosystem-Keeper.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Ecosystem-Keeper.html); [upstream source](https://github.com/wangzifan396-wzf/mini-browser-games/blob/e459369b31c35658855e7ef50b46fa9f994750d/ecosystem-keeper.html) |
+| `elemental-sandbox.svg` | Pixel-grid particles and material interactions: sand, water, fire, plant growth and steam | [`Elemental-Sandbox.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Elemental-Sandbox.html); [upstream source](https://github.com/wangzifan396-wzf/mini-browser-games/blob/e459369b31c35658855e7ef50b46fa9f994750d/elemental-sandbox.html) |
+| `ember-tactics.svg` | Eight-by-eight ashland battle map for mission 3's central-fire defense | [`Ember-Tactics.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Ember-Tactics.html); [upstream source](https://github.com/wangzifan396-wzf/mini-browser-games/blob/e459369b31c35658855e7ef50b46fa9f994750d/ember-tactics.html) |
+| `fishing-harbor.svg` | Harbor cast, float, fish, line-tension gauge and five fishing locations | [`Fishing-Harbor.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Fishing-Harbor.html); [upstream source](https://github.com/wangzifan396-wzf/mini-browser-games/blob/e459369b31c35658855e7ef50b46fa9f994750d/fishing-harbor.html) |
 
 ## GPL notice — 1255-burgomaster.jpg
 

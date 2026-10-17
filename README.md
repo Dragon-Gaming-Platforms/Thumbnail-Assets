@@ -1,5 +1,7 @@
 # <div align="center"> Thumbnail Assets </div>
 
+[![Build & Publish Thumbnails](https://github.com/Dragon-Gaming-Platforms/Thumbnail-Assets/actions/workflows/build-thumbnails.yml/badge.svg)](https://github.com/Dragon-Gaming-Platforms/Thumbnail-Assets/actions/workflows/build-thumbnails.yml)
+
 Companion asset repository for
 [Dragon-Gaming-Platforms](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms).
 It holds the platform's game-card artwork **outside** the main repository so the
@@ -50,6 +52,28 @@ matching is the only safe rule.
 6. The platform repo's `sync-thumbnails.yml` (manual dispatch + nightly cron)
    reads that published set and writes the matching `"image"` field into
    `games.js`, `cdn.games.js` and `singlefile.html`.
+
+## Image toolchain
+
+CI uses Python 3.12 and the fully pinned Python dependencies in
+[`.github/requirements-image-toolchain.txt`](.github/requirements-image-toolchain.txt).
+Install with
+`python -m pip install --only-binary=:all: -r .github/requirements-image-toolchain.txt`
+and run
+`python scripts/image_toolchain.py` to check real SVG shapes/text rendering and
+PNG decoding through both Python SVG backends. CairoSVG also needs the system
+Cairo runtime (`libcairo2` on Ubuntu); the workflow explicitly installs it
+alongside the primary `librsvg2-bin` renderer before checking Python backends.
+
+ReportLab 3.6.13 has no Python 3.12 wheels and falls back to an obsolete native
+source build. The toolchain uses ReportLab 4 with the separately packaged
+`rl-renderPM` wheel; `scripts/image_toolchain.py` explicitly selects its
+`_renderPM` backend rather than relying on ReportLab's optional `rlPyCairo`
+default. Do not fix installation failures by disabling build isolation,
+downgrading Python, or ignoring pip errors. When updating the lock, retain
+compatible wheels for CPython 3.12/Linux and rerun the rendering checks.
+Workflow, dependency-lock and rasterizer-helper changes trigger the publisher
+on `main`, as do artwork changes.
 
 ## Rules for art
 

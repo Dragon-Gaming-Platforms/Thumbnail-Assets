@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" role="img" aria-labelledby="title desc">
+  <title id="title">Elemental Sandbox</title>
+  <desc id="desc">A pixel-grid particle lab with sand, water, fire, plants and steam reactions, inspired by the game's cellular-material sandbox.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d131c"/>
+      <stop offset=".55" stop-color="#17202c"/>
+      <stop offset="1" stop-color="#111820"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#15232b"/>
+      <stop offset="1" stop-color="#0b1118"/>
+    </linearGradient>
+    <pattern id="cells" width="14" height="14" patternUnits="userSpaceOnUse">
+      <path d="M14 0H0V14" fill="none" stroke="#a7bbca" stroke-opacity=".12" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="heat">
+      <stop offset="0" stop-color="#ff7048" stop-opacity=".42"/>
+      <stop offset="1" stop-color="#ff7048" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="260" fill="url(#bg)"/>
+  <path d="M0 228H800" stroke="#6acbd5" stroke-opacity=".32"/>
+  <path d="M29 25V235" stroke="#6acbd5" stroke-width="4"/>
+
+  <text x="52" y="51" fill="#8fe1eb" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="2.2">PARTICLE LAB · 01</text>
+  <text x="50" y="108" fill="#f3f5eb" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="800" letter-spacing=".4">ELEMENTAL</text>
+  <text x="50" y="157" fill="#f3f5eb" font-family="Arial,Helvetica,sans-serif" font-size="45" font-weight="800" letter-spacing="1.8">SANDBOX</text>
+  <text x="53" y="187" fill="#b9c9d1" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="1.6">FALL · FLOW · REACT</text>
+  <g transform="translate(56 212)">
+    <rect x="-5" y="-5" width="10" height="10" fill="#d7b85c"/>
+    <rect x="21" y="-5" width="10" height="10" fill="#368bd3"/>
+    <rect x="47" y="-5" width="10" height="10" fill="#ff7048"/>
+    <rect x="73" y="-5" width="10" height="10" fill="#4ec36a"/>
+    <path d="M95 0H152" stroke="#b8c9d0" stroke-opacity=".4" stroke-dasharray="2 5"/>
+    <text x="162" y="4" fill="#d7e3e1" font-family="Arial,Helvetica,sans-serif" font-size="9" font-weight="700" letter-spacing="1.1">ELEMENTS</text>
+  </g>
+
+  <rect x="322" y="28" width="446" height="204" rx="17" fill="#101b25" stroke="#607c88" stroke-opacity=".8"/>
+  <path d="M340 59H750" stroke="#8da9b0" stroke-opacity=".25"/>
+  <text x="344" y="48" fill="#d7e7e7" font-family="Arial,Helvetica,sans-serif" font-size="10" font-weight="700" letter-spacing="1.6">DRAW A MATERIAL · WATCH THE REACTION</text>
+
+  <rect x="341" y="66" width="281" height="146" rx="7" fill="url(#glass)" stroke="#506775"/>
+  <rect x="341" y="66" width="281" height="146" rx="7" fill="url(#cells)"/>
+  <circle cx="495" cy="145" r="82" fill="url(#heat)"/>
+  <!-- Pixel-like containment basin and layered materials. -->
+  <path d="M355 75V192H606V75" fill="none" stroke="#77808b" stroke-width="9" stroke-linecap="square"/>
+  <path d="M360 188H601V201H360Z" fill="#77808b"/>
+  <path d="M362 174H387V187H362ZM387 161H409V174H387ZM409 174H431V187H409ZM431 161H453V174H431ZM453 174H476V187H453ZM476 161H497V174H476ZM497 174H521V187H497ZM521 161H544V174H521ZM544 174H575V187H544ZM575 161H599V174H575Z" fill="#d7b85c"/>
+  <path d="M526 147H600V160H526ZM540 134H600V147H540ZM560 121H600V134H560ZM581 108H600V121H581Z" fill="#368bd3"/>
+  <path d="M455 188V174H469V160H483V146H497V132H511V119H524V107" fill="none" stroke="#4ec36a" stroke-width="7" stroke-linejoin="miter"/>
+  <path d="M458 171L448 164M476 157L486 149M497 143L489 135" stroke="#8be193" stroke-width="3"/>
+  <path d="M487 158Q477 145 487 132Q495 122 492 111Q511 123 505 137Q516 133 518 123Q529 146 514 158Z" fill="#ff7048"/>
+  <path d="M494 154Q489 146 496 137Q502 147 501 154Z" fill="#ffd36a"/>
+  <path d="M493 102Q482 93 493 84Q503 78 497 69M515 102Q508 94 518 88Q524 84 522 77" fill="none" stroke="#b5e6ed" stroke-width="3" stroke-linecap="round" opacity=".8"/>
+  <path d="M396 123H430V136H396Z" fill="#a8adb8"/>
+  <path d="M401 126H425" stroke="#f4f27a" stroke-width="3"/>
+  <path d="M410 122L405 114L414 108L409 101L422 92" fill="none" stroke="#f4f27a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M413 105H433" stroke="#a8e5f2" stroke-width="2" stroke-dasharray="3 3"/>
+
+  <text x="642" y="78" fill="#9db7c1" font-family="Arial,Helvetica,sans-serif" font-size="9" font-weight="700" letter-spacing="1.1">REACTION LOG</text>
+  <g transform="translate(644 91)">
+    <rect width="28" height="28" rx="5" fill="#152b35" stroke="#4d6976"/>
+    <rect x="6" y="14" width="6" height="7" fill="#368bd3"/>
+    <path d="M17 20Q13 14 19 11Q23 7 21 4Q30 13 24 20Z" fill="#ff7048"/>
+    <path d="M35 14H56M51 10L56 14L51 18" fill="none" stroke="#c7d5d8" stroke-width="1.5"/>
+    <circle cx="68" cy="14" r="7" fill="#b5e6ed"/>
+    <text x="0" y="43" fill="#c7d5d8" font-family="Arial,Helvetica,sans-serif" font-size="8" font-weight="700">STEAM</text>
+  </g>
+  <g transform="translate(644 143)">
+    <rect width="28" height="28" rx="5" fill="#152b35" stroke="#4d6976"/>
+    <rect x="6" y="13" width="7" height="8" fill="#d7b85c"/>
+    <path d="M18 20Q15 15 20 11Q24 7 21 4Q30 14 24 20Z" fill="#ff7048"/>
+    <path d="M35 14H56M51 10L56 14L51 18" fill="none" stroke="#c7d5d8" stroke-width="1.5"/>
+    <rect x="62" y="7" width="15" height="15" rx="2" fill="#a8adb8"/>
+    <text x="0" y="43" fill="#c7d5d8" font-family="Arial,Helvetica,sans-serif" font-size="8" font-weight="700">GLASS</text>
+  </g>
+  <text x="643" y="207" fill="#7ea9b2" font-family="Arial,Helvetica,sans-serif" font-size="8" font-weight="700" letter-spacing=".9">9 REACTION TYPES</text>
+  <rect x="2" y="2" width="796" height="256" rx="13" fill="none" stroke="#d4e3df" stroke-opacity=".15"/>
+</svg>

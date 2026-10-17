@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" role="img" aria-labelledby="title desc">
+  <title id="title">Fishing Harbor</title>
+  <desc id="desc">A harbor angler casts into changing blue water as fish move below the surface, inspired by the game's fishing, reeling and regional collection loop.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0c2231"/>
+      <stop offset=".55" stop-color="#153c50"/>
+      <stop offset="1" stop-color="#102b3b"/>
+    </linearGradient>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6abdd0"/>
+      <stop offset="1" stop-color="#c2e2d6"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2b849d"/>
+      <stop offset="1" stop-color="#103d59"/>
+    </linearGradient>
+    <radialGradient id="sunGlow">
+      <stop offset="0" stop-color="#ffe89a" stop-opacity=".5"/>
+      <stop offset="1" stop-color="#ffe89a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="260" fill="url(#bg)"/>
+  <path d="M0 228H800" stroke="#86c2c8" stroke-opacity=".35"/>
+  <path d="M29 25V235" stroke="#f0cb74" stroke-width="4"/>
+
+  <text x="52" y="51" fill="#f0cb74" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="2.2">TIDAL ANGLING · 01</text>
+  <text x="50" y="108" fill="#f1f6ed" font-family="Arial,Helvetica,sans-serif" font-size="42" font-weight="800" letter-spacing="1.2">FISHING</text>
+  <text x="50" y="157" fill="#f1f6ed" font-family="Arial,Helvetica,sans-serif" font-size="43" font-weight="800" letter-spacing="1.8">HARBOR</text>
+  <text x="53" y="187" fill="#bbd8d5" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="1.5">CAST · FIGHT · DISCOVER</text>
+  <g transform="translate(55 212)">
+    <path d="M0 0H60" stroke="#f0cb74" stroke-width="2"/>
+    <circle cx="9" cy="0" r="5" fill="#f0cb74"/>
+    <circle cx="71" cy="0" r="5" fill="#79c5d1"/>
+    <circle cx="88" cy="0" r="5" fill="#79c5d1"/>
+    <circle cx="105" cy="0" r="5" fill="#79c5d1"/>
+    <circle cx="122" cy="0" r="5" fill="#79c5d1"/>
+    <text x="140" y="4" fill="#d5e8e3" font-family="Arial,Helvetica,sans-serif" font-size="8" font-weight="700" letter-spacing=".8">5 GROUNDS · 24 FISH</text>
+  </g>
+
+  <rect x="322" y="28" width="446" height="204" rx="17" fill="#102b3a" stroke="#5d9aab" stroke-opacity=".8"/>
+  <path d="M340 59H750" stroke="#a6d1d4" stroke-opacity=".25"/>
+  <text x="344" y="48" fill="#d9edeb" font-family="Arial,Helvetica,sans-serif" font-size="10" font-weight="700" letter-spacing="1.5">OPEN WATER · CAST AND REEL</text>
+  <text x="746" y="48" fill="#f0cb74" font-family="Arial,Helvetica,sans-serif" font-size="9" font-weight="700" letter-spacing="1.1" text-anchor="end">SPOT 02 / 05</text>
+
+  <rect x="340" y="65" width="410" height="148" rx="8" fill="url(#sky)"/>
+  <circle cx="677" cy="95" r="55" fill="url(#sunGlow)"/>
+  <circle cx="677" cy="95" r="19" fill="#ffe38c"/>
+  <path d="M340 119Q382 101 421 114T506 110T594 117T674 108T750 116V147H340Z" fill="#547f80" opacity=".72"/>
+  <path d="M340 133Q380 122 426 132T515 128T610 137T696 125T750 132V213H340Z" fill="url(#sea)"/>
+  <path d="M348 145Q373 139 399 145T450 145M471 157Q496 151 521 157T568 157M588 144Q614 139 641 145T692 145M697 167Q720 162 744 168M360 185Q387 180 414 185T466 185M491 197Q518 191 547 197T602 197" fill="none" stroke="#a9e1dd" stroke-opacity=".55" stroke-width="2"/>
+
+  <!-- Small harbor skiff, fishing rod, line and float. -->
+  <g transform="translate(393 135)">
+    <path d="M-32 19H71L57 39Q19 48-18 38Z" fill="#153c47" opacity=".8"/>
+    <path d="M-29 13H67L55 31Q18 40-17 31Z" fill="#b87345" stroke="#f1c47c" stroke-width="2"/>
+    <path d="M-3 13V-7H31V13M32 13V0H48V13" fill="#e7e3cd" stroke="#91a9a4" stroke-width="1.5"/>
+    <rect x="3" y="-3" width="10" height="8" fill="#4b8ca0"/>
+    <rect x="17" y="-3" width="10" height="8" fill="#4b8ca0"/>
+    <path d="M8-8L29-24L40-26" fill="none" stroke="#523f31" stroke-width="3" stroke-linecap="round"/>
+    <path d="M40-26Q77-11 86 24" fill="none" stroke="#f4ead2" stroke-width="1.5"/>
+  </g>
+  <path d="M479 158L488 155L497 158L488 162Z" fill="#ee6f5d" stroke="#fff2d6" stroke-width="1.2"/>
+  <path d="M488 163V180" stroke="#e8f1df" stroke-width="1.2"/>
+
+  <!-- Original fish silhouettes below the waterline. -->
+  <g transform="translate(565 180)">
+    <path d="M-30 0Q-7-19 19-3Q27 0 19 4Q-7 19-30 0Z" fill="#73c7d0"/>
+    <path d="M18-2L31-11V11L18 3Z" fill="#55aab9"/>
+    <circle cx="11" cy="-3" r="1.8" fill="#082738"/>
+    <path d="M-6-9L2-17L8-7" fill="#4793a8"/>
+  </g>
+  <g transform="translate(650 151) scale(.72)">
+    <path d="M-30 0Q-7-19 19-3Q27 0 19 4Q-7 19-30 0Z" fill="#e2bb67"/>
+    <path d="M18-2L31-11V11L18 3Z" fill="#c9974e"/>
+    <circle cx="11" cy="-3" r="1.8" fill="#082738"/>
+  </g>
+
+  <!-- Live catch and line-tension indicators. -->
+  <g transform="translate(711 77)">
+    <rect width="25" height="66" rx="7" fill="#102d3e" stroke="#c4e5df" stroke-opacity=".6"/>
+    <rect x="7" y="12" width="11" height="36" rx="5" fill="#244e5b"/>
+    <rect x="7" y="28" width="11" height="20" rx="5" fill="#e3b95d"/>
+    <path d="M5 52H20" stroke="#edf0dc" stroke-width="2"/>
+    <text x="12.5" y="80" fill="#c4e5df" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="700" text-anchor="middle">TENSION</text>
+  </g>
+  <rect x="2" y="2" width="796" height="256" rx="13" fill="none" stroke="#d9e8d9" stroke-opacity=".15"/>
+</svg>
