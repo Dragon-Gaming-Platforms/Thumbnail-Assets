@@ -164,6 +164,32 @@ characters:
 | `cipher-relay.jpg` | Signal console with six relay switches, overlapping scope traces, one noisy readout and tally cards | [`Cipher-Relay.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Cipher-Relay.html) |
 | `claw-carnival.jpg` | Night-carnival claw cabinets, descending claw over plush prizes, tokens and collection album | [`Claw-Carnival.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Claw-Carnival.html) |
 
+## Top-down batch 6
+
+Same pinned platform snapshot (`b4241132454e513100b67c6bee457eda62e9e140`). Screenshots are local
+headless-browser captures of actual gameplay; no audio.
+
+| Source file | Method and provenance | Rights |
+| --- | --- | --- |
+| `coil.jpg` | Gameplay screenshot of [`games/coil`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/b4241132454e513100b67c6bee457eda62e9e140/games/coil): the player's energy trail curling around glowing orbs. 2× device-pixel capture cropped to the playfield, brightness 1.2×. | **MIT**, bundled `LICENSE`, © 2011 Hakim El Hattab. See MIT notices below. |
+| `connect-four.jpg` | Gameplay screenshot of a two-player same-device game in [`games/connect-four`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/b4241132454e513100b67c6bee457eda62e9e140/games/connect-four) after fourteen moves; 2× capture cropped to the lower rows of the grid. | **MIT**, upstream [caleb531/connect-four `LICENSE.txt`](https://github.com/caleb531/connect-four/blob/main/LICENSE.txt), © 2016–2025 Caleb Evans. See MIT notices below. |
+| `space-shooter.jpg` | Gameplay screenshot composition from [`games/space-shooter`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/b4241132454e513100b67c6bee457eda62e9e140/games/space-shooter): the player ship firing with two enemy explosions and a score pop-up. The bundled game only accepts input through the external Couchfriends phone-controller API script, which is unreachable from the sandbox, so a scratch copy replaced that script with a minimal event stub and the game's own `player.join` / `player.orientation` / `player.clickDown` handlers were triggered; no art added. An empty band of starfield between the explosions and the ship was removed to fit the banner. | **MIT**, bundled `LICENSE`, © 2015 Couchfriends. See MIT notices below. |
+
+Original AI-generated illustrations (no external artwork/reference images),
+themes checked against the game HTML/logic in the same snapshot (Chinese-language
+single-file titles); repo MIT license; no borrowed logos or characters:
+
+| Source file | Theme | Game inspected |
+| --- | --- | --- |
+| `clean-slate.jpg` | Tile, wood, metal and glass panels with layered grime, cleaned patches, and a tool belt with spray, foam, scraper and polisher | [`Clean-Slate.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Clean-Slate.html) |
+| `climbing-route.jpg` | Indoor climbing wall with typed holds, a glowing route through checkpoints, stamina bar and star card | [`Climbing-Route.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Climbing-Route.html) |
+| `clockwork-escape.jpg` | Clock-tower chamber with gears, six arched alcoves, dial-locked chest, key, letter and lantern | [`Clockwork-Escape.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Clockwork-Escape.html) |
+| `comet-weaver.jpg` | Comet-tailed ship grazing neon bullet curtains toward a crystalline core | [`Comet-Weaver.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Comet-Weaver.html) |
+| `connect-arena.jpg` | Seven-column disc frame with a winning red diagonal between a human side and a circuit-chip AI side | [`Connect-Arena.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Connect-Arena.html) |
+| `courier-grid.jpg` | Three-city road map with congested segments, a highlighted route, parcel stops, scooter/van/truck and a deadline dial | [`Courier-Grid.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Courier-Grid.html) |
+| `courtroom-clash.jpg` | Original attorney pointing at a sweating witness, judge with gavel, floating exhibits and a credibility scale | [`Courtroom-Clash.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Courtroom-Clash.html) |
+| `cozy-organizer.jpg` | Top-down cottage room on a grid with multi-cell furniture, a rotating held piece and a tray of remaining items | [`Cozy-Organizer.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Cozy-Organizer.html) |
+
 ## Pending rights checks
 
 - `zedinvaders`: bundled READMEs call it open source, but the inspected game
@@ -212,6 +238,11 @@ characters:
   Burnett), whose license terms could not be verified from the sandbox. Left
   pending.
 
+- `clumsy-bird` and `crappybird`: GPL-3.0 / MIT code, but the bundled bird
+  sprites (`data/img/clumsy.png`, `bird.png`) are the original Flappy Bird
+  character artwork (© .GEARS / Dong Nguyen), which the code licenses do not
+  cover. Left pending.
+
 ## MIT notices for screenshot artwork
 
 Applies to the MIT-licensed screenshot sources above (and the Bootstrap Icons
@@ -246,6 +277,12 @@ Copyright (c) 2017 maxwellito
 Copyright (c) 2012 Dionysis "dionyziz" Zindros dionyziz@gmail.com
 
 Copyright (c) 2021 Cody Ebberson
+
+Copyright (C) 2011 Hakim El Hattab, http://hakim.se
+
+Copyright (c) 2016-2025 Caleb Evans
+
+Copyright (c) 2015 Couchfriends
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
