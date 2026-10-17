@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" role="img" aria-labelledby="title desc">
+  <title id="title">Forest Dash</title>
+  <desc id="desc">A three-lane forest runner jumps a log, ducks a branch gate and collects pinecones along a twelve-route tour.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0c1d1b"/><stop offset=".55" stop-color="#1e4736"/><stop offset="1" stop-color="#192438"/></linearGradient>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#8bc8a1"/><stop offset="1" stop-color="#d6c77d"/></linearGradient>
+    <linearGradient id="track" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#566047"/><stop offset="1" stop-color="#26332c"/></linearGradient>
+    <pattern id="grain" width="22" height="22" patternUnits="userSpaceOnUse"><path d="M22 0H0V22" fill="none" stroke="#d5e2c9" stroke-opacity=".045"/></pattern>
+  </defs>
+  <rect width="800" height="260" fill="url(#bg)"/><rect width="800" height="260" fill="url(#grain)"/><path d="M0 228H800" stroke="#d7b25d" stroke-opacity=".4"/><path d="M29 25V235" stroke="#8ec477" stroke-width="4"/>
+  <text x="52" y="51" fill="#b6dc83" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="2">FOREST CIRCUIT · 01</text>
+  <text x="50" y="108" fill="#f1f5df" font-family="Arial,Helvetica,sans-serif" font-size="41" font-weight="800" letter-spacing=".8">FOREST</text>
+  <text x="50" y="157" fill="#f1f5df" font-family="Arial,Helvetica,sans-serif" font-size="45" font-weight="800" letter-spacing="1.7">DASH</text>
+  <text x="53" y="187" fill="#c0d1be" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="1.45">RUN · DODGE · COLLECT</text>
+  <g transform="translate(55 212)">
+    <path d="M0 0L12-7L24 0L12 7Z" fill="#e5b85b"/><path d="M34 0H64" stroke="#e5b85b" stroke-width="2"/>
+    <circle cx="74" cy="0" r="5" fill="#80d29a"/><path d="M84 0H114" stroke="#80d29a" stroke-width="2"/>
+    <text x="123" y="4" fill="#d8e5d6" font-family="Arial,Helvetica,sans-serif" font-size="8" font-weight="700" letter-spacing=".85">3 LANES · 12 ROUTES</text>
+  </g>
+
+  <rect x="322" y="28" width="446" height="204" rx="17" fill="#142d25" stroke="#628c6a" stroke-opacity=".85"/>
+  <path d="M340 59H750" stroke="#c4d6ad" stroke-opacity=".24"/>
+  <text x="344" y="48" fill="#e0ebd2" font-family="Arial,Helvetica,sans-serif" font-size="10" font-weight="700" letter-spacing="1.45">PINECONE RUN · FOREST CIRCUIT</text>
+  <text x="746" y="48" fill="#d8bc68" font-family="Arial,Helvetica,sans-serif" font-size="9" font-weight="700" letter-spacing="1.1" text-anchor="end">4 ZONES / 12 ROUTES</text>
+  <rect x="340" y="65" width="410" height="148" rx="8" fill="url(#sky)"/>
+  <circle cx="695" cy="93" r="15" fill="#f7df8e"/>
+  <path d="M340 124Q384 98 426 118T510 110T601 119T750 105V164H340Z" fill="#5c916b"/>
+  <path d="M340 140Q385 119 430 139T522 130T618 141T750 127V179H340Z" fill="#37664d"/>
+  <g fill="#234d3d"><path d="M354 146L372 91L390 146Z"/><path d="M379 146L397 81L416 146Z"/><path d="M675 142L695 84L714 142Z"/><path d="M710 146L730 91L748 146Z"/></g>
+  <path d="M464 117L423 213H675L593 117Z" fill="url(#track)"/>
+  <path d="M506 118L490 213M553 118L558 213M595 127L638 213" stroke="#e9dca2" stroke-opacity=".75" stroke-width="2" stroke-dasharray="6 7"/>
+  <path d="M449 144L419 213M610 143L680 213" stroke="#b29a5e" stroke-opacity=".7" stroke-width="2"/>
+  <!-- Original forest-runner figure with a pinecone pack, not a copied game sprite. -->
+  <g transform="translate(548 149)">
+    <ellipse cx="0" cy="33" rx="22" ry="6" fill="#10231d" opacity=".35"/>
+    <path d="M-14 3Q-22-18-6-29Q12-36 18-15L14 18Q4 28-10 17Z" fill="#a96237" stroke="#6f432b" stroke-width="2"/>
+    <path d="M-10-8L0-16L11-8M-11 1L1-6L12 1M-9 10L2 4L10 10" fill="none" stroke="#e4b46b" stroke-width="3" stroke-linecap="round"/>
+    <path d="M-12-25Q-2-39 13-27L18-21L8-19L0-24L-8-18Z" fill="#43805a"/>
+    <circle cx="-4" cy="-18" r="2" fill="#18241f"/><circle cx="8" cy="-18" r="2" fill="#18241f"/>
+    <path d="M-10 18L-17 30M9 18L18 27M-13-3L-25 4M13-3L26-10" stroke="#58402d" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <path d="M390 173H441L449 182H390Z" fill="#98603c" stroke="#e5bf79" stroke-width="2"/><ellipse cx="393" cy="177" rx="5" ry="6" fill="#d49b5b"/>
+  <path d="M637 143V117M704 143V117M637 117Q669 93 704 117" fill="none" stroke="#315c3d" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="609" cy="157" r="7" fill="#edc75e"/><path d="M605 157Q609 150 613 157L609 163Z" fill="#fff2bc"/>
+  <circle cx="628" cy="174" r="6" fill="#edc75e"/><path d="M624 174Q628 168 632 174L628 179Z" fill="#fff2bc"/>
+  <rect x="714" y="77" width="23" height="23" rx="7" fill="#193b31" stroke="#9ed28b"/><path d="M725 81L732 84V91Q730 96 725 98Q720 96 718 91V84Z" fill="none" stroke="#9ed28b" stroke-width="1.5"/>
+  <rect x="2" y="2" width="796" height="256" rx="13" fill="none" stroke="#e0ead4" stroke-opacity=".15"/>
+</svg>

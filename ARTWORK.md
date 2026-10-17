@@ -235,16 +235,25 @@ visually reviewed at card size before removing its queue entry.
   under CC BY-NC-SA 2.0; no gameplay capture was available in this sandbox.
   Any future use must include attribution and comply with the noncommercial
   and share-alike terms. No AI replacement was made.
-- `eaglercraft-1-8-8-offline-wasm`: the exact queue midpoint (row 73 in platform
-  snapshot `f077145667b5827407507ff807aef889c76ad8ac`) points to a 15 MB
-  [self-contained Minecraft 1.8.8 browser build](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Eaglercraft-1.8.8-offline-WASM.html).
+- `eaglercraft-1-12-2-offline-wasm` and `eaglercraft-1-8-8-offline-wasm`:
+  the 1.12.2 item was the exact queue midpoint (row 71) at platform snapshot
+  `f077145667b5827407507ff807aef889c76ad8ac`. The queue points to 20 MB and
+  15 MB [self-contained Minecraft 1.12.2](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Eaglercraft-1.12.2-offline-WASM.html)
+  and [1.8.8 browser builds](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Eaglercraft-1.8.8-offline-WASM.html).
   Platform [`THIRD_PARTY.md`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/THIRD_PARTY.md#L105-L106)
-  attributes EaglercraftX to lax1dude and contributors and lists GPL-3.0 / MIT
-  wrapper, but the linked [`EymenWSMC/eaglerarchive` snapshot](https://github.com/EymenWSMC/eaglerarchive/tree/1aebc4092d5158b928d85eed3c4a8c625d26c67b)
+  attributes them to EaglercraftX and contributors and lists GPL-3.0 / MIT
+  wrapper. The linked [`EymenWSMC/eaglerarchive` snapshot](https://github.com/EymenWSMC/eaglerarchive/tree/1aebc4092d5158b928d85eed3c4a8c625d26c67b)
   has no license metadata or root license file, and the notices do not
-  establish display rights for every embedded game-art asset. Its
-  screenshot-only queue item remains pending; no screenshot or AI substitute
+  establish display rights for every embedded game-art asset. Both
+  screenshot-only queue items remain pending; no screenshot or AI substitute
   was used.
+- `echoed-path`: the [asset-repo page](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Assets/blob/2e49b251f665e8707667ba8ebeb83e1a0e10a154/games/echoed-path/index.html)
+  is only a TurboWarp iframe to Scratch project 1254864759 by Hollow_Song.
+  Its [`THIRD_PARTY.md`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Assets/blob/2e49b251f665e8707667ba8ebeb83e1a0e10a154/THIRD_PARTY.md#L201)
+  records Scratch's default CC BY-NC-SA 2.0 terms. The project is remote, and
+  this thumbnail distribution's fit with the noncommercial/share-alike terms
+  is not established; no screenshot or AI substitute was used, so it remains
+  pending.
 
 ## MIT notices for screenshot artwork
 
@@ -358,3 +367,22 @@ vector artwork distributed under this repository's MIT license.
 | `elemental-sandbox.svg` | Pixel-grid particles and material interactions: sand, water, fire, plant growth and steam | [`Elemental-Sandbox.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Elemental-Sandbox.html); [upstream source](https://github.com/wangzifan396-wzf/mini-browser-games/blob/e459369b31c35658855e7ef50b46fa9f994750d/elemental-sandbox.html) |
 | `ember-tactics.svg` | Eight-by-eight ashland battle map for mission 3's central-fire defense | [`Ember-Tactics.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Ember-Tactics.html); [upstream source](https://github.com/wangzifan396-wzf/mini-browser-games/blob/e459369b31c35658855e7ef50b46fa9f994750d/ember-tactics.html) |
 | `fishing-harbor.svg` | Harbor cast, float, fish, line-tension gauge and five fishing locations | [`Fishing-Harbor.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Fishing-Harbor.html); [upstream source](https://github.com/wangzifan396-wzf/mini-browser-games/blob/e459369b31c35658855e7ef50b46fa9f994750d/fishing-harbor.html) |
+
+## Middle-of-queue batch 3
+
+These original 800×260 vector thumbnails were authored after inspecting the
+actual single-file games at platform revision
+[`f077145667b5827407507ff807aef889c76ad8ac`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/f077145667b5827407507ff807aef889c76ad8ac).
+The platform's pinned [`LICENSE`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/LICENSE)
+is MIT; its [`THIRD_PARTY.md`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/THIRD_PARTY.md)
+has no matching entries for these four titles, and the inspected HTML contains
+no external visual-asset references. No game sprites, screenshots, logos, or
+other visual assets were copied; these original SVGs are covered by this
+repository's MIT license.
+
+| Source file | Theme | Game inspected |
+| --- | --- | --- |
+| `flappy-glider.svg` | Flap-controlled flight through shifting wind gates, gold-gate bonuses, combo streaks and a protective feather | [`Flappy-Glider.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Flappy-Glider.html) |
+| `fleet-duel.svg` | Eight-by-eight naval campaign board with reefs, five ship classes, finite sonar and six fixed scenarios | [`Fleet-Duel.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Fleet-Duel.html) |
+| `forest-dash.svg` | Three-lane forest runner, log jumps, low branch gates, mine carts, collectible pinecones and power-ups across four zones | [`Forest-Dash.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Forest-Dash.html) |
+| `frequency-bureau.svg` | Twelve fixed abstract channel-assignment puzzles with ordinary/strong interference edges, channel capacities and locked stations; not real radio planning | [`Frequency-Bureau.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Frequency-Bureau.html) |

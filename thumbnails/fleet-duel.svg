@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" role="img" aria-labelledby="title desc">
+  <title id="title">Fleet Duel</title>
+  <desc id="desc">A stylized eight-by-eight naval campaign map with reef hazards, opposing fleets and a sonar sweep.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#081925"/><stop offset=".58" stop-color="#123544"/><stop offset="1" stop-color="#0b1e2c"/></linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#1b586e"/><stop offset="1" stop-color="#0b293a"/></linearGradient>
+    <pattern id="grid" width="18" height="18" patternUnits="userSpaceOnUse"><path d="M18 0H0V18" fill="none" stroke="#b7dbe2" stroke-opacity=".2"/></pattern>
+    <radialGradient id="sonar"><stop stop-color="#6ee8da" stop-opacity=".25"/><stop offset="1" stop-color="#6ee8da" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="800" height="260" fill="url(#bg)"/><path d="M0 228H800" stroke="#e6bd6e" stroke-opacity=".35"/><path d="M29 25V235" stroke="#55cfc7" stroke-width="4"/>
+  <text x="52" y="51" fill="#74e0d7" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="2">DEEP-SEA COMMAND · 01</text>
+  <text x="50" y="108" fill="#eef7f3" font-family="Arial,Helvetica,sans-serif" font-size="45" font-weight="800" letter-spacing="1.4">FLEET</text>
+  <text x="50" y="157" fill="#eef7f3" font-family="Arial,Helvetica,sans-serif" font-size="45" font-weight="800" letter-spacing="2">DUEL</text>
+  <text x="53" y="187" fill="#b7d0d6" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="1.4">SCAN · AIM · SURVIVE</text>
+  <g transform="translate(55 212)">
+    <path d="M0 0H21M29 0H50M58 0H79" stroke="#58c9cb" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="10" cy="0" r="4" fill="#eef7f3"/><circle cx="39" cy="0" r="4" fill="#e5b85b"/><circle cx="68" cy="0" r="4" fill="#d56e72"/>
+    <text x="92" y="4" fill="#d4e2e2" font-family="Arial,Helvetica,sans-serif" font-size="8" font-weight="700" letter-spacing=".9">8×8 BOARD · SIX SEA ZONES</text>
+  </g>
+
+  <rect x="322" y="28" width="446" height="204" rx="17" fill="#0c2533" stroke="#4d8391" stroke-opacity=".85"/>
+  <path d="M340 59H750" stroke="#a9cdd2" stroke-opacity=".24"/>
+  <text x="344" y="48" fill="#d9e9e7" font-family="Arial,Helvetica,sans-serif" font-size="10" font-weight="700" letter-spacing="1.35">DETERMINISTIC NAVAL CAMPAIGN</text>
+  <text x="746" y="48" fill="#e7c779" font-family="Arial,Helvetica,sans-serif" font-size="9" font-weight="700" letter-spacing="1.1" text-anchor="end">REGION 03 / 06</text>
+  <rect x="344" y="68" width="144" height="144" rx="5" fill="url(#sea)" stroke="#5e9cab"/>
+  <rect x="344" y="68" width="144" height="144" rx="5" fill="url(#grid)"/>
+  <g fill="#d2b170" opacity=".9"><rect x="380" y="86" width="18" height="18"/><rect x="398" y="86" width="18" height="18"/><rect x="434" y="158" width="18" height="18"/><rect x="452" y="158" width="18" height="18"/></g>
+  <circle cx="414" cy="140" r="56" fill="url(#sonar)"/>
+  <g fill="none" stroke="#70e3d7" stroke-opacity=".58"><circle cx="414" cy="140" r="21"/><circle cx="414" cy="140" r="39"/><circle cx="414" cy="140" r="56"/></g>
+  <path d="M414 140L457 104" stroke="#a7fff0" stroke-width="2"/>
+  <path d="M360 112H396L404 118H360Z" fill="#68b7d1" stroke="#d9f0ee" stroke-width="1"/>
+  <path d="M363 130V166L370 173V130Z" fill="#4c91ad" stroke="#c3e6e5" stroke-width="1"/>
+  <path d="M443 184H470L478 190H443Z" fill="#9a5969" stroke="#f4c1a6" stroke-width="1"/>
+  <path d="M461 96L470 105M470 96L461 105M429 177L438 186M438 177L429 186" stroke="#ff8480" stroke-width="2.2" stroke-linecap="round"/>
+  <circle cx="414" cy="140" r="5" fill="#fff0a7" stroke="#fff" stroke-width="1.5"/>
+  <text x="507" y="79" fill="#9ebdc3" font-family="Arial,Helvetica,sans-serif" font-size="9" font-weight="700" letter-spacing="1.2">SONAR CONTACTS</text>
+  <g transform="translate(510 94)">
+    <path d="M0 12H62L54 22H12Z" fill="#4d9fba"/><rect x="22" y="4" width="21" height="8" rx="2" fill="#b8d7dc"/><path d="M6 27H57" stroke="#6bd8d0" stroke-width="2"/>
+    <text x="72" y="18" fill="#dbe9e6" font-family="Arial,Helvetica,sans-serif" font-size="9" font-weight="700">CARRIER</text>
+  </g>
+  <g transform="translate(510 132)">
+    <path d="M0 12H52L45 22H10Z" fill="#6c8fc0"/><path d="M11 10L20 4H37L45 10" fill="#c1d7e6"/>
+    <text x="72" y="18" fill="#dbe9e6" font-family="Arial,Helvetica,sans-serif" font-size="9" font-weight="700">CRUISER</text>
+  </g>
+  <g transform="translate(510 170)">
+    <path d="M0 13Q22 0 51 13Q22 26 0 13Z" fill="#d3a456"/><path d="M20 5V0H33V7" fill="none" stroke="#f5d99a" stroke-width="2"/>
+    <text x="72" y="18" fill="#dbe9e6" font-family="Arial,Helvetica,sans-serif" font-size="9" font-weight="700">SUBMARINE</text>
+  </g>
+  <rect x="2" y="2" width="796" height="256" rx="13" fill="none" stroke="#d9e9e2" stroke-opacity=".15"/>
+</svg>

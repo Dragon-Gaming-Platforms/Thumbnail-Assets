@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" role="img" aria-labelledby="title desc">
+  <title id="title">Flappy Glider</title>
+  <desc id="desc">An original paper glider threads shifting wind gates, with a gold bonus gate, combo trail and protective feather.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#081526"/><stop offset=".58" stop-color="#123950"/><stop offset="1" stop-color="#0a1e32"/></linearGradient>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#1b7291"/><stop offset="1" stop-color="#102d49"/></linearGradient>
+    <linearGradient id="gate" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#7ef1c8"/><stop offset="1" stop-color="#35a88f"/></linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffe48a"/><stop offset="1" stop-color="#d99d3e"/></linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#d8eff5" stroke-opacity=".055"/></pattern>
+  </defs>
+  <rect width="800" height="260" fill="url(#bg)"/><rect width="800" height="260" fill="url(#grid)"/>
+  <path d="M0 228H800" stroke="#69ded0" stroke-opacity=".4"/><path d="M29 25V235" stroke="#55d9c7" stroke-width="4"/>
+  <text x="52" y="51" fill="#77e7d4" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="2">WIND-GATE PILOT · 01</text>
+  <text x="50" y="108" fill="#f1f8f4" font-family="Arial,Helvetica,sans-serif" font-size="43" font-weight="800" letter-spacing="1.2">FLAPPY</text>
+  <text x="50" y="157" fill="#f1f8f4" font-family="Arial,Helvetica,sans-serif" font-size="45" font-weight="800" letter-spacing="1.5">GLIDER</text>
+  <text x="53" y="187" fill="#b9d7dd" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="1.5">FLAP · THREAD · CLIMB</text>
+  <g transform="translate(57 212)">
+    <path d="M0-8H18V8H0Z" fill="none" stroke="#69e1c5" stroke-width="2"/><path d="M26 0H55" stroke="#69e1c5" stroke-width="2"/>
+    <path d="M64-8Q78 0 64 8Q79 4 82 0Q78-4 64-8Z" fill="#ffd46e"/><path d="M91 0H120" stroke="#ffd46e" stroke-width="2"/>
+    <text x="130" y="4" fill="#d4e5e5" font-family="Arial,Helvetica,sans-serif" font-size="8" font-weight="700" letter-spacing=".9">GOLD GATE · COMBO</text>
+  </g>
+
+  <rect x="322" y="28" width="446" height="204" rx="17" fill="#0d263b" stroke="#4f91a2" stroke-opacity=".85"/>
+  <path d="M340 59H750" stroke="#abd8dd" stroke-opacity=".25"/>
+  <text x="344" y="48" fill="#d7eeea" font-family="Arial,Helvetica,sans-serif" font-size="10" font-weight="700" letter-spacing="1.5">WIND GATE RUN</text>
+  <text x="746" y="48" fill="#f6d477" font-family="Arial,Helvetica,sans-serif" font-size="9" font-weight="700" letter-spacing="1.1" text-anchor="end">STREAK MULTIPLIER</text>
+  <rect x="340" y="65" width="410" height="148" rx="8" fill="url(#sky)"/>
+  <circle cx="685" cy="92" r="18" fill="#ffe28c" opacity=".95"/>
+  <path d="M340 132Q388 113 430 127T523 119T615 130T750 117V158H340Z" fill="#31677a" opacity=".65"/>
+  <path d="M352 85H398M361 94H417M346 105H379M372 187H412M520 86H556M540 94H575M675 185H724" stroke="#c7f2f0" stroke-opacity=".45" stroke-width="2" stroke-linecap="round"/>
+  <path d="M438 65V101M438 151V212" stroke="url(#gate)" stroke-width="18" stroke-linecap="round"/>
+  <path d="M429 70H447M429 96H447M429 157H447M429 185H447" stroke="#baffdf" stroke-width="3" stroke-linecap="round"/>
+  <path d="M569 65V108M569 144V212" stroke="url(#gold)" stroke-width="20" stroke-linecap="round"/>
+  <path d="M558 75H580M558 96H580M558 156H580M558 185H580" stroke="#fff0af" stroke-width="3" stroke-linecap="round"/>
+  <path d="M693 65V95M693 151V212" stroke="url(#gate)" stroke-width="18" stroke-linecap="round"/>
+  <path d="M684 73H702M684 88H702M684 160H702M684 186H702" stroke="#baffdf" stroke-width="3" stroke-linecap="round"/>
+  <path d="M374 126Q389 117 401 126L390 132L401 138Q385 143 374 134Z" fill="#54ddcd" opacity=".55"/>
+  <path d="M389 128L427 122L414 130L428 136L390 134Z" fill="#f4f0d2" stroke="#6b8c9b" stroke-width="1.4"/>
+  <path d="M403 128L392 117L417 126M402 134L392 145L417 136" fill="#8ce7e2" stroke="#e4f7ed" stroke-width="1.2" stroke-linejoin="round"/>
+  <path d="M420 129L431 126" stroke="#fff0ad" stroke-width="2"/>
+  <g transform="translate(510 116)">
+    <circle r="15" fill="#f6d477" opacity=".2"/><path d="M-7 10Q-13-4 4-13Q10-4 1 9L-3 14L-5 6Z" fill="#f6d477"/>
+    <path d="M-4 8Q0 0 5-7" fill="none" stroke="#fff1be" stroke-width="1.4"/>
+  </g>
+  <rect x="714" y="77" width="25" height="22" rx="7" fill="#163b4a" stroke="#f6d477"/>
+  <text x="726.5" y="92" fill="#ffdf7b" font-family="Arial,Helvetica,sans-serif" font-size="10" font-weight="800" text-anchor="middle">×3</text>
+  <rect x="2" y="2" width="796" height="256" rx="13" fill="none" stroke="#d7eee8" stroke-opacity=".16"/>
+</svg>
