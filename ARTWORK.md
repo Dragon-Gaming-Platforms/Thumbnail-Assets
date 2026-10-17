@@ -413,7 +413,7 @@ source: <https://github.com/carlini/js13k2019-yet-another-doom-clone>.
 
 ## ISC notice — devil-glitches.jpg
 
-Copyright (c) 2016 agar3s (Jorge Palacios)
+Copyright (c) agar3s (Jorge Palacios), js13kGames 2016 entry (no year stated in the bundled files)
 
 Permission to use, copy, modify, and/or distribute this software for any
 purpose with or without fee is hereby granted, provided that the above
