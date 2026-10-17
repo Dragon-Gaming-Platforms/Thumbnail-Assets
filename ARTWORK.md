@@ -216,6 +216,29 @@ single-file titles); repo MIT license; no borrowed logos or characters:
 | `drift-racer.jpg` | Bird's-eye harbor circuit with four cars drifting through a hairpin, nitro burst and gauge motifs | [`Drift-Racer.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Drift-Racer.html) |
 | `drone-survey.jpg` | Grid map with target and no-fly cells, a quadcopter flying ordered route segments, battery and checklist | [`Drone-Survey.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Drone-Survey.html) |
 
+## Top-down batch 9
+
+Same pinned platform snapshot (`b4241132454e513100b67c6bee457eda62e9e140`).
+
+| Source file | Method and provenance | Rights |
+| --- | --- | --- |
+| `enduro.jpg` | Gameplay screenshot of [`games/enduro`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/b4241132454e513100b67c6bee457eda62e9e140/games/enduro) (HTML5 canvas recreation; all graphics drawn by the game's code): the player's white car overtaking traffic on a left-hand bend during day 1. Frame upscaled 3× nearest-neighbour, cropped to the road. | **MIT**, bundled `license.txt`, © 2019 rafaelcastrocouto. See MIT notices below. |
+| `flappy-2048.jpg` | Gameplay screenshot of [`games/flappy-2048`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/b4241132454e513100b67c6bee457eda62e9e140/games/flappy-2048): the "0" tile flapping through a gap in the 2048-style tile wall. Cropped to the board. | **MIT**, bundled `LICENSE.txt`, the bundled `LICENSE.txt` is © 2014 Gabriele Cirulli (2048), port by hczhcz. See MIT notices below. |
+
+Original AI-generated illustrations (no external artwork/reference images),
+themes checked against the game HTML/logic in the same snapshot (Chinese-language
+single-file titles); repo MIT license; no borrowed logos or characters:
+
+| Source file | Theme | Game inspected |
+| --- | --- | --- |
+| `ember-tactics.jpg` | Hex-grid battlefield with a three-hero squad (guardian, healer, blade-dancer) facing ember-eyed soldiers, glowing movement sigils | [`Ember-Tactics.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Ember-Tactics.html) |
+| `fishing-harbor.jpg` | Golden-hour fishing boat hooking a big fish with a vertical catch gauge, harbor town with fish market and workshop behind | [`Fishing-Harbor.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Fishing-Harbor.html) |
+| `flappy-glider.jpg` | Original pixel bird-glider flapping through glowing wind gates, one gold gate, shield-feather pickup | [`Flappy-Glider.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Flappy-Glider.html) |
+| `fleet-duel.jpg` | Two naval grids in a command room: own fleet vs. fogged enemy sea with hit/miss markers and a sonar sweep | [`Fleet-Duel.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Fleet-Duel.html) |
+| `forest-dash.jpg` | Original chestnut runner on a three-lane forest railway collecting pinecones, dodging a barrier and branch arch, magnet and shield power-ups | [`Forest-Dash.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Forest-Dash.html) |
+| `frequency-bureau.jpg` | Night city map of colour-coded tower nodes linked by interference edges with red conflict rings | [`Frequency-Bureau.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Frequency-Bureau.html) |
+| `frontier-command.jpg` | Three battle lanes from a crystal-mining base toward an enemy fortress, original sci-fi units clashing under a crimson sky | [`Frontier-Command.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Frontier-Command.html) |
+
 ## Pending rights checks
 
 - `zedinvaders`: bundled READMEs call it open source, but the inspected game
@@ -283,6 +306,14 @@ single-file titles); repo MIT license; no borrowed logos or characters:
   over blurred terrain in the sandbox (no enemies/objects rendered after a
   minute of play), so no representative capture yet; left in the queue.
 
+- `emberwind`: the HTML5 port is BSD-licensed by Opera Software, but the
+  storybook artwork belongs to TimeTrap AB's commercial Emberwind; display
+  rights for the art are unverified. Left pending.
+- `escape-road`: a Unity web build loaded from a third-party CDN (commercial
+  Azgames title); no open license. Left pending.
+- `floppybird`: Apache-2.0 code, but the sprites are the Flappy Bird artwork
+  (© .GEARS). Left pending.
+
 ## MIT notices for screenshot artwork
 
 Applies to the MIT-licensed screenshot sources above (and the Bootstrap Icons
@@ -303,6 +334,10 @@ Copyright (c) 2025 Ramazan Çetinkaya
 Copyright (c) 2019-2024 The Bootstrap Authors
 
 Copyright (c) 2014 Jack Rugile
+
+Copyright (c) 2019 by rafaelcastrocouto
+
+Copyright (c) 2014 Gabriele Cirulli (Flappy 2048 port by hczhcz)
 
 Copyright (c) 2014 Tóth Róbert
 
