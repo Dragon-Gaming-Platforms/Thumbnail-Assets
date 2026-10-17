@@ -1,8 +1,8 @@
 # Thumbnails to add
 
 Catalog: [Dragon-Gaming-Platforms/Dragon-Gaming-Platforms](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms),
-revision `b4241132454e513100b67c6bee457eda62e9e140` (`games.js`).
-Remaining: **155 games** (57 generate=true; 98 generate=false).
+revision `f077145667b5827407507ff807aef889c76ad8ac` (`games.js`).
+Remaining: **145 games** (47 generate=true; 98 generate=false).
 
 - `generate=true`: create original artwork based on the actual game's gameplay/theme.
 - `generate=false`: capture gameplay or reuse existing artwork after verifying display rights.
@@ -115,29 +115,19 @@ Remaining: **155 games** (57 generate=true; 98 generate=false).
 - `fruit-slice` generate=true
 - `garden-front` generate=true
 - `gear-calibrator` generate=true
-- `gem-garden` generate=true
 - `glade-game` generate=false
-- `glyph-warden` generate=true
 - `guardians-of-the-hollow` generate=false
 - `heroine-dusk` generate=false
 - `hexgl` generate=false
 - `hextris` generate=false
-- `hive-sovereign` generate=true
 - `pacman` generate=false
 - `hurry` generate=false
 - `island-not-found` generate=false
-- `island-survival` generate=true
 - `isocity` generate=false
 - `javascript-racer` generate=false
 - `jolly-jumper` generate=false
 - `linux-6.1.14-rv32ima-on-scratch` generate=false
 - `marble-soccer` generate=false
-- `market-pulse` generate=true
-- `maze-chase` generate=true
-- `merge-orbit` generate=true
-- `metro-weaver` generate=true
-- `midnight-chess` generate=true
-- `midnight-monitor` generate=true
 - `minesweeper` generate=false
 - `monster-candy` generate=false
 - `moon-light-platformer` generate=false

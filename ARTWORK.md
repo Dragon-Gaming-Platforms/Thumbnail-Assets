@@ -186,6 +186,34 @@ reviewed at card size before removing its queue entry.
 | `mist-valley-herbarium.jpg` | Four botanical specimens, leaf-margin/vein inspection and candidate reference folio | [`Mist-Valley-Herbarium.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Mist-Valley-Herbarium.html) |
 | `mine-matrix.jpg` | Space-themed Minesweeper survey board, neighboring counts, flags and fixed beacons | [`Mine-Matrix.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/b4241132454e513100b67c6bee457eda62e9e140/games/singlefiles/Mine-Matrix.html) |
 
+## Bottom-up batch 10
+
+Ten original AI-generated thematic illustrations, made without external
+artwork/reference images after inspecting the actual single-file HTML and
+relevant rules/logic at platform revision
+[`f077145667b5827407507ff807aef889c76ad8ac`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/f077145667b5827407507ff807aef889c76ad8ac).
+Distributed under this repository's MIT license. These are illustrations,
+not screenshots, exact legal/solvable puzzle states, financial advice or
+real-world survival/beekeeping instructions. CCTV anomalies, maze markers,
+transit routes and crystal gems are original designs rather than commercial
+horror mascots, Pac-Man characters, branded transit maps or candy-game art.
+Market charts represent a fictional game, not actual companies or returns.
+Each image was cover-cropped/JPEG-optimized to 800×260, <=40 KiB, decoded and
+visually reviewed at card size before removing its queue entry.
+
+| Source file | Theme | Game inspected |
+| --- | --- | --- |
+| `midnight-monitor.jpg` | Night-shift CCTV desk, corridor/ventilation feeds, music box and power/signal controls | [`Midnight-Monitor.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Midnight-Monitor.html) |
+| `midnight-chess.jpg` | Chess tactics: original board-and-piece composition with destination/move highlights | [`Midnight-Chess.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Midnight-Chess.html) |
+| `metro-weaver.jpg` | Original transit network, stations, river crossings, transfer hubs and trains | [`Metro-Weaver.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Metro-Weaver.html) |
+| `merge-orbit.jpg` | Gravity chamber, matching celestial cores, three delivery zones and drop predictor | [`Merge-Orbit.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Merge-Orbit.html) |
+| `maze-chase.jpg` | Neon survey maze, hexagonal beacons, fixed-patrol drones and phase/exit motifs | [`Maze-Chase.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Maze-Chase.html) |
+| `market-pulse.jpg` | Fictional company-research terminal, mixed price history, portfolio and risk motifs | [`Market-Pulse.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Market-Pulse.html) |
+| `island-survival.jpg` | Coastal campsite, supplies, shelter, signal fire and repairable radio | [`Island-Survival.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Island-Survival.html) |
+| `hive-sovereign.jpg` | Seasonal honeycomb colony, queen, brood, stores and differentiated worker tasks | [`Hive-Sovereign.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Hive-Sovereign.html) |
+| `glyph-warden.jpg` | Pinyin typing defense: scroll gate, three ink lanes, glyph spirits, brush and key tiles | [`Glyph-Warden.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Glyph-Warden.html) |
+| `gem-garden.jpg` | Match-three crystal-gem garden board, line/star matches, soil, sprouts and tools | [`Gem-Garden.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Gem-Garden.html) |
+
 ## Pending rights checks
 
 - `zedinvaders`: bundled READMEs call it open source, but the inspected game
