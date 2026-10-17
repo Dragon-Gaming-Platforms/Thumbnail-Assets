@@ -214,6 +214,36 @@ visually reviewed at card size before removing its queue entry.
 | `glyph-warden.jpg` | Pinyin typing defense: scroll gate, three ink lanes, glyph spirits, brush and key tiles | [`Glyph-Warden.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Glyph-Warden.html) |
 | `gem-garden.jpg` | Match-three crystal-gem garden board, line/star matches, soil, sprouts and tools | [`Gem-Garden.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Gem-Garden.html) |
 
+## Bottom-up batch 11
+
+Eight original AI-generated thematic illustrations, made without external
+artwork/reference images after inspecting the actual single-file HTML and
+relevant rules/logic at platform revision
+[`f077145667b5827407507ff807aef889c76ad8ac`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/f077145667b5827407507ff807aef889c76ad8ac).
+Distributed under this repository's MIT license. These are illustrations,
+not screenshots, exact puzzle solutions, transmission blueprints, wireless
+frequency plans or real-world military guidance. Plant defenses, invaders,
+runner, glider, maps and game-board designs are original, not commercial
+franchise characters, logos or copied interface art. All eight images were
+cover-cropped/JPEG-optimized to 800×260, <=40 KiB, decoded and visually
+reviewed at card size before removing their queue entries.
+
+This batch stops at Flappy Glider: Drone Survey, Dungeon Delver and further
+top-down IDs were already present in the other agent's open PR #8 and were
+left untouched. The eight claimed IDs were communicated on that PR to avoid
+duplicate artwork as the work ranges converge.
+
+| Source file | Theme | Game inspected |
+| --- | --- | --- |
+| `gear-calibrator.jpg` | Clockwork cartridges, meshing gears, belt drive and output-calibration motifs | [`Gear-Calibrator.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Gear-Calibrator.html) |
+| `garden-front.jpg` | Five-lane botanical defense, original plant formations, sunlight and leaf-energy effects | [`Garden-Front.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Garden-Front.html) |
+| `fruit-slice.jpg` | Timed ingredient slicing, apples/pears/citrus/plums, order cards and a distinct iron hazard | [`Fruit-Slice.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Fruit-Slice.html) |
+| `frontier-command.jpg` | Three-lane base strategy, crystal economy, buildings and original unit-role silhouettes | [`Frontier-Command.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Frontier-Command.html) |
+| `frequency-bureau.jpg` | Abstract station-channel graph, strong interference edge, locked node and capacity tray | [`Frequency-Bureau.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Frequency-Bureau.html) |
+| `forest-dash.jpg` | Original woodland cub runner, track switching, log jump, branch gate and collectible trail | [`Forest-Dash.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Forest-Dash.html) |
+| `fleet-duel.jpg` | Ocean deduction grids, friendly fleet, reefs, hit markers and limited sonar motif | [`Fleet-Duel.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Fleet-Duel.html) |
+| `flappy-glider.jpg` | Original triangular glider, changing mint/gold wind gates and shield-feather pickup | [`Flappy-Glider.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Flappy-Glider.html) |
+
 ## Pending rights checks
 
 - `zedinvaders`: bundled READMEs call it open source, but the inspected game
