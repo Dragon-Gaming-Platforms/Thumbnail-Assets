@@ -257,6 +257,21 @@ right-hand panel adds plain text only; no logos or extra game art were used.
 | --- | --- | --- |
 | `enduro.jpg` | Gameplay screenshot composition: retro racing road, traffic and the game's lap/position display; plain-text title and controls added outside the viewport | [`games/enduro/index.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/enduro/index.html), [README](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/enduro/README.md), and [MIT license](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/enduro/license.txt); `THIRD_PARTY.md` also lists MIT. The source credits Rafael Castro (`rafaelcastrocouto`, 2019). The screenshot uses the local game viewport only, without logos or external visual assets; see MIT notice below. |
 
+## Middle-of-queue screenshot batch 4
+
+After PR #8 was merged and reconciled, the 78-game queue's exact midpoint
+was `minesweeper` (row 39) and `monster-candy` (row 40). Minesweeper was
+captured during Easy gameplay, after the first safe reveal. The source image
+contains only the canvas-rendered grid and number clues; external badges, the
+GitHub ribbon, and standalone mine/flag images are excluded. The right-hand
+panel is original plain text, with no logo. `monster-candy` remains queued
+because its CC BY-NC 4.0 terms are not established as compatible with this
+catalog.
+
+| ID / source file | Method and subject | Provenance / rights |
+| --- | --- | --- |
+| `minesweeper.jpg` | Gameplay screenshot composition: Easy mode, 66-mine field after a safe first click, colored counts and open cells; original plain-text title/instructions panel | Local browser capture of [`games/minesweeper`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/f077145667b5827407507ff807aef889c76ad8ac/games/minesweeper), under its [MIT license](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/minesweeper/LICENSE); © 2013 Joey van Ommen (Joeynoh). Only canvas-rendered gameplay is shown, without the external page badges, GitHub ribbon, or separate image assets. The text panel is original; see MIT notice below. |
+
 ## Top-down batch 1
 
 Platform snapshot inspected:
@@ -495,6 +510,7 @@ The other twelve batch 7–9 IDs that were produced in parallel (`ecosystem-keep
 - `captain-rogers`: bundled `LICENSE.txt` is CC BY-NC 4.0 (Mozilla/Enclave
   Games). The non-commercial restriction conflicts with this repository's MIT
   distribution; left pending for a decision rather than relicensing.
+- `monster-candy`: the pinned [README](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/monster-candy/README.md) and [LICENSE.txt](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/monster-candy/LICENSE.txt) state CC BY-NC 4.0 and credit Andrzej Mazur. The noncommercial-only grant is not established as compatible with this hosted, MIT-licensed thumbnail catalog; left pending, with no screenshot or bundled art used.
 - `cellmates`: Global Game Jam 2013 entry by Matt Greer; the bundled directory
   has no license and the platform credits only cover the ImpactJS engine (MIT),
   not the game art. Left pending.
@@ -521,9 +537,7 @@ The other twelve batch 7–9 IDs that were produced in parallel (`ecosystem-keep
 - `dreadheadparkour`: Construct web export of GameTornado's commercial
   Dreadhead Parkour ("Web Edition" in `THIRD_PARTY.md`); no open license.
   Left pending.
-- `drakonas`: MIT, but the bundled early prototype only shows a lone fighter
-  over blurred terrain in the sandbox (no enemies/objects rendered after a
-  minute of play), so no representative capture yet; left in the queue.
+- `drakonas`: the directory-level [MIT license](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/drakonas/LICENSE) applies to the game; the visible [player](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/drakonas/files/objects/player/default.obj) and [hangar](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/drakonas/files/objects/buildings/hangar-skelet.obj) models also carry MIT headers crediting Timothy Beuving. Mission 1 remains mostly brown fog around a small aircraft, and mission 2 errors. The main-menu hangar is visually clearer but is a menu capture rather than gameplay; no source was selected, so it remains queued for a representative gameplay frame.
 - `escape-road`: a Unity web build loaded from a third-party CDN (commercial
   Azgames title); no open license. Left pending.
 - `floppybird`: Apache-2.0 code, but the sprites are the Flappy Bird artwork
@@ -555,6 +569,8 @@ Copyright (c) 2014 Tóth Róbert
 Copyright (c) 2018 Max Bittker
 
 Copyright (c) 2019 by rafaelcastrocouto
+
+Copyright (c) 2013 Joey van Ommen
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

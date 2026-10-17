@@ -2,7 +2,7 @@
 
 Catalog: [Dragon-Gaming-Platforms/Dragon-Gaming-Platforms](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms),
 revision `f077145667b5827407507ff807aef889c76ad8ac` (`games.js`).
-Remaining: **78 games** (0 generate=true; 78 generate=false).
+Remaining: **77 games** (0 generate=true; 77 generate=false).
 
 - `generate=true`: create original artwork based on the actual game's gameplay/theme.
 - `generate=false`: capture gameplay or reuse existing artwork after verifying display rights.
@@ -62,7 +62,6 @@ Remaining: **78 games** (0 generate=true; 78 generate=false).
 - `jolly-jumper` generate=false
 - `linux-6.1.14-rv32ima-on-scratch` generate=false
 - `marble-soccer` generate=false
-- `minesweeper` generate=false
 - `monster-candy` generate=false
 - `moon-light-platformer` generate=false
 - `moto-x3m-2` generate=false
