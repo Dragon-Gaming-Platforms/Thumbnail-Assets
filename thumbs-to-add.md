@@ -2,7 +2,7 @@
 
 Catalog: [Dragon-Gaming-Platforms/Dragon-Gaming-Platforms](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms),
 revision `f077145667b5827407507ff807aef889c76ad8ac` (`games.js`).
-Remaining: **137 games** (39 generate=true; 98 generate=false).
+Remaining: **133 games** (35 generate=true; 98 generate=false).
 
 - `generate=true`: create original artwork based on the actual game's gameplay/theme.
 - `generate=false`: capture gameplay or reuse existing artwork after verifying display rights.
@@ -103,10 +103,6 @@ Remaining: **137 games** (39 generate=true; 98 generate=false).
 - `escape-road` generate=false
 - `flappy-2048` generate=false
 - `floppybird` generate=false
-- `frontier-command` generate=true
-- `fruit-slice` generate=true
-- `garden-front` generate=true
-- `gear-calibrator` generate=true
 - `glade-game` generate=false
 - `guardians-of-the-hollow` generate=false
 - `heroine-dusk` generate=false

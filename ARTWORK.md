@@ -214,6 +214,36 @@ visually reviewed at card size before removing its queue entry.
 | `glyph-warden.jpg` | Pinyin typing defense: scroll gate, three ink lanes, glyph spirits, brush and key tiles | [`Glyph-Warden.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Glyph-Warden.html) |
 | `gem-garden.jpg` | Match-three crystal-gem garden board, line/star matches, soil, sprouts and tools | [`Gem-Garden.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Gem-Garden.html) |
 
+## Bottom-up batch 11
+
+Eight original AI-generated thematic illustrations, made without external
+artwork/reference images after inspecting the actual single-file HTML and
+relevant rules/logic at platform revision
+[`f077145667b5827407507ff807aef889c76ad8ac`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/f077145667b5827407507ff807aef889c76ad8ac).
+Distributed under this repository's MIT license. These are illustrations,
+not screenshots, exact puzzle solutions, transmission blueprints, wireless
+frequency plans or real-world military guidance. Plant defenses, invaders,
+runner, glider, maps and game-board designs are original, not commercial
+franchise characters, logos or copied interface art. All eight images were
+cover-cropped/JPEG-optimized to 800×260, <=40 KiB, decoded and visually
+reviewed at card size before removing their queue entries.
+
+This batch stops at Flappy Glider: Drone Survey, Dungeon Delver and further
+top-down IDs were already present in the other agent's open PR #8 and were
+left untouched. The eight claimed IDs were communicated on that PR to avoid
+duplicate artwork as the work ranges converge.
+
+| Source file | Theme | Game inspected |
+| --- | --- | --- |
+| `gear-calibrator.jpg` | Clockwork cartridges, meshing gears, belt drive and output-calibration motifs | [`Gear-Calibrator.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Gear-Calibrator.html) |
+| `garden-front.jpg` | Five-lane botanical defense, original plant formations, sunlight and leaf-energy effects | [`Garden-Front.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Garden-Front.html) |
+| `fruit-slice.jpg` | Timed ingredient slicing, apples/pears/citrus/plums, order cards and a distinct iron hazard | [`Fruit-Slice.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Fruit-Slice.html) |
+| `frontier-command.jpg` | Three-lane base strategy, crystal economy, buildings and original unit-role silhouettes | [`Frontier-Command.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Frontier-Command.html) |
+| `frequency-bureau.jpg` | Abstract station-channel graph, strong interference edge, locked node and capacity tray | [`Frequency-Bureau.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Frequency-Bureau.html) |
+| `forest-dash.jpg` | Original woodland cub runner, track switching, log jump, branch gate and collectible trail | [`Forest-Dash.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Forest-Dash.html) |
+| `fleet-duel.jpg` | Ocean deduction grids, friendly fleet, reefs, hit markers and limited sonar motif | [`Fleet-Duel.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Fleet-Duel.html) |
+| `flappy-glider.jpg` | Original triangular glider, changing mint/gold wind gates and shield-feather pickup | [`Flappy-Glider.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Flappy-Glider.html) |
+
 ## Pending rights checks
 
 - `zedinvaders`: bundled READMEs call it open source, but the inspected game
@@ -254,6 +284,13 @@ visually reviewed at card size before removing its queue entry.
   this thumbnail distribution's fit with the noncommercial/share-alike terms
   is not established; no screenshot or AI substitute was used, so it remains
   pending.
+- `duck-hunt`: the platform's pinned [`THIRD_PARTY.md`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/THIRD_PARTY.md#L67)
+  identifies Duck Hunt JS by Matt Surabian as MIT, but the upstream
+  [README](https://github.com/MattSurabian/DuckHunt-JS/blob/5a28db7442ebc7dc8060342413df24c0319f4190/README.md)
+  only describes its sprite-image workflow and does not give separate
+  provenance for the bundled duck/dog sprite sheet. I could not verify display
+  rights for those pixels from the code license alone; no screenshot or AI
+  substitute was made, so the item remains pending.
 
 ## MIT notices for screenshot artwork
 
@@ -367,22 +404,3 @@ vector artwork distributed under this repository's MIT license.
 | `elemental-sandbox.svg` | Pixel-grid particles and material interactions: sand, water, fire, plant growth and steam | [`Elemental-Sandbox.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Elemental-Sandbox.html); [upstream source](https://github.com/wangzifan396-wzf/mini-browser-games/blob/e459369b31c35658855e7ef50b46fa9f994750d/elemental-sandbox.html) |
 | `ember-tactics.svg` | Eight-by-eight ashland battle map for mission 3's central-fire defense | [`Ember-Tactics.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Ember-Tactics.html); [upstream source](https://github.com/wangzifan396-wzf/mini-browser-games/blob/e459369b31c35658855e7ef50b46fa9f994750d/ember-tactics.html) |
 | `fishing-harbor.svg` | Harbor cast, float, fish, line-tension gauge and five fishing locations | [`Fishing-Harbor.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Fishing-Harbor.html); [upstream source](https://github.com/wangzifan396-wzf/mini-browser-games/blob/e459369b31c35658855e7ef50b46fa9f994750d/fishing-harbor.html) |
-
-## Middle-of-queue batch 3
-
-These original 800×260 vector thumbnails were authored after inspecting the
-actual single-file games at platform revision
-[`f077145667b5827407507ff807aef889c76ad8ac`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/f077145667b5827407507ff807aef889c76ad8ac).
-The platform's pinned [`LICENSE`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/LICENSE)
-is MIT; its [`THIRD_PARTY.md`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/THIRD_PARTY.md)
-has no matching entries for these four titles, and the inspected HTML contains
-no external visual-asset references. No game sprites, screenshots, logos, or
-other visual assets were copied; these original SVGs are covered by this
-repository's MIT license.
-
-| Source file | Theme | Game inspected |
-| --- | --- | --- |
-| `flappy-glider.svg` | Flap-controlled flight through shifting wind gates, gold-gate bonuses, combo streaks and a protective feather | [`Flappy-Glider.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Flappy-Glider.html) |
-| `fleet-duel.svg` | Eight-by-eight naval campaign board with reefs, five ship classes, finite sonar and six fixed scenarios | [`Fleet-Duel.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Fleet-Duel.html) |
-| `forest-dash.svg` | Three-lane forest runner, log jumps, low branch gates, mine carts, collectible pinecones and power-ups across four zones | [`Forest-Dash.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Forest-Dash.html) |
-| `frequency-bureau.svg` | Twelve fixed abstract channel-assignment puzzles with ordinary/strong interference edges, channel capacities and locked stations; not real radio planning | [`Frequency-Bureau.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Frequency-Bureau.html) |
