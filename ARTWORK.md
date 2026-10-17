@@ -235,6 +235,16 @@ visually reviewed at card size before removing its queue entry.
   under CC BY-NC-SA 2.0; no gameplay capture was available in this sandbox.
   Any future use must include attribution and comply with the noncommercial
   and share-alike terms. No AI replacement was made.
+- `eaglercraft-1-8-8-offline-wasm`: the exact queue midpoint (row 73 in platform
+  snapshot `f077145667b5827407507ff807aef889c76ad8ac`) points to a 15 MB
+  [self-contained Minecraft 1.8.8 browser build](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Eaglercraft-1.8.8-offline-WASM.html).
+  Platform [`THIRD_PARTY.md`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/THIRD_PARTY.md#L105-L106)
+  attributes EaglercraftX to lax1dude and contributors and lists GPL-3.0 / MIT
+  wrapper, but the linked [`EymenWSMC/eaglerarchive` snapshot](https://github.com/EymenWSMC/eaglerarchive/tree/1aebc4092d5158b928d85eed3c4a8c625d26c67b)
+  has no license metadata or root license file, and the notices do not
+  establish display rights for every embedded game-art asset. Its
+  screenshot-only queue item remains pending; no screenshot or AI substitute
+  was used.
 
 ## MIT notices for screenshot artwork
 
@@ -329,3 +339,22 @@ are original work and are covered by this repository's MIT license.
 | `lantern-memory.svg` | Four colored lamps illustrating the game's growing recall sequence | [`Lantern-Memory.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/db88cc18c657878aacf5c896bdc69f35342b415d/games/singlefiles/Lantern-Memory.html); [upstream source](https://github.com/wangzifan396-wzf/mini-browser-games/blob/f33cf6e1cd06b201c9910f9830e4c7285479460e/lantern-memory.html) |
 | `lockmaster-shift.svg` | Boat in a water-level lock chamber with gates and pump indicator | [`Lockmaster-Shift.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/db88cc18c657878aacf5c896bdc69f35342b415d/games/singlefiles/Lockmaster-Shift.html); [upstream source](https://github.com/wangzifan396-wzf/mini-browser-games/blob/f33cf6e1cd06b201c9910f9830e4c7285479460e/lockmaster-shift.html) |
 | `mahjong-link.svg` | Matching mahjong tile pair with an open side | [`Mahjong-Link.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/db88cc18c657878aacf5c896bdc69f35342b415d/games/singlefiles/Mahjong-Link.html); [upstream source](https://github.com/wangzifan396-wzf/mini-browser-games/blob/f33cf6e1cd06b201c9910f9830e4c7285479460e/mahjong-link.html) |
+
+## Middle-of-queue batch 2
+
+These original 800×260 SVG illustrations were authored after inspecting the
+actual gameplay and rules at platform revision
+[`f077145667b5827407507ff807aef889c76ad8ac`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/f077145667b5827407507ff807aef889c76ad8ac).
+The corresponding standalone game sources were also checked at upstream commit
+[`e459369b31c35658855e7ef50b46fa9f994750d`](https://github.com/wangzifan396-wzf/mini-browser-games/tree/e459369b31c35658855e7ef50b46fa9f994750d),
+whose pinned [`LICENSE`](https://github.com/wangzifan396-wzf/mini-browser-games/blob/e459369b31c35658855e7ef50b46fa9f994750d/LICENSE)
+declares MIT (© 2026 wangzifan396-wzf). No game code, sprites, screenshots,
+logos, or other third-party visual assets were copied; these are original
+vector artwork distributed under this repository's MIT license.
+
+| Source file | Theme | Game inspected |
+| --- | --- | --- |
+| `ecosystem-keeper.svg` | Biome succession, soil and water metrics, wildlife, and a connected food web | [`Ecosystem-Keeper.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Ecosystem-Keeper.html); [upstream source](https://github.com/wangzifan396-wzf/mini-browser-games/blob/e459369b31c35658855e7ef50b46fa9f994750d/ecosystem-keeper.html) |
+| `elemental-sandbox.svg` | Pixel-grid particles and material interactions: sand, water, fire, plant growth and steam | [`Elemental-Sandbox.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Elemental-Sandbox.html); [upstream source](https://github.com/wangzifan396-wzf/mini-browser-games/blob/e459369b31c35658855e7ef50b46fa9f994750d/elemental-sandbox.html) |
+| `ember-tactics.svg` | Eight-by-eight ashland battle map for mission 3's central-fire defense | [`Ember-Tactics.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Ember-Tactics.html); [upstream source](https://github.com/wangzifan396-wzf/mini-browser-games/blob/e459369b31c35658855e7ef50b46fa9f994750d/ember-tactics.html) |
+| `fishing-harbor.svg` | Harbor cast, float, fish, line-tension gauge and five fishing locations | [`Fishing-Harbor.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Fishing-Harbor.html); [upstream source](https://github.com/wangzifan396-wzf/mini-browser-games/blob/e459369b31c35658855e7ef50b46fa9f994750d/fishing-harbor.html) |

@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" role="img" aria-labelledby="title desc">
+  <title id="title">Ember Tactics</title>
+  <desc id="desc">A tactical squad advances over an eight-by-eight ashland board toward a protected ember while avoiding hazards and enemies.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#11151d"/>
+      <stop offset=".57" stop-color="#2a2022"/>
+      <stop offset="1" stop-color="#151a22"/>
+    </linearGradient>
+    <linearGradient id="map" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#27303a"/>
+      <stop offset="1" stop-color="#171d27"/>
+    </linearGradient>
+    <radialGradient id="emberGlow">
+      <stop offset="0" stop-color="#ff9c43" stop-opacity=".5"/>
+      <stop offset="1" stop-color="#ff533f" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="ash" width="19" height="19" patternUnits="userSpaceOnUse">
+      <path d="M19 0H0V19" fill="none" stroke="#c6c3ad" stroke-opacity=".17" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="260" fill="url(#bg)"/>
+  <path d="M0 228H800" stroke="#e0a452" stroke-opacity=".35"/>
+  <path d="M29 25V235" stroke="#e0a452" stroke-width="4"/>
+
+  <text x="52" y="51" fill="#f2bd72" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="2.2">SQUAD COMMAND · 01</text>
+  <text x="50" y="109" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="800" letter-spacing="1.2">EMBER</text>
+  <text x="50" y="158" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="45" font-weight="800" letter-spacing="1.7">TACTICS</text>
+  <text x="53" y="187" fill="#c8c4ba" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="1.4">SQUAD · COVER · OBJECTIVE</text>
+  <g transform="translate(56 212)">
+    <circle cx="0" cy="0" r="5" fill="#78c8bd"/>
+    <path d="M10 0H47" stroke="#78c8bd" stroke-width="2"/>
+    <path d="M54-6L60 0L54 6L48 0Z" fill="#e3ac5d"/>
+    <path d="M68 0H105" stroke="#e3ac5d" stroke-width="2"/>
+    <circle cx="112" cy="0" r="5" fill="#d25a4e"/>
+    <text x="126" y="4" fill="#ddd6ca" font-family="Arial,Helvetica,sans-serif" font-size="9" font-weight="700" letter-spacing="1.2">TURN-BASED</text>
+  </g>
+
+  <rect x="322" y="28" width="446" height="204" rx="17" fill="#141b25" stroke="#6b6670" stroke-opacity=".8"/>
+  <path d="M340 59H750" stroke="#c1a878" stroke-opacity=".22"/>
+  <text x="344" y="48" fill="#d8d4ca" font-family="Arial,Helvetica,sans-serif" font-size="10" font-weight="700" letter-spacing="1.5">ASHLAND · PROTECT THE EMBER</text>
+  <text x="746" y="48" fill="#e6ad60" font-family="Arial,Helvetica,sans-serif" font-size="9" font-weight="700" letter-spacing="1.2" text-anchor="end">MISSION 03 / 09</text>
+
+  <!-- Eight-by-eight tactical board with cover, flame hazards, allies, and raiders. -->
+  <rect x="342" y="66" width="152" height="152" rx="5" fill="url(#map)" stroke="#73808a" stroke-opacity=".65"/>
+  <rect x="342" y="66" width="152" height="152" rx="5" fill="url(#ash)"/>
+  <g fill="#55606c">
+    <rect x="361" y="85" width="19" height="19"/><rect x="418" y="85" width="19" height="19"/>
+    <rect x="380" y="123" width="19" height="19"/><rect x="437" y="123" width="19" height="19"/>
+    <rect x="361" y="161" width="19" height="19"/><rect x="456" y="180" width="19" height="19"/>
+  </g>
+  <g fill="#8a4939" opacity=".85">
+    <path d="M400 66H419V85H400Z"/><path d="M418 180H437V199H418Z"/>
+  </g>
+  <circle cx="409.5" cy="132.5" r="27" fill="url(#emberGlow)"/>
+  <path d="M409 144Q396 134 405 123Q412 116 409 107Q427 120 422 132Q432 128 433 119Q441 136 426 145Z" fill="#f16d43"/>
+  <path d="M411 140Q407 134 413 126Q420 133 417 140Z" fill="#ffd37b"/>
+  <circle cx="353" cy="199" r="8" fill="#6ec4b5" stroke="#d5f4dd" stroke-width="2"/>
+  <path d="M352 195L358 199L352 203L347 199Z" fill="#edf2dc"/>
+  <circle cx="390" cy="180" r="8" fill="#5f9eb8" stroke="#d5f4dd" stroke-width="2"/>
+  <path d="M386 180L390 175L394 180L390 185Z" fill="#e9e0c8"/>
+  <circle cx="466" cy="85" r="8" fill="#a64c45" stroke="#f0c096" stroke-width="2"/>
+  <path d="M462 85L466 80L470 85L466 90Z" fill="#241b20"/>
+  <circle cx="447" cy="104" r="8" fill="#a64c45" stroke="#f0c096" stroke-width="2"/>
+  <path d="M443 104L447 99L451 104L447 109Z" fill="#241b20"/>
+  <path d="M371 199H390M390 180L409 161M409 161V142" fill="none" stroke="#f1cd7a" stroke-width="2" stroke-dasharray="3 4"/>
+  <rect x="400" y="123" width="19" height="19" fill="none" stroke="#ffd77b" stroke-width="2"/>
+
+  <g transform="translate(516 71)">
+    <text x="0" y="0" fill="#9facb4" font-family="Arial,Helvetica,sans-serif" font-size="9" font-weight="700" letter-spacing="1.3">SQUAD STATUS</text>
+    <g transform="translate(0 16)">
+      <circle cx="12" cy="10" r="8" fill="#6ec4b5"/><path d="M9 10L12 6L15 10L12 14Z" fill="#f1eedf"/>
+      <text x="29" y="14" fill="#e5e2d9" font-family="Arial,Helvetica,sans-serif" font-size="10" font-weight="700">WARDEN</text>
+      <rect x="102" y="5" width="91" height="8" rx="4" fill="#37414a"/><rect x="102" y="5" width="74" height="8" rx="4" fill="#64bd9c"/>
+    </g>
+    <g transform="translate(0 47)">
+      <circle cx="12" cy="10" r="8" fill="#5f9eb8"/><path d="M8 10L15 7L13 11L16 13Z" fill="#eee7d0"/>
+      <text x="29" y="14" fill="#e5e2d9" font-family="Arial,Helvetica,sans-serif" font-size="10" font-weight="700">ARCHER</text>
+      <rect x="102" y="5" width="91" height="8" rx="4" fill="#37414a"/><rect x="102" y="5" width="58" height="8" rx="4" fill="#66a9c5"/>
+    </g>
+    <path d="M0 83H205" stroke="#75838a" stroke-opacity=".35"/>
+    <text x="0" y="101" fill="#d2c5ac" font-family="Arial,Helvetica,sans-serif" font-size="9" font-weight="700" letter-spacing="1.1">COVER · FIRE · SEAL</text>
+    <g transform="translate(0 116)">
+      <rect width="46" height="25" rx="6" fill="#332c28" stroke="#b0714d"/>
+      <path d="M13 18Q8 11 14 6Q20 3 17 0Q28 8 22 18Z" fill="#f07843"/>
+      <rect x="56" width="46" height="25" rx="6" fill="#223542" stroke="#617f8e"/>
+      <path d="M67 12L75 4L84 12L75 20Z" fill="none" stroke="#76c9c2" stroke-width="2"/>
+      <rect x="112" width="46" height="25" rx="6" fill="#3a2d20" stroke="#c29b54"/>
+      <path d="M125 12H145M135 5V20" stroke="#edcc78" stroke-width="2"/>
+    </g>
+  </g>
+  <rect x="2" y="2" width="796" height="256" rx="13" fill="none" stroke="#e6ddca" stroke-opacity=".15"/>
+</svg>
