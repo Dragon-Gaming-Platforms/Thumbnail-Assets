@@ -2,7 +2,7 @@
 
 Catalog: [Dragon-Gaming-Platforms/Dragon-Gaming-Platforms](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms),
 revision `f077145667b5827407507ff807aef889c76ad8ac` (`games.js`).
-Remaining: **132 games** (35 generate=true; 97 generate=false).
+Remaining: **78 games** (0 generate=true; 78 generate=false).
 
 - `generate=true`: create original artwork based on the actual game's gameplay/theme.
 - `generate=false`: capture gameplay or reuse existing artwork after verifying display rights.
@@ -12,7 +12,8 @@ Remaining: **132 games** (35 generate=true; 97 generate=false).
   Inspect the game first; correct its flag if another method fits better.
   Neither flag is permission to use logos, protected characters, or unlicensed assets.
 - Includes only catalog category `games` with no nonempty `image` and no source
-  already in this repository's flat `thumbnails/` drop zone. Emulators/tools excluded.
+  already in this repository's flat `thumbnails/` drop zone. Emulators/tools excluded,
+  as are IDs the repository owner reserved for personal artwork (`OWNER_RESERVED_IDS`).
   Existing image URLs have not been audited for HTTP errors.
 - Keep **catalog order**, not alphabetical order: one agent works top-down,
   the other bottom-up. Coordinate claimed IDs outside this list before overlapping.
@@ -23,84 +24,30 @@ Remaining: **132 games** (35 generate=true; 97 generate=false).
 
 ## Queue
 
-- `1255-burgomaster` generate=false
 - `3d-graphing-calculator` generate=false
-- `ancientbeast` generate=false
 - `aquastax` generate=false
-- `auction-fever` generate=true
-- `auto-chess-forge` generate=true
 - `awesometanks2` generate=false
-- `backpack-arena` generate=true
 - `balatro` generate=false
-- `ball-and-wall` generate=false
-- `ball-arena` generate=true
 - `banania` generate=false
-- `basin-control` generate=true
-- `battery-cycle` generate=true
-- `beat-bento` generate=true
-- `behind-asteroids` generate=false
-- `blackjack-table` generate=true
-- `block-forge` generate=true
-- `blockrain` generate=false
 - `bloons-td4` generate=false
-- `bomb-grid` generate=true
-- `bounce-back` generate=false
-- `branching-tales` generate=true
-- `breaklock` generate=false
-- `bytebot-lab` generate=true
-- `canvas-tetris` generate=false
-- `captain-callisto` generate=false
 - `captain-rogers` generate=false
 - `cellmates` generate=false
 - `ceros-snake` generate=false
-- `chalk-billiards` generate=true
-- `charm-reels` generate=true
-- `checkpoint-inspector` generate=true
 - `chess` generate=false
-- `chromatic-press` generate=true
-- `chromatography-lab` generate=true
-- `cipher-relay` generate=true
-- `claw-carnival` generate=true
-- `clean-slate` generate=true
-- `climbing-route` generate=true
-- `clockwork-escape` generate=true
 - `clumsy-bird` generate=false
-- `coil` generate=false
-- `comet-weaver` generate=true
-- `connect-arena` generate=true
-- `connect-four` generate=false
-- `space-shooter` generate=false
-- `courier-grid` generate=true
-- `courtroom-clash` generate=true
-- `cozy-organizer` generate=true
 - `crappybird` generate=false
-- `crossword-cafe` generate=true
 - `crystalquest` generate=false
-- `curling-endgame` generate=true
-- `custom-tetris` generate=false
-- `dante-13k` generate=false
-- `detective-desk` generate=true
-- `devil-glitches` generate=false
 - `diablo-js` generate=false
-- `dice-delver` generate=true
 - `digger` generate=false
-- `dojo-duel` generate=true
-- `doom-13k` generate=false
 - `drakonas` generate=false
 - `dreadheadparkour` generate=false
-- `drift-racer` generate=true
-- `drone-survey` generate=true
 - `duck-hunt` generate=false
-- `dungeon-delver` generate=true
 - `eaglercraft-1-12-2-offline-js` generate=false
 - `eaglercraft-1-12-2-offline-wasm` generate=false
 - `eaglercraft-1-8-8-offline-js` generate=false
 - `eaglercraft-1-8-8-offline-wasm` generate=false
-- `echoed-path` generate=false
-- `elematter` generate=false
 - `emberwind` generate=false
 - `escape-road` generate=false
-- `flappy-2048` generate=false
 - `floppybird` generate=false
 - `glade-game` generate=false
 - `guardians-of-the-hollow` generate=false
