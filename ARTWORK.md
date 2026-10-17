@@ -244,6 +244,19 @@ duplicate artwork as the work ranges converge.
 | `fleet-duel.jpg` | Ocean deduction grids, friendly fleet, reefs, hit markers and limited sonar motif | [`Fleet-Duel.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Fleet-Duel.html) |
 | `flappy-glider.jpg` | Original triangular glider, changing mint/gold wind gates and shield-feather pickup | [`Flappy-Glider.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Flappy-Glider.html) |
 
+## Middle-of-queue screenshot batch 3
+
+The reconciled 133-game queue's exact center before this addition was
+`drone-survey` (row 67), already claimed in open PR #8. Nearby items were skipped when they were claimed or
+when bundled-art display rights remained unclear; `enduro` was the nearest
+unclaimed screenshot-only title with a verified MIT source license. This is a
+local browser capture of live gameplay from the pinned platform snapshot. The
+right-hand panel adds plain text only; no logos or extra game art were used.
+
+| ID / source file | Method and subject | Provenance / rights |
+| --- | --- | --- |
+| `enduro.jpg` | Gameplay screenshot composition: retro racing road, traffic and the game's lap/position display; plain-text title and controls added outside the viewport | [`games/enduro/index.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/enduro/index.html), [README](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/enduro/README.md), and [MIT license](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/enduro/license.txt); `THIRD_PARTY.md` also lists MIT. The source credits Rafael Castro (`rafaelcastrocouto`, 2019). The screenshot uses the local game viewport only, without logos or external visual assets; see MIT notice below. |
+
 ## Pending rights checks
 
 - `zedinvaders`: bundled READMEs call it open source, but the inspected game
@@ -265,16 +278,37 @@ duplicate artwork as the work ranges converge.
   under CC BY-NC-SA 2.0; no gameplay capture was available in this sandbox.
   Any future use must include attribution and comply with the noncommercial
   and share-alike terms. No AI replacement was made.
-- `eaglercraft-1-8-8-offline-wasm`: the exact queue midpoint (row 73 in platform
-  snapshot `f077145667b5827407507ff807aef889c76ad8ac`) points to a 15 MB
-  [self-contained Minecraft 1.8.8 browser build](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Eaglercraft-1.8.8-offline-WASM.html).
+- `eaglercraft-1-12-2-offline-wasm` and `eaglercraft-1-8-8-offline-wasm`:
+  the 1.12.2 item was the exact queue midpoint (row 71) at platform snapshot
+  `f077145667b5827407507ff807aef889c76ad8ac`. The queue points to 20 MB and
+  15 MB [self-contained Minecraft 1.12.2](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Eaglercraft-1.12.2-offline-WASM.html)
+  and [1.8.8 browser builds](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Eaglercraft-1.8.8-offline-WASM.html).
   Platform [`THIRD_PARTY.md`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/THIRD_PARTY.md#L105-L106)
-  attributes EaglercraftX to lax1dude and contributors and lists GPL-3.0 / MIT
-  wrapper, but the linked [`EymenWSMC/eaglerarchive` snapshot](https://github.com/EymenWSMC/eaglerarchive/tree/1aebc4092d5158b928d85eed3c4a8c625d26c67b)
+  attributes them to EaglercraftX and contributors and lists GPL-3.0 / MIT
+  wrapper. The linked [`EymenWSMC/eaglerarchive` snapshot](https://github.com/EymenWSMC/eaglerarchive/tree/1aebc4092d5158b928d85eed3c4a8c625d26c67b)
   has no license metadata or root license file, and the notices do not
-  establish display rights for every embedded game-art asset. Its
-  screenshot-only queue item remains pending; no screenshot or AI substitute
+  establish display rights for every embedded game-art asset. Both
+  screenshot-only queue items remain pending; no screenshot or AI substitute
   was used.
+- `echoed-path`: the [asset-repo page](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Assets/blob/2e49b251f665e8707667ba8ebeb83e1a0e10a154/games/echoed-path/index.html)
+  is only a TurboWarp iframe to Scratch project 1254864759 by Hollow_Song.
+  Its [`THIRD_PARTY.md`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Assets/blob/2e49b251f665e8707667ba8ebeb83e1a0e10a154/THIRD_PARTY.md#L201)
+  records Scratch's default CC BY-NC-SA 2.0 terms. The project is remote, and
+  this thumbnail distribution's fit with the noncommercial/share-alike terms
+  is not established; no screenshot or AI substitute was used, so it remains
+  pending.
+- `duck-hunt`: the platform's pinned [`THIRD_PARTY.md`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/THIRD_PARTY.md#L67)
+  identifies Duck Hunt JS by Matt Surabian as MIT, but the upstream
+  [README](https://github.com/MattSurabian/DuckHunt-JS/blob/5a28db7442ebc7dc8060342413df24c0319f4190/README.md)
+  only describes its sprite-image workflow and does not give separate
+  provenance for the bundled duck/dog sprite sheet. I could not verify display
+  rights for those pixels from the code license alone; no screenshot or AI
+  substitute was made, so the item remains pending.
+- `emberwind`: the pinned game [README](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/emberwind/README.md)
+  attributes the lite game to TimeTrap AB, while its [BSD license](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/emberwind/LICENSE)
+  credits Opera Software and does not separately clarify the sprite-atlas and
+  title-art rights. No screenshot or extracted art was used; leave pending
+  until display rights for the bundled art are established.
 
 ## MIT notices for screenshot artwork
 
@@ -300,6 +334,8 @@ Copyright (c) 2014 Jack Rugile
 Copyright (c) 2014 Tóth Róbert
 
 Copyright (c) 2018 Max Bittker
+
+Copyright (c) 2019 by rafaelcastrocouto
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
