@@ -14,6 +14,12 @@ EXTENSIONS = {".svg", ".png", ".webp", ".jpg", ".jpeg", ".gif"}
 ROW = re.compile(r"^- `([a-z0-9._-]+)` generate=(true|false)$")
 # Prefer screenshots for these recognizable single-file releases, subject to
 # asset rights verification. Other single-file games start with original art.
+# Games the repository owner has reserved to illustrate personally. Never
+# generate or capture artwork for these; they are left out of the queue.
+OWNER_RESERVED_IDS = {
+    "echoed-path",
+}
+
 SCREENSHOT_IDS = {
     "awesometanks2", "balatro", "bloons-td4", "dreadheadparkour",
     "eaglercraft-1-12-2-offline-js", "eaglercraft-1-12-2-offline-wasm",
@@ -80,7 +86,8 @@ def pending_games(games, sources):
     return [game for game in games
             if game.get("category") == "games"
             and not str(game.get("image") or "").strip()
-            and game["id"] not in sources]
+            and game["id"] not in sources
+            and game["id"] not in OWNER_RESERVED_IDS]
 
 
 def initial_method(game):
@@ -108,7 +115,8 @@ Remaining: **{len(games)} games** ({true_count} generate=true; {len(games) - tru
   Inspect the game first; correct its flag if another method fits better.
   Neither flag is permission to use logos, protected characters, or unlicensed assets.
 - Includes only catalog category `games` with no nonempty `image` and no source
-  already in this repository's flat `thumbnails/` drop zone. Emulators/tools excluded.
+  already in this repository's flat `thumbnails/` drop zone. Emulators/tools excluded,
+  as are IDs the repository owner reserved for personal artwork (`OWNER_RESERVED_IDS`).
   Existing image URLs have not been audited for HTTP errors.
 - Keep **catalog order**, not alphabetical order: one agent works top-down,
   the other bottom-up. Coordinate claimed IDs outside this list before overlapping.

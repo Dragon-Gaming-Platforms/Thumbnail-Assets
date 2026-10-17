@@ -22,6 +22,10 @@ class QueueTests(unittest.TestCase):
         self.assertEqual([g["id"] for g in queue.pending_games(self.games, set())],
                          ["z-game", "story", "blank"])
 
+    def test_owner_reserved_ids_never_queued(self):
+        games = self.games + [{"id": "echoed-path", "category": "games", "path": "x"}]
+        self.assertNotIn("echoed-path", [g["id"] for g in queue.pending_games(games, set())])
+
     def test_completed_source_excluded_before_catalog_sync(self):
         self.assertEqual([g["id"] for g in queue.pending_games(self.games, {"story"})],
                          ["z-game", "blank"])

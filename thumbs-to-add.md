@@ -2,7 +2,7 @@
 
 Catalog: [Dragon-Gaming-Platforms/Dragon-Gaming-Platforms](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms),
 revision `b4241132454e513100b67c6bee457eda62e9e140` (`games.js`).
-Remaining: **144 games** (63 generate=true; 81 generate=false).
+Remaining: **143 games** (63 generate=true; 80 generate=false).
 
 - `generate=true`: create original artwork based on the actual game's gameplay/theme.
 - `generate=false`: capture gameplay or reuse existing artwork after verifying display rights.
@@ -12,7 +12,8 @@ Remaining: **144 games** (63 generate=true; 81 generate=false).
   Inspect the game first; correct its flag if another method fits better.
   Neither flag is permission to use logos, protected characters, or unlicensed assets.
 - Includes only catalog category `games` with no nonempty `image` and no source
-  already in this repository's flat `thumbnails/` drop zone. Emulators/tools excluded.
+  already in this repository's flat `thumbnails/` drop zone. Emulators/tools excluded,
+  as are IDs the repository owner reserved for personal artwork (`OWNER_RESERVED_IDS`).
   Existing image URLs have not been audited for HTTP errors.
 - Keep **catalog order**, not alphabetical order: one agent works top-down,
   the other bottom-up. Coordinate claimed IDs outside this list before overlapping.
@@ -45,7 +46,6 @@ Remaining: **144 games** (63 generate=true; 81 generate=false).
 - `eaglercraft-1-12-2-offline-wasm` generate=false
 - `eaglercraft-1-8-8-offline-js` generate=false
 - `eaglercraft-1-8-8-offline-wasm` generate=false
-- `echoed-path` generate=false
 - `ember-tactics` generate=true
 - `emberwind` generate=false
 - `enduro` generate=false
