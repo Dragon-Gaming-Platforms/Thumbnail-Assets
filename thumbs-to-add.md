@@ -2,7 +2,7 @@
 
 Catalog: [Dragon-Gaming-Platforms/Dragon-Gaming-Platforms](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms),
 revision `b4241132454e513100b67c6bee457eda62e9e140` (`games.js`).
-Remaining: **148 games** (66 generate=true; 82 generate=false).
+Remaining: **144 games** (63 generate=true; 81 generate=false).
 
 - `generate=true`: create original artwork based on the actual game's gameplay/theme.
 - `generate=false`: capture gameplay or reuse existing artwork after verifying display rights.
@@ -41,15 +41,11 @@ Remaining: **148 games** (66 generate=true; 82 generate=false).
 - `drakonas` generate=false
 - `dreadheadparkour` generate=false
 - `duck-hunt` generate=false
-- `dungeon-delver` generate=true
 - `eaglercraft-1-12-2-offline-js` generate=false
 - `eaglercraft-1-12-2-offline-wasm` generate=false
 - `eaglercraft-1-8-8-offline-js` generate=false
 - `eaglercraft-1-8-8-offline-wasm` generate=false
 - `echoed-path` generate=false
-- `ecosystem-keeper` generate=true
-- `elematter` generate=false
-- `elemental-sandbox` generate=true
 - `ember-tactics` generate=true
 - `emberwind` generate=false
 - `enduro` generate=false
