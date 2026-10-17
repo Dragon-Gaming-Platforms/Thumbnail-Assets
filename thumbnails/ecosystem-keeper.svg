@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" role="img" aria-labelledby="title desc">
+  <title id="title">Ecosystem Keeper</title>
+  <desc id="desc">A managed biome with grass, wetland water, wildlife and a connected food web, inspired by the game's ecosystem succession simulation.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1d17"/>
+      <stop offset=".55" stop-color="#1d3827"/>
+      <stop offset="1" stop-color="#101f1c"/>
+    </linearGradient>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#83bca6"/>
+      <stop offset="1" stop-color="#d7d69b"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5da6a1"/>
+      <stop offset="1" stop-color="#266c6f"/>
+    </linearGradient>
+    <pattern id="grain" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#dce8cf" stroke-opacity=".045"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="260" fill="url(#bg)"/>
+  <rect width="800" height="260" fill="url(#grain)"/>
+  <path d="M0 228H800" stroke="#a6c87c" stroke-opacity=".4"/>
+  <path d="M29 25V235" stroke="#a6c87c" stroke-width="4"/>
+
+  <text x="52" y="51" fill="#c6df91" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="2.2">BIOME MANAGEMENT · 01</text>
+  <text x="50" y="108" fill="#f0f6dc" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="800" letter-spacing=".6">ECOSYSTEM</text>
+  <text x="50" y="157" fill="#f0f6dc" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="800" letter-spacing="2">KEEPER</text>
+  <text x="53" y="186" fill="#b6d0bb" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="1.6">WATER · SOIL · SPECIES</text>
+  <g transform="translate(56 212)">
+    <circle cx="0" cy="0" r="5" fill="#80c46c"/>
+    <path d="M10 0H48" stroke="#80c46c" stroke-width="2"/>
+    <circle cx="56" cy="0" r="5" fill="#e8ca6b"/>
+    <path d="M66 0H104" stroke="#e8ca6b" stroke-width="2"/>
+    <circle cx="112" cy="0" r="5" fill="#d77763"/>
+    <path d="M122 0H160" stroke="#d77763" stroke-width="2"/>
+    <circle cx="168" cy="0" r="5" fill="#6aaec0"/>
+    <text x="183" y="4" fill="#d4e2cf" font-family="Arial,Helvetica,sans-serif" font-size="9" font-weight="700" letter-spacing="1.1">FOOD WEB</text>
+  </g>
+
+  <rect x="322" y="28" width="446" height="204" rx="17" fill="#11291f" stroke="#71936f" stroke-opacity=".8"/>
+  <path d="M340 60H750" stroke="#b2cba5" stroke-opacity=".25"/>
+  <text x="344" y="49" fill="#d4e7c9" font-family="Arial,Helvetica,sans-serif" font-size="10" font-weight="700" letter-spacing="1.6">LIVING SYSTEM · YEAR 08</text>
+  <text x="746" y="49" fill="#d6c56c" font-family="Arial,Helvetica,sans-serif" font-size="9" font-weight="700" letter-spacing="1.2" text-anchor="end">DIVERSITY ↗</text>
+
+  <rect x="340" y="64" width="410" height="149" rx="8" fill="url(#sky)"/>
+  <circle cx="704" cy="91" r="22" fill="#f1d36e"/>
+  <path d="M340 128Q386 101 430 119T520 114T610 122T750 108V176H340Z" fill="#648e60"/>
+  <path d="M340 144Q389 119 433 140T531 133T623 144T750 126V183H340Z" fill="#416e4c"/>
+  <path d="M340 174Q411 155 463 171T572 165T659 174T750 162V213H340Z" fill="#564a36"/>
+  <path d="M340 170Q387 165 425 173T499 174Q522 180 539 194T582 208H340Z" fill="url(#water)"/>
+  <path d="M340 177Q372 173 400 179M349 188Q382 184 412 190M440 190Q465 187 487 193M472 201Q503 197 527 203" fill="none" stroke="#c1e4d1" stroke-opacity=".5" stroke-width="2"/>
+  <path d="M349 164V139M359 164V145M367 165V137M368 144L380 134M358 151L348 143" stroke="#a8cf74" stroke-width="3" stroke-linecap="round"/>
+  <path d="M592 159V126M601 159V133M611 159V123M603 132L618 121M594 141L582 130" stroke="#a8cf74" stroke-width="3" stroke-linecap="round"/>
+  <path d="M635 169V147M644 169V139M654 169V149M645 144L657 135" stroke="#80b56a" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Original simple species silhouettes, distributed across land and water. -->
+  <g transform="translate(431 150)">
+    <ellipse cx="0" cy="4" rx="18" ry="11" fill="#e2dcb7"/>
+    <circle cx="15" cy="-4" r="8" fill="#e2dcb7"/>
+    <path d="M11-10Q7-25 13-24Q19-22 17-9M18-10Q20-23 25-19Q28-15 23-7" fill="#e2dcb7"/>
+    <circle cx="18" cy="-5" r="1.4" fill="#344237"/>
+    <path d="M-9 12V19M5 12V19M-18 0L-24-3" stroke="#d4cda9" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(567 126)">
+    <ellipse cx="0" cy="9" rx="20" ry="10" fill="#c99b63"/>
+    <path d="M12 6Q18-10 25-13L33-8L28 0L20 8M25-13L28-25M28-24L23-29M28-24L34-29M30-17L37-22" fill="none" stroke="#c99b63" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M-10 16V27M7 16V27M-18 8L-25 3" stroke="#9b754c" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(687 112)">
+    <path d="M-16 0Q0-12 15 0Q1 12-16 0Z" fill="#e5eee0"/>
+    <path d="M-6 0L3-3L0 1L4 3Z" fill="#658e65"/>
+    <path d="M-1-1L3-13L7-4M-1 0L-8 9L2 5" fill="none" stroke="#e5eee0" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(474 195)">
+    <path d="M-19 0Q-2-15 16-2Q2 12-19 0Z" fill="#e2c66b"/>
+    <path d="M-18 0L-27-8V8Z" fill="#d6ae59"/>
+    <circle cx="8" cy="-3" r="1.5" fill="#244b4b"/>
+    <path d="M-6-5Q1-1 5 0" fill="none" stroke="#fff0b2" stroke-width="1.5"/>
+  </g>
+  <g transform="translate(661 184)">
+    <path d="M-15 0Q-13-12 0-12Q13-12 15 0Z" fill="#d47e63"/>
+    <path d="M-12 0Q0 7 12 0" fill="#e5d9b0"/>
+    <path d="M0 7V18M0 11L-7 16M0 13L7 18" stroke="#e4d6ad" stroke-width="2"/>
+  </g>
+
+  <path d="M454 145Q486 107 523 126M526 132Q548 113 567 122M579 136Q625 111 668 111" fill="none" stroke="#f4e4aa" stroke-opacity=".62" stroke-width="1.6" stroke-dasharray="4 5"/>
+  <circle cx="487" cy="119" r="3" fill="#f4e4aa"/>
+  <circle cx="617" cy="119" r="3" fill="#f4e4aa"/>
+  <rect x="2" y="2" width="796" height="256" rx="13" fill="none" stroke="#d9e3bf" stroke-opacity=".16"/>
+</svg>
