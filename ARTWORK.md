@@ -440,6 +440,28 @@ Same pinned platform snapshot (`b4241132454e513100b67c6bee457eda62e9e140`).
 
 The other twelve batch 7–9 IDs that were produced in parallel (`ecosystem-keeper`, `elemental-sandbox`, `ember-tactics`, `enduro`, `fishing-harbor`, `flappy-glider`, `fleet-duel`, `forest-dash`, `frequency-bureau`, `frontier-command`, `fruit-slice`, `gear-calibrator`) keep the versions already published from `main`; see the middle-of-queue batches.
 
+## Top-down batch 10 — licensed gameplay captures
+
+Platform snapshot `f077145667b5827407507ff807aef889c76ad8ac` (the pinned catalog revision). All are local
+headless-browser captures of real gameplay, cropped to 800×260; no audio.
+
+| Source file | Method and provenance | Rights |
+| --- | --- | --- |
+| `heroine-dusk.jpg` | In-game character screen of [`games/heroine-dusk`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/f077145667b5827407507ff807aef889c76ad8ac/games/heroine-dusk) (first-person dungeon view with the heroine's portrait, "Serf rags / Bare fists"), reached by starting a new game. Cropped. | Code **MIT**; visual art **CC-BY-SA 3.0** © Clint Bellanger (bundled `README.txt`). This thumbnail is a derivative of that art and is offered under CC-BY-SA 3.0 — see the CC-BY-SA notice below. |
+| `hexgl.jpg` | Race-start frame of [`games/HexGL`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/f077145667b5827407507ff807aef889c76ad8ac/games/HexGL): the ship on the Cityscape track just after "GO", very-high quality preset. Cropped. | **MIT**, bundled `LICENSE`, © 2015 Thibaut Despoulain (BKcore). See MIT notices below. |
+| `hextris.jpg` | Mid-game frame of [`games/Hextris`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/f077145667b5827407507ff807aef889c76ad8ac/games/Hextris) after rotating the hexagon through several falling blocks (score 9). Cropped to the hexagon. | **GPL-3.0**, bundled `LICENSE.md`, © the Hextris team (Logan Engstrom, Garrett Finucane, Noah Moroze, Michael Yang). Thumbnail distributed under GPL-3.0; see GPL notice below. |
+| `island-builder.jpg` | Default Mykonos voxel island of [`games/island-builder`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/f077145667b5827407507ff807aef889c76ad8ac/games/island-builder) as loaded in the editor (isometric white houses, blue domes, windmill); cropped to the island. | **MIT**, bundled `LICENSE`, © 2026 boona13. See MIT notices below. |
+| `os13k.jpg` | Desktop of [`games/os13k`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/f077145667b5827407507ff807aef889c76ad8ac/games/os13k) (fantasy OS and game launcher) with its Help window and app shelf, as first opened. Cropped. | **GPL-3.0**, bundled `LICENSE`, © Frank Force (KilledByAPixel). Thumbnail distributed under GPL-3.0; see GPL notice below. |
+| `polygons.jpg` | The first drag-and-drop board of [`games/polygons`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/f077145667b5827407507ff807aef889c76ad8ac/games/polygons) (Parable of the Polygons by Vi Hart and Nicky Case). Clip of that iframe, cropped. | **CC0 1.0**, bundled `LICENSE.txt`. No attribution required; credited anyway. |
+| `raging-gardens.jpg` | Gameplay of [`games/raging-gardens`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/f077145667b5827407507ff807aef889c76ad8ac/games/raging-gardens): the hungry rabbit among trees, haystacks, barrels and carrots, a few seconds into a round. Cropped to the garden. | **MIT**, bundled `LICENSE`, © 2012 Petar Petrov. See MIT notices below. |
+
+Not captured this batch (still queued, no rights problem found): `hurry`
+(canvas stays black after the first load in the sandbox), `island-not-found`,
+`offline-paradise` and `predecessors` (asset generation/WebGL never finishes
+headlessly), `roguish` (only a blank map generator rendered), and `glade-game`
+(the owner's own Lovable/React-Three build throws "Invariant failed" without a
+real GPU). Retry these with a GPU-enabled browser.
+
 ## Pending rights checks
 
 - `vectoid-td-3d-v1.4` and `submersible`: actual [Vectoid page](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Assets/blob/fadd25140ea2ef59a21b916c34cc682d689f017a/games/vectoid-td-3d-v1.4/index.html) and [Submersible page](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Assets/blob/fadd25140ea2ef59a21b916c34cc682d689f017a/games/submersible/index.html) contain only remote TurboWarp iframes (Scratch projects 670754400 and 811805586). The [asset credits](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Assets/blob/fadd25140ea2ef59a21b916c34cc682d689f017a/THIRD_PARTY.md) name ggenije and awesome-llama respectively and record Scratch's default CC BY-NC-SA 2.0 terms. A compatible noncommercial/share-alike distribution basis for these images was not established; no remote gameplay or AI replacement was used.
@@ -549,12 +571,38 @@ The other twelve batch 7–9 IDs that were produced in parallel (`ecosystem-keep
 - `floppybird`: Apache-2.0 code, but the sprites are the Flappy Bird artwork
   (© .GEARS). Left pending.
 
+- `pong`: the platform credits list MIT, but neither the bundled directory nor
+  the upstream CodeExplainedRepo repository carries a license file. A capture
+  was made and discarded; left pending.
+- `javascript-racer`: MIT code, but its README states the sprites are
+  "placeholder graphics borrowed from the old Genesis version of OutRun"
+  (© Sega). Left pending; no capture kept.
+- `monster-candy`: bundled `LICENSE.txt` is CC BY-NC 4.0 (Enclave Games);
+  noncommercial-only terms are not established as compatible with this
+  distribution. Left pending.
+- `marble-soccer`, `norman-necromancer`: no license file or credit in the
+  bundled directories or the platform credits. Left pending.
+- `openpanzer`: GPL-2.0+ code, but the unit/terrain art derives from Panzer
+  General-style assets whose rights are not documented. Left pending.
+- `pacman`, `mumuy-pacman`, `pacman-canvas`: MIT/GPL code, but any capture
+  shows Pac-Man and ghost characters (© Bandai Namco). Left pending.
+- `guardians-of-the-hollow`, `moon-light-platformer`: remote TurboWarp embeds
+  of Scratch projects by Hollow_Song (CC BY-NC-SA 2.0); cannot be captured in
+  the sandbox and the noncommercial/share-alike fit is not established. Left
+  pending, same reasoning as `echoed-path` above.
+
 ## MIT notices for screenshot artwork
 
 Applies to the MIT-licensed screenshot sources above (and the Bootstrap Icons
 font visible in `tictactoe.jpg`), with their respective copyright notices:
 
 Copyright (c) 2019 Ben Clark, Salvatore Previti
+
+Copyright (c) 2015 Thibaut Despoulain
+
+Copyright (c) 2026 boona13
+
+Copyright (c) 2012 Petar Petrov
 
 Copyright (c) 2018 Dominic Szablewski
 
@@ -780,3 +828,21 @@ INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
 LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
 OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
 PERFORMANCE OF THIS SOFTWARE.
+
+## CC-BY-SA notice — heroine-dusk.jpg
+
+Heroine Dusk visual art © Clint Bellanger (http://clintbellanger.net), licensed
+under Creative Commons Attribution-ShareAlike 3.0
+(https://creativecommons.org/licenses/by-sa/3.0/). `heroine-dusk.jpg` is a
+cropped screenshot of that art and is made available under the same CC-BY-SA
+3.0 license (or later). Music by Yubatake (CC-BY 3.0) is not included.
+
+## GPL notice — hextris.jpg and os13k.jpg
+
+Hextris is Copyright (C) the Hextris team (Logan Engstrom, Garrett Finucane,
+Noah Moroze, Michael Yang); OS13k is Copyright (C) Frank Force. Both are
+licensed under the GNU General Public License version 3. These thumbnails are
+screenshot-derived works distributed under the same GPL-3.0 terms, without any
+warranty; see <https://www.gnu.org/licenses/gpl-3.0.html>. Corresponding
+sources: <https://github.com/Hextris/hextris> and
+<https://github.com/KilledByAPixel/OS13k>.
