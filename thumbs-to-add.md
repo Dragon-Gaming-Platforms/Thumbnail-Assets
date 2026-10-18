@@ -2,7 +2,7 @@
 
 Catalog: [Dragon-Gaming-Platforms/Dragon-Gaming-Platforms](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms),
 revision `379900747b47eb8702103ed58bcb94934fbf7142` (`games.js`).
-Remaining: **68 games** (0 generate=true; 68 generate=false).
+Remaining: **64 games** (0 generate=true; 64 generate=false).
 
 - `generate=true`: create original artwork based on the actual game's gameplay/theme.
 - `generate=false`: capture gameplay or reuse existing artwork after verifying display rights.
@@ -51,7 +51,6 @@ Remaining: **68 games** (0 generate=true; 68 generate=false).
 - `floppybird` generate=false
 - `glade-game` generate=false
 - `guardians-of-the-hollow` generate=false
-- `hexgl` generate=false
 - `pacman` generate=false
 - `hurry` generate=false
 - `island-not-found` generate=false
@@ -63,7 +62,6 @@ Remaining: **68 games** (0 generate=true; 68 generate=false).
 - `moon-light-platformer` generate=false
 - `moto-x3m-2` generate=false
 - `mumuy-pacman` generate=false
-- `island-builder` generate=false
 - `octocat-jump` generate=false
 - `offline-paradise` generate=false
 - `openpanzer` generate=false
@@ -71,10 +69,8 @@ Remaining: **68 games** (0 generate=true; 68 generate=false).
 - `pacman-canvas` generate=false
 - `play-obsidian` generate=false
 - `pong` generate=false
-- `raging-gardens` generate=false
 - `real-dos-windows-on-scratch` generate=false
 - `recoil` generate=false
-- `rescue-copter` generate=false
 - `roguish` generate=false
 - `sight-and-light` generate=false
 - `simon` generate=false
