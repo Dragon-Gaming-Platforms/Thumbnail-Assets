@@ -49,7 +49,6 @@ Remaining: **64 games** (0 generate=true; 64 generate=false).
 - `emberwind` generate=false
 - `escape-road` generate=false
 - `floppybird` generate=false
-- `glade-game` generate=false
 - `guardians-of-the-hollow` generate=false
 - `pacman` generate=false
 - `hurry` generate=false
