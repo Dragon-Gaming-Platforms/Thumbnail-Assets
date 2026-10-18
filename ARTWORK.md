@@ -511,7 +511,9 @@ enemy positions were edited. No audio is included.
 while this batch was being prepared; PR #15 subsequently added Rescue Copter.
 Their images, notices and queue removals are retained. Our overlapping trial
 captures and the unused OS13k master are not part of the final file changes.
-Only Norman is a new source in this batch. User explicitly requested that the
+Only Norman is a new source in this batch. Predecessors, mentioned in the
+teammate's older technical retry list above, was already completed in bottom-up
+batch 13; that retry list is not a blanket artwork-rights clearance. User explicitly requested that the
 existing HexGL/Raging Gardens images remain unchanged and their concerns be
 recorded for separate owner review; see below. This is not a new permission
 grant or a conclusion that those existing images have cleared the review.
@@ -639,8 +641,6 @@ grant or a conclusion that those existing images have cleared the review.
 - `javascript-racer`: MIT code, but its README states the sprites are
   "placeholder graphics borrowed from the old Genesis version of OutRun"
   (© Sega). Left pending; no capture kept.
-- `norman-necromancer`: no license file or credit in the bundled directory or
-  the platform credits. Left pending.
 - `pacman`, `mumuy-pacman`: MIT/GPL code, but any capture shows Pac-Man and
   ghost characters (© Bandai Namco). Left pending.
 - `guardians-of-the-hollow`: remote TurboWarp embed of a Scratch project by
