@@ -2,7 +2,7 @@
 
 Catalog: [Dragon-Gaming-Platforms/Dragon-Gaming-Platforms](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms),
 revision `8ba36accad7073ef77a0163dd0d87bb18d16e86e` (`games.js`).
-Remaining: **84 games** (0 generate=true; 84 generate=false).
+Remaining: **82 games** (0 generate=true; 82 generate=false).
 
 - `generate=true`: create original artwork based on the actual game's gameplay/theme.
 - `generate=false`: capture gameplay or reuse existing artwork after verifying display rights.
@@ -53,7 +53,6 @@ Remaining: **84 games** (0 generate=true; 84 generate=false).
 - `falling-sand-lab` generate=false
 - `fillomino` generate=false
 - `floppybird` generate=false
-- `glade-game` generate=false
 - `glyphbound-tactics` generate=false
 - `guardians-of-the-hollow` generate=false
 - `hashi` generate=false
@@ -72,7 +71,6 @@ Remaining: **84 games** (0 generate=true; 84 generate=false).
 - `mosslight-roguelike` generate=false
 - `moto-x3m-2` generate=false
 - `mumuy-pacman` generate=false
-- `norman-necromancer` generate=false
 - `nurikabe` generate=false
 - `octocat-jump` generate=false
 - `offline-paradise` generate=false

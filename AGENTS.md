@@ -21,7 +21,7 @@
 - Commit the source, provenance/attribution where required, and queue removal
   together. Refresh the queue to update its summary counts.
 - Owner-reserved games (`OWNER_RESERVED_IDS` in `scripts/thumbnail_queue.py`,
-  currently `echoed-path`) are excluded from the queue: the owner adds their
+  currently `echoed-path` and `glade-game`) are excluded from the queue: the owner adds their
   thumbnails personally. Never create artwork for them.
 - Pull/reconcile teammates' changes before refreshing; never overwrite another
   agent's artwork, flags, or queue edits. If a removed ID reappears, check that

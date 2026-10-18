@@ -18,6 +18,7 @@ ROW = re.compile(r"^- `([a-z0-9._-]+)` generate=(true|false)$")
 # generate or capture artwork for these; they are left out of the queue.
 OWNER_RESERVED_IDS = {
     "echoed-path",
+    "glade-game",
 }
 
 SCREENSHOT_IDS = {
