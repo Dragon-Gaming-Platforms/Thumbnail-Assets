@@ -627,6 +627,29 @@ real GPU). Retry these with a GPU-enabled browser.
   noncommercial/share-alike fit is not established. Left pending, same
   reasoning as `echoed-path` above.
 
+- `glade-game`: reserved by the repository owner (`OWNER_RESERVED_IDS`), who
+  will add its thumbnail personally; removed from the queue.
+- `moto-x3m-2`, `recoil`, `snowrider`: commercial "Web Edition" builds
+  (MadPuffers, Nitrome, Snowrider authors) per the platform credits; no open
+  license. Left pending.
+- `play-obsidian`, `real-dos-windows-on-scratch`: remote embeds
+  (PlayObsidian.com, a TurboWarp/Scratch 8086 emulator) that cannot be captured
+  in the sandbox and carry no display grant. Left pending.
+- `octocat-jump`: the player character is GitHub's Octocat mascot (GitHub
+  trademark/artwork); no license file is bundled. Left pending.
+- `skifree`: MIT code (Dan Motzenbecker), but the README credits sprites ripped
+  via The Spriters Resource from Microsoft's SkiFree. Left pending.
+- `space-invaders-13k`: no license file in the [bundled directory](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/379900747b47eb8702103ed58bcb94934fbf7142/games/space-invaders-13k)
+  and no entry in the platform credits. Left pending.
+- `sight-and-light`: Nicky Case's visibility demo; the page calls the related
+  game "uncopyrighted", but the bundled files and the upstream repository carry
+  no detected license. Left pending.
+- `eaglercraft-1-12-2-offline-js`, `eaglercraft-1-8-8-offline-js`: same
+  Minecraft-asset situation as the WASM builds above. Left pending.
+- `hurry`: still queued (MIT), but the bundled build throws
+  "Cannot read properties of undefined (reading 'b2Pos')" at start in the
+  sandbox and never draws a frame; retry in a real browser.
+
 ## MIT notices for screenshot artwork
 
 Also applies to SudokuJS by Jonas Ohlsson: its bundled JS/CSS headers and
