@@ -458,7 +458,28 @@ plain-text layout additions only, not invented game objects or borrowed logos.
 | `predecessors.jpg` | Actual maze/forest gameplay after Enter and arrow-key movement, showing the player, floor/walls and a growing tree. The vendored page is an empty canvas with unbuilt TypeScript: in scratch only, bundled `index.ts` with esbuild (`--bundle --format=iife --loader:.svg=dataurl`) and added a script tag for that bundle. Original rules, map, SVGs and rendering are unchanged. One frame cropped to `(50,200)-(780,565)`, aspect-preserved at 470×235; gamma 0.75 brightening improves shadow visibility without clipping highlights. Plain title/subtitle added beside it. | **MIT**, Copyright 2023 Sami Heikkinen, Tero Jäntti. [Bundled LICENSE](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/predecessors/LICENSE); [entry point with matching notice](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/predecessors/index.ts); original vector artwork in [images/](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/f077145667b5827407507ff807aef889c76ad8ac/games/predecessors/images). See MIT notice below. |
 | `hextris.png` | Actual active game after Play and left/right arrow rotations, after the tutorial faded and a real color match earned 9 points. Browser virtual time advanced the original animation loop; no score, blocks or game state were edited. One frame cropped to `(317,255)-(963,465)` and resized to 800×260; no title, other artwork or compositing. Lossless PNG is the editable raster source, not a CI derivative. | **GPL-3.0-or-later**, © 2018 Logan Engstrom; credits also name Garrett Finucane, Noah Moroze and Michael Yang. [Bundled README and grant](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/Hextris/README.md#license); [pinned upstream](https://github.com/Hextris/hextris/tree/3f4847dc8fd7dab3d1c87e6324b9159d92fbd396). **This entire screenshot-derived thumbnail and its published JPEG remain GPL-3.0-or-later, not repository MIT.** Full license and corresponding-source links below. No social/store logos or promotional artwork appear in the crop. |
 
+## Bottom-up batch 14 — licensed gameplay and desktop captures
+
+Continued bottom-up past the documented rights blockers. Captures and catalog
+were checked at platform revision
+[`379900747b47eb8702103ed58bcb94934fbf7142`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/379900747b47eb8702103ed58bcb94934fbf7142);
+all three IDs still lacked catalog images. These are single actual browser
+frames, not AI artwork or reconstructed scenes. The flat JPEG sources are
+800×260 and <=40 KiB each; all were decoded and visually reviewed. No game
+rules, balances, enemy placement, puzzle cells or sprite-generation code were
+edited. No audio is included.
+
+| Source file | Capture and changes | Rights / source |
+| --- | --- | --- |
+| `norman-necromancer.jpg` | Started the game normally, aimed/cast spells with mouse clicks and used Space for resurrection. The captured first-wave scene includes Norman, spells, corpses and approaching villagers. One frame cropped to `(40,330)-(1240,720)`, resized to 800×260; a plain-text title occupies only the empty upper starfield. | **Unlicense/public domain**, Dan Prince. [Pinned upstream README](https://github.com/danprince/norman-the-necromancer/blob/5db8ca88c8038b3d0888addaa521a16db3c259a8/README.md) identifies the JS13k 2022 game; [full upstream LICENSE.md](https://github.com/danprince/norman-the-necromancer/blob/5db8ca88c8038b3d0888addaa521a16db3c259a8/LICENSE.md) supplies the actual grant. Captured [bundled game](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/379900747b47eb8702103ed58bcb94934fbf7142/games/norman-necromancer/index.html) with its original `sprites.png`. Unlicense dedication below, shared with Progress Knight. |
+| `os13k.jpg` | Real OS13k desktop with its original **Digit Dilemma** puzzle (after arrow-key input) and **Sprite Generator** app. Opened programs through the shell's existing `Open()` UI methods; positioned/resized windows for capture, without changing app rendering/content. Original desktop/window chrome, popup and native procedural sprites, no third-party game artwork. Provisioned browser glyph fallback with DejaVu and Google Noto Color Emoji (`@fontsource/noto-color-emoji@5.3.2`, SIL OFL 1.1); no font files are redistributed. One frame cropped to `(0,0)-(1280,416)` and resized to 800×260. | **GPL-3.0**, Frank Force / KilledByAPixel and contributors; Digit Dilemma's own header credits Frank Force 2020. [Bundled GPL](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/379900747b47eb8702103ed58bcb94934fbf7142/games/os13k/LICENSE), [desktop source](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/379900747b47eb8702103ed58bcb94934fbf7142/games/os13k/index.html), [original puzzle](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/379900747b47eb8702103ed58bcb94934fbf7142/games/os13k/games/digitDilemma.html), [original sprite generator](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/379900747b47eb8702103ed58bcb94934fbf7142/games/os13k/apps/spriteGenerator.html), [upstream](https://github.com/KilledByAPixel/OS13k/tree/671972146c3dd20479e783d6992367bd861bf614). The whole thumbnail and its CI JPEG retain GPL-3.0, **not repo MIT**. Complete license, preferred raster source and corresponding-source links below. |
+| `heroine-dusk.jpg` | Started through the normal menu, disabled music/sounds in Options, woke the heroine and navigated into Gar'ashi Monastery until a real **Shadow Tendrils** combat encounter. Complete combat viewport aspect-preserved at 347×260, plus plain descriptive text and visible artist/license credit. **No title-screen image, logo or Heroine Dusk wordmark is in the thumbnail**; no game content was modified. | **CC BY-SA 3.0**, visual art by **Clint Bellanger** (2013); the [bundled README](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/379900747b47eb8702103ed58bcb94934fbf7142/games/heroine-dusk/README.txt) expressly licenses all visual art under CC BY-SA 3.0, with later versions permitted, separately from GPL code, music and trademark restrictions. [Captured game source](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/379900747b47eb8702103ed58bcb94934fbf7142/games/heroine-dusk/index.html), [pinned upstream](https://github.com/clintbellanger/heroine-dusk/tree/2a1f01deff724212a7843e363f9c656fd0b13430), artist <https://clintbellanger.net/>. **This entire screenshot composition and its CI derivative are CC BY-SA 3.0**, not repo MIT: [license](https://creativecommons.org/licenses/by-sa/3.0/), [legal code/disclaimer](https://creativecommons.org/licenses/by-sa/3.0/legalcode). Changes: capture, proportional resizing, margins, descriptive text/credit. No endorsement or trademark permission is implied. |
+
 ## Pending rights checks
+
+- `hexgl`: the [README](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/379900747b47eb8702103ed58bcb94934fbf7142/games/HexGL/README.md#license) says MIT **unless a file specifies otherwise**. Its [Cityscape track file](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/379900747b47eb8702103ed58bcb94934fbf7142/games/HexGL/bkcore/hexgl/tracks/Cityscape.js#L4-L5) explicitly specifies **CC BY-NC 3.0** and references Feisar-named ship resources. A blanket MIT label is therefore not enough to establish commercial/promotional image rights. No gameplay thumbnail was added; leave pending until the conflicting artwork/track terms are resolved.
+- `monster-candy`: the [README](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/379900747b47eb8702103ed58bcb94934fbf7142/games/monster-candy/README.md#licensing) and license explicitly specify **CC BY-NC 4.0**, with separate author permission requested for commercial use. No screenshot or AI substitute was added.
+- `openpanzer`: the [README](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/379900747b47eb8702103ed58bcb94934fbf7142/games/openpanzer/README.md#graphical-assets-and-other-resources) identifies externally sourced OpenGeneral unit graphics and Panzer General 2-derived scenario resources; the bundled resource readmes supply authors/origins but no verified image-reuse grant. No thumbnail was added while asset display rights remain unresolved.
 
 - `raging-gardens`: the [README](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/raging-gardens/README.md#license) explicitly licenses the game **without game art** under MIT. [Art/LICENSE](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/raging-gardens/art/LICENSE) instead reserves all images to Stremena Tuzsuzova without a reuse grant. No screenshot or AI substitute was added.
 - `solitaire`, `simon`, `sokoban`, `snake` and `spashal`: platform MIT labels were not corroborated by project-level grants in the inspected bundled files / upstream roots: [cyanharlow/solitaire](https://github.com/cyanharlow/solitaire), [kellyk/javascript-simon](https://github.com/kellyk/javascript-simon), [dalvorsn/Sokoban](https://github.com/dalvorsn/Sokoban), [CodeExplainedRepo/Snake-JavaScript](https://github.com/CodeExplainedRepo/Snake-JavaScript), [MrRar/spashal](https://github.com/MrRar/spashal). MIT notices on bundled libraries do not license the game UI/art. Leave pending until an explicit game/asset grant is established; no screenshots or AI replacements were added.
@@ -715,7 +736,7 @@ vector artwork distributed under this repository's MIT license.
 | `ember-tactics.svg` | Eight-by-eight ashland battle map for mission 3's central-fire defense | [`Ember-Tactics.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Ember-Tactics.html); [upstream source](https://github.com/wangzifan396-wzf/mini-browser-games/blob/e459369b31c35658855e7ef50b46fa9f994750d/ember-tactics.html) |
 | `fishing-harbor.svg` | Harbor cast, float, fish, line-tension gauge and five fishing locations | [`Fishing-Harbor.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Fishing-Harbor.html); [upstream source](https://github.com/wangzifan396-wzf/mini-browser-games/blob/e459369b31c35658855e7ef50b46fa9f994750d/fishing-harbor.html) |
 
-## Unlicense notice — progress-knight.jpg
+## Unlicense notice — progress-knight.jpg and norman-necromancer.jpg
 
 This is free and unencumbered software released into the public domain.
 
@@ -830,3 +851,27 @@ Serve that directory statically, click Play, rotate using left/right arrows,
 and capture the original canvas after the tutorial. The crop coordinates
 and resizing are documented in the batch entry above; no game-code patch or
 new game assets are needed. Upstream source is also linked in that entry.
+
+## GPL notice — os13k.jpg and its published JPEG
+
+OS13k is by Frank Force / KilledByAPixel and contributors. The captured
+Digit Dilemma Plus source identifies Frank Force, 2020. This screenshot-derived
+thumbnail and its published JPEG are distributed under **GNU GPL version 3**,
+without warranty, including without any implied warranty of MERCHANTABILITY
+or FITNESS FOR A PARTICULAR PURPOSE, not under this repository's MIT license.
+See the [complete included GPL v3](licenses/GPL-3.0.txt).
+
+The preferred editable source is the unquantized, lossless 800×260
+[`artwork-sources/os13k.png`](artwork-sources/os13k.png). This small master is
+intentionally preserved outside the flat publish-input drop zone for GPL
+source availability; it is not an additional catalog thumbnail or a generated
+CI derivative. The flat `thumbnails/os13k.jpg` is compressed from that master.
+Both the master and compressed derivatives carry the same GPL-3.0 terms.
+
+Corresponding shell/app source is available at the exact captured revision:
+[OS13k at 379900747b47eb8702103ed58bcb94934fbf7142](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/379900747b47eb8702103ed58bcb94934fbf7142/games/os13k).
+Serve it statically, open Digit Dilemma and Apps → Sprite Generator, position
+their original windows and capture the shell. No application patch or new game
+art is needed. Crop/resize details are in the batch entry above. Only these
+original shell/apps are shown; this is not a blanket license claim for every
+third-party program shipped in the OS13k collection.
