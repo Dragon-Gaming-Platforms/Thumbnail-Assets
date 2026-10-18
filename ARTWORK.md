@@ -482,11 +482,11 @@ headless-browser captures of real gameplay, cropped to 800×260; no audio.
 
 | Source file | Method and provenance | Rights |
 | --- | --- | --- |
-| `heroine-dusk.jpg` | In-game character screen of [`games/heroine-dusk`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/f077145667b5827407507ff807aef889c76ad8ac/games/heroine-dusk) (first-person dungeon view with the heroine's portrait, "Serf rags / Bare fists"), reached by starting a new game. Cropped. | Code **MIT**; visual art **CC-BY-SA 3.0** © Clint Bellanger (bundled `README.txt`). This thumbnail is a derivative of that art and is offered under CC-BY-SA 3.0 — see the CC-BY-SA notice below. |
-| `hexgl.jpg` | Race-start frame of [`games/HexGL`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/f077145667b5827407507ff807aef889c76ad8ac/games/HexGL): the ship on the Cityscape track just after "GO", very-high quality preset. Cropped. | **MIT**, bundled `LICENSE`, © 2015 Thibaut Despoulain (BKcore). See MIT notices below. |
+| `heroine-dusk.jpg` | In-game character screen of [`games/heroine-dusk`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/f077145667b5827407507ff807aef889c76ad8ac/games/heroine-dusk) (first-person dungeon view with the heroine's portrait, "Serf rags / Bare fists"), reached by starting a new game. Cropped. | Code **GPL-3.0-or-later**; visual art **CC-BY-SA 3.0** © Clint Bellanger (bundled `README.txt`). This thumbnail is a derivative of that art and is offered under CC-BY-SA 3.0 — see the CC-BY-SA notice below. |
+| `hexgl.jpg` | Race-start frame of [`games/HexGL`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/f077145667b5827407507ff807aef889c76ad8ac/games/HexGL): the ship on the Cityscape track just after "GO", very-high quality preset. Cropped. | **Artwork rights unresolved — owner review.** The MIT notice credits © 2015 Thibaut Despoulain (BKcore), but README exceptions and the Cityscape-specific CC BY-NC header conflict with a blanket MIT thumbnail claim. See existing-artwork review below. |
 | `island-builder.jpg` | Default Mykonos voxel island of [`games/island-builder`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/f077145667b5827407507ff807aef889c76ad8ac/games/island-builder) as loaded in the editor (isometric white houses, blue domes, windmill); cropped to the island. | **MIT**, bundled `LICENSE`, © 2026 boona13. See MIT notices below. |
 | `os13k.jpg` | Desktop of [`games/os13k`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/f077145667b5827407507ff807aef889c76ad8ac/games/os13k) (fantasy OS and game launcher) with its Help window and app shelf, as first opened. Cropped. | **GPL-3.0**, bundled `LICENSE`, © Frank Force (KilledByAPixel). Thumbnail distributed under GPL-3.0; see GPL notice below. |
-| `raging-gardens.jpg` | Gameplay of [`games/raging-gardens`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/f077145667b5827407507ff807aef889c76ad8ac/games/raging-gardens): the hungry rabbit among trees, haystacks, barrels and carrots, a few seconds into a round. Cropped to the garden. | **MIT**, bundled `LICENSE`, © 2012 Petar Petrov. See MIT notices below. |
+| `raging-gardens.jpg` | Gameplay of [`games/raging-gardens`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/f077145667b5827407507ff807aef889c76ad8ac/games/raging-gardens): the hungry rabbit among trees, haystacks, barrels and carrots, a few seconds into a round. Cropped to the garden. | **Artwork rights unresolved — owner review.** MIT code © 2012 Petar Petrov explicitly excludes game art; images are reserved to Stremena Tuzsuzova. See existing-artwork review below. |
 
 Not captured this batch (still queued, no rights problem found): `hurry`
 (canvas stays black after the first load in the sandbox), `island-not-found`,
@@ -495,9 +495,32 @@ headlessly), `roguish` (only a blank map generator rendered), and `glade-game`
 (the owner's own Lovable/React-Three build throws "Invariant failed" without a
 real GPU). Retry these with a GPU-enabled browser.
 
+## Bottom-up batch 14 — Norman the Necromancer
+
+Actual gameplay captured at platform revision
+`379900747b47eb8702103ed58bcb94934fbf7142`; that catalog still has no image
+for `norman-necromancer`. The source is an 800×260 JPEG, 20,493 bytes,
+decoded and visually reviewed. No AI artwork, game rules, health, spells or
+enemy positions were edited. No audio is included.
+
+| Source file | Capture and changes | Rights / source |
+| --- | --- | --- |
+| `norman-necromancer.jpg` | Started the game normally, aimed/cast spells with mouse clicks and used Space for resurrection. The captured first-wave scene includes Norman, spells, corpses and approaching villagers. One frame cropped to `(40,330)-(1240,720)`, resized to 800×260; a plain-text title occupies only the empty upper starfield. | **Unlicense/public domain**, Dan Prince. [Pinned upstream README](https://github.com/danprince/norman-the-necromancer/blob/5db8ca88c8038b3d0888addaa521a16db3c259a8/README.md) identifies the JS13k 2022 game; [full upstream LICENSE.md](https://github.com/danprince/norman-the-necromancer/blob/5db8ca88c8038b3d0888addaa521a16db3c259a8/LICENSE.md) supplies the actual grant. Captured [bundled game](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/379900747b47eb8702103ed58bcb94934fbf7142/games/norman-necromancer/index.html) with its original `sprites.png`. Unlicense dedication below, shared with Progress Knight. |
+
+**Concurrent-work reconciliation:** PR #14 published Heroine Dusk and OS13k
+while this batch was being prepared; PR #15 subsequently added Rescue Copter.
+Their images, notices and queue removals are retained. Our overlapping trial
+captures and the unused OS13k master are not part of the final file changes.
+Only Norman is a new source in this batch. Predecessors, mentioned in the
+teammate's older technical retry list above, was already completed in bottom-up
+batch 13; that retry list is not a blanket artwork-rights clearance. User explicitly requested that the
+existing HexGL/Raging Gardens images remain unchanged and their concerns be
+recorded for separate owner review; see below. This is not a new permission
+grant or a conclusion that those existing images have cleared the review.
+
 ## Pending rights checks
 
-- `raging-gardens`: the [README](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/raging-gardens/README.md#license) explicitly licenses the game **without game art** under MIT. [Art/LICENSE](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/raging-gardens/art/LICENSE) instead reserves all images to Stremena Tuzsuzova without a reuse grant. No screenshot or AI substitute was added.
+- `raging-gardens`: the [README](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/raging-gardens/README.md#license) explicitly licenses the game **without game art** under MIT. [Art/LICENSE](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/raging-gardens/art/LICENSE) instead reserves all images to Stremena Tuzsuzova without a reuse grant. This was left pending by the earlier batch, but PR #14 later published an image. That existing source is unchanged here at the user's direction; its artwork rights still need separate owner review.
 - `solitaire`, `simon`, `sokoban`, `snake` and `spashal`: platform MIT labels were not corroborated by project-level grants in the inspected bundled files / upstream roots: [cyanharlow/solitaire](https://github.com/cyanharlow/solitaire), [kellyk/javascript-simon](https://github.com/kellyk/javascript-simon), [dalvorsn/Sokoban](https://github.com/dalvorsn/Sokoban), [CodeExplainedRepo/Snake-JavaScript](https://github.com/CodeExplainedRepo/Snake-JavaScript), [MrRar/spashal](https://github.com/MrRar/spashal). MIT notices on bundled libraries do not license the game UI/art. Leave pending until an explicit game/asset grant is established; no screenshots or AI replacements were added.
 - `spacecompany`: its [LICENCE.txt](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/SpaceCompany/LICENCE.txt) is MIT-like but adds **“Sparticle999 is made aware that the Software has been used somewhere else.”** Do not silently treat this as unmodified MIT. Author notification and any separately licensed icon assets must be addressed before reuse; no thumbnail was added.
 
@@ -618,8 +641,6 @@ real GPU). Retry these with a GPU-enabled browser.
 - `javascript-racer`: MIT code, but its README states the sprites are
   "placeholder graphics borrowed from the old Genesis version of OutRun"
   (© Sega). Left pending; no capture kept.
-- `norman-necromancer`: no license file or credit in the bundled directory or
-  the platform credits. Left pending.
 - `pacman`, `mumuy-pacman`: MIT/GPL code, but any capture shows Pac-Man and
   ghost characters (© Bandai Namco). Left pending.
 - `guardians-of-the-hollow`: remote TurboWarp embed of a Scratch project by
@@ -779,7 +800,7 @@ vector artwork distributed under this repository's MIT license.
 | `ember-tactics.svg` | Eight-by-eight ashland battle map for mission 3's central-fire defense | [`Ember-Tactics.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Ember-Tactics.html); [upstream source](https://github.com/wangzifan396-wzf/mini-browser-games/blob/e459369b31c35658855e7ef50b46fa9f994750d/ember-tactics.html) |
 | `fishing-harbor.svg` | Harbor cast, float, fish, line-tension gauge and five fishing locations | [`Fishing-Harbor.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Fishing-Harbor.html); [upstream source](https://github.com/wangzifan396-wzf/mini-browser-games/blob/e459369b31c35658855e7ef50b46fa9f994750d/fishing-harbor.html) |
 
-## Unlicense notice — progress-knight.jpg
+## Unlicense notice — progress-knight.jpg and norman-necromancer.jpg
 
 This is free and unencumbered software released into the public domain.
 
@@ -910,3 +931,22 @@ GNU General Public License version 3. `os13k.jpg` is a screenshot-derived work
 distributed under the same GPL-3.0 terms (or any later version), without any
 warranty; see the [included GPL v3](licenses/GPL-3.0.txt). Corresponding
 source: <https://github.com/KilledByAPixel/OS13k>.
+
+## Existing published artwork — separate owner license review
+
+The following sources arrived on `main` through PR #14 during preparation.
+Their image bytes and current queue removals are deliberately unchanged in
+this batch, as requested by the owner. **Preservation is not rights clearance**:
+the thumbnail-specific review qualifications take precedence over generic MIT
+notices elsewhere in this document.
+
+- **HexGL:** its [README](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/379900747b47eb8702103ed58bcb94934fbf7142/games/HexGL/README.md#license) grants MIT **unless specified in a file**. The [Cityscape track header](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/379900747b47eb8702103ed58bcb94934fbf7142/games/HexGL/bkcore/hexgl/tracks/Cityscape.js#L4-L5) explicitly specifies **CC BY-NC 3.0** and the file references Feisar-named ship resources. A blanket MIT label is insufficient to establish promotional/commercial artwork display rights. Owner review must resolve the exceptions and artwork provenance before treating the existing thumbnail as cleared.
+- **Raging Gardens:** the [README](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/379900747b47eb8702103ed58bcb94934fbf7142/games/raging-gardens/README.md#license) expressly excludes game art from MIT. Its [art/LICENSE](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/379900747b47eb8702103ed58bcb94934fbf7142/games/raging-gardens/art/LICENSE) reserves the images to **Stremena Tuzsuzova** without an image-reuse grant. Owner review needs separate artwork permission; the MIT code notice alone is not such permission.
+
+Other inspected, still-pending games (no new sources added): **Monster Candy**
+explicitly uses CC BY-NC 4.0 and requests separate commercial permission in its
+[README](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/379900747b47eb8702103ed58bcb94934fbf7142/games/monster-candy/README.md#licensing).
+**OpenPanzer** credits external OpenGeneral unit graphics and Panzer General 2
+resources in its [README](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/379900747b47eb8702103ed58bcb94934fbf7142/games/openpanzer/README.md#graphical-assets-and-other-resources);
+a verified image-reuse grant for the bundled external assets was not established.
+No AI substitutes were added for these rights blockers.
