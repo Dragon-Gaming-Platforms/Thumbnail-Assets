@@ -257,20 +257,22 @@ right-hand panel adds plain text only; no logos or extra game art were used.
 | --- | --- | --- |
 | `enduro.jpg` | Gameplay screenshot composition: retro racing road, traffic and the game's lap/position display; plain-text title and controls added outside the viewport | [`games/enduro/index.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/enduro/index.html), [README](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/enduro/README.md), and [MIT license](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/enduro/license.txt); `THIRD_PARTY.md` also lists MIT. The source credits Rafael Castro (`rafaelcastrocouto`, 2019). The screenshot uses the local game viewport only, without logos or external visual assets; see MIT notice below. |
 
-## Middle-of-queue screenshot batch 4
+## Bottom-up batch 12 — licensed gameplay captures
 
-After PR #8 was merged and reconciled, the 78-game queue's exact midpoint
-was `minesweeper` (row 39) and `monster-candy` (row 40). Minesweeper was
-captured during Easy gameplay, after the first safe reveal. The source image
-contains only the canvas-rendered grid and number clues; external badges, the
-GitHub ribbon, and standalone mine/flag images are excluded. The right-hand
-panel is original plain text, with no logo. `monster-candy` remains queued
-because its CC BY-NC 4.0 terms are not established as compatible with this
-catalog.
+Three actual local Chromium gameplay screenshots, not AI illustrations, from
+platform revision [`f077145667b5827407507ff807aef889c76ad8ac`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/f077145667b5827407507ff807aef889c76ad8ac).
+At capture time, the pending original-art IDs overlapped the top-down agent's
+PR #8, so this batch continued screenshot-only work without duplicating those
+sources. PR #8 merged during this work; its artwork, notices and queue edits
+were reconciled and preserved. All three were cropped, resized and JPEG-optimized to 800×260,
+<=40 KiB, decoded and visually reviewed. No audio or external promotional
+artwork is included; these screenshot assets retain the source terms below.
 
-| ID / source file | Method and subject | Provenance / rights |
+| Source file | Capture method / changes | Verified source rights |
 | --- | --- | --- |
-| `minesweeper.jpg` | Gameplay screenshot composition: Easy mode, 66-mine field after a safe first click, colored counts and open cells; original plain-text title/instructions panel | Local browser capture of [`games/minesweeper`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/f077145667b5827407507ff807aef889c76ad8ac/games/minesweeper), under its [MIT license](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/minesweeper/LICENSE); © 2013 Joey van Ommen (Joeynoh). Only canvas-rendered gameplay is shown, without the external page badges, GitHub ribbon, or separate image assets. The text panel is original; see MIT notice below. |
+| `progress-knight.jpg` | Actual jobs/progression UI after advancing the game's own `update()` ticks (no levels, balances, unlocks or UI values edited), selecting the normally unlocked Farmer job, then pausing. The external W3.CSS 4 stylesheet was served locally from `w3-css@4.1.0` (W3.CSS 4.10, February 2018, Jan Egil and Borge Refsnes) for offline capture; [W3Schools explicitly permits free use and self-hosting without a license requirement](https://www.w3schools.com/w3css/w3css_intro.asp); no game rules or rendering code changed. Cropped to title, stats and jobs. | Ihtasham, **Unlicense/public domain**, not the MIT label in the platform credits: [bundled LICENSE](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/progress-knight/LICENSE), also [pinned upstream license](https://github.com/ihtasham42/progress-knight/blob/f6dd0c3c444d838f80325bbdca918160b99e89e5/LICENSE). Full dedication below. |
+| `isocity.jpg` | Actual builder canvas after placing a small town through palette-selection events and canvas clicks. Cropped to the central town; no extra artwork, compositing or game-code changes. | Victor Ribeiro, **MIT**, © 2019 Victor Ribeiro: [bundled license](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/isocity/LICENSE). The [bundled texture credits](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/isocity/README.md#texture-credits) name Kenney; his [primary-source FAQ](https://kenney.nl/support) explicitly licenses all published game assets **CC0/public domain**, including commercial use. The [OpenGameArt page](https://opengameart.org/content/isometric-landscape) linked in `js/main.js` also specifies Kenney / CC0. These primary sources, not an inferred MIT grant on textures, establish reuse rights. [Pinned upstream](https://github.com/victorqribeiro/isocity/tree/c5772412d3e423318f2cf479ebdd50a2b9029d84). MIT notice below. |
+| `minesweeper.jpg` | Actual Easy gameplay after opening cells, captured only after the initial screen transition finished. Cropped to game title, board and status; no game-code changes. No external promotional badges, flag/mine image assets, or remote webfont appear in the crop. | Joey van Ommen, **MIT**, © 2013 Joey van Ommen: [bundled license](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/minesweeper/LICENSE), [pinned upstream license](https://github.com/Joeynoh/HTML5-Minesweeper/blob/33fa835c67f17b58cd34f7e300c6068bb1028914/LICENSE). The captured board uses program-rendered cells and numeric clues. MIT notice below. |
 
 ## Top-down batch 1
 
@@ -440,6 +442,9 @@ The other twelve batch 7–9 IDs that were produced in parallel (`ecosystem-keep
 
 ## Pending rights checks
 
+- `vectoid-td-3d-v1.4` and `submersible`: actual [Vectoid page](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Assets/blob/fadd25140ea2ef59a21b916c34cc682d689f017a/games/vectoid-td-3d-v1.4/index.html) and [Submersible page](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Assets/blob/fadd25140ea2ef59a21b916c34cc682d689f017a/games/submersible/index.html) contain only remote TurboWarp iframes (Scratch projects 670754400 and 811805586). The [asset credits](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Assets/blob/fadd25140ea2ef59a21b916c34cc682d689f017a/THIRD_PARTY.md) name ggenije and awesome-llama respectively and record Scratch's default CC BY-NC-SA 2.0 terms. A compatible noncommercial/share-alike distribution basis for these images was not established; no remote gameplay or AI replacement was used.
+- `survivor`: the [bundled license](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/survivor/license.txt) and [README](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/survivor/README.rdoc) specify Scott Schiller's **CC BY-NC 3.0** remake of a 1983 Commodore 64 title, plus separate font and audio-library terms. This is not a blanket MIT artwork grant. No screenshot or AI substitute was added; leave pending until the display/distribution terms are resolved.
+
 - `zedinvaders`: bundled READMEs call it open source, but the inspected game
   directory has no license grant; third-party/comic and Pac-Man assets are
   present. Left pending rather than assuming all imagery is licensed.
@@ -537,7 +542,7 @@ The other twelve batch 7–9 IDs that were produced in parallel (`ecosystem-keep
 - `dreadheadparkour`: Construct web export of GameTornado's commercial
   Dreadhead Parkour ("Web Edition" in `THIRD_PARTY.md`); no open license.
   Left pending.
-- `drakonas`: the directory-level [MIT license](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/drakonas/LICENSE) applies to the game; the visible [player](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/drakonas/files/objects/player/default.obj) and [hangar](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/drakonas/files/objects/buildings/hangar-skelet.obj) models also carry MIT headers crediting Timothy Beuving. Mission 1 remains mostly brown fog around a small aircraft, and mission 2 errors. The main-menu hangar is visually clearer but is a menu capture rather than gameplay; no source was selected, so it remains queued for a representative gameplay frame.
+- `drakonas`: the directory-level [MIT license](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/drakonas/LICENSE) applies to the game; visible [player](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/drakonas/files/objects/player/default.obj) and [hangar](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/drakonas/files/objects/buildings/hangar-skelet.obj) OBJ files also carry MIT headers crediting Timothy Beuving. Mission 1 renders a small aircraft in brown fog, and mission 2 errors. The main-menu hangar is clearer but is a menu capture, not gameplay; leave pending for a representative gameplay frame.
 - `escape-road`: a Unity web build loaded from a third-party CDN (commercial
   Azgames title); no open license. Left pending.
 - `floppybird`: Apache-2.0 code, but the sprites are the Flappy Bird artwork
@@ -569,6 +574,8 @@ Copyright (c) 2014 Tóth Róbert
 Copyright (c) 2018 Max Bittker
 
 Copyright (c) 2019 by rafaelcastrocouto
+
+Copyright (c) 2019 Victor Ribeiro
 
 Copyright (c) 2013 Joey van Ommen
 
@@ -679,6 +686,33 @@ vector artwork distributed under this repository's MIT license.
 | `elemental-sandbox.svg` | Pixel-grid particles and material interactions: sand, water, fire, plant growth and steam | [`Elemental-Sandbox.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Elemental-Sandbox.html); [upstream source](https://github.com/wangzifan396-wzf/mini-browser-games/blob/e459369b31c35658855e7ef50b46fa9f994750d/elemental-sandbox.html) |
 | `ember-tactics.svg` | Eight-by-eight ashland battle map for mission 3's central-fire defense | [`Ember-Tactics.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Ember-Tactics.html); [upstream source](https://github.com/wangzifan396-wzf/mini-browser-games/blob/e459369b31c35658855e7ef50b46fa9f994750d/ember-tactics.html) |
 | `fishing-harbor.svg` | Harbor cast, float, fish, line-tension gauge and five fishing locations | [`Fishing-Harbor.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/singlefiles/Fishing-Harbor.html); [upstream source](https://github.com/wangzifan396-wzf/mini-browser-games/blob/e459369b31c35658855e7ef50b46fa9f994750d/fishing-harbor.html) |
+
+## Unlicense notice — progress-knight.jpg
+
+This is free and unencumbered software released into the public domain.
+
+Anyone is free to copy, modify, publish, use, compile, sell, or
+distribute this software, either in source code form or as a compiled
+binary, for any purpose, commercial or non-commercial, and by any
+means.
+
+In jurisdictions that recognize copyright laws, the author or authors
+of this software dedicate any and all copyright interest in the
+software to the public domain. We make this dedication for the benefit
+of the public at large and to the detriment of our heirs and
+successors. We intend this dedication to be an overt act of
+relinquishment in perpetuity of all present and future rights to this
+software under copyright law.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
+OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE.
+
+For more information, please refer to <https://unlicense.org>
 
 ## GPL notice — 1255-burgomaster.jpg
 
