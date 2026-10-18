@@ -2,7 +2,7 @@
 
 Catalog: [Dragon-Gaming-Platforms/Dragon-Gaming-Platforms](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms),
 revision `f077145667b5827407507ff807aef889c76ad8ac` (`games.js`).
-Remaining: **75 games** (0 generate=true; 75 generate=false).
+Remaining: **74 games** (0 generate=true; 74 generate=false).
 
 - `generate=true`: create original artwork based on the actual game's gameplay/theme.
 - `generate=false`: capture gameplay or reuse existing artwork after verifying display rights.
@@ -73,7 +73,6 @@ Remaining: **75 games** (0 generate=true; 75 generate=false).
 - `opensc2k` generate=false
 - `os13k` generate=false
 - `pacman-canvas` generate=false
-- `polygons` generate=false
 - `play-obsidian` generate=false
 - `pong` generate=false
 - `predecessors` generate=false

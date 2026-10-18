@@ -257,6 +257,23 @@ right-hand panel adds plain text only; no logos or extra game art were used.
 | --- | --- | --- |
 | `enduro.jpg` | Gameplay screenshot composition: retro racing road, traffic and the game's lap/position display; plain-text title and controls added outside the viewport | [`games/enduro/index.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/enduro/index.html), [README](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/enduro/README.md), and [MIT license](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/enduro/license.txt); `THIRD_PARTY.md` also lists MIT. The source credits Rafael Castro (`rafaelcastrocouto`, 2019). The screenshot uses the local game viewport only, without logos or external visual assets; see MIT notice below. |
 
+## Middle-of-queue screenshot batch 4 — Polygons
+
+The reconciled queue at platform revision
+[`f077145667b5827407507ff807aef889c76ad8ac`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/f077145667b5827407507ff807aef889c76ad8ac)
+had 75 pending IDs; exact midpoint rows 38–39 were `monster-candy` and
+`moon-light-platformer`, left pending under noncommercial/share-alike terms.
+`polygons` (row 50) was the nearest reviewed candidate with both a useful live
+gameplay frame and verified display rights. Its built-in automatic simulation
+ran 182 steps with 312 shapes and a 54% reading on the segregation graph
+before capture. The nearby OS13K Free Cell frame was low-contrast and obscured
+by Help/Welcome windows, while Aqua Pop remained on its “Enter to start” title
+screen. No AI-generated artwork or audio is included.
+
+| ID / source file | Method and subject | Provenance / rights |
+| --- | --- | --- |
+| `polygons.jpg` | Gameplay screenshot composition of the automatic simulation, neighborhood shapes and live segregation graph; plain-text title panel plus the game's happy triangle and square sprites | Local Chromium capture of the built-in simulation in [`games/polygons`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/f077145667b5827407507ff807aef889c76ad8ac/games/polygons), at 182 steps / 312 shapes / 54%. The pinned [README](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/polygons/README.md) says the playable post is public domain under **CC0 1.0**, invites picture/text adaptations, and credits Vi Hart and Nicky Case; bundled [`LICENSE.txt`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/polygons/LICENSE.txt) contains the CC0 legal code. The capture and bundled game sprites are CC0; the full title-panel composition is also released under CC0 1.0. No external artwork or logos. Title text uses rasterized DejaVu Sans glyphs under the permissive Bitstream Vera-derived font license; no font file is included. Optimized to 800×260 JPEG (38,777 bytes) and visually reviewed at card size. |
+
 ## Bottom-up batch 12 — licensed gameplay captures
 
 Three actual local Chromium gameplay screenshots, not AI illustrations, from
@@ -516,6 +533,11 @@ The other twelve batch 7–9 IDs that were produced in parallel (`ecosystem-keep
   Games). The non-commercial restriction conflicts with this repository's MIT
   distribution; left pending for a decision rather than relicensing.
 - `monster-candy`: the pinned [README](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/monster-candy/README.md) and [LICENSE.txt](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/monster-candy/LICENSE.txt) state CC BY-NC 4.0 and credit Andrzej Mazur. The noncommercial-only grant is not established as compatible with this hosted, MIT-licensed thumbnail catalog; left pending, with no screenshot or bundled art used.
+- `moon-light-platformer`: remote Scratch project [1376049622](https://scratch.mit.edu/projects/1376049622/), attributed under Scratch's default **CC BY-NC-SA 2.0** terms. The noncommercial/share-alike grant is not established as compatible with this hosted MIT-licensed thumbnail catalog; no remote screenshot or AI replacement was used, so it remains pending.
+- `marble-soccer`: the inspected [game directory](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/f077145667b5827407507ff807aef889c76ad8ac/games/marble-soccer) has no clear game-level display license or complete attribution for its bundled art. No screenshot was used; leave pending until rights are established.
+- `openpanzer`: the [README](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/openpanzer/README.md) identifies GPL-2-or-later code but credits unit images to OpenGeneral icons and other Panzer General 2 resources. Separate display terms for those graphics were not verified; no screenshot or assets were reused.
+- `opensc2k`: the [README](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/OpenSC2K/README.md) says original SimCity 2000 graphics are not included and requires `LARGE.DAT` and `PAL_MSTR.BMP` from the Windows 95 Special Edition for a full render. The engine's GPL-3.0 license does not grant rights to those proprietary graphics; leave pending.
+- `pacman-canvas`: upstream [README](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/pacman-canvas/README.md) says CC0 1.0, while the platform credit table lists CC BY-SA 4.0; neither establishes separate rights to Pac-Man franchise artwork/branding. No screenshot used; leave pending until the license conflict and display rights are resolved.
 - `cellmates`: Global Game Jam 2013 entry by Matt Greer; the bundled directory
   has no license and the platform credits only cover the ImpactJS engine (MIT),
   not the game art. Left pending.
