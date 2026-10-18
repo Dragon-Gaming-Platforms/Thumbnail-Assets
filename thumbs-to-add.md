@@ -2,7 +2,7 @@
 
 Catalog: [Dragon-Gaming-Platforms/Dragon-Gaming-Platforms](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms),
 revision `379900747b47eb8702103ed58bcb94934fbf7142` (`games.js`).
-Remaining: **66 games** (0 generate=true; 66 generate=false).
+Remaining: **65 games** (0 generate=true; 65 generate=false).
 
 - `generate=true`: create original artwork based on the actual game's gameplay/theme.
 - `generate=false`: capture gameplay or reuse existing artwork after verifying display rights.
@@ -72,7 +72,6 @@ Remaining: **66 games** (0 generate=true; 66 generate=false).
 - `pong` generate=false
 - `real-dos-windows-on-scratch` generate=false
 - `recoil` generate=false
-- `rescue-copter` generate=false
 - `roguish` generate=false
 - `sight-and-light` generate=false
 - `simon` generate=false

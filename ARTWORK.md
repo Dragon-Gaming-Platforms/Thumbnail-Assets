@@ -257,6 +257,23 @@ right-hand panel adds plain text only; no logos or extra game art were used.
 | --- | --- | --- |
 | `enduro.jpg` | Gameplay screenshot composition: retro racing road, traffic and the game's lap/position display; plain-text title and controls added outside the viewport | [`games/enduro/index.html`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/enduro/index.html), [README](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/enduro/README.md), and [MIT license](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/enduro/license.txt); `THIRD_PARTY.md` also lists MIT. The source credits Rafael Castro (`rafaelcastrocouto`, 2019). The screenshot uses the local game viewport only, without logos or external visual assets; see MIT notice below. |
 
+## Middle-of-queue screenshot batch 4 — Rescue Copter
+
+The latest reconciled queue at platform revision
+[`379900747b47eb8702103ed58bcb94934fbf7142`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/379900747b47eb8702103ed58bcb94934fbf7142)
+had 66 pending IDs; exact midpoint rows 33–34 were
+`linux-6.1.14-rv32ima-on-scratch` and `marble-soccer`. Both remain pending:
+the former is a remote Scratch project under CC BY-NC-SA 2.0, and the latter's
+bundled art has no clear game-level display grant. After reviewing nearby
+candidates, `rescue-copter` (row 49) was the nearest with verified MIT source
+rights and representative live gameplay. The local capture was taken after
+starting a round and dismissing its tutorial; it shows the helicopter over
+burning terrain. No AI-generated art or audio is included.
+
+| ID / source file | Method and subject | Provenance / rights |
+| --- | --- | --- |
+| `rescue-copter.png` | Actual gameplay composition, with a plain-text title panel using the game's `img/font.png` pixel font and a flame sprite from `img/sprites.png`; 800×260 PNG (71,714 bytes) | Local gameplay run of [`games/rescue-copter`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/379900747b47eb8702103ed58bcb94934fbf7142/games/rescue-copter), captured from the 800×600 play canvas after Start and after clearing the tutorial. The platform [`CREDITS.md`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/379900747b47eb8702103ed58bcb94934fbf7142/CREDITS.md) credits Greg Pabian's [upstream source at `beadc7eb43ea29d447d2feb6ec0993d1d23510e1`](https://github.com/gregpabian/rescuecopter-js13k/tree/beadc7eb43ea29d447d2feb6ec0993d1d23510e1) as MIT; the upstream README and `package.json` also declare MIT. The screenshot and game-sprite composition are distributed under that grant; see MIT notice below. The bundled `jsfxr.js` notes Apache-2.0, but no audio or library code is included. No external images or logos. |
+
 ## Bottom-up batch 12 — licensed gameplay captures
 
 Three actual local Chromium gameplay screenshots, not AI illustrations, from
@@ -557,6 +574,12 @@ real GPU). Retry these with a GPU-enabled browser.
 - `captain-rogers`: bundled `LICENSE.txt` is CC BY-NC 4.0 (Mozilla/Enclave
   Games). The non-commercial restriction conflicts with this repository's MIT
   distribution; left pending for a decision rather than relicensing.
+- `monster-candy`: the pinned [README](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/379900747b47eb8702103ed58bcb94934fbf7142/games/monster-candy/README.md) and [LICENSE.txt](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/379900747b47eb8702103ed58bcb94934fbf7142/games/monster-candy/LICENSE.txt) state CC BY-NC 4.0 and credit Andrzej Mazur. The noncommercial-only grant is not established as compatible with this hosted, MIT-licensed thumbnail catalog; left pending, with no screenshot or bundled art used.
+- `moon-light-platformer`: remote Scratch project [1376049622](https://scratch.mit.edu/projects/1376049622/), attributed under Scratch's default **CC BY-NC-SA 2.0** terms. The noncommercial/share-alike grant is not established as compatible with this hosted MIT-licensed thumbnail catalog; no remote screenshot or AI replacement was used, so it remains pending.
+- `marble-soccer`: the inspected [game directory](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/379900747b47eb8702103ed58bcb94934fbf7142/games/marble-soccer) has no clear game-level display license or complete attribution for its bundled art. No screenshot was used; leave pending until rights are established.
+- `openpanzer`: the [README](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/379900747b47eb8702103ed58bcb94934fbf7142/games/openpanzer/README.md) identifies GPL-2-or-later code but credits unit images to OpenGeneral icons and other Panzer General 2 resources. Separate display terms for those graphics were not verified; no screenshot or assets were reused.
+- `opensc2k`: the [README](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/379900747b47eb8702103ed58bcb94934fbf7142/games/OpenSC2K/README.md) says original SimCity 2000 graphics are not included and requires `LARGE.DAT` and `PAL_MSTR.BMP` from the Windows 95 Special Edition for a full render. The engine's GPL-3.0 license does not grant rights to those proprietary graphics; leave pending.
+- `pacman-canvas`: upstream [README](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/379900747b47eb8702103ed58bcb94934fbf7142/games/pacman-canvas/README.md) says CC0 1.0, while the platform credit table lists CC BY-SA 4.0; neither establishes separate rights to Pac-Man franchise artwork/branding. No screenshot used; leave pending until the license conflict and display rights are resolved.
 - `cellmates`: Global Game Jam 2013 entry by Matt Greer; the bundled directory
   has no license and the platform credits only cover the ImpactJS engine (MIT),
   not the game art. Left pending.
@@ -583,9 +606,7 @@ real GPU). Retry these with a GPU-enabled browser.
 - `dreadheadparkour`: Construct web export of GameTornado's commercial
   Dreadhead Parkour ("Web Edition" in `THIRD_PARTY.md`); no open license.
   Left pending.
-- `drakonas`: MIT, but the bundled early prototype only shows a lone fighter
-  over blurred terrain in the sandbox (no enemies/objects rendered after a
-  minute of play), so no representative capture yet; left in the queue.
+- `drakonas`: the directory-level [MIT license](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/379900747b47eb8702103ed58bcb94934fbf7142/games/drakonas/LICENSE) applies to the game; visible [player](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/379900747b47eb8702103ed58bcb94934fbf7142/games/drakonas/files/objects/player/default.obj) and [hangar](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/379900747b47eb8702103ed58bcb94934fbf7142/games/drakonas/files/objects/buildings/hangar-skelet.obj) OBJ files also carry MIT headers crediting Timothy Beuving. Mission 1 renders a small aircraft in brown fog, and mission 2 errors. The main-menu hangar is clearer but is a menu capture, not gameplay; leave pending for a representative gameplay frame.
 - `escape-road`: a Unity web build loaded from a third-party CDN (commercial
   Azgames title); no open license. Left pending.
 - `floppybird`: Apache-2.0 code, but the sprites are the Flappy Bird artwork
@@ -597,19 +618,14 @@ real GPU). Retry these with a GPU-enabled browser.
 - `javascript-racer`: MIT code, but its README states the sprites are
   "placeholder graphics borrowed from the old Genesis version of OutRun"
   (© Sega). Left pending; no capture kept.
-- `monster-candy`: bundled `LICENSE.txt` is CC BY-NC 4.0 (Enclave Games);
-  noncommercial-only terms are not established as compatible with this
-  distribution. Left pending.
-- `marble-soccer`, `norman-necromancer`: no license file or credit in the
-  bundled directories or the platform credits. Left pending.
-- `openpanzer`: GPL-2.0+ code, but the unit/terrain art derives from Panzer
-  General-style assets whose rights are not documented. Left pending.
-- `pacman`, `mumuy-pacman`, `pacman-canvas`: MIT/GPL code, but any capture
-  shows Pac-Man and ghost characters (© Bandai Namco). Left pending.
-- `guardians-of-the-hollow`, `moon-light-platformer`: remote TurboWarp embeds
-  of Scratch projects by Hollow_Song (CC BY-NC-SA 2.0); cannot be captured in
-  the sandbox and the noncommercial/share-alike fit is not established. Left
-  pending, same reasoning as `echoed-path` above.
+- `norman-necromancer`: no license file or credit in the bundled directory or
+  the platform credits. Left pending.
+- `pacman`, `mumuy-pacman`: MIT/GPL code, but any capture shows Pac-Man and
+  ghost characters (© Bandai Namco). Left pending.
+- `guardians-of-the-hollow`: remote TurboWarp embed of a Scratch project by
+  Hollow_Song (CC BY-NC-SA 2.0); cannot be captured in the sandbox and the
+  noncommercial/share-alike fit is not established. Left pending, same
+  reasoning as `echoed-path` above.
 
 ## MIT notices for screenshot artwork
 
@@ -650,6 +666,8 @@ Copyright (c) 2019 by rafaelcastrocouto
 Copyright (c) 2019 Victor Ribeiro
 
 Copyright (c) 2013 Joey van Ommen
+
+Copyright (c) Greg Pabian
 
 Copyright 2023 Sami Heikkinen, Tero Jäntti
 
