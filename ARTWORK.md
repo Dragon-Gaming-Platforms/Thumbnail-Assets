@@ -440,19 +440,35 @@ Same pinned platform snapshot (`b4241132454e513100b67c6bee457eda62e9e140`).
 
 The other twelve batch 7–9 IDs that were produced in parallel (`ecosystem-keeper`, `elemental-sandbox`, `ember-tactics`, `enduro`, `fishing-harbor`, `flappy-glider`, `fleet-duel`, `forest-dash`, `frequency-bureau`, `frontier-command`, `fruit-slice`, `gear-calibrator`) keep the versions already published from `main`; see the middle-of-queue batches.
 
+## Bottom-up batch 13 — four gameplay screenshots
+
+Captured locally from platform revision
+[`f077145667b5827407507ff807aef889c76ad8ac`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/f077145667b5827407507ff807aef889c76ad8ac).
+All four pending IDs were rechecked against the current catalog at
+`379900747b47eb8702103ed58bcb94934fbf7142`: none had an image. The queue was
+refreshed to that newer revision without changing other pending method flags.
+These are real rendered game frames, not AI artwork. Each source is 800×260
+and <=40 KiB; no audio is included. Titles/margins in the first three are
+plain-text layout additions only, not invented game objects or borrowed logos.
+
+| Source file | Capture / presentation | Provenance and rights |
+| --- | --- | --- |
+| `sudoku.jpg` | Actual default puzzle after pressing **One Step** twice and enabling **Show candidates**. One complete board, aspect preserved at 244 px high, plus plain title/subtitle on a white background; no puzzle values were edited. | **MIT**, Jonas Ohlsson / pocketjoso. The [bundled JavaScript](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/sudoku/sudokuJS.js) and [CSS](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/sudoku/sudokuJS.css) explicitly identify the author and MIT license; the [upstream README](https://github.com/pocketjoso/sudokuJS/blob/c7221994ecc12a68ef3ba97ac125da1b18c1a4b9/README.md#license) confirms MIT. All visible puzzle cells/numbers are DOM/CSS-rendered, with no external artwork. See MIT notice below. |
+| `polygons.jpg` | The interactive neighborhood from `play/mini/mini_neighborhood.html`, after moving the isolated square into the square group and the isolated triangle into the triangle group with mouse drags. The standalone iframe was marked `IS_IN_SIGHT = true`, as its containing page normally does, to enable its existing update loop. The entire captured board is aspect-preserved, with a plain title and white margins. | **CC0/public domain**, Vi Hart and Nicky Case. [Bundled README](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/polygons/README.md) explicitly allows picture adaptations; [full CC0 dedication](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/polygons/LICENSE.txt). [Pinned upstream](https://github.com/ncase/polygons/tree/3ec3fd74a52ce24f74790a47f117d1a3abefbbb7). This whole screenshot composition, including the added label, is dedicated under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). |
+| `predecessors.jpg` | Actual maze/forest gameplay after Enter and arrow-key movement, showing the player, floor/walls and a growing tree. The vendored page is an empty canvas with unbuilt TypeScript: in scratch only, bundled `index.ts` with esbuild (`--bundle --format=iife --loader:.svg=dataurl`) and added a script tag for that bundle. Original rules, map, SVGs and rendering are unchanged. One frame cropped to `(50,200)-(780,565)`, aspect-preserved at 470×235; gamma 0.75 brightening improves shadow visibility without clipping highlights. Plain title/subtitle added beside it. | **MIT**, Copyright 2023 Sami Heikkinen, Tero Jäntti. [Bundled LICENSE](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/predecessors/LICENSE); [entry point with matching notice](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/predecessors/index.ts); original vector artwork in [images/](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/f077145667b5827407507ff807aef889c76ad8ac/games/predecessors/images). See MIT notice below. |
+| `hextris.png` | Actual active game after Play and left/right arrow rotations, after the tutorial faded and a real color match earned 9 points. Browser virtual time advanced the original animation loop; no score, blocks or game state were edited. One frame cropped to `(317,255)-(963,465)` and resized to 800×260; no title, other artwork or compositing. Lossless PNG is the editable raster source, not a CI derivative. | **GPL-3.0-or-later**, © 2018 Logan Engstrom; credits also name Garrett Finucane, Noah Moroze and Michael Yang. [Bundled README and grant](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/Hextris/README.md#license); [pinned upstream](https://github.com/Hextris/hextris/tree/3f4847dc8fd7dab3d1c87e6324b9159d92fbd396). **This entire screenshot-derived thumbnail and its published JPEG remain GPL-3.0-or-later, not repository MIT.** Full license and corresponding-source links below. No social/store logos or promotional artwork appear in the crop. |
+
 ## Top-down batch 10 — licensed gameplay captures
 
-Platform snapshot `f077145667b5827407507ff807aef889c76ad8ac` (the pinned catalog revision). All are local
+Platform snapshot `f077145667b5827407507ff807aef889c76ad8ac` (the catalog revision pinned when captured; the queue has since moved to `379900747b47eb8702103ed58bcb94934fbf7142`). All are local
 headless-browser captures of real gameplay, cropped to 800×260; no audio.
 
 | Source file | Method and provenance | Rights |
 | --- | --- | --- |
 | `heroine-dusk.jpg` | In-game character screen of [`games/heroine-dusk`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/f077145667b5827407507ff807aef889c76ad8ac/games/heroine-dusk) (first-person dungeon view with the heroine's portrait, "Serf rags / Bare fists"), reached by starting a new game. Cropped. | Code **MIT**; visual art **CC-BY-SA 3.0** © Clint Bellanger (bundled `README.txt`). This thumbnail is a derivative of that art and is offered under CC-BY-SA 3.0 — see the CC-BY-SA notice below. |
 | `hexgl.jpg` | Race-start frame of [`games/HexGL`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/f077145667b5827407507ff807aef889c76ad8ac/games/HexGL): the ship on the Cityscape track just after "GO", very-high quality preset. Cropped. | **MIT**, bundled `LICENSE`, © 2015 Thibaut Despoulain (BKcore). See MIT notices below. |
-| `hextris.jpg` | Mid-game frame of [`games/Hextris`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/f077145667b5827407507ff807aef889c76ad8ac/games/Hextris) after rotating the hexagon through several falling blocks (score 9). Cropped to the hexagon. | **GPL-3.0**, bundled `LICENSE.md`, © the Hextris team (Logan Engstrom, Garrett Finucane, Noah Moroze, Michael Yang). Thumbnail distributed under GPL-3.0; see GPL notice below. |
 | `island-builder.jpg` | Default Mykonos voxel island of [`games/island-builder`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/f077145667b5827407507ff807aef889c76ad8ac/games/island-builder) as loaded in the editor (isometric white houses, blue domes, windmill); cropped to the island. | **MIT**, bundled `LICENSE`, © 2026 boona13. See MIT notices below. |
 | `os13k.jpg` | Desktop of [`games/os13k`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/f077145667b5827407507ff807aef889c76ad8ac/games/os13k) (fantasy OS and game launcher) with its Help window and app shelf, as first opened. Cropped. | **GPL-3.0**, bundled `LICENSE`, © Frank Force (KilledByAPixel). Thumbnail distributed under GPL-3.0; see GPL notice below. |
-| `polygons.jpg` | The first drag-and-drop board of [`games/polygons`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/f077145667b5827407507ff807aef889c76ad8ac/games/polygons) (Parable of the Polygons by Vi Hart and Nicky Case). Clip of that iframe, cropped. | **CC0 1.0**, bundled `LICENSE.txt`. No attribution required; credited anyway. |
 | `raging-gardens.jpg` | Gameplay of [`games/raging-gardens`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/f077145667b5827407507ff807aef889c76ad8ac/games/raging-gardens): the hungry rabbit among trees, haystacks, barrels and carrots, a few seconds into a round. Cropped to the garden. | **MIT**, bundled `LICENSE`, © 2012 Petar Petrov. See MIT notices below. |
 
 Not captured this batch (still queued, no rights problem found): `hurry`
@@ -463,6 +479,10 @@ headlessly), `roguish` (only a blank map generator rendered), and `glade-game`
 real GPU). Retry these with a GPU-enabled browser.
 
 ## Pending rights checks
+
+- `raging-gardens`: the [README](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/raging-gardens/README.md#license) explicitly licenses the game **without game art** under MIT. [Art/LICENSE](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/raging-gardens/art/LICENSE) instead reserves all images to Stremena Tuzsuzova without a reuse grant. No screenshot or AI substitute was added.
+- `solitaire`, `simon`, `sokoban`, `snake` and `spashal`: platform MIT labels were not corroborated by project-level grants in the inspected bundled files / upstream roots: [cyanharlow/solitaire](https://github.com/cyanharlow/solitaire), [kellyk/javascript-simon](https://github.com/kellyk/javascript-simon), [dalvorsn/Sokoban](https://github.com/dalvorsn/Sokoban), [CodeExplainedRepo/Snake-JavaScript](https://github.com/CodeExplainedRepo/Snake-JavaScript), [MrRar/spashal](https://github.com/MrRar/spashal). MIT notices on bundled libraries do not license the game UI/art. Leave pending until an explicit game/asset grant is established; no screenshots or AI replacements were added.
+- `spacecompany`: its [LICENCE.txt](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/SpaceCompany/LICENCE.txt) is MIT-like but adds **“Sparticle999 is made aware that the Software has been used somewhere else.”** Do not silently treat this as unmodified MIT. Author notification and any separately licensed icon assets must be addressed before reuse; no thumbnail was added.
 
 - `vectoid-td-3d-v1.4` and `submersible`: actual [Vectoid page](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Assets/blob/fadd25140ea2ef59a21b916c34cc682d689f017a/games/vectoid-td-3d-v1.4/index.html) and [Submersible page](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Assets/blob/fadd25140ea2ef59a21b916c34cc682d689f017a/games/submersible/index.html) contain only remote TurboWarp iframes (Scratch projects 670754400 and 811805586). The [asset credits](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Assets/blob/fadd25140ea2ef59a21b916c34cc682d689f017a/THIRD_PARTY.md) name ggenije and awesome-llama respectively and record Scratch's default CC BY-NC-SA 2.0 terms. A compatible noncommercial/share-alike distribution basis for these images was not established; no remote gameplay or AI replacement was used.
 - `survivor`: the [bundled license](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/survivor/license.txt) and [README](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/survivor/README.rdoc) specify Scott Schiller's **CC BY-NC 3.0** remake of a 1983 Commodore 64 title, plus separate font and audio-library terms. This is not a blanket MIT artwork grant. No screenshot or AI substitute was added; leave pending until the display/distribution terms are resolved.
@@ -593,6 +613,9 @@ real GPU). Retry these with a GPU-enabled browser.
 
 ## MIT notices for screenshot artwork
 
+Also applies to SudokuJS by Jonas Ohlsson: its bundled JS/CSS headers and
+upstream README specify MIT, but give no dated copyright notice.
+
 Applies to the MIT-licensed screenshot sources above (and the Bootstrap Icons
 font visible in `tictactoe.jpg`), with their respective copyright notices:
 
@@ -627,6 +650,8 @@ Copyright (c) 2019 by rafaelcastrocouto
 Copyright (c) 2019 Victor Ribeiro
 
 Copyright (c) 2013 Joey van Ommen
+
+Copyright 2023 Sami Heikkinen, Tero Jäntti
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -829,6 +854,29 @@ LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
 OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
 PERFORMANCE OF THIS SOFTWARE.
 
+## GPL notice — hextris.png and its published JPEG
+
+Copyright (C) 2018 Logan Engstrom; Hextris contributors Garrett Finucane,
+Noah Moroze and Michael Yang are credited in the game README.
+
+This screenshot-derived thumbnail is free software/artwork: you can
+redistribute it and/or modify it under the terms of the GNU General Public
+License as published by the Free Software Foundation, either version 3 of
+the License, or (at your option) any later version. It is distributed WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE. See the [complete included GPL v3](licenses/GPL-3.0.txt).
+
+The preferred editable raster source is the lossless
+[`thumbnails/hextris.png`](thumbnails/hextris.png) distributed in this same
+repository/site. The CI-generated `thumbnails/jpg/hextris.jpg` is a derivative
+under these same terms. Corresponding game/rendering source, including all
+scripts needed to run it, is available at the exact captured platform revision:
+[Hextris source at f077145667b5827407507ff807aef889c76ad8ac](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/f077145667b5827407507ff807aef889c76ad8ac/games/Hextris).
+Serve that directory statically, click Play, rotate using left/right arrows,
+and capture the original canvas after the tutorial. The crop coordinates
+and resizing are documented in the batch entry above; no game-code patch or
+new game assets are needed. Upstream source is also linked in that entry.
+
 ## CC-BY-SA notice — heroine-dusk.jpg
 
 Heroine Dusk visual art © Clint Bellanger (http://clintbellanger.net), licensed
@@ -837,12 +885,10 @@ under Creative Commons Attribution-ShareAlike 3.0
 cropped screenshot of that art and is made available under the same CC-BY-SA
 3.0 license (or later). Music by Yubatake (CC-BY 3.0) is not included.
 
-## GPL notice — hextris.jpg and os13k.jpg
+## GPL notice — os13k.jpg
 
-Hextris is Copyright (C) the Hextris team (Logan Engstrom, Garrett Finucane,
-Noah Moroze, Michael Yang); OS13k is Copyright (C) Frank Force. Both are
-licensed under the GNU General Public License version 3. These thumbnails are
-screenshot-derived works distributed under the same GPL-3.0 terms, without any
-warranty; see <https://www.gnu.org/licenses/gpl-3.0.html>. Corresponding
-sources: <https://github.com/Hextris/hextris> and
-<https://github.com/KilledByAPixel/OS13k>.
+OS13k is Copyright (C) Frank Force (KilledByAPixel) and is licensed under the
+GNU General Public License version 3. `os13k.jpg` is a screenshot-derived work
+distributed under the same GPL-3.0 terms (or any later version), without any
+warranty; see the [included GPL v3](licenses/GPL-3.0.txt). Corresponding
+source: <https://github.com/KilledByAPixel/OS13k>.

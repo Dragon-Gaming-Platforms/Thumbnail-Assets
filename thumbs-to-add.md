@@ -1,8 +1,8 @@
 # Thumbnails to add
 
 Catalog: [Dragon-Gaming-Platforms/Dragon-Gaming-Platforms](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms),
-revision `f077145667b5827407507ff807aef889c76ad8ac` (`games.js`).
-Remaining: **68 games** (0 generate=true; 68 generate=false).
+revision `379900747b47eb8702103ed58bcb94934fbf7142` (`games.js`).
+Remaining: **66 games** (0 generate=true; 66 generate=false).
 
 - `generate=true`: create original artwork based on the actual game's gameplay/theme.
 - `generate=false`: capture gameplay or reuse existing artwork after verifying display rights.
@@ -70,7 +70,6 @@ Remaining: **68 games** (0 generate=true; 68 generate=false).
 - `pacman-canvas` generate=false
 - `play-obsidian` generate=false
 - `pong` generate=false
-- `predecessors` generate=false
 - `real-dos-windows-on-scratch` generate=false
 - `recoil` generate=false
 - `rescue-copter` generate=false
@@ -87,7 +86,6 @@ Remaining: **68 games** (0 generate=true; 68 generate=false).
 - `spacecompany` generate=false
 - `spashal` generate=false
 - `submersible` generate=false
-- `sudoku` generate=false
 - `survivor` generate=false
 - `vectoid-td-3d-v1.4` generate=false
 - `wordle` generate=false
