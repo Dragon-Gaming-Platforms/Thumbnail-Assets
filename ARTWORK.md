@@ -274,6 +274,39 @@ burning terrain. No AI-generated art or audio is included.
 | --- | --- | --- |
 | `rescue-copter.png` | Actual gameplay composition, with a plain-text title panel using the game's `img/font.png` pixel font and a flame sprite from `img/sprites.png`; 800×260 PNG (71,714 bytes) | Local gameplay run of [`games/rescue-copter`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/379900747b47eb8702103ed58bcb94934fbf7142/games/rescue-copter), captured from the 800×600 play canvas after Start and after clearing the tutorial. The platform [`CREDITS.md`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/379900747b47eb8702103ed58bcb94934fbf7142/CREDITS.md) credits Greg Pabian's [upstream source at `beadc7eb43ea29d447d2feb6ec0993d1d23510e1`](https://github.com/gregpabian/rescuecopter-js13k/tree/beadc7eb43ea29d447d2feb6ec0993d1d23510e1) as MIT; the upstream README and `package.json` also declare MIT. The screenshot and game-sprite composition are distributed under that grant; see MIT notice below. The bundled `jsfxr.js` notes Apache-2.0, but no audio or library code is included. No external images or logos. |
 
+## Middle-of-queue screenshot batch 5 — five verified gameplay captures
+
+The latest reconciled queue was pinned to platform revision
+[`8ba36accad7073ef77a0163dd0d87bb18d16e86e`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/tree/8ba36accad7073ef77a0163dd0d87bb18d16e86e)
+and had 89 pending IDs. Its exact midpoint was row 45,
+`linux-6.1.14-rv32ima-on-scratch`. Working outward, the nearest candidates
+with verified display rights were `jungle-chess` (row 42), `killer-sudoku`
+(row 43), `kuromasu` (row 44), `make-24` (row 46) and `masyu` (row 48).
+The midpoint Scratch project and row 47 `marble-soccer` remain pending because
+their image-display terms are unresolved; neither was replaced with AI art.
+
+All five games were captured from the local, pinned
+[Dragon-Gaming-Assets snapshot](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Assets/tree/ec94e35ea944d5bd9b1caa9ecffd1fdbc8787a60)
+in headless Chromium. Each thumbnail is 800×260 and below 40 KiB. It combines
+one actual gameplay crop with original plain-text titling and a simple graphic
+background; no logos, external promotional art or audio are included.
+
+| ID / source file | Actual game state and composition | Provenance / display rights |
+| --- | --- | --- |
+| `jungle-chess.jpg` | Jungle board after a legal player move and the local computer's reply; plain-text title and rule cue added beside the board | [bundled `LICENSE`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Assets/blob/ec94e35ea944d5bd9b1caa9ecffd1fdbc8787a60/games/jungle-chess/LICENSE) and [`SOURCE.txt`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Assets/blob/ec94e35ea944d5bd9b1caa9ecffd1fdbc8787a60/games/jungle-chess/SOURCE.txt), MIT, © 2026 Sampot (山姆鍋); [upstream at `28c5eb0a52909c971547b1b29e20fc17961b9e4`](https://github.com/sampot/pg-jungle/tree/28c5eb0a52909c971547b1b29e20fc17961b9e4). The canvas draws the board and pieces. Traditional Chinese glyphs use a capture-only Noto Sans TC fallback because the sandbox lacked CJK glyphs; see the font note below. |
+| `killer-sudoku.jpg` | Fresh generated 9×9 Killer Sudoku board after starting a game; cropped to the board with an added title and short description | [bundled `LICENSE`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Assets/blob/ec94e35ea944d5bd9b1caa9ecffd1fdbc8787a60/games/killer-sudoku/LICENSE) and [`SOURCE.txt`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Assets/blob/ec94e35ea944d5bd9b1caa9ecffd1fdbc8787a60/games/killer-sudoku/SOURCE.txt), MIT, © 2014 Ian Sutton; [upstream at `d47e2dbd82627136af8f3397b7a1369048b6b6e6`](https://github.com/sutts101/killer/tree/d47e2dbd82627136af8f3397b7a1369048b6b6e6). Only the program-rendered puzzle board appears. |
+| `kuromasu.jpg` | Generated 5×5 trainee puzzle after one in-game hint; cropped to the numbered board | [bundled `LICENSE`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Assets/blob/ec94e35ea944d5bd9b1caa9ecffd1fdbc8787a60/games/kuromasu/LICENSE) and [`SOURCE.txt`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Assets/blob/ec94e35ea944d5bd9b1caa9ecffd1fdbc8787a60/games/kuromasu/SOURCE.txt), MIT, © 2026 z-biz-game; [upstream at `d83042cae235a1478f267de19593463298b73399`](https://github.com/z-biz-game/z-biz-game-kuromasu-cos/tree/d83042cae235a1478f267de19593463298b73399). |
+| `make-24.jpg` | Solo round 1, target 24, after the actual move 6 + 9 → 15; cropped to the cards with title and target text added | [bundled `LICENSE`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Assets/blob/ec94e35ea944d5bd9b1caa9ecffd1fdbc8787a60/games/make-24/LICENSE) and [`SOURCE.txt`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Assets/blob/ec94e35ea944d5bd9b1caa9ecffd1fdbc8787a60/games/make-24/SOURCE.txt), MIT, © 2026 Joshua Muller; [upstream at `04148b237a11120b7a44c37f0fb3e9caab9ee53d`](https://github.com/joshuaMarkMuller/make-24/tree/04148b237a11120b7a44c37f0fb3e9caab9ee53d). Only the game's own rendered cards appear. |
+| `masyu.jpg` | Generated 6×6 puzzle after two actual in-game hints, showing the resulting loop segments | [bundled `LICENSE`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Assets/blob/ec94e35ea944d5bd9b1caa9ecffd1fdbc8787a60/games/masyu/LICENSE) and [`SOURCE.txt`](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Assets/blob/ec94e35ea944d5bd9b1caa9ecffd1fdbc8787a60/games/masyu/SOURCE.txt), MIT, © 2026 z-biz-game; [upstream at `80ee7a6e641bcd364192bbe6c091e582ddd10dae`](https://github.com/z-biz-game/z-biz-game-masyu-cos/tree/80ee7a6e641bcd364192bbe6c091e582ddd10dae). |
+
+Noto Sans TC was served only during local capture to render Jungle Chess's
+existing Traditional Chinese text. The font (Fontsource package v5.3.1) is © Google Inc. and licensed under SIL
+Open Font License 1.1; it is not included in these thumbnail files.
+The OFL permits documents created using the font without applying the font
+software's redistribution restrictions to those documents. See the
+[`@fontsource/noto-sans-tc` package](https://www.npmjs.com/package/@fontsource/noto-sans-tc)
+and its bundled OFL notice.
+
 ## Bottom-up batch 12 — licensed gameplay captures
 
 Three actual local Chromium gameplay screenshots, not AI illustrations, from
@@ -518,11 +551,17 @@ real GPU). Retry these with a GPU-enabled browser.
 - `jolly-jumper`: its bundled README says “All copyright reserved by the
   Author.” No display license for the bundled game artwork was established, so
   no screenshot or extracted art was reused.
-- `linux-6.1.14-rv32ima-on-scratch`: the catalog points to a remote TurboWarp
-  embed, not a vendored game. The Scratch project is credited to bilman66alt
-  under CC BY-NC-SA 2.0; no gameplay capture was available in this sandbox.
-  Any future use must include attribution and comply with the noncommercial
-  and share-alike terms. No AI replacement was made.
+- `linux-6.1.14-rv32ima-on-scratch`: at platform snapshot
+  `8ba36accad7073ef77a0163dd0d87bb18d16e86e`, the catalog points to a remote
+  TurboWarp embed of Scratch project 1201938491 by bilman66alt. The Assets
+  credits record Scratch's default CC BY-NC-SA 2.0 terms. Compatibility with
+  this repository's thumbnail distribution terms is unresolved; keep pending
+  until reviewed. No capture or AI replacement was added.
+- `marble-soccer`: the local game directory at platform snapshot
+  `8ba36accad7073ef77a0163dd0d87bb18d16e86e` has no game-level license or
+  display grant in its README/credits and bundles numerous textures and other
+  media without a clear reuse basis. Keep pending until the game/art rights
+  are established; no capture or AI replacement was added.
 - `eaglercraft-1-12-2-offline-wasm` and `eaglercraft-1-8-8-offline-wasm`:
   the 1.12.2 item was the exact queue midpoint (row 71) at platform snapshot
   `f077145667b5827407507ff807aef889c76ad8ac`. The queue points to 20 MB and
@@ -670,6 +709,14 @@ Copyright (c) 2013 Joey van Ommen
 Copyright (c) Greg Pabian
 
 Copyright 2023 Sami Heikkinen, Tero Jäntti
+
+Copyright (c) 2026 Sampot (山姆鍋)
+
+Copyright (c) 2014 Ian Sutton
+
+Copyright (c) 2026 z-biz-game
+
+Copyright (c) 2026 Joshua Muller
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
