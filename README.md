@@ -16,7 +16,11 @@ Published at: `https://dragon-gaming-platforms.github.io/Thumbnail-Assets/`
 Thumbnail-Assets/
 ├── .github/
 │   └── workflows/
-│       └── build-thumbnails.yml   # push[main] + dispatch: validate -> convert -> commit -> deploy
+│       ├── build-thumbnails.yml   # push[main] + dispatch: validate -> convert -> commit -> deploy
+│       └── screenshot-games.yml   # dispatch: open every catalog game in Chromium -> screenshots/
+├── screenshots/                   # GENERATED raw 1280x800 game captures for review (not published)
+│   ├── <id>.png
+│   └── manifest.json              # per-game outcome of the last run
 ├── thumbnails/
 │   ├── <slug>.png|.jpg|.jpeg|.webp|.svg|.gif   # DROP ZONE: flat, one file per game
 │   ├── README.md                  # drop-zone rules for contributors

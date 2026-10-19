@@ -1,0 +1,128 @@
+# Opens every game in the platform catalog in headless Chromium, one at a time,
+# screenshots it, and commits the PNGs to screenshots/ at the repository root.
+#
+# The captures are raw, unreviewed frames meant for humans to look at when
+# deciding how to illustrate a game. They are NOT thumbnails (see thumbnails/)
+# and committing one here says nothing about display rights for its artwork.
+#
+# Trigger: manual dispatch only — a full run opens 100+ games and takes a
+# while. Use the inputs to restrict it (e.g. only="hurry,island-not-found").
+name: Screenshot Games
+
+on:
+  workflow_dispatch:
+    inputs:
+      platform_ref:
+        description: "Dragon-Gaming-Platforms ref to capture (branch, tag or SHA)"
+        default: "main"
+        type: string
+      only:
+        description: "Comma-separated game IDs, or re:<regex>; empty = every game"
+        default: ""
+        type: string
+      limit:
+        description: "Stop after this many games (0 = no limit)"
+        default: "0"
+        type: string
+      force:
+        description: "Recapture games that already have a screenshot"
+        default: false
+        type: boolean
+      categories:
+        description: "Catalog categories to include"
+        default: "games"
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: screenshot-games-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  screenshot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    steps:
+      - name: Checkout this repository
+        uses: actions/checkout@v4
+        with:
+          # Commit back to whatever branch dispatched the run.
+          ref: ${{ github.ref }}
+
+      - name: Checkout the platform catalog and bundled games
+        uses: actions/checkout@v4
+        with:
+          repository: Dragon-Gaming-Platforms/Dragon-Gaming-Platforms
+          ref: ${{ inputs.platform_ref }}
+          path: _platform
+
+      # Entries whose catalog path points at the github.io asset site are
+      # served from this checkout instead of hitting the network.
+      - name: Checkout the asset site
+        uses: actions/checkout@v4
+        with:
+          repository: Dragon-Gaming-Platforms/Dragon-Gaming-Assets
+          path: _assets
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Playwright and Chromium
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install "playwright==1.47.0"
+          python -m playwright install --with-deps chromium
+
+      - name: Record the captured platform revision
+        run: |
+          mkdir -p screenshots
+          git -C _platform rev-parse HEAD > screenshots/PLATFORM_REVISION
+          echo "Captured platform revision $(cat screenshots/PLATFORM_REVISION)"
+
+      - name: Open and screenshot each game
+        env:
+          ONLY: ${{ inputs.only }}
+          LIMIT: ${{ inputs.limit }}
+          FORCE: ${{ inputs.force }}
+          CATEGORIES: ${{ inputs.categories }}
+        run: |
+          set -o pipefail
+          FORCE_FLAG=""
+          if [ "$FORCE" = "true" ]; then FORCE_FLAG="--force"; fi
+          python scripts/screenshot_games.py \
+            --platform _platform \
+            --assets _assets \
+            --out screenshots \
+            --categories "$CATEGORIES" \
+            --only "$ONLY" \
+            --limit "${LIMIT:-0}" \
+            $FORCE_FLAG \
+            2>&1 | tee screenshots/last-run.log
+
+      - name: Upload captures as a workflow artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: game-screenshots
+          path: screenshots/
+          if-no-files-found: ignore
+
+      - name: Commit and push screenshots
+        run: |
+          # The two checked-out repos are build inputs, never content.
+          rm -rf _platform _assets
+          git add -A screenshots
+          if git diff --cached --quiet; then
+            echo "No screenshot changes to commit."
+            exit 0
+          fi
+          COUNT=$(git diff --cached --name-only -- 'screenshots/*.png' | wc -l | tr -d ' ')
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Capture game screenshots (${COUNT} image(s) changed)"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
