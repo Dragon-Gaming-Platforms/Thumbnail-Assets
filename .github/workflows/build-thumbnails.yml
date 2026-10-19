@@ -285,7 +285,7 @@ jobs:
       # Repo plumbing stays in the repository but must not ship to the site.
       - name: Remove non-site files from the deploy tree
         if: steps.convert.outputs.changed == 'true' || github.event_name == 'workflow_dispatch'
-        run: rm -rf .github .gitignore README.md .git
+        run: rm -rf .github .gitignore README.md .git screenshots
 
       - name: Setup Pages
         if: steps.convert.outputs.changed == 'true' || github.event_name == 'workflow_dispatch'
