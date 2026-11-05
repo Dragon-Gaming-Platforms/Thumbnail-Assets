@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" role="img" aria-labelledby="title desc">
+  <title id="title">Monster Wants Candy</title>
+  <desc id="desc">A wide-eyed green monster opens its mouth under a rain of wrapped candies.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2a1a4a"/><stop offset=".57" stop-color="#4a2a7a"/><stop offset="1" stop-color="#2a1a4a"/></linearGradient>
+
+  </defs>
+  <rect width="800" height="260" fill="url(#bg)"/>
+  <path d="M0 228H800" stroke="#ffeb3b" stroke-opacity=".35"/>
+  <path d="M29 25V235" stroke="#ffeb3b" stroke-width="4"/>
+  <text x="52" y="51" fill="#ffeb3b" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="2.2">CANDY-CATCHING ARCADE</text>
+  <text x="50" y="102" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="36" font-weight="800" letter-spacing="1.2">MONSTER</text>
+  <text x="50" y="138" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="30" font-weight="800" letter-spacing="1.2">WANTS CANDY</text>
+  <text x="53" y="168" fill="#c8c4ba" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="1.4">CATCH · CHOMP · COMBO</text>
+  <rect x="322" y="28" width="446" height="204" rx="17" fill="#141b25" stroke="#6b6670" stroke-opacity=".8"/>
+  <clipPath id="pc"><rect x="323" y="29" width="444" height="202" rx="16"/></clipPath>
+  <g clip-path="url(#pc)">
+<rect x="323" y="29" width="444" height="202" fill="#7e57c2"/><ellipse cx="400" cy="60" rx="12" ry="8" fill="#ff4081" transform="rotate(-20 400 60)"/><path d="M388 60l-8-6v12zM412 60l8-6v12z" fill="#ff4081"/><ellipse cx="520" cy="45" rx="12" ry="8" fill="#ffeb3b" transform="rotate(-20 520 45)"/><path d="M508 45l-8-6v12zM532 45l8-6v12z" fill="#ffeb3b"/><ellipse cx="640" cy="70" rx="12" ry="8" fill="#00e5ff" transform="rotate(-20 640 70)"/><path d="M628 70l-8-6v12zM652 70l8-6v12z" fill="#00e5ff"/><ellipse cx="700" cy="130" rx="12" ry="8" fill="#ff9100" transform="rotate(-20 700 130)"/><path d="M688 130l-8-6v12zM712 130l8-6v12z" fill="#ff9100"/><ellipse cx="450" cy="120" rx="12" ry="8" fill="#76ff03" transform="rotate(-20 450 120)"/><path d="M438 120l-8-6v12zM462 120l8-6v12z" fill="#76ff03"/><g transform="translate(545 185)"><ellipse rx="40" ry="34" fill="#43a047"/><circle cx="-12" cy="-10" r="9" fill="#fff"/><circle cx="12" cy="-10" r="9" fill="#fff"/><circle cx="-10" cy="-9" r="4" fill="#111"/><circle cx="14" cy="-9" r="4" fill="#111"/><path d="M-20 8q20 22 40 0z" fill="#111"/><path d="M-30-30l8-14 6 14M30-30l-8-14-6 14" fill="#43a047"/></g>
+  </g>
+</svg>
