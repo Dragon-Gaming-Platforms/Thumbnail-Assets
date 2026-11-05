@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" role="img" aria-labelledby="title desc">
+  <title id="title">Vectoid TD 3D v1.4</title>
+  <desc id="desc">Wireframe triangle towers guard a glowing green path against red diamond enemies.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#030808"/><stop offset=".57" stop-color="#0a2a1a"/><stop offset="1" stop-color="#030808"/></linearGradient>
+
+  </defs>
+  <rect width="800" height="260" fill="url(#bg)"/>
+  <path d="M0 228H800" stroke="#00e676" stroke-opacity=".35"/>
+  <path d="M29 25V235" stroke="#00e676" stroke-width="4"/>
+  <text x="52" y="51" fill="#00e676" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="2.2">VECTOR TOWER DEFENSE</text>
+  <text x="50" y="110" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="800" letter-spacing="1.2">VECTOID</text>
+  <text x="50" y="160" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="800" letter-spacing="1.2">TD 3D</text>
+  <text x="53" y="190" fill="#c8c4ba" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="1.4">BUILD · UPGRADE · HOLD THE LINE</text>
+  <rect x="322" y="28" width="446" height="204" rx="17" fill="#141b25" stroke="#6b6670" stroke-opacity=".8"/>
+  <clipPath id="pc"><rect x="323" y="29" width="444" height="202" rx="16"/></clipPath>
+  <g clip-path="url(#pc)">
+<rect x="323" y="29" width="444" height="202" fill="#050a0a"/><path d="M323 231L545 60" stroke="#00e676" stroke-opacity=".12"/><path d="M363 231L545 60" stroke="#00e676" stroke-opacity=".12"/><path d="M403 231L545 60" stroke="#00e676" stroke-opacity=".12"/><path d="M443 231L545 60" stroke="#00e676" stroke-opacity=".12"/><path d="M483 231L545 60" stroke="#00e676" stroke-opacity=".12"/><path d="M523 231L545 60" stroke="#00e676" stroke-opacity=".12"/><path d="M563 231L545 60" stroke="#00e676" stroke-opacity=".12"/><path d="M603 231L545 60" stroke="#00e676" stroke-opacity=".12"/><path d="M643 231L545 60" stroke="#00e676" stroke-opacity=".12"/><path d="M683 231L545 60" stroke="#00e676" stroke-opacity=".12"/><path d="M723 231L545 60" stroke="#00e676" stroke-opacity=".12"/><path d="M763 231L545 60" stroke="#00e676" stroke-opacity=".12"/><path d="M323 90H767" stroke="#00e676" stroke-opacity=".12"/><path d="M323 118H767" stroke="#00e676" stroke-opacity=".12"/><path d="M323 146H767" stroke="#00e676" stroke-opacity=".12"/><path d="M323 174H767" stroke="#00e676" stroke-opacity=".12"/><path d="M323 202H767" stroke="#00e676" stroke-opacity=".12"/><path d="M323 230H767" stroke="#00e676" stroke-opacity=".12"/><path d="M340 200L440 150L520 190L620 130L740 150" fill="none" stroke="#00e676" stroke-width="10" stroke-opacity=".3" stroke-linejoin="round"/><path d="M340 200L440 150L520 190L620 130L740 150" fill="none" stroke="#00e676" stroke-width="2" stroke-linejoin="round"/><polygon points="480,106 494,138 466,138" fill="none" stroke="#18ffff" stroke-width="2"/><circle cx="480" cy="106" r="3" fill="#18ffff"/><polygon points="580,156 594,188 566,188" fill="none" stroke="#18ffff" stroke-width="2"/><circle cx="580" cy="156" r="3" fill="#18ffff"/><polygon points="660,76 674,108 646,108" fill="none" stroke="#18ffff" stroke-width="2"/><circle cx="660" cy="76" r="3" fill="#18ffff"/><rect x="393" y="163" width="14" height="14" fill="none" stroke="#ff1744" stroke-width="2" transform="rotate(45 400 170)"/><rect x="453" y="153" width="14" height="14" fill="none" stroke="#ff1744" stroke-width="2" transform="rotate(45 460 160)"/><rect x="533" y="173" width="14" height="14" fill="none" stroke="#ff1744" stroke-width="2" transform="rotate(45 540 180)"/><path d="M480 106L540 176" stroke="#18ffff" stroke-width="1.5" stroke-dasharray="3 3"/>
+  </g>
+</svg>

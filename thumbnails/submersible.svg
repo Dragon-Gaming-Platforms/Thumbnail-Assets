@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" role="img" aria-labelledby="title desc">
+  <title id="title">Submersible</title>
+  <desc id="desc">A yellow submarine dives past seaweed and an orange fish above a dark seabed.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#021a2a"/><stop offset=".57" stop-color="#01579b"/><stop offset="1" stop-color="#021a2a"/></linearGradient>
+
+  </defs>
+  <rect width="800" height="260" fill="url(#bg)"/>
+  <path d="M0 228H800" stroke="#ffca28" stroke-opacity=".35"/>
+  <path d="M29 25V235" stroke="#ffca28" stroke-width="4"/>
+  <text x="52" y="51" fill="#ffca28" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="2.2">PIXEL UNDERWATER ADVENTURE</text>
+  <text x="50" y="102" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="36" font-weight="800" letter-spacing="1.2">SUBMERSIBLE</text>
+  <text x="53" y="132" fill="#c8c4ba" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="1.4">DIVE · EXPLORE · SURFACE</text>
+  <rect x="322" y="28" width="446" height="204" rx="17" fill="#141b25" stroke="#6b6670" stroke-opacity=".8"/>
+  <clipPath id="pc"><rect x="323" y="29" width="444" height="202" rx="16"/></clipPath>
+  <g clip-path="url(#pc)">
+<rect x="323" y="29" width="444" height="202" fill="#01579b"/><rect x="323" y="29" width="444" height="100" fill="#0277bd"/><path d="M323 231l40-30 30 20 50-50 40 30 60-40 50 30 40-20 50 40 50-20 30 20v20z" fill="#0d2238"/><path d="M400 190q-8-20 0-40q8 20 0 40z M410 190q-6-14 2-30q6 14-2 30z" fill="#2e7d32"/><path d="M560 200q-8-20 0-40q8 20 0 40z M570 200q-6-14 2-30q6 14-2 30z" fill="#2e7d32"/><path d="M700 180q-8-20 0-40q8 20 0 40z M710 180q-6-14 2-30q6 14-2 30z" fill="#2e7d32"/><g transform="translate(500 110)"><ellipse rx="40" ry="18" fill="#ffca28"/><rect x="-8" y="-30" width="16" height="14" fill="#ffb300"/><circle cx="12" r="7" fill="#80deea" stroke="#333" stroke-width="2"/><circle cx="-14" r="7" fill="#80deea" stroke="#333" stroke-width="2"/><rect x="-50" y="-5" width="12" height="10" fill="#ffb300"/></g><circle cx="520" cy="80" r="2" fill="#fff" fill-opacity=".5"/><circle cx="526" cy="72" r="3" fill="#fff" fill-opacity=".5"/><circle cx="532" cy="64" r="4" fill="#fff" fill-opacity=".5"/><circle cx="538" cy="56" r="2" fill="#fff" fill-opacity=".5"/><circle cx="544" cy="48" r="3" fill="#fff" fill-opacity=".5"/><circle cx="550" cy="40" r="4" fill="#fff" fill-opacity=".5"/><circle cx="556" cy="32" r="2" fill="#fff" fill-opacity=".5"/><circle cx="562" cy="24" r="3" fill="#fff" fill-opacity=".5"/><g transform="translate(660 90)"><ellipse rx="14" ry="8" fill="#ff7043"/><polygon points="-14,0 -24,-8 -24,8" fill="#ff7043"/><circle cx="6" cy="-2" r="2" fill="#111"/></g>
+  </g>
+</svg>
