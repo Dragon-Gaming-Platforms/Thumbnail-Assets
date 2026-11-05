@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" role="img" aria-labelledby="title desc">
+  <title id="title">Awesometanks2</title>
+  <desc id="desc">A green tank battles red tanks in a top-down arena.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1a1a12"/><stop offset=".57" stop-color="#3a3a24"/><stop offset="1" stop-color="#1a1a12"/></linearGradient>
+<pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#000" stroke-opacity=".15"/></pattern>
+  </defs>
+  <rect width="800" height="260" fill="url(#bg)"/>
+  <path d="M0 228H800" stroke="#ffd54f" stroke-opacity=".35"/>
+  <path d="M29 25V235" stroke="#ffd54f" stroke-width="4"/>
+  <text x="52" y="51" fill="#ffd54f" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="2.2">TOP-DOWN ACTION</text>
+  <text x="50" y="106" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="40" font-weight="800" letter-spacing="1.2">AWESOME</text>
+  <text x="50" y="152" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="40" font-weight="800" letter-spacing="1.2">TANKS 2</text>
+  <text x="53" y="182" fill="#c8c4ba" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="1.4">UPGRADE · BLAST · SURVIVE</text>
+  <rect x="322" y="28" width="446" height="204" rx="17" fill="#141b25" stroke="#6b6670" stroke-opacity=".8"/>
+  <clipPath id="pc"><rect x="323" y="29" width="444" height="202" rx="16"/></clipPath>
+  <g clip-path="url(#pc)">
+<rect x="323" y="29" width="444" height="202" fill="#3d3a2f"/><path d="M323 29h444v202h-444z" fill="url(#grid)"/><rect x="400" y="60" width="60" height="60" fill="#5d5546"/><rect x="620" y="140" width="80" height="40" fill="#5d5546"/><g transform="translate(380 170) rotate(-30)"><rect x="-18" y="-14" width="36" height="28" rx="4" fill="#4caf50"/><rect x="-20" y="-16" width="40" height="6" fill="#222"/><rect x="-20" y="10" width="40" height="6" fill="#222"/><circle r="9" fill="#111"/><rect x="0" y="-3" width="30" height="6" fill="#111"/></g><g transform="translate(680 80) rotate(150)"><rect x="-18" y="-14" width="36" height="28" rx="4" fill="#c0392b"/><rect x="-20" y="-16" width="40" height="6" fill="#222"/><rect x="-20" y="10" width="40" height="6" fill="#222"/><circle r="9" fill="#111"/><rect x="0" y="-3" width="30" height="6" fill="#111"/></g><g transform="translate(560 190) rotate(200)"><rect x="-18" y="-14" width="36" height="28" rx="4" fill="#c0392b"/><rect x="-20" y="-16" width="40" height="6" fill="#222"/><rect x="-20" y="10" width="40" height="6" fill="#222"/><circle r="9" fill="#111"/><rect x="0" y="-3" width="30" height="6" fill="#111"/></g><circle cx="420" cy="145" r="4" fill="#ffd54f"/><circle cx="640" cy="105" r="4" fill="#ffd54f"/><circle cx="520" cy="100" r="16" fill="#ff8a00" fill-opacity=".8"/><circle cx="520" cy="100" r="7" fill="#fff3b0"/>
+  </g>
+</svg>

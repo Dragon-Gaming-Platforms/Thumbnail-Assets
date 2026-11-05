@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" role="img" aria-labelledby="title desc">
+  <title id="title">Banania</title>
+  <desc id="desc">Bananas scattered across a jungle maze of earthen tiles.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2a1a0a"/><stop offset=".57" stop-color="#5a3a14"/><stop offset="1" stop-color="#2a1a0a"/></linearGradient>
+
+  </defs>
+  <rect width="800" height="260" fill="url(#bg)"/>
+  <path d="M0 228H800" stroke="#ffd93d" stroke-opacity=".35"/>
+  <path d="M29 25V235" stroke="#ffd93d" stroke-width="4"/>
+  <text x="52" y="51" fill="#ffd93d" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="2.2">MAZE PUZZLE</text>
+  <text x="50" y="110" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="800" letter-spacing="1.2">BANANIA</text>
+  <text x="53" y="140" fill="#c8c4ba" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="1.4">COLLECT · DODGE · ESCAPE</text>
+  <rect x="322" y="28" width="446" height="204" rx="17" fill="#141b25" stroke="#6b6670" stroke-opacity=".8"/>
+  <clipPath id="pc"><rect x="323" y="29" width="444" height="202" rx="16"/></clipPath>
+  <g clip-path="url(#pc)">
+<rect x="323" y="29" width="444" height="202" fill="#4e3a1e"/><rect x="335" y="40" width="32" height="30" fill="#7a5a2a"/><rect x="505" y="40" width="32" height="30" fill="#7a5a2a"/><rect x="675" y="40" width="32" height="30" fill="#7a5a2a"/><rect x="369" y="72" width="32" height="30" fill="#7a5a2a"/><rect x="539" y="72" width="32" height="30" fill="#7a5a2a"/><rect x="709" y="72" width="32" height="30" fill="#7a5a2a"/><rect x="403" y="104" width="32" height="30" fill="#7a5a2a"/><rect x="573" y="104" width="32" height="30" fill="#7a5a2a"/><rect x="743" y="104" width="32" height="30" fill="#7a5a2a"/><rect x="437" y="136" width="32" height="30" fill="#7a5a2a"/><rect x="607" y="136" width="32" height="30" fill="#7a5a2a"/><rect x="471" y="168" width="32" height="30" fill="#7a5a2a"/><rect x="641" y="168" width="32" height="30" fill="#7a5a2a"/><rect x="335" y="200" width="32" height="30" fill="#7a5a2a"/><rect x="505" y="200" width="32" height="30" fill="#7a5a2a"/><rect x="675" y="200" width="32" height="30" fill="#7a5a2a"/><path d="M400 120c10-22 34-26 40-6c-18-4-30 2-40 6z" fill="#ffd93d" stroke="#b8860b" stroke-width="2"/><path d="M540 90c10-22 34-26 40-6c-18-4-30 2-40 6z" fill="#ffd93d" stroke="#b8860b" stroke-width="2"/><path d="M640 170c10-22 34-26 40-6c-18-4-30 2-40 6z" fill="#ffd93d" stroke="#b8860b" stroke-width="2"/><path d="M470 200c10-22 34-26 40-6c-18-4-30 2-40 6z" fill="#ffd93d" stroke="#b8860b" stroke-width="2"/><circle cx="600" cy="140" r="16" fill="#ff7043"/><circle cx="594" cy="136" r="3" fill="#fff"/><circle cx="606" cy="136" r="3" fill="#fff"/>
+  </g>
+</svg>

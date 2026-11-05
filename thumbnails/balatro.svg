@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" role="img" aria-labelledby="title desc">
+  <title id="title">Balatro</title>
+  <desc id="desc">A fanned poker hand and stacked chips on green felt.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1f16"/><stop offset=".57" stop-color="#1d4a30"/><stop offset="1" stop-color="#0d1f16"/></linearGradient>
+<pattern id="felt" width="6" height="6" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r=".8" fill="#000" fill-opacity=".25"/></pattern>
+  </defs>
+  <rect width="800" height="260" fill="url(#bg)"/>
+  <path d="M0 228H800" stroke="#ffe082" stroke-opacity=".35"/>
+  <path d="M29 25V235" stroke="#ffe082" stroke-width="4"/>
+  <text x="52" y="51" fill="#ffe082" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="2.2">DECK BUILDER</text>
+  <text x="50" y="110" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="800" letter-spacing="1.2">BALATRO</text>
+  <text x="53" y="140" fill="#c8c4ba" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="1.4">POKER HANDS · CHIPS · MULT</text>
+  <rect x="322" y="28" width="446" height="204" rx="17" fill="#141b25" stroke="#6b6670" stroke-opacity=".8"/>
+  <clipPath id="pc"><rect x="323" y="29" width="444" height="202" rx="16"/></clipPath>
+  <g clip-path="url(#pc)">
+<rect x="323" y="29" width="444" height="202" fill="#1d5b3a"/><path d="M323 29h444v202h-444z" fill="url(#felt)"/><g transform="translate(430 138) rotate(-16)"><rect x="-26" y="-38" width="52" height="76" rx="6" fill="#fdfaf2" stroke="#999"/><text x="-20" y="-20" fill="#222" font-family="Arial" font-size="16" font-weight="700">A</text><text x="-6" y="14" fill="#222" font-family="Arial" font-size="26">♠</text></g><g transform="translate(492 144) rotate(-8)"><rect x="-26" y="-38" width="52" height="76" rx="6" fill="#fdfaf2" stroke="#999"/><text x="-20" y="-20" fill="#d33" font-family="Arial" font-size="16" font-weight="700">K</text><text x="-6" y="14" fill="#d33" font-family="Arial" font-size="26">♥</text></g><g transform="translate(554 150) rotate(0)"><rect x="-26" y="-38" width="52" height="76" rx="6" fill="#fdfaf2" stroke="#999"/><text x="-20" y="-20" fill="#d33" font-family="Arial" font-size="16" font-weight="700">Q</text><text x="-6" y="14" fill="#d33" font-family="Arial" font-size="26">♦</text></g><g transform="translate(616 144) rotate(8)"><rect x="-26" y="-38" width="52" height="76" rx="6" fill="#fdfaf2" stroke="#999"/><text x="-20" y="-20" fill="#222" font-family="Arial" font-size="16" font-weight="700">J</text><text x="-6" y="14" fill="#222" font-family="Arial" font-size="26">♣</text></g><g transform="translate(678 138) rotate(16)"><rect x="-26" y="-38" width="52" height="76" rx="6" fill="#fdfaf2" stroke="#999"/><text x="-20" y="-20" fill="#222" font-family="Arial" font-size="16" font-weight="700">10</text><text x="-6" y="14" fill="#222" font-family="Arial" font-size="26">♠</text></g><circle cx="700" cy="70" r="18" fill="#e53935" stroke="#fff" stroke-dasharray="6 5" stroke-width="3"/><circle cx="686" cy="74" r="18" fill="#1e88e5" stroke="#fff" stroke-dasharray="6 5" stroke-width="3"/><circle cx="672" cy="78" r="18" fill="#fdd835" stroke="#fff" stroke-dasharray="6 5" stroke-width="3"/><text x="345" y="62" fill="#ffe082" font-family="Arial" font-size="13" font-weight="700" letter-spacing="2">CHIPS × MULT</text>
+  </g>
+</svg>
