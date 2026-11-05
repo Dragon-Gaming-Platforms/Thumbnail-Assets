@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" role="img" aria-labelledby="title desc">
+  <title id="title">JavaScript Racer (Outrun 3D)</title>
+  <desc id="desc">A red sports car speeds down a pseudo-3D road with striped curbs.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d2a40"/><stop offset=".57" stop-color="#1b4a60"/><stop offset="1" stop-color="#0d2a40"/></linearGradient>
+
+  </defs>
+  <rect width="800" height="260" fill="url(#bg)"/>
+  <path d="M0 228H800" stroke="#f44336" stroke-opacity=".35"/>
+  <path d="M29 25V235" stroke="#f44336" stroke-width="4"/>
+  <text x="52" y="51" fill="#f44336" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="2.2">PSEUDO-3D RACING</text>
+  <text x="50" y="104" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="38" font-weight="800" letter-spacing="1.2">JAVASCRIPT</text>
+  <text x="50" y="148" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="38" font-weight="800" letter-spacing="1.2">RACER</text>
+  <text x="53" y="178" fill="#c8c4ba" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="1.4">HILLS · CURVES · TRAFFIC</text>
+  <rect x="322" y="28" width="446" height="204" rx="17" fill="#141b25" stroke="#6b6670" stroke-opacity=".8"/>
+  <clipPath id="pc"><rect x="323" y="29" width="444" height="202" rx="16"/></clipPath>
+  <g clip-path="url(#pc)">
+<rect x="323" y="29" width="444" height="202" fill="#7ec8ff"/><rect x="323" y="130" width="444" height="101" fill="#4caf50"/><polygon points="539,130.0 551,130.0 555,131.6 535,131.6" fill="#777"/><polygon points="533,130.0 539,130.0 535,131.6 529,131.6" fill="#fff"/><polygon points="557,130.0 551,130.0 555,131.6 561,131.6" fill="#fff"/><polygon points="535,131.6 555,131.6 567,136.4 523,136.4" fill="#6d6d6d"/><polygon points="529,131.6 535,131.6 523,136.4 517,136.4" fill="#f44336"/><polygon points="561,131.6 555,131.6 567,136.4 573,136.4" fill="#f44336"/><polygon points="523,136.4 567,136.4 587,144.4 503,144.4" fill="#777"/><polygon points="517,136.4 523,136.4 503,144.4 497,144.4" fill="#fff"/><polygon points="573,136.4 567,136.4 587,144.4 593,144.4" fill="#fff"/><polygon points="503,144.4 587,144.4 615,155.6 475,155.6" fill="#6d6d6d"/><polygon points="497,144.4 503,144.4 475,155.6 469,155.6" fill="#f44336"/><polygon points="593,144.4 587,144.4 615,155.6 621,155.6" fill="#f44336"/><polygon points="475,155.6 615,155.6 651,170.0 439,170.0" fill="#777"/><polygon points="469,155.6 475,155.6 439,170.0 433,170.0" fill="#fff"/><polygon points="621,155.6 615,155.6 651,170.0 657,170.0" fill="#fff"/><polygon points="439,170.0 651,170.0 695,187.6 395,187.6" fill="#6d6d6d"/><polygon points="433,170.0 439,170.0 395,187.6 389,187.6" fill="#f44336"/><polygon points="657,170.0 651,170.0 695,187.6 701,187.6" fill="#f44336"/><polygon points="395,187.6 695,187.6 747,208.4 343,208.4" fill="#777"/><polygon points="389,187.6 395,187.6 343,208.4 337,208.4" fill="#fff"/><polygon points="701,187.6 695,187.6 747,208.4 753,208.4" fill="#fff"/><polygon points="343,208.4 747,208.4 807,232.4 283,232.4" fill="#6d6d6d"/><polygon points="337,208.4 343,208.4 283,232.4 277,232.4" fill="#f44336"/><polygon points="753,208.4 747,208.4 807,232.4 813,232.4" fill="#f44336"/><g transform="translate(545 205)"><rect x="-34" y="-18" width="68" height="26" rx="5" fill="#e53935"/><rect x="-22" y="-28" width="44" height="14" rx="4" fill="#90caf9"/><rect x="-36" y="2" width="12" height="10" fill="#222"/><rect x="24" y="2" width="12" height="10" fill="#222"/></g><polygon points="420,100 440,130 400,130" fill="#2e7d32"/><polygon points="680,110 695,130 665,130" fill="#2e7d32"/>
+  </g>
+</svg>

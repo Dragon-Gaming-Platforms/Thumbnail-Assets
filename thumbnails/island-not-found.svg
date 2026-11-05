@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" role="img" aria-labelledby="title desc">
+  <title id="title">Island Not Found</title>
+  <desc id="desc">A low-poly island with a palm tree floats on a teal sea at sunset.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1a2a30"/><stop offset=".57" stop-color="#2a5a5a"/><stop offset="1" stop-color="#1a2a30"/></linearGradient>
+
+  </defs>
+  <rect width="800" height="260" fill="url(#bg)"/>
+  <path d="M0 228H800" stroke="#ff9e80" stroke-opacity=".35"/>
+  <path d="M29 25V235" stroke="#ff9e80" stroke-width="4"/>
+  <text x="52" y="51" fill="#ff9e80" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="2.2">LOW-POLY SURVIVAL</text>
+  <text x="50" y="106" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="40" font-weight="800" letter-spacing="1.2">ISLAND</text>
+  <text x="50" y="152" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="40" font-weight="800" letter-spacing="1.2">NOT FOUND</text>
+  <text x="53" y="182" fill="#c8c4ba" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="1.4">EXPLORE · CRAFT · SOLVE</text>
+  <rect x="322" y="28" width="446" height="204" rx="17" fill="#141b25" stroke="#6b6670" stroke-opacity=".8"/>
+  <clipPath id="pc"><rect x="323" y="29" width="444" height="202" rx="16"/></clipPath>
+  <g clip-path="url(#pc)">
+<rect x="323" y="29" width="444" height="202" fill="#ff9e80"/><rect x="323" y="140" width="444" height="91" fill="#26a69a"/><polygon points="400,160 480,90 560,160" fill="#5d8a4a"/><polygon points="480,90 560,160 640,140 600,100" fill="#3f6b3a"/><polygon points="440,170 560,160 640,140 700,180 380,185" fill="#d8c27a"/><circle cx="640" cy="60" r="20" fill="#fff6d5"/><path d="M520 120l0-28M520 92l-14 8M520 92l14 8M520 92l-4 12M520 92l6 12" stroke="#2e7d32" stroke-width="3"/><text x="340" y="215" fill="#fff" font-family="monospace" font-size="12" fill-opacity=".7">404 · island not found</text>
+  </g>
+</svg>
