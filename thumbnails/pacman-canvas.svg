@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="260" viewBox="0 0 800 260" role="img" aria-labelledby="title desc">
+<title id="title">PACMAN CANVAS — original concept illustration</title>
+<desc id="desc">Hand-authored geometric illustration: MAZE-CHASE CONCEPT. Not a gameplay screenshot; no game sprites, logos, or source images are used. Original artwork under the repository MIT license. See ARTWORK.md for inspection references.</desc>
+<rect x="0" y="0" width="800" height="260" fill="#0d2335" rx="0"/>
+<circle cx="716" cy="28" r="160" fill="#102d3d"/>
+<circle cx="784" cy="241" r="134" fill="#1c2d39"/>
+<line x1="38" y1="35" x2="76" y2="35" stroke="#45e0c1" stroke-width="4" stroke-linecap="round"/>
+<text x="87" y="39" font-size="10" fill="#9ab0b9" font-family="DejaVu Sans, sans-serif" letter-spacing="1.3">ORIGINAL VECTOR CONCEPT</text>
+<text x="38" y="103" font-size="34" fill="#eff3e9" font-family="DejaVu Sans, sans-serif" font-weight="bold" letter-spacing="-.6">PACMAN</text>
+<text x="38" y="147" font-size="34" fill="#eff3e9" font-family="DejaVu Sans, sans-serif" font-weight="bold" letter-spacing="-.6">CANVAS</text>
+<text x="40" y="195" font-size="12" fill="#ffca72" font-family="DejaVu Sans, sans-serif" letter-spacing=".45">MAZE-CHASE CONCEPT</text>
+<g transform="translate(383 18)">
+<rect x="25" y="18" width="26" height="26" fill="#24404c" rx="4"/>
+<rect x="54" y="18" width="26" height="26" fill="#24404c" rx="4"/>
+<rect x="83" y="18" width="26" height="26" fill="#24404c" rx="4"/>
+<rect x="112" y="18" width="26" height="26" fill="#24404c" rx="4"/>
+<rect x="141" y="18" width="26" height="26" fill="#24404c" rx="4"/>
+<rect x="170" y="18" width="26" height="26" fill="#24404c" rx="4"/>
+<rect x="199" y="18" width="26" height="26" fill="#24404c" rx="4"/>
+<rect x="228" y="18" width="26" height="26" fill="#24404c" rx="4"/>
+<rect x="257" y="18" width="26" height="26" fill="#24404c" rx="4"/>
+<rect x="286" y="18" width="26" height="26" fill="#24404c" rx="4"/>
+<rect x="25" y="47" width="26" height="26" fill="#24404c" rx="4"/>
+<rect x="54" y="47" width="26" height="26" fill="#24404c" rx="4"/>
+<rect x="83" y="47" width="26" height="26" fill="#24404c" rx="4"/>
+<rect x="112" y="47" width="26" height="26" fill="#24404c" rx="4"/>
+<rect x="141" y="47" width="26" height="26" fill="#24404c" rx="4"/>
+<rect x="170" y="47" width="26" height="26" fill="#24404c" rx="4"/>
+<rect x="199" y="47" width="26" height="26" fill="#24404c" rx="4"/>
+<rect x="228" y="47" width="26" height="26" fill="#24404c" rx="4"/>
+<rect x="257" y="47" width="26" height="26" fill="#24404c" rx="4"/>
+<rect x="286" y="47" width="26" height="26" fill="#24404c" rx="4"/>
+<rect x="25" y="76" width="26" height="26" fill="#24404c" rx="4"/>
+<rect x="54" y="76" width="26" height="26" fill="#24404c" rx="4"/>
+<rect x="83" y="76" width="26" height="26" fill="#24404c" rx="4"/>
+<rect x="112" y="76" width="26" height="26" fill="#24404c" rx="4"/>
+<rect x="141" y="76" width="26" height="26" fill="#24404c" rx="4"/>
+<rect x="170" y="76" width="26" height="26" fill="#24404c" rx="4"/>
+<rect x="199" y="76" width="26" height="26" fill="#24404c" rx="4"/>
+<rect x="228" y="76" width="26" height="26" fill="#24404c" rx="4"/>
+<rect x="257" y="76" width="26" height="26" fill="#24404c" rx="4"/>
+<rect x="286" y="76" width="26" height="26" fill="#24404c" rx="4"/>
+<rect x="25" y="105" width="26" height="26" fill="#24404c" rx="4"/>
+<rect x="54" y="105" width="26" height="26" fill="#24404c" rx="4"/>
+<rect x="83" y="105" width="26" height="26" fill="#24404c" rx="4"/>
+<rect x="112" y="105" width="26" height="26" fill="#24404c" rx="4"/>
+<rect x="141" y="105" width="26" height="26" fill="#24404c" rx="4"/>
+<rect x="170" y="105" width="26" height="26" fill="#24404c" rx="4"/>
+<rect x="199" y="105" width="26" height="26" fill="#24404c" rx="4"/>
+<rect x="228" y="105" width="26" height="26" fill="#24404c" rx="4"/>
+<rect x="257" y="105" width="26" height="26" fill="#24404c" rx="4"/>
+<rect x="286" y="105" width="26" height="26" fill="#24404c" rx="4"/>
+<rect x="25" y="134" width="26" height="26" fill="#24404c" rx="4"/>
+<rect x="54" y="134" width="26" height="26" fill="#24404c" rx="4"/>
+<rect x="83" y="134" width="26" height="26" fill="#24404c" rx="4"/>
+<rect x="112" y="134" width="26" height="26" fill="#24404c" rx="4"/>
+<rect x="141" y="134" width="26" height="26" fill="#24404c" rx="4"/>
+<rect x="170" y="134" width="26" height="26" fill="#24404c" rx="4"/>
+<rect x="199" y="134" width="26" height="26" fill="#24404c" rx="4"/>
+<rect x="228" y="134" width="26" height="26" fill="#24404c" rx="4"/>
+<rect x="257" y="134" width="26" height="26" fill="#24404c" rx="4"/>
+<rect x="286" y="134" width="26" height="26" fill="#24404c" rx="4"/>
+<rect x="25" y="163" width="26" height="26" fill="#24404c" rx="4"/>
+<rect x="54" y="163" width="26" height="26" fill="#24404c" rx="4"/>
+<rect x="83" y="163" width="26" height="26" fill="#24404c" rx="4"/>
+<rect x="112" y="163" width="26" height="26" fill="#24404c" rx="4"/>
+<rect x="141" y="163" width="26" height="26" fill="#24404c" rx="4"/>
+<rect x="170" y="163" width="26" height="26" fill="#24404c" rx="4"/>
+<rect x="199" y="163" width="26" height="26" fill="#24404c" rx="4"/>
+<rect x="228" y="163" width="26" height="26" fill="#24404c" rx="4"/>
+<rect x="257" y="163" width="26" height="26" fill="#24404c" rx="4"/>
+<rect x="286" y="163" width="26" height="26" fill="#24404c" rx="4"/>
+<path d="M39 32 H97 V148 H213 V61 H300" fill="none" stroke="#45e0c1" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="67.0,27.0 72.0,32.0 67.0,37.0 62.0,32.0" fill="#ffca72"/>
+<polygon points="271.0,85.0 276.0,90.0 271.0,95.0 266.0,90.0" fill="#ffca72"/>
+<polygon points="155.0,172.0 160.0,177.0 155.0,182.0 150.0,177.0" fill="#ffca72"/>
+<polygon points="300.0,143.0 305.0,148.0 300.0,153.0 295.0,148.0" fill="#ffca72"/>
+<circle cx="39" cy="32" r="8" fill="#ffca72"/>
+<path d="M333 93 l17 17 -17 17" fill="none" stroke="#ffca72" stroke-width="3"/>
+</g>
+</svg>

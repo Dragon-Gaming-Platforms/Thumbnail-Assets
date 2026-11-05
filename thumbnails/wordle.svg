@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="260" viewBox="0 0 800 260" role="img" aria-labelledby="title desc">
+<title id="title">WORDLE — original concept illustration</title>
+<desc id="desc">Hand-authored geometric illustration: FIVE LETTERS. SIX CHANCES.. Not a gameplay screenshot; no game sprites, logos, or source images are used. Original artwork under the repository MIT license. See ARTWORK.md for inspection references.</desc>
+<rect x="0" y="0" width="800" height="260" fill="#0d2335" rx="0"/>
+<circle cx="716" cy="28" r="160" fill="#102d3d"/>
+<circle cx="784" cy="241" r="134" fill="#1c2d39"/>
+<line x1="38" y1="35" x2="76" y2="35" stroke="#45e0c1" stroke-width="4" stroke-linecap="round"/>
+<text x="87" y="39" font-size="10" fill="#9ab0b9" font-family="DejaVu Sans, sans-serif" letter-spacing="1.3">ORIGINAL VECTOR CONCEPT</text>
+<text x="38" y="103" font-size="34" fill="#eff3e9" font-family="DejaVu Sans, sans-serif" font-weight="bold" letter-spacing="-.6">WORDLE</text>
+<text x="40" y="195" font-size="12" fill="#ffca72" font-family="DejaVu Sans, sans-serif" letter-spacing=".45">FIVE LETTERS. SIX CHANCES.</text>
+<g transform="translate(383 18)">
+<rect x="80" y="8" width="37" height="37" fill="#405468" rx="5"/>
+<text x="98" y="34" font-size="23" fill="#fff" font-family="DejaVu Sans, sans-serif" text-anchor="middle" font-weight="bold">T</text>
+<rect x="123" y="8" width="37" height="37" fill="#48a49b" rx="5"/>
+<text x="141" y="34" font-size="23" fill="#fff" font-family="DejaVu Sans, sans-serif" text-anchor="middle" font-weight="bold">R</text>
+<rect x="166" y="8" width="37" height="37" fill="#405468" rx="5"/>
+<text x="184" y="34" font-size="23" fill="#fff" font-family="DejaVu Sans, sans-serif" text-anchor="middle" font-weight="bold">A</text>
+<rect x="209" y="8" width="37" height="37" fill="#8264ae" rx="5"/>
+<text x="227" y="34" font-size="23" fill="#fff" font-family="DejaVu Sans, sans-serif" text-anchor="middle" font-weight="bold">I</text>
+<rect x="252" y="8" width="37" height="37" fill="#405468" rx="5"/>
+<text x="270" y="34" font-size="23" fill="#fff" font-family="DejaVu Sans, sans-serif" text-anchor="middle" font-weight="bold">L</text>
+<rect x="80" y="51" width="37" height="37" fill="#405468" rx="5"/>
+<text x="98" y="77" font-size="23" fill="#fff" font-family="DejaVu Sans, sans-serif" text-anchor="middle" font-weight="bold">C</text>
+<rect x="123" y="51" width="37" height="37" fill="#48a49b" rx="5"/>
+<text x="141" y="77" font-size="23" fill="#fff" font-family="DejaVu Sans, sans-serif" text-anchor="middle" font-weight="bold">R</text>
+<rect x="166" y="51" width="37" height="37" fill="#405468" rx="5"/>
+<text x="184" y="77" font-size="23" fill="#fff" font-family="DejaVu Sans, sans-serif" text-anchor="middle" font-weight="bold">A</text>
+<rect x="209" y="51" width="37" height="37" fill="#48a49b" rx="5"/>
+<text x="227" y="77" font-size="23" fill="#fff" font-family="DejaVu Sans, sans-serif" text-anchor="middle" font-weight="bold">N</text>
+<rect x="252" y="51" width="37" height="37" fill="#48a49b" rx="5"/>
+<text x="270" y="77" font-size="23" fill="#fff" font-family="DejaVu Sans, sans-serif" text-anchor="middle" font-weight="bold">E</text>
+<rect x="80" y="94" width="37" height="37" fill="#48a49b" rx="5"/>
+<text x="98" y="120" font-size="23" fill="#fff" font-family="DejaVu Sans, sans-serif" text-anchor="middle" font-weight="bold">B</text>
+<rect x="123" y="94" width="37" height="37" fill="#48a49b" rx="5"/>
+<text x="141" y="120" font-size="23" fill="#fff" font-family="DejaVu Sans, sans-serif" text-anchor="middle" font-weight="bold">R</text>
+<rect x="166" y="94" width="37" height="37" fill="#405468" rx="5"/>
+<text x="184" y="120" font-size="23" fill="#fff" font-family="DejaVu Sans, sans-serif" text-anchor="middle" font-weight="bold">A</text>
+<rect x="209" y="94" width="37" height="37" fill="#405468" rx="5"/>
+<text x="227" y="120" font-size="23" fill="#fff" font-family="DejaVu Sans, sans-serif" text-anchor="middle" font-weight="bold">V</text>
+<rect x="252" y="94" width="37" height="37" fill="#48a49b" rx="5"/>
+<text x="270" y="120" font-size="23" fill="#fff" font-family="DejaVu Sans, sans-serif" text-anchor="middle" font-weight="bold">E</text>
+<rect x="80" y="137" width="37" height="37" fill="#48a49b" rx="5"/>
+<text x="98" y="163" font-size="23" fill="#fff" font-family="DejaVu Sans, sans-serif" text-anchor="middle" font-weight="bold">B</text>
+<rect x="123" y="137" width="37" height="37" fill="#48a49b" rx="5"/>
+<text x="141" y="163" font-size="23" fill="#fff" font-family="DejaVu Sans, sans-serif" text-anchor="middle" font-weight="bold">R</text>
+<rect x="166" y="137" width="37" height="37" fill="#48a49b" rx="5"/>
+<text x="184" y="163" font-size="23" fill="#fff" font-family="DejaVu Sans, sans-serif" text-anchor="middle" font-weight="bold">I</text>
+<rect x="209" y="137" width="37" height="37" fill="#48a49b" rx="5"/>
+<text x="227" y="163" font-size="23" fill="#fff" font-family="DejaVu Sans, sans-serif" text-anchor="middle" font-weight="bold">N</text>
+<rect x="252" y="137" width="37" height="37" fill="#48a49b" rx="5"/>
+<text x="270" y="163" font-size="23" fill="#fff" font-family="DejaVu Sans, sans-serif" text-anchor="middle" font-weight="bold">E</text>
+</g>
+</svg>

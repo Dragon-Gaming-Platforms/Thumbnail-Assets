@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" role="img" aria-labelledby="title desc">
+  <title id="title">Moto X3m 2</title>
+  <desc id="desc">A dirt bike leans off a jump on a rolling brown track.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#102030"/><stop offset=".57" stop-color="#2a4a60"/><stop offset="1" stop-color="#102030"/></linearGradient>
+
+  </defs>
+  <rect width="800" height="260" fill="url(#bg)"/>
+  <path d="M0 228H800" stroke="#f44336" stroke-opacity=".35"/>
+  <path d="M29 25V235" stroke="#f44336" stroke-width="4"/>
+  <text x="52" y="51" fill="#f44336" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="2.2">STUNT BIKE RACING</text>
+  <text x="50" y="110" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="800" letter-spacing="1.2">MOTO</text>
+  <text x="50" y="160" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="800" letter-spacing="1.2">X3M 2</text>
+  <text x="53" y="190" fill="#c8c4ba" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="1.4">FLIP · LAND · BEAT THE CLOCK</text>
+  <rect x="322" y="28" width="446" height="204" rx="17" fill="#141b25" stroke="#6b6670" stroke-opacity=".8"/>
+  <clipPath id="pc"><rect x="323" y="29" width="444" height="202" rx="16"/></clipPath>
+  <g clip-path="url(#pc)">
+<rect x="323" y="29" width="444" height="202" fill="#9ad0ff"/><path d="M323 200Q420 120 500 170T680 120L767 180V231H323Z" fill="#8d6e63"/><path d="M323 200Q420 120 500 170T680 120L767 180" fill="none" stroke="#5d4037" stroke-width="6"/><g transform="translate(480 135) rotate(-20)"><circle cx="-24" cy="12" r="13" fill="#212121"/><circle cx="24" cy="12" r="13" fill="#212121"/><circle cx="-24" cy="12" r="5" fill="#9e9e9e"/><circle cx="24" cy="12" r="5" fill="#9e9e9e"/><path d="M-24 12l14-14h22l12 14" stroke="#f44336" stroke-width="6" fill="none"/><circle cy="-22" r="7" fill="#ffeb3b"/><path d="M0-14v14l-10 8M0-4l10 8" stroke="#1565c0" stroke-width="4"/></g><rect x="680" y="100" width="6" height="50" fill="#333"/><rect x="686" y="100" width="22" height="16" fill="#e53935"/>
+  </g>
+</svg>

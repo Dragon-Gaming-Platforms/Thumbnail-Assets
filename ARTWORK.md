@@ -551,7 +551,77 @@ existing HexGL/Raging Gardens images remain unchanged and their concerns be
 recorded for separate owner review; see below. This is not a new permission
 grant or a conclusion that those existing images have cleared the review.
 
+## Top-down batch 11 — original SVG artwork
+
+Catalog revision `8ba36accad7073ef77a0163dd0d87bb18d16e86e`. These entries previously sat in "Pending rights checks" (or are new catalog ids); rather than reproducing the games' own protected art, each got an original 800×260 SVG that only evokes the theme. Fonts are generic `Arial,Helvetica,sans-serif` system fallbacks. The notes under "Pending rights checks" are kept for history but no longer block these ids.
+
+| Source file | Method and provenance | Rights |
+| --- | --- | --- |
+| `3d-graphing-calculator.svg` | Hand-written original vector art: wireframe sine surface over axes. Titled with the game name. | Original work created for this repository; no third-party assets, screenshots or trademarked characters/logos. Licensed under this repository's terms. |
+| `aquastax.svg` | Hand-written original vector art: stacked colored blocks in an aquarium. Titled with the game name. | Original work created for this repository; no third-party assets, screenshots or trademarked characters/logos. Licensed under this repository's terms. |
+| `awesometanks2.svg` | Hand-written original vector art: top-down arena with one green and two red tanks. Titled with the game name. | Original work created for this repository; no third-party assets, screenshots or trademarked characters/logos. Licensed under this repository's terms. |
+| `balatro.svg` | Hand-written original vector art: fanned generic poker hand and chips on felt (no joker art or UI copied). Titled with the game name. | Original work created for this repository; no third-party assets, screenshots or trademarked characters/logos. Licensed under this repository's terms. |
+| `banania.svg` | Hand-written original vector art: bananas over an earthen maze (no character art). Titled with the game name. | Original work created for this repository; no third-party assets, screenshots or trademarked characters/logos. Licensed under this repository's terms. |
+| `bloons-td4.svg` | Hand-written original vector art: balloons on a winding dirt path with generic dart towers (no monkey art). Titled with the game name. | Original work created for this repository; no third-party assets, screenshots or trademarked characters/logos. Licensed under this repository's terms. |
+| `boids-lab.svg` | Hand-written original vector art: arrow-shaped flock around rings. Titled with the game name. | Original work created for this repository; no third-party assets, screenshots or trademarked characters/logos. Licensed under this repository's terms. |
+| `captain-rogers.svg` | Hand-written original vector art: original ship silhouette and asteroids. Titled with the game name. | Original work created for this repository; no third-party assets, screenshots or trademarked characters/logos. Licensed under this repository's terms. |
+| `cellmates.svg` | Hand-written original vector art: two abstract figures behind bars under a searchlight. Titled with the game name. | Original work created for this repository; no third-party assets, screenshots or trademarked characters/logos. Licensed under this repository's terms. |
+| `ceros-snake.svg` | Hand-written original vector art: neon snake path and glowing orb. Titled with the game name. | Original work created for this repository; no third-party assets, screenshots or trademarked characters/logos. Licensed under this repository's terms. |
+| `chess.svg` | Hand-written original vector art: board with simple geometric pieces. Titled with the game name. | Original work created for this repository; no third-party assets, screenshots or trademarked characters/logos. Licensed under this repository's terms. |
+| `chomp.svg` | Hand-written original vector art: chocolate grid with bites removed. Titled with the game name. | Original work created for this repository; no third-party assets, screenshots or trademarked characters/logos. Licensed under this repository's terms. |
+| `clumsy-bird.svg` | Hand-written original vector art: original round bird and pipes, day palette. Titled with the game name. | Original work created for this repository; no third-party assets, screenshots or trademarked characters/logos. Licensed under this repository's terms. |
+| `crappybird.svg` | Hand-written original vector art: original round bird and pipes, dusk palette. Titled with the game name. | Original work created for this repository; no third-party assets, screenshots or trademarked characters/logos. Licensed under this repository's terms. |
+
+## Top-down batch 12 — original SVG artwork
+
+Catalog revision `8ba36accad7073ef77a0163dd0d87bb18d16e86e`. Same approach as batch 11: original 800×260 SVGs that evoke each game's theme without reproducing the games' own art, characters or logos. Any matching notes under "Pending rights checks" are historical only.
+
+| Source file | Method and provenance | Rights |
+| --- | --- | --- |
+| `crystalquest.svg` | Hand-written original vector art: glowing crystals scattered around an arena with a small ship. Titled with the game name. | Original work created for this repository; no third-party assets, screenshots or trademarked characters/logos. Licensed under this repository's terms. |
+| `diablo-js.svg` | Hand-written original vector art: an isometric dungeon floor lit by torches, with a lone hero and a loot chest. Titled with the game name. | Original work created for this repository; no third-party assets, screenshots or trademarked characters/logos. Licensed under this repository's terms. |
+| `digger.svg` | Hand-written original vector art: a yellow digging machine tunnels through earth past emeralds and gold bags. Titled with the game name. | Original work created for this repository; no third-party assets, screenshots or trademarked characters/logos. Licensed under this repository's terms. |
+| `drakonas.svg` | Hand-written original vector art: a purple dragon breathes fire while flying through a stalactite cavern. Titled with the game name. | Original work created for this repository; no third-party assets, screenshots or trademarked characters/logos. Licensed under this repository's terms. |
+| `dreadheadparkour.svg` | Hand-written original vector art: a runner leaps between sunset rooftops. Titled with the game name. | Original work created for this repository; no third-party assets, screenshots or trademarked characters/logos. Licensed under this repository's terms. |
+| `duck-hunt.svg` | Hand-written original vector art: ducks rise over a marsh while a red crosshair tracks one of them. Titled with the game name. | Original work created for this repository; no third-party assets, screenshots or trademarked characters/logos. Licensed under this repository's terms. |
+| `eaglercraft-1-12-2-offline-js.svg` | Hand-written original vector art: a blocky voxel landscape with grass hills, a tree and clouds. Titled with the game name. | Original work created for this repository; no third-party assets, screenshots or trademarked characters/logos. Licensed under this repository's terms. |
+| `eaglercraft-1-12-2-offline-wasm.svg` | Hand-written original vector art: a blocky voxel landscape with grass hills, a tree and clouds at sunset. Titled with the game name. | Original work created for this repository; no third-party assets, screenshots or trademarked characters/logos. Licensed under this repository's terms. |
+| `eaglercraft-1-8-8-offline-js.svg` | Hand-written original vector art: a blocky voxel landscape with grass hills, a tree and clouds. Titled with the game name. | Original work created for this repository; no third-party assets, screenshots or trademarked characters/logos. Licensed under this repository's terms. |
+| `eaglercraft-1-8-8-offline-wasm.svg` | Hand-written original vector art: a blocky voxel landscape with grass hills, a tree and clouds at night. Titled with the game name. | Original work created for this repository; no third-party assets, screenshots or trademarked characters/logos. Licensed under this repository's terms. |
+| `emberwind.svg` | Hand-written original vector art: a red-capped gnome glides over storybook hills while green gremlins lurk. Titled with the game name. | Original work created for this repository; no third-party assets, screenshots or trademarked characters/logos. Licensed under this repository's terms. |
+| `escape-road.svg` | Hand-written original vector art: a yellow car races down a highway chased by blue police cars. Titled with the game name. | Original work created for this repository; no third-party assets, screenshots or trademarked characters/logos. Licensed under this repository's terms. |
+| `falling-sand-lab.svg` | Hand-written original vector art: pixel sand, water, plants and fire pile up in a cellular sandbox. Titled with the game name. | Original work created for this repository; no third-party assets, screenshots or trademarked characters/logos. Licensed under this repository's terms. |
+| `fillomino.svg` | Hand-written original vector art: a pastel grid divided into numbered polyomino regions. Titled with the game name. | Original work created for this repository; no third-party assets, screenshots or trademarked characters/logos. Licensed under this repository's terms. |
+| `floppybird.svg` | Hand-written original vector art: a round red bird flaps between green pipes on a pale sky. Titled with the game name. | Original work created for this repository; no third-party assets, screenshots or trademarked characters/logos. Licensed under this repository's terms. |
+| `glyphbound-tactics.svg` | Hand-written original vector art: three hero tokens face red enemy diamonds across a cover-filled grid with rune markers. Titled with the game name. | Original work created for this repository; no third-party assets, screenshots or trademarked characters/logos. Licensed under this repository's terms. |
+
+## Top-down batch 13 — original SVG artwork
+
+Catalog revision `8ba36accad7073ef77a0163dd0d87bb18d16e86e`. Same approach as batch 11: original 800×260 SVGs that evoke each game's theme without reproducing the games' own art, characters or logos. Any matching notes under "Pending rights checks" are historical only.
+
+| Source file | Method and provenance | Rights |
+| --- | --- | --- |
+| `guardians-of-the-hollow.svg` | Hand-written original vector art: a glowing stick figure faces a shadow creature in a misty forest hollow. Titled with the game name. | Original work created for this repository; no third-party assets, screenshots or trademarked characters/logos. Licensed under this repository's terms. |
+| `hashi.svg` | Hand-written original vector art: numbered islands joined by single and double bridges on a pale grid. Titled with the game name. | Original work created for this repository; no third-party assets, screenshots or trademarked characters/logos. Licensed under this repository's terms. |
+| `hearts.svg` | Hand-written original vector art: a trick of four cards led by the queen of spades on a green table. Titled with the game name. | Original work created for this repository; no third-party assets, screenshots or trademarked characters/logos. Licensed under this repository's terms. |
+| `hex.svg` | Hand-written original vector art: a rhombus of hexagonal cells with red and blue stones connecting opposite edges. Titled with the game name. | Original work created for this repository; no third-party assets, screenshots or trademarked characters/logos. Licensed under this repository's terms. |
+| `pacman.svg` | Hand-written original vector art: a neon maze filled with pellets and a lone diamond-shaped runner. Titled with the game name. | Original work created for this repository; no third-party assets, screenshots or trademarked characters/logos. Licensed under this repository's terms. |
+| `hurry.svg` | Hand-written original vector art: a big countdown clock reading ten surrounded by warning triangles. Titled with the game name. | Original work created for this repository; no third-party assets, screenshots or trademarked characters/logos. Licensed under this repository's terms. |
+| `ink-drift.svg` | Hand-written original vector art: ribbons of bright ink swirl and blend across a dark pool. Titled with the game name. | Original work created for this repository; no third-party assets, screenshots or trademarked characters/logos. Licensed under this repository's terms. |
+| `island-not-found.svg` | Hand-written original vector art: a low-poly island with a palm tree floats on a teal sea at sunset. Titled with the game name. | Original work created for this repository; no third-party assets, screenshots or trademarked characters/logos. Licensed under this repository's terms. |
+| `javascript-racer.svg` | Hand-written original vector art: a red sports car speeds down a pseudo-3D road with striped curbs. Titled with the game name. | Original work created for this repository; no third-party assets, screenshots or trademarked characters/logos. Licensed under this repository's terms. |
+| `jolly-jumper.svg` | Hand-written original vector art: a smiling yellow jumper bounces up a sky of fluffy cloud platforms. Titled with the game name. | Original work created for this repository; no third-party assets, screenshots or trademarked characters/logos. Licensed under this repository's terms. |
+| `linux-6.1.14-rv32ima-on-scratch.svg` | Hand-written original vector art: a terminal shows a Linux 6.1.14 RISC-V kernel booting to a shell prompt. Titled with the game name. | Original work created for this repository; no third-party assets, screenshots or trademarked characters/logos. Licensed under this repository's terms. |
+| `marble-soccer.svg` | Hand-written original vector art: blue and red marbles chase a ball across a top-down soccer pitch. Titled with the game name. | Original work created for this repository; no third-party assets, screenshots or trademarked characters/logos. Licensed under this repository's terms. |
+| `monster-candy.svg` | Hand-written original vector art: a wide-eyed green monster opens its mouth under a rain of wrapped candies. Titled with the game name. | Original work created for this repository; no third-party assets, screenshots or trademarked characters/logos. Licensed under this repository's terms. |
+| `moon-light-platformer.svg` | Hand-written original vector art: a small pixel hero stands on blue stone ledges under a full moon. Titled with the game name. | Original work created for this repository; no third-party assets, screenshots or trademarked characters/logos. Licensed under this repository's terms. |
+| `mosslight-roguelike.svg` | Hand-written original vector art: an ASCII conservatory of moss glyphs with an @ explorer, a creature and a seed. Titled with the game name. | Original work created for this repository; no third-party assets, screenshots or trademarked characters/logos. Licensed under this repository's terms. |
+| `moto-x3m-2.svg` | Hand-written original vector art: a dirt bike leans off a jump on a rolling brown track. Titled with the game name. | Original work created for this repository; no third-party assets, screenshots or trademarked characters/logos. Licensed under this repository's terms. |
+| `mumuy-pacman.svg` | Hand-written original vector art: a hot-pink neon maze filled with pellets and a lone diamond-shaped runner. Titled with the game name. | Original work created for this repository; no third-party assets, screenshots or trademarked characters/logos. Licensed under this repository's terms. |
+
 ## Pending rights checks
+
+> Ids listed in the "original SVG artwork" batches above are resolved by original art; the notes below remain only as research history.
 
 - `raging-gardens`: the [README](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/raging-gardens/README.md#license) explicitly licenses the game **without game art** under MIT. [Art/LICENSE](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/f077145667b5827407507ff807aef889c76ad8ac/games/raging-gardens/art/LICENSE) instead reserves all images to Stremena Tuzsuzova without a reuse grant. This was left pending by the earlier batch, but PR #14 later published an image. That existing source is unchanged here at the user's direction; its artwork rights still need separate owner review.
 - `solitaire`, `simon`, `sokoban`, `snake` and `spashal`: platform MIT labels were not corroborated by project-level grants in the inspected bundled files / upstream roots: [cyanharlow/solitaire](https://github.com/cyanharlow/solitaire), [kellyk/javascript-simon](https://github.com/kellyk/javascript-simon), [dalvorsn/Sokoban](https://github.com/dalvorsn/Sokoban), [CodeExplainedRepo/Snake-JavaScript](https://github.com/CodeExplainedRepo/Snake-JavaScript), [MrRar/spashal](https://github.com/MrRar/spashal). MIT notices on bundled libraries do not license the game UI/art. Leave pending until an explicit game/asset grant is established; no screenshots or AI replacements were added.
@@ -1020,3 +1090,96 @@ explicitly uses CC BY-NC 4.0 and requests separate commercial permission in its
 resources in its [README](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/379900747b47eb8702103ed58bcb94934fbf7142/games/openpanzer/README.md#graphical-assets-and-other-resources);
 a verified image-reuse grant for the bundled external assets was not established.
 No AI substitutes were added for these rights blockers.
+
+
+## Owner-requested original SVG collection — final 35 queue entries
+
+The owner explicitly requested **hand-written SVGs or licensed web images**.
+This supersedes the earlier screenshot-only method for the selected entries:
+original-vector methods were planned in a separate setup commit before artwork.
+The initial 82-entry queue was reviewed bottom-up. Concurrent PRs #21–23 added
+47 original-vector thumbnails while this work was being prepared. Those files,
+notices and queue removals are preserved; our overlapping drafts were discarded.
+**Only the final 35 missing sources are added by this collection.**
+
+**Provenance and terms:** all files below are original, hand-authored SVG
+concept illustrations made in this repository under its **MIT license**. Their
+geometry, paths, maps and type layout were authored for this set. No web images
+were needed or copied. They contain no traced screenshots, embedded images,
+third-party sprites, font files, ROM data, proprietary logos or franchise mascots.
+Game names identify entries, not endorsement. Each SVG has an accessible title
+and description identifying it as an original concept, **not a gameplay capture**.
+Generic game rules/mechanics are represented with original visual expression.
+
+Examples: Pacman Canvas uses abstract maze routes without Pac-Man/ghost sprites;
+Octocat Jump uses an ascending path without GitHub's mascot; Solitaire/Spades
+use original ordinary card geometry; the submarine, orbit, turret and terminal
+illustrations reuse no game textures, icons or vendor logos. Play Obsidian's
+remote wrapper supplies no verified gameplay description, so its concept is
+only a faceted portal, not an invented gameplay scene.
+
+**Inspection:** names, descriptions and controls were checked at platform
+revision `e4a35d8160637c84afa79a6c43adb4ed80efd0fb`. Each table link records the
+entry HTML/source inspected. Scratch wrappers were inspected only as wrappers;
+their remote gameplay/assets were not fetched. Concepts for those entries use
+catalog mechanics, not claims of screenshot verification. Source links are
+inspection references, **not** reused artwork or license claims for game assets.
+
+**Validation:** every new SVG parsed, rasterized through the publisher's
+`svglib + ReportLab + _renderPM` adapter at 800×260, decoded and visually
+reviewed. Decorative transparency is preblended for consistent fallback
+rendering. Each SVG source is <=40 KiB; local JPEG trials from all 35 renders
+retained 800×260 at <=40 KiB. No scripts, linked resources, external fonts,
+embedded raster data or network requests are in these SVGs. Text uses the
+renderer's ordinary sans-serif font. No generated CI JPEG was hand-edited.
+
+**Reproduction:** `scripts/create_queue_svgs.py --output /new/empty/directory`
+reproduces this fixed, reviewed 35-image collection; `--ids <exact-id> ...`
+selects files. It preflights all targets and refuses overwrites. It does not
+create unreviewed artwork for future games. `scripts/test_queue_svgs.py`
+checks safe SVG elements, exact reproduction, accessibility, unique/reserved
+IDs, deterministic generation and no-overwrite behavior. SVGs are the editable
+source; raster drafts/contact sheets are not committed.
+
+Earlier screenshot/artwork-rights blockers remain valid for copying actual
+game assets. Original vector concepts complete queue entries; they do not
+resolve the underlying games' redistribution rights. Existing HexGL/Raging
+Gardens sources and the separate owner-review notes remain unchanged.
+
+| New SVG | Original concept | Inspected entry (reference only) |
+| --- | --- | --- |
+| `zedinvaders.svg` | Isometric invader defense. | [entry HTML/source](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/e4a35d8160637c84afa79a6c43adb4ed80efd0fb/games/zedinvaders/index.html) |
+| `wordle.svg` | Five letters. six chances.. | [entry HTML/source](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/e4a35d8160637c84afa79a6c43adb4ed80efd0fb/games/wordle/index.html) |
+| `vectoid-td-3d-v1.4.svg` | Build • upgrade • defend. | [Scratch wrapper + catalog mechanics](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Assets/blob/875017c2bb49ba63ec02cd449a450507ba42c9f5/games/vectoid-td-3d-v1.4/index.html) |
+| `tic-tac-toe-3d.svg` | Three layers. one winning line.. | [entry HTML/source](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Assets/blob/875017c2bb49ba63ec02cd449a450507ba42c9f5/games/tic-tac-toe-3d/index.html) |
+| `survivor.svg` | Retro space combat. | [entry HTML/source](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/e4a35d8160637c84afa79a6c43adb4ed80efd0fb/games/survivor/index.html) |
+| `submersible.svg` | Explore below the surface. | [Scratch wrapper + catalog mechanics](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Assets/blob/875017c2bb49ba63ec02cd449a450507ba42c9f5/games/submersible/index.html) |
+| `spashal.svg` | Ride the gravity well. | [entry HTML/source](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/e4a35d8160637c84afa79a6c43adb4ed80efd0fb/games/spashal/index.html) |
+| `spades.svg` | Bid together. win the trick.. | [entry HTML/source](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Assets/blob/875017c2bb49ba63ec02cd449a450507ba42c9f5/games/spades/index.html) |
+| `spacecompany.svg` | Resources to the stars. | [entry HTML/source](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/e4a35d8160637c84afa79a6c43adb4ed80efd0fb/games/SpaceCompany/index.html) |
+| `space-invaders-13k.svg` | Formation • fire • defend. | [entry HTML/source](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/e4a35d8160637c84afa79a6c43adb4ed80efd0fb/games/space-invaders-13k/index.html) |
+| `space-huggers.svg` | Procedural run-and-gun. | [entry HTML/source](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/e4a35d8160637c84afa79a6c43adb4ed80efd0fb/games/space-huggers/index.html) |
+| `solitaire.svg` | Build the foundations. | [entry HTML/source](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/e4a35d8160637c84afa79a6c43adb4ed80efd0fb/games/solitaire/index.html) |
+| `sokoban.svg` | Push. plan. solve.. | [entry HTML/source](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/e4a35d8160637c84afa79a6c43adb4ed80efd0fb/games/sokoban/index.html) |
+| `snowrider.svg` | Carve a path through the snow. | [entry HTML/source](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/e4a35d8160637c84afa79a6c43adb4ed80efd0fb/games/singlefiles/Snowrider.html) |
+| `snake.svg` | Grow without crossing your path. | [entry HTML/source](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/e4a35d8160637c84afa79a6c43adb4ed80efd0fb/games/snake/index.html) |
+| `slitherlink.svg` | One unbroken loop. | [entry HTML/source](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Assets/blob/875017c2bb49ba63ec02cd449a450507ba42c9f5/games/slitherlink/index.html) |
+| `skifree.svg` | Find your line downhill. | [entry HTML/source](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/e4a35d8160637c84afa79a6c43adb4ed80efd0fb/games/skifree/index.html) |
+| `simon.svg` | Listen. remember. repeat.. | [entry HTML/source](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/e4a35d8160637c84afa79a6c43adb4ed80efd0fb/games/simon/index.html) |
+| `signal-and-sigil.svg` | A beacon. a moth. a choice.. | [entry HTML/source](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Assets/blob/875017c2bb49ba63ec02cd449a450507ba42c9f5/games/signal-and-sigil/index.html) |
+| `sight-and-light.svg` | Visibility in two dimensions. | [entry HTML/source](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/e4a35d8160637c84afa79a6c43adb4ed80efd0fb/games/sight-and-light/index.html) |
+| `roguish.svg` | One life. an unknown dungeon.. | [entry HTML/source](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/e4a35d8160637c84afa79a6c43adb4ed80efd0fb/games/roguish/index.html) |
+| `recoil.svg` | Let the kick carry you. | [entry HTML/source](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/e4a35d8160637c84afa79a6c43adb4ed80efd0fb/games/singlefiles/Recoil.html) |
+| `real-dos-windows-on-scratch.svg` | A vintage computing experiment. | [Scratch wrapper + catalog mechanics](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Assets/blob/875017c2bb49ba63ec02cd449a450507ba42c9f5/games/real-dos-windows-on-scratch/index.html) |
+| `pulley-lab.svg` | Trade distance for force. | [entry HTML/source](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Assets/blob/875017c2bb49ba63ec02cd449a450507ba42c9f5/games/pulley-lab/index.html) |
+| `pong.svg` | Two paddles. one ball.. | [entry HTML/source](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/e4a35d8160637c84afa79a6c43adb4ed80efd0fb/games/pong/index.html) |
+| `pocketborough.svg` | Plan a living neighborhood. | [entry HTML/source](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Assets/blob/875017c2bb49ba63ec02cd449a450507ba42c9f5/games/pocketborough/index.html) |
+| `play-obsidian.svg` | A faceted web portal. | [entry HTML/source](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Assets/blob/875017c2bb49ba63ec02cd449a450507ba42c9f5/games/play-obsidian/index.html) |
+| `pente.svg` | Five in a row. capture pairs.. | [entry HTML/source](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Assets/blob/875017c2bb49ba63ec02cd449a450507ba42c9f5/games/pente/index.html) |
+| `particle-life-lab.svg` | Attraction becomes pattern. | [entry HTML/source](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Assets/blob/875017c2bb49ba63ec02cd449a450507ba42c9f5/games/particle-life-lab/index.html) |
+| `pacman-canvas.svg` | Maze-chase concept. | [entry HTML/source](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/e4a35d8160637c84afa79a6c43adb4ed80efd0fb/games/pacman-canvas/index.htm) |
+| `opensc2k.svg` | An isometric city in the making. | [entry HTML/source](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/e4a35d8160637c84afa79a6c43adb4ed80efd0fb/games/OpenSC2K/index.html) |
+| `openpanzer.svg` | Hex-grid armored tactics. | [entry HTML/source](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/e4a35d8160637c84afa79a6c43adb4ed80efd0fb/games/openpanzer/index.html) |
+| `offline-paradise.svg` | Dash between the dangers. | [entry HTML/source](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/e4a35d8160637c84afa79a6c43adb4ed80efd0fb/games/offline-paradise/index.html) |
+| `octocat-jump.svg` | A concept in vertical motion. | [entry HTML/source](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/e4a35d8160637c84afa79a6c43adb4ed80efd0fb/games/octocat-jump/index.html) |
+| `nurikabe.svg` | Islands in a connected sea. | [entry HTML/source](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Assets/blob/875017c2bb49ba63ec02cd449a450507ba42c9f5/games/nurikabe/index.html) |

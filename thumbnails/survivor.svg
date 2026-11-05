@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="260" viewBox="0 0 800 260" role="img" aria-labelledby="title desc">
+<title id="title">SURVIVOR — original concept illustration</title>
+<desc id="desc">Hand-authored geometric illustration: RETRO SPACE COMBAT. Not a gameplay screenshot; no game sprites, logos, or source images are used. Original artwork under the repository MIT license. See ARTWORK.md for inspection references.</desc>
+<rect x="0" y="0" width="800" height="260" fill="#2c2420" rx="0"/>
+<circle cx="716" cy="28" r="160" fill="#372c25"/>
+<circle cx="784" cy="241" r="134" fill="#332f29"/>
+<line x1="38" y1="35" x2="76" y2="35" stroke="#f0b47d" stroke-width="4" stroke-linecap="round"/>
+<text x="87" y="39" font-size="10" fill="#9ab0b9" font-family="DejaVu Sans, sans-serif" letter-spacing="1.3">ORIGINAL VECTOR CONCEPT</text>
+<text x="38" y="103" font-size="34" fill="#eff3e9" font-family="DejaVu Sans, sans-serif" font-weight="bold" letter-spacing="-.6">SURVIVOR</text>
+<text x="40" y="195" font-size="12" fill="#a6d9b9" font-family="DejaVu Sans, sans-serif" letter-spacing=".45">RETRO SPACE COMBAT</text>
+<g transform="translate(383 18)">
+<circle cx="117" cy="178" r="2" fill="#69818e"/>
+<circle cx="95" cy="28" r="1" fill="#69818e"/>
+<circle cx="117" cy="145" r="2" fill="#69818e"/>
+<circle cx="192" cy="205" r="2" fill="#69818e"/>
+<circle cx="269" cy="35" r="1" fill="#69818e"/>
+<circle cx="253" cy="60" r="1" fill="#69818e"/>
+<circle cx="227" cy="158" r="1" fill="#69818e"/>
+<circle cx="13" cy="72" r="1" fill="#69818e"/>
+<circle cx="45" cy="203" r="2" fill="#69818e"/>
+<circle cx="123" cy="97" r="2" fill="#69818e"/>
+<circle cx="313" cy="114" r="2" fill="#69818e"/>
+<circle cx="142" cy="127" r="2" fill="#69818e"/>
+<circle cx="1" cy="40" r="1" fill="#69818e"/>
+<circle cx="240" cy="172" r="1" fill="#69818e"/>
+<circle cx="114" cy="24" r="1" fill="#69818e"/>
+<circle cx="273" cy="53" r="1" fill="#69818e"/>
+<circle cx="1" cy="127" r="2" fill="#69818e"/>
+<circle cx="76" cy="202" r="1" fill="#69818e"/>
+<circle cx="264" cy="65" r="1" fill="#69818e"/>
+<circle cx="0" cy="48" r="2" fill="#69818e"/>
+<circle cx="94" cy="183" r="2" fill="#69818e"/>
+<circle cx="60" cy="187" r="1" fill="#69818e"/>
+<circle cx="259" cy="51" r="1" fill="#69818e"/>
+<circle cx="79" cy="193" r="1" fill="#69818e"/>
+<polygon points="170.0,82.0 193.0,130.0 170.0,120.0 147.0,130.0" fill="#f0b47d"/>
+<polygon points="170.0,97.0 176.0,115.0 164.0,115.0" fill="#14334c"/>
+<path d="M163 130 L170 151 L177 130" fill="#ffc978"/>
+<polygon points="70.0,35.0 60.8,51.8 45.5,54.5 31.2,41.7 34.2,22.8 55.7,15.8" fill="#536b7f" stroke="#91a1a7" stroke-width="2"/>
+<polygon points="351.0,55.0 339.0,76.9 319.1,80.3 300.5,63.7 304.4,39.1 332.4,30.1" fill="#536b7f" stroke="#91a1a7" stroke-width="2"/>
+<polygon points="300.0,164.0 291.7,179.1 277.9,181.5 265.0,170.0 267.8,153.0 287.1,146.7" fill="#536b7f" stroke="#91a1a7" stroke-width="2"/>
+<polygon points="84.0,180.0 77.6,191.8 66.8,193.6 56.8,184.7 58.9,171.4 74.0,166.6" fill="#536b7f" stroke="#91a1a7" stroke-width="2"/>
+<rect x="16" y="62" width="12" height="96" fill="#a6d9b9" rx="2"/>
+<rect x="355" y="62" width="12" height="96" fill="#a6d9b9" rx="2"/>
+<path d="M80 20 L310 20 L310 200 L80 200" fill="none" stroke="#f0b47d" stroke-width="2" stroke-dasharray="8 10"/>
+</g>
+</svg>

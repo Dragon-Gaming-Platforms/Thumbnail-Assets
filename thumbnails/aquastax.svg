@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" role="img" aria-labelledby="title desc">
+  <title id="title">Aquastax</title>
+  <desc id="desc">Colored blocks stack in columns inside a bubbling aquarium.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#061c2b"/><stop offset=".57" stop-color="#0d4a6b"/><stop offset="1" stop-color="#061c2b"/></linearGradient>
+
+  </defs>
+  <rect width="800" height="260" fill="url(#bg)"/>
+  <path d="M0 228H800" stroke="#66d9e8" stroke-opacity=".35"/>
+  <path d="M29 25V235" stroke="#66d9e8" stroke-width="4"/>
+  <text x="52" y="51" fill="#66d9e8" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="2.2">ARCADE PUZZLE</text>
+  <text x="50" y="110" fill="#eafcff" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="800" letter-spacing="1.2">AQUASTAX</text>
+  <text x="53" y="140" fill="#c8c4ba" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="1.4">STACK · MATCH · CLEAR</text>
+  <rect x="322" y="28" width="446" height="204" rx="17" fill="#141b25" stroke="#6b6670" stroke-opacity=".8"/>
+  <clipPath id="pc"><rect x="323" y="29" width="444" height="202" rx="16"/></clipPath>
+  <g clip-path="url(#pc)">
+<rect x="323" y="29" width="444" height="202" fill="#0a3b5c"/><rect x="360" y="200" width="44" height="22" rx="4" fill="#ffb347"/><rect x="360" y="174" width="44" height="22" rx="4" fill="#66d9e8"/><rect x="360" y="122" width="44" height="22" rx="4" fill="#a3e635"/><rect x="410" y="200" width="44" height="22" rx="4" fill="#66d9e8"/><rect x="410" y="174" width="44" height="22" rx="4" fill="#ff6b81"/><rect x="410" y="148" width="44" height="22" rx="4" fill="#a3e635"/><rect x="410" y="96" width="44" height="22" rx="4" fill="#ffb347"/><rect x="460" y="200" width="44" height="22" rx="4" fill="#ff6b81"/><rect x="460" y="148" width="44" height="22" rx="4" fill="#c084fc"/><rect x="510" y="200" width="44" height="22" rx="4" fill="#a3e635"/><rect x="510" y="174" width="44" height="22" rx="4" fill="#c084fc"/><rect x="510" y="148" width="44" height="22" rx="4" fill="#ffb347"/><rect x="510" y="122" width="44" height="22" rx="4" fill="#66d9e8"/><rect x="510" y="96" width="44" height="22" rx="4" fill="#ff6b81"/><rect x="560" y="200" width="44" height="22" rx="4" fill="#c084fc"/><rect x="560" y="174" width="44" height="22" rx="4" fill="#ffb347"/><rect x="610" y="200" width="44" height="22" rx="4" fill="#ffb347"/><rect x="610" y="174" width="44" height="22" rx="4" fill="#66d9e8"/><rect x="610" y="148" width="44" height="22" rx="4" fill="#ff6b81"/><rect x="610" y="96" width="44" height="22" rx="4" fill="#c084fc"/><rect x="610" y="70" width="44" height="22" rx="4" fill="#ffb347"/><rect x="660" y="200" width="44" height="22" rx="4" fill="#66d9e8"/><rect x="560" y="48" width="44" height="22" rx="4" fill="#ffb347" opacity=".9"/><path d="M582 74v14" stroke="#fff" stroke-dasharray="3 3"/><circle cx="335" cy="40" r="2" fill="#fff" fill-opacity=".35"/><circle cx="367" cy="77" r="3" fill="#fff" fill-opacity=".35"/><circle cx="399" cy="54" r="4" fill="#fff" fill-opacity=".35"/><circle cx="431" cy="91" r="2" fill="#fff" fill-opacity=".35"/><circle cx="463" cy="68" r="3" fill="#fff" fill-opacity=".35"/><circle cx="495" cy="45" r="4" fill="#fff" fill-opacity=".35"/><circle cx="527" cy="82" r="2" fill="#fff" fill-opacity=".35"/><circle cx="559" cy="59" r="3" fill="#fff" fill-opacity=".35"/><circle cx="591" cy="96" r="4" fill="#fff" fill-opacity=".35"/><circle cx="623" cy="73" r="2" fill="#fff" fill-opacity=".35"/><circle cx="655" cy="50" r="3" fill="#fff" fill-opacity=".35"/><circle cx="687" cy="87" r="4" fill="#fff" fill-opacity=".35"/><circle cx="719" cy="64" r="2" fill="#fff" fill-opacity=".35"/><circle cx="751" cy="41" r="3" fill="#fff" fill-opacity=".35"/>
+  </g>
+</svg>

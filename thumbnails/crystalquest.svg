@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" role="img" aria-labelledby="title desc">
+  <title id="title">CrystalQuest</title>
+  <desc id="desc">Glowing crystals scattered around an arena with a small ship.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#08081a"/><stop offset=".57" stop-color="#1a1a3a"/><stop offset="1" stop-color="#08081a"/></linearGradient>
+
+  </defs>
+  <rect width="800" height="260" fill="url(#bg)"/>
+  <path d="M0 228H800" stroke="#7df9ff" stroke-opacity=".35"/>
+  <path d="M29 25V235" stroke="#7df9ff" stroke-width="4"/>
+  <text x="52" y="51" fill="#7df9ff" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="2.2">ARCADE COLLECT-A-THON</text>
+  <text x="50" y="110" fill="#f0fbff" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="800" letter-spacing="1.2">CRYSTAL</text>
+  <text x="50" y="160" fill="#f0fbff" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="800" letter-spacing="1.2">QUEST</text>
+  <text x="53" y="190" fill="#c8c4ba" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="1.4">GATHER · DODGE · EXIT</text>
+  <rect x="322" y="28" width="446" height="204" rx="17" fill="#141b25" stroke="#6b6670" stroke-opacity=".8"/>
+  <clipPath id="pc"><rect x="323" y="29" width="444" height="202" rx="16"/></clipPath>
+  <g clip-path="url(#pc)">
+<rect x="323" y="29" width="444" height="202" fill="#0b0b1e"/><circle cx="534" cy="160" r="1.5" fill="#fff" fill-opacity=".7"/><circle cx="480" cy="108" r="1" fill="#fff" fill-opacity=".7"/><circle cx="537" cy="157" r="1" fill="#fff" fill-opacity=".7"/><circle cx="627" cy="149" r="1.5" fill="#fff" fill-opacity=".7"/><circle cx="331" cy="154" r="1" fill="#fff" fill-opacity=".7"/><circle cx="488" cy="100" r="1" fill="#fff" fill-opacity=".7"/><circle cx="355" cy="191" r="1" fill="#fff" fill-opacity=".7"/><circle cx="551" cy="191" r="1.5" fill="#fff" fill-opacity=".7"/><circle cx="504" cy="195" r="1" fill="#fff" fill-opacity=".7"/><circle cx="725" cy="191" r="1.5" fill="#fff" fill-opacity=".7"/><circle cx="549" cy="52" r="1" fill="#fff" fill-opacity=".7"/><circle cx="737" cy="56" r="1" fill="#fff" fill-opacity=".7"/><circle cx="748" cy="138" r="1.5" fill="#fff" fill-opacity=".7"/><circle cx="570" cy="220" r="1" fill="#fff" fill-opacity=".7"/><circle cx="569" cy="131" r="1" fill="#fff" fill-opacity=".7"/><circle cx="502" cy="115" r="1.5" fill="#fff" fill-opacity=".7"/><circle cx="532" cy="151" r="1.5" fill="#fff" fill-opacity=".7"/><circle cx="343" cy="173" r="1" fill="#fff" fill-opacity=".7"/><circle cx="750" cy="161" r="1" fill="#fff" fill-opacity=".7"/><circle cx="735" cy="200" r="1" fill="#fff" fill-opacity=".7"/><circle cx="620" cy="57" r="1" fill="#fff" fill-opacity=".7"/><circle cx="474" cy="106" r="1.5" fill="#fff" fill-opacity=".7"/><circle cx="678" cy="130" r="1" fill="#fff" fill-opacity=".7"/><circle cx="494" cy="198" r="1" fill="#fff" fill-opacity=".7"/><circle cx="553" cy="77" r="1" fill="#fff" fill-opacity=".7"/><circle cx="349" cy="74" r="1.5" fill="#fff" fill-opacity=".7"/><circle cx="374" cy="139" r="1" fill="#fff" fill-opacity=".7"/><circle cx="364" cy="87" r="1" fill="#fff" fill-opacity=".7"/><circle cx="449" cy="100" r="1.5" fill="#fff" fill-opacity=".7"/><circle cx="642" cy="133" r="1" fill="#fff" fill-opacity=".7"/><polygon points="420,62 432,80 420,98 408,80" fill="#7df9ff" stroke="#fff" stroke-opacity=".6"/><polygon points="500,172 512,190 500,208 488,190" fill="#ff7bf0" stroke="#fff" stroke-opacity=".6"/><polygon points="620,52 632,70 620,88 608,70" fill="#b8ff7d" stroke="#fff" stroke-opacity=".6"/><polygon points="700,152 712,170 700,188 688,170" fill="#ffd27d" stroke="#fff" stroke-opacity=".6"/><polygon points="560,102 572,120 560,138 548,120" fill="#7df9ff" stroke="#fff" stroke-opacity=".6"/><circle cx="450" cy="150" r="12" fill="#eee"/><circle cx="450" cy="150" r="5" fill="#ff5252"/><rect x="740" y="90" width="27" height="80" fill="#333" stroke="#7df9ff"/>
+  </g>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" role="img" aria-labelledby="title desc">
+  <title id="title">Ink Drift</title>
+  <desc id="desc">Ribbons of bright ink swirl and blend across a dark pool.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f0f17"/><stop offset=".57" stop-color="#2a1a3a"/><stop offset="1" stop-color="#0f0f17"/></linearGradient>
+
+  </defs>
+  <rect width="800" height="260" fill="url(#bg)"/>
+  <path d="M0 228H800" stroke="#ff3cac" stroke-opacity=".35"/>
+  <path d="M29 25V235" stroke="#ff3cac" stroke-width="4"/>
+  <text x="52" y="51" fill="#ff3cac" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="2.2">FLUID ART TOY</text>
+  <text x="50" y="110" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="800" letter-spacing="1.2">INK</text>
+  <text x="50" y="160" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="800" letter-spacing="1.2">DRIFT</text>
+  <text x="53" y="190" fill="#c8c4ba" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="1.4">STIR · BLEND · DRIFT</text>
+  <rect x="322" y="28" width="446" height="204" rx="17" fill="#141b25" stroke="#6b6670" stroke-opacity=".8"/>
+  <clipPath id="pc"><rect x="323" y="29" width="444" height="202" rx="16"/></clipPath>
+  <g clip-path="url(#pc)">
+<rect x="323" y="29" width="444" height="202" fill="#0f0f17"/><path d="M360 130 374 156 388 177 402 191 416 195 430 191 444 182 458 172 472 165 486 160 500 158 514 157 528 152 542 143 556 128 570 107 584 85 598 65 612 53 626 50 640 58 654 74 668 95 682 116 696 133 710 145 724 151 738 154 752 156 766 160" fill="none" stroke="#ff3cac" stroke-width="14" stroke-linecap="round" stroke-opacity=".75"/><path d="M360 199 374 197 388 189 402 177 416 166 430 157 444 152 458 150 472 147 486 140 500 129 514 112 528 92 542 72 556 57 570 50 584 54 598 68 612 88 626 111 640 132 654 148 668 157 682 161 696 161 710 163 724 166 738 173 752 182 766 190" fill="none" stroke="#784ba0" stroke-width="12" stroke-linecap="round" stroke-opacity=".75"/><path d="M360 169 374 157 388 148 402 143 416 140 430 136 444 128 458 115 472 98 486 79 500 63 514 53 528 53 542 63 556 81 570 105 584 128 598 148 612 161 626 167 640 168 654 167 668 167 682 170 696 176 710 182 724 187 738 185 752 175 766 156" fill="none" stroke="#2b86c5" stroke-width="10" stroke-linecap="round" stroke-opacity=".75"/><path d="M360 133 374 130 388 125 402 116 416 102 430 86 444 69 458 57 472 53 486 59 500 75 514 98 528 123 542 146 556 163 570 172 584 175 598 174 612 171 626 170 640 172 654 176 668 180 682 180 696 174 710 160 724 138 738 113 752 88 766 68" fill="none" stroke="#42e695" stroke-width="8" stroke-linecap="round" stroke-opacity=".75"/><path d="M360 104 374 91 388 76 402 63 416 56 430 58 444 70 458 91 472 116 486 141 500 162 514 176 528 182 542 181 556 176 570 172 584 170 598 170 612 173 626 174 640 171 654 160 668 143 682 120 696 95 710 73 724 58 738 53 752 58 766 70" fill="none" stroke="#ffd200" stroke-width="6" stroke-linecap="round" stroke-opacity=".75"/>
+  </g>
+</svg>
