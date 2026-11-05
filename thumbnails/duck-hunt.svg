@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" role="img" aria-labelledby="title desc">
+  <title id="title">Duck Hunt</title>
+  <desc id="desc">Ducks rise over a marsh while a red crosshair tracks one of them.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d2a40"/><stop offset=".57" stop-color="#1b5a80"/><stop offset="1" stop-color="#0d2a40"/></linearGradient>
+
+  </defs>
+  <rect width="800" height="260" fill="url(#bg)"/>
+  <path d="M0 228H800" stroke="#ff9800" stroke-opacity=".35"/>
+  <path d="M29 25V235" stroke="#ff9800" stroke-width="4"/>
+  <text x="52" y="51" fill="#ff9800" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="2.2">LIGHT-GUN ARCADE</text>
+  <text x="50" y="110" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="800" letter-spacing="1.2">DUCK</text>
+  <text x="50" y="160" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="800" letter-spacing="1.2">HUNT</text>
+  <text x="53" y="190" fill="#c8c4ba" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="1.4">AIM · SHOOT · ROUND UP</text>
+  <rect x="322" y="28" width="446" height="204" rx="17" fill="#141b25" stroke="#6b6670" stroke-opacity=".8"/>
+  <clipPath id="pc"><rect x="323" y="29" width="444" height="202" rx="16"/></clipPath>
+  <g clip-path="url(#pc)">
+<rect x="323" y="29" width="444" height="202" fill="#7fc8ff"/><rect x="323" y="190" width="444" height="41" fill="#4caf50"/><path d="M335 190v-20" stroke="#2e7d32" stroke-width="3"/><path d="M363 190v-33" stroke="#2e7d32" stroke-width="3"/><path d="M391 190v-24" stroke="#2e7d32" stroke-width="3"/><path d="M419 190v-37" stroke="#2e7d32" stroke-width="3"/><path d="M447 190v-28" stroke="#2e7d32" stroke-width="3"/><path d="M475 190v-41" stroke="#2e7d32" stroke-width="3"/><path d="M503 190v-32" stroke="#2e7d32" stroke-width="3"/><path d="M531 190v-23" stroke="#2e7d32" stroke-width="3"/><path d="M559 190v-36" stroke="#2e7d32" stroke-width="3"/><path d="M587 190v-27" stroke="#2e7d32" stroke-width="3"/><path d="M615 190v-40" stroke="#2e7d32" stroke-width="3"/><path d="M643 190v-31" stroke="#2e7d32" stroke-width="3"/><path d="M671 190v-22" stroke="#2e7d32" stroke-width="3"/><path d="M699 190v-35" stroke="#2e7d32" stroke-width="3"/><path d="M727 190v-26" stroke="#2e7d32" stroke-width="3"/><path d="M755 190v-39" stroke="#2e7d32" stroke-width="3"/><rect x="690" y="100" width="24" height="90" fill="#5d4037"/><circle cx="702" cy="90" r="40" fill="#388e3c"/><g transform="translate(440 80) scale(1)"><ellipse rx="18" ry="10" fill="#5d4037"/><circle cx="16" cy="-8" r="7" fill="#1b5e20"/><polygon points="22,-8 32,-6 22,-4" fill="#ff9800"/><path d="M-6-4l-10-18 18 10z" fill="#4e342e"/></g><g transform="translate(520 120) scale(0.8)"><ellipse rx="18" ry="10" fill="#5d4037"/><circle cx="16" cy="-8" r="7" fill="#1b5e20"/><polygon points="22,-8 32,-6 22,-4" fill="#ff9800"/><path d="M-6-4l-10-18 18 10z" fill="#4e342e"/></g><g transform="translate(600 70) scale(0.6)"><ellipse rx="18" ry="10" fill="#5d4037"/><circle cx="16" cy="-8" r="7" fill="#1b5e20"/><polygon points="22,-8 32,-6 22,-4" fill="#ff9800"/><path d="M-6-4l-10-18 18 10z" fill="#4e342e"/></g><g fill="none" stroke="#e53935" stroke-width="3"><circle cx="440" cy="80" r="22"/><path d="M440 50v12M440 98v12M410 80h12M458 80h12"/></g>
+  </g>
+</svg>
