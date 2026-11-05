@@ -2,7 +2,7 @@
 
 Catalog: [Dragon-Gaming-Platforms/Dragon-Gaming-Platforms](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms),
 revision `8ba36accad7073ef77a0163dd0d87bb18d16e86e` (`games.js`).
-Remaining: **35 games** (0 generate=true; 35 generate=false).
+Remaining: **17 games** (0 generate=true; 17 generate=false).
 
 - `generate=true`: create original artwork based on the actual game's gameplay/theme.
 - `generate=false`: capture gameplay or reuse existing artwork after verifying display rights.
@@ -24,24 +24,6 @@ Remaining: **35 games** (0 generate=true; 35 generate=false).
 
 ## Queue
 
-- `nurikabe` generate=false
-- `octocat-jump` generate=false
-- `offline-paradise` generate=false
-- `openpanzer` generate=false
-- `opensc2k` generate=false
-- `pacman-canvas` generate=false
-- `particle-life-lab` generate=false
-- `pente` generate=false
-- `play-obsidian` generate=false
-- `pocketborough` generate=false
-- `pong` generate=false
-- `pulley-lab` generate=false
-- `real-dos-windows-on-scratch` generate=false
-- `recoil` generate=false
-- `roguish` generate=false
-- `sight-and-light` generate=false
-- `signal-and-sigil` generate=false
-- `simon` generate=false
 - `skifree` generate=false
 - `slitherlink` generate=false
 - `snake` generate=false

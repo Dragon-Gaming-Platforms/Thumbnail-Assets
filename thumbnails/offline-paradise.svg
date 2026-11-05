@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" role="img" aria-labelledby="title desc">
+  <title id="title">Offline Paradise</title>
+  <desc id="desc">A cyan dash-runner leaps between purple ledges past red lasers.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0e0820"/><stop offset=".57" stop-color="#2a1a4a"/><stop offset="1" stop-color="#0e0820"/></linearGradient>
+
+  </defs>
+  <rect width="800" height="260" fill="url(#bg)"/>
+  <path d="M0 228H800" stroke="#00e5ff" stroke-opacity=".35"/>
+  <path d="M29 25V235" stroke="#00e5ff" stroke-width="4"/>
+  <text x="52" y="51" fill="#00e5ff" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="2.2">PRECISION PLATFORMER</text>
+  <text x="50" y="110" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="800" letter-spacing="1.2">OFFLINE</text>
+  <text x="50" y="160" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="800" letter-spacing="1.2">PARADISE</text>
+  <text x="53" y="190" fill="#c8c4ba" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="1.4">DASH · WALL-SLIDE · DODGE LASERS</text>
+  <rect x="322" y="28" width="446" height="204" rx="17" fill="#141b25" stroke="#6b6670" stroke-opacity=".8"/>
+  <clipPath id="pc"><rect x="323" y="29" width="444" height="202" rx="16"/></clipPath>
+  <g clip-path="url(#pc)">
+<rect x="323" y="29" width="444" height="202" fill="#1a1033"/><rect x="323" y="210" width="150" height="21" fill="#3d2d6b"/><rect x="323" y="210" width="150" height="4" fill="#b388ff"/><rect x="520" y="180" width="80" height="21" fill="#3d2d6b"/><rect x="520" y="180" width="80" height="4" fill="#b388ff"/><rect x="660" y="140" width="107" height="21" fill="#3d2d6b"/><rect x="660" y="140" width="107" height="4" fill="#b388ff"/><rect x="440" y="120" width="60" height="21" fill="#3d2d6b"/><rect x="440" y="120" width="60" height="4" fill="#b388ff"/><path d="M600 29V180" stroke="#ff1744" stroke-width="3"/><path d="M600 29V180" stroke="#ff1744" stroke-width="10" stroke-opacity=".25"/><path d="M323 100H440" stroke="#ff1744" stroke-width="3"/><path d="M323 100H440" stroke="#ff1744" stroke-width="10" stroke-opacity=".25"/><g transform="translate(500 150) rotate(-20)"><rect x="-10" y="-14" width="20" height="28" rx="5" fill="#00e5ff"/><circle cx="4" cy="-6" r="3" fill="#1a1033"/></g><path d="M470 165l-30 10M478 172l-36 2" stroke="#00e5ff" stroke-width="3" stroke-opacity=".6" stroke-linecap="round"/>
+  </g>
+</svg>
