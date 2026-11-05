@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" role="img" aria-labelledby="title desc">
+  <title id="title">Digger Remastered (1983)</title>
+  <desc id="desc">A yellow digging machine tunnels through earth past emeralds and gold bags.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2a1a0a"/><stop offset=".57" stop-color="#5a3a1a"/><stop offset="1" stop-color="#2a1a0a"/></linearGradient>
+
+  </defs>
+  <rect width="800" height="260" fill="url(#bg)"/>
+  <path d="M0 228H800" stroke="#2ee59d" stroke-opacity=".35"/>
+  <path d="M29 25V235" stroke="#2ee59d" stroke-width="4"/>
+  <text x="52" y="51" fill="#2ee59d" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="2.2">ARCADE CLASSIC · REMASTER</text>
+  <text x="50" y="110" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="800" letter-spacing="1.2">DIGGER</text>
+  <text x="53" y="140" fill="#c8c4ba" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="1.4">TUNNEL · EMERALDS · GOLD</text>
+  <rect x="322" y="28" width="446" height="204" rx="17" fill="#141b25" stroke="#6b6670" stroke-opacity=".8"/>
+  <clipPath id="pc"><rect x="323" y="29" width="444" height="202" rx="16"/></clipPath>
+  <g clip-path="url(#pc)">
+<rect x="323" y="29" width="444" height="202" fill="#6d4a2a"/><rect x="323" y="29" width="444" height="20" fill="#2e7d32"/><path d="M360 60V200H520V120H700V200" fill="none" stroke="#1a100a" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/><polygon points="430,80 439,98 421,98" fill="#2ee59d" stroke="#0a7a4a" stroke-width="2"/><polygon points="600,160 609,178 591,178" fill="#2ee59d" stroke="#0a7a4a" stroke-width="2"/><polygon points="740,90 749,108 731,108" fill="#2ee59d" stroke="#0a7a4a" stroke-width="2"/><polygon points="460,170 469,188 451,188" fill="#2ee59d" stroke="#0a7a4a" stroke-width="2"/><path d="M640 80q0-20 10-20t10 20z" fill="#c9a24c" stroke="#7a5a1a" stroke-width="2"/><path d="M390 170q0-20 10-20t10 20z" fill="#c9a24c" stroke="#7a5a1a" stroke-width="2"/><g transform="translate(520 120)"><rect x="-16" y="-10" width="32" height="20" rx="5" fill="#ffeb3b"/><circle cx="-10" cy="12" r="4" fill="#111"/><circle cx="10" cy="12" r="4" fill="#111"/><polygon points="16,-4 28,0 16,4" fill="#f44336"/></g>
+  </g>
+</svg>
