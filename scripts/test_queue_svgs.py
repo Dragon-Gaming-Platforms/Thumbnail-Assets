@@ -15,7 +15,7 @@ SCRIPT = Path(__file__).with_name('create_queue_svgs.py')
 class OriginalQueueSVGTests(unittest.TestCase):
     def test_unique_exact_ids_and_reserved_work_excluded(self):
         ids = [s[0] for s in ART]
-        self.assertEqual(len(ids), 35)
+        self.assertEqual(len(ids), 17)
         self.assertEqual(len(ids), len(set(ids)))
         self.assertNotIn('echoed-path', ids)
         self.assertNotIn('glade-game', ids)

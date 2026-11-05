@@ -1,22 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="260" viewBox="0 0 800 260" role="img" aria-labelledby="title desc">
-<title id="title">PULLEY LAB — original concept illustration</title>
-<desc id="desc">Hand-authored geometric illustration: TRADE DISTANCE FOR FORCE. Not a gameplay screenshot; no game sprites, logos, or source images are used. Original artwork under the repository MIT license. See ARTWORK.md for inspection references.</desc>
-<rect x="0" y="0" width="800" height="260" fill="#201834" rx="0"/>
-<circle cx="716" cy="28" r="160" fill="#281f3f"/>
-<circle cx="784" cy="241" r="134" fill="#2d1f38"/>
-<line x1="38" y1="35" x2="76" y2="35" stroke="#b6a0ff" stroke-width="4" stroke-linecap="round"/>
-<text x="87" y="39" font-size="10" fill="#9ab0b9" font-family="DejaVu Sans, sans-serif" letter-spacing="1.3">ORIGINAL VECTOR CONCEPT</text>
-<text x="38" y="103" font-size="34" fill="#eff3e9" font-family="DejaVu Sans, sans-serif" font-weight="bold" letter-spacing="-.6">PULLEY LAB</text>
-<text x="40" y="195" font-size="12" fill="#ff927a" font-family="DejaVu Sans, sans-serif" letter-spacing=".45">TRADE DISTANCE FOR FORCE</text>
-<g transform="translate(383 18)">
-<line x1="105" y1="17" x2="298" y2="17" stroke="#8b9ba1" stroke-width="7" stroke-linecap="round"/>
-<circle cx="176" cy="62" r="32" fill="#4e697c" stroke="#b6a0ff" stroke-width="4"/>
-<circle cx="176" cy="62" r="8" fill="#ff927a"/>
-<circle cx="226" cy="132" r="30" fill="#4e697c" stroke="#b6a0ff" stroke-width="4"/>
-<circle cx="226" cy="132" r="7" fill="#ff927a"/>
-<path d="M145 196 V62 A31 31 0 0 1 207 62 V132 A19 19 0 0 0 245 132 V21" fill="none" stroke="#ff927a" stroke-width="4"/>
-<line x1="226" y1="164" x2="226" y2="179" stroke="#b6a0ff" stroke-width="4" stroke-linecap="round"/>
-<rect x="198" y="179" width="56" height="35" fill="#b6a0ff" rx="4"/>
-<path d="M140 165 l-12 13 m12 -13 l12 13" fill="none" stroke="#ff927a" stroke-width="3"/>
-</g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" role="img" aria-labelledby="title desc">
+  <title id="title">Pulley Lab</title>
+  <desc id="desc">A fixed pulley and a block-and-tackle lifting crates from a ceiling beam.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1a2228"/><stop offset=".57" stop-color="#3a4a55"/><stop offset="1" stop-color="#1a2228"/></linearGradient>
+
+  </defs>
+  <rect width="800" height="260" fill="url(#bg)"/>
+  <path d="M0 228H800" stroke="#ff9800" stroke-opacity=".35"/>
+  <path d="M29 25V235" stroke="#ff9800" stroke-width="4"/>
+  <text x="52" y="51" fill="#ff9800" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="2.2">PHYSICS SANDBOX</text>
+  <text x="50" y="110" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="800" letter-spacing="1.2">PULLEY</text>
+  <text x="50" y="160" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="800" letter-spacing="1.2">LAB</text>
+  <text x="53" y="190" fill="#c8c4ba" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="1.4">FIXED · MOVABLE · BLOCK &amp; TACKLE</text>
+  <rect x="322" y="28" width="446" height="204" rx="17" fill="#141b25" stroke="#6b6670" stroke-opacity=".8"/>
+  <clipPath id="pc"><rect x="323" y="29" width="444" height="202" rx="16"/></clipPath>
+  <g clip-path="url(#pc)">
+<rect x="323" y="29" width="444" height="202" fill="#eef2f5"/><rect x="323" y="29" width="444" height="14" fill="#90a4ae"/><path d="M420 43v30M420 73" stroke="#37474f" stroke-width="3"/><circle cx="420" cy="85" r="16" fill="#607d8b" stroke="#37474f" stroke-width="3"/><circle cx="420" cy="85" r="4" fill="#263238"/><path d="M404 85V190M436 85V140" stroke="#5d4037" stroke-width="3"/><rect x="390" y="190" width="28" height="28" fill="#ff9800" stroke="#e65100"/><circle cx="436" cy="148" r="6" fill="#263238"/><path d="M600 43v20" stroke="#37474f" stroke-width="3"/><circle cx="600" cy="75" r="16" fill="#607d8b" stroke="#37474f" stroke-width="3"/><circle cx="600" cy="75" r="4" fill="#263238"/><circle cx="600" cy="150" r="16" fill="#607d8b" stroke="#37474f" stroke-width="3"/><circle cx="600" cy="150" r="4" fill="#263238"/><path d="M584 75V150M616 75V150M600 166v12M632 75V200" stroke="#5d4037" stroke-width="3"/><rect x="580" y="178" width="40" height="40" fill="#ff9800" stroke="#e65100"/><circle cx="632" cy="206" r="6" fill="#263238"/><text x="700" y="110" font-family="Arial" font-size="13" font-weight="700" fill="#37474f">MA = 2</text><text x="460" y="110" font-family="Arial" font-size="13" font-weight="700" fill="#37474f">MA = 1</text>
+  </g>
 </svg>

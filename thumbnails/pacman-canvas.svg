@@ -1,81 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="260" viewBox="0 0 800 260" role="img" aria-labelledby="title desc">
-<title id="title">PACMAN CANVAS — original concept illustration</title>
-<desc id="desc">Hand-authored geometric illustration: MAZE-CHASE CONCEPT. Not a gameplay screenshot; no game sprites, logos, or source images are used. Original artwork under the repository MIT license. See ARTWORK.md for inspection references.</desc>
-<rect x="0" y="0" width="800" height="260" fill="#0d2335" rx="0"/>
-<circle cx="716" cy="28" r="160" fill="#102d3d"/>
-<circle cx="784" cy="241" r="134" fill="#1c2d39"/>
-<line x1="38" y1="35" x2="76" y2="35" stroke="#45e0c1" stroke-width="4" stroke-linecap="round"/>
-<text x="87" y="39" font-size="10" fill="#9ab0b9" font-family="DejaVu Sans, sans-serif" letter-spacing="1.3">ORIGINAL VECTOR CONCEPT</text>
-<text x="38" y="103" font-size="34" fill="#eff3e9" font-family="DejaVu Sans, sans-serif" font-weight="bold" letter-spacing="-.6">PACMAN</text>
-<text x="38" y="147" font-size="34" fill="#eff3e9" font-family="DejaVu Sans, sans-serif" font-weight="bold" letter-spacing="-.6">CANVAS</text>
-<text x="40" y="195" font-size="12" fill="#ffca72" font-family="DejaVu Sans, sans-serif" letter-spacing=".45">MAZE-CHASE CONCEPT</text>
-<g transform="translate(383 18)">
-<rect x="25" y="18" width="26" height="26" fill="#24404c" rx="4"/>
-<rect x="54" y="18" width="26" height="26" fill="#24404c" rx="4"/>
-<rect x="83" y="18" width="26" height="26" fill="#24404c" rx="4"/>
-<rect x="112" y="18" width="26" height="26" fill="#24404c" rx="4"/>
-<rect x="141" y="18" width="26" height="26" fill="#24404c" rx="4"/>
-<rect x="170" y="18" width="26" height="26" fill="#24404c" rx="4"/>
-<rect x="199" y="18" width="26" height="26" fill="#24404c" rx="4"/>
-<rect x="228" y="18" width="26" height="26" fill="#24404c" rx="4"/>
-<rect x="257" y="18" width="26" height="26" fill="#24404c" rx="4"/>
-<rect x="286" y="18" width="26" height="26" fill="#24404c" rx="4"/>
-<rect x="25" y="47" width="26" height="26" fill="#24404c" rx="4"/>
-<rect x="54" y="47" width="26" height="26" fill="#24404c" rx="4"/>
-<rect x="83" y="47" width="26" height="26" fill="#24404c" rx="4"/>
-<rect x="112" y="47" width="26" height="26" fill="#24404c" rx="4"/>
-<rect x="141" y="47" width="26" height="26" fill="#24404c" rx="4"/>
-<rect x="170" y="47" width="26" height="26" fill="#24404c" rx="4"/>
-<rect x="199" y="47" width="26" height="26" fill="#24404c" rx="4"/>
-<rect x="228" y="47" width="26" height="26" fill="#24404c" rx="4"/>
-<rect x="257" y="47" width="26" height="26" fill="#24404c" rx="4"/>
-<rect x="286" y="47" width="26" height="26" fill="#24404c" rx="4"/>
-<rect x="25" y="76" width="26" height="26" fill="#24404c" rx="4"/>
-<rect x="54" y="76" width="26" height="26" fill="#24404c" rx="4"/>
-<rect x="83" y="76" width="26" height="26" fill="#24404c" rx="4"/>
-<rect x="112" y="76" width="26" height="26" fill="#24404c" rx="4"/>
-<rect x="141" y="76" width="26" height="26" fill="#24404c" rx="4"/>
-<rect x="170" y="76" width="26" height="26" fill="#24404c" rx="4"/>
-<rect x="199" y="76" width="26" height="26" fill="#24404c" rx="4"/>
-<rect x="228" y="76" width="26" height="26" fill="#24404c" rx="4"/>
-<rect x="257" y="76" width="26" height="26" fill="#24404c" rx="4"/>
-<rect x="286" y="76" width="26" height="26" fill="#24404c" rx="4"/>
-<rect x="25" y="105" width="26" height="26" fill="#24404c" rx="4"/>
-<rect x="54" y="105" width="26" height="26" fill="#24404c" rx="4"/>
-<rect x="83" y="105" width="26" height="26" fill="#24404c" rx="4"/>
-<rect x="112" y="105" width="26" height="26" fill="#24404c" rx="4"/>
-<rect x="141" y="105" width="26" height="26" fill="#24404c" rx="4"/>
-<rect x="170" y="105" width="26" height="26" fill="#24404c" rx="4"/>
-<rect x="199" y="105" width="26" height="26" fill="#24404c" rx="4"/>
-<rect x="228" y="105" width="26" height="26" fill="#24404c" rx="4"/>
-<rect x="257" y="105" width="26" height="26" fill="#24404c" rx="4"/>
-<rect x="286" y="105" width="26" height="26" fill="#24404c" rx="4"/>
-<rect x="25" y="134" width="26" height="26" fill="#24404c" rx="4"/>
-<rect x="54" y="134" width="26" height="26" fill="#24404c" rx="4"/>
-<rect x="83" y="134" width="26" height="26" fill="#24404c" rx="4"/>
-<rect x="112" y="134" width="26" height="26" fill="#24404c" rx="4"/>
-<rect x="141" y="134" width="26" height="26" fill="#24404c" rx="4"/>
-<rect x="170" y="134" width="26" height="26" fill="#24404c" rx="4"/>
-<rect x="199" y="134" width="26" height="26" fill="#24404c" rx="4"/>
-<rect x="228" y="134" width="26" height="26" fill="#24404c" rx="4"/>
-<rect x="257" y="134" width="26" height="26" fill="#24404c" rx="4"/>
-<rect x="286" y="134" width="26" height="26" fill="#24404c" rx="4"/>
-<rect x="25" y="163" width="26" height="26" fill="#24404c" rx="4"/>
-<rect x="54" y="163" width="26" height="26" fill="#24404c" rx="4"/>
-<rect x="83" y="163" width="26" height="26" fill="#24404c" rx="4"/>
-<rect x="112" y="163" width="26" height="26" fill="#24404c" rx="4"/>
-<rect x="141" y="163" width="26" height="26" fill="#24404c" rx="4"/>
-<rect x="170" y="163" width="26" height="26" fill="#24404c" rx="4"/>
-<rect x="199" y="163" width="26" height="26" fill="#24404c" rx="4"/>
-<rect x="228" y="163" width="26" height="26" fill="#24404c" rx="4"/>
-<rect x="257" y="163" width="26" height="26" fill="#24404c" rx="4"/>
-<rect x="286" y="163" width="26" height="26" fill="#24404c" rx="4"/>
-<path d="M39 32 H97 V148 H213 V61 H300" fill="none" stroke="#45e0c1" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
-<polygon points="67.0,27.0 72.0,32.0 67.0,37.0 62.0,32.0" fill="#ffca72"/>
-<polygon points="271.0,85.0 276.0,90.0 271.0,95.0 266.0,90.0" fill="#ffca72"/>
-<polygon points="155.0,172.0 160.0,177.0 155.0,182.0 150.0,177.0" fill="#ffca72"/>
-<polygon points="300.0,143.0 305.0,148.0 300.0,153.0 295.0,148.0" fill="#ffca72"/>
-<circle cx="39" cy="32" r="8" fill="#ffca72"/>
-<path d="M333 93 l17 17 -17 17" fill="none" stroke="#ffca72" stroke-width="3"/>
-</g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" role="img" aria-labelledby="title desc">
+  <title id="title">Pacman Canvas</title>
+  <desc id="desc">A teal neon maze filled with pellets and a lone diamond-shaped runner.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#02030f"/><stop offset=".57" stop-color="#0a2a30"/><stop offset="1" stop-color="#02030f"/></linearGradient>
+
+  </defs>
+  <rect width="800" height="260" fill="url(#bg)"/>
+  <path d="M0 228H800" stroke="#00bcd4" stroke-opacity=".35"/>
+  <path d="M29 25V235" stroke="#00bcd4" stroke-width="4"/>
+  <text x="52" y="51" fill="#00bcd4" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="2.2">CANVAS MAZE ARCADE</text>
+  <text x="50" y="106" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="40" font-weight="800" letter-spacing="1.2">CANVAS</text>
+  <text x="50" y="152" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="40" font-weight="800" letter-spacing="1.2">MAZE CHASE</text>
+  <text x="53" y="182" fill="#c8c4ba" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="1.4">PELLETS · CORNERS · HIGH SCORE</text>
+  <rect x="322" y="28" width="446" height="204" rx="17" fill="#141b25" stroke="#6b6670" stroke-opacity=".8"/>
+  <clipPath id="pc"><rect x="323" y="29" width="444" height="202" rx="16"/></clipPath>
+  <g clip-path="url(#pc)">
+<rect x="323" y="29" width="444" height="202" fill="#02030f"/><path d="M340 45H750V215H340Z" fill="none" stroke="#00bcd4" stroke-width="5" stroke-linejoin="round"/><path d="M380 80H460V120H380Z" fill="none" stroke="#00bcd4" stroke-width="5" stroke-linejoin="round"/><path d="M500 80H600V100H500Z" fill="none" stroke="#00bcd4" stroke-width="5" stroke-linejoin="round"/><path d="M640 80H710V120H640Z" fill="none" stroke="#00bcd4" stroke-width="5" stroke-linejoin="round"/><path d="M380 160H460V180H380Z" fill="none" stroke="#00bcd4" stroke-width="5" stroke-linejoin="round"/><path d="M500 140H600V180H500Z" fill="none" stroke="#00bcd4" stroke-width="5" stroke-linejoin="round"/><path d="M640 160H710V180H640Z" fill="none" stroke="#00bcd4" stroke-width="5" stroke-linejoin="round"/><circle cx="360" cy="62" r="2.5" fill="#ffecb3"/><circle cx="382" cy="62" r="2.5" fill="#ffecb3"/><circle cx="404" cy="62" r="2.5" fill="#ffecb3"/><circle cx="426" cy="62" r="2.5" fill="#ffecb3"/><circle cx="448" cy="62" r="2.5" fill="#ffecb3"/><circle cx="470" cy="62" r="2.5" fill="#ffecb3"/><circle cx="492" cy="62" r="2.5" fill="#ffecb3"/><circle cx="514" cy="62" r="2.5" fill="#ffecb3"/><circle cx="536" cy="62" r="2.5" fill="#ffecb3"/><circle cx="558" cy="62" r="2.5" fill="#ffecb3"/><circle cx="580" cy="62" r="2.5" fill="#ffecb3"/><circle cx="602" cy="62" r="2.5" fill="#ffecb3"/><circle cx="624" cy="62" r="2.5" fill="#ffecb3"/><circle cx="646" cy="62" r="2.5" fill="#ffecb3"/><circle cx="668" cy="62" r="2.5" fill="#ffecb3"/><circle cx="690" cy="62" r="2.5" fill="#ffecb3"/><circle cx="712" cy="62" r="2.5" fill="#ffecb3"/><circle cx="734" cy="62" r="2.5" fill="#ffecb3"/><circle cx="360" cy="130" r="2.5" fill="#ffecb3"/><circle cx="382" cy="130" r="2.5" fill="#ffecb3"/><circle cx="404" cy="130" r="2.5" fill="#ffecb3"/><circle cx="426" cy="130" r="2.5" fill="#ffecb3"/><circle cx="448" cy="130" r="2.5" fill="#ffecb3"/><circle cx="470" cy="130" r="2.5" fill="#ffecb3"/><circle cx="492" cy="130" r="2.5" fill="#ffecb3"/><circle cx="514" cy="130" r="2.5" fill="#ffecb3"/><circle cx="536" cy="130" r="2.5" fill="#ffecb3"/><circle cx="558" cy="130" r="2.5" fill="#ffecb3"/><circle cx="580" cy="130" r="2.5" fill="#ffecb3"/><circle cx="602" cy="130" r="2.5" fill="#ffecb3"/><circle cx="624" cy="130" r="2.5" fill="#ffecb3"/><circle cx="646" cy="130" r="2.5" fill="#ffecb3"/><circle cx="668" cy="130" r="2.5" fill="#ffecb3"/><circle cx="690" cy="130" r="2.5" fill="#ffecb3"/><circle cx="712" cy="130" r="2.5" fill="#ffecb3"/><circle cx="734" cy="130" r="2.5" fill="#ffecb3"/><circle cx="360" cy="198" r="2.5" fill="#ffecb3"/><circle cx="382" cy="198" r="2.5" fill="#ffecb3"/><circle cx="404" cy="198" r="2.5" fill="#ffecb3"/><circle cx="426" cy="198" r="2.5" fill="#ffecb3"/><circle cx="448" cy="198" r="2.5" fill="#ffecb3"/><circle cx="470" cy="198" r="2.5" fill="#ffecb3"/><circle cx="492" cy="198" r="2.5" fill="#ffecb3"/><circle cx="514" cy="198" r="2.5" fill="#ffecb3"/><circle cx="536" cy="198" r="2.5" fill="#ffecb3"/><circle cx="558" cy="198" r="2.5" fill="#ffecb3"/><circle cx="580" cy="198" r="2.5" fill="#ffecb3"/><circle cx="602" cy="198" r="2.5" fill="#ffecb3"/><circle cx="624" cy="198" r="2.5" fill="#ffecb3"/><circle cx="646" cy="198" r="2.5" fill="#ffecb3"/><circle cx="668" cy="198" r="2.5" fill="#ffecb3"/><circle cx="690" cy="198" r="2.5" fill="#ffecb3"/><circle cx="712" cy="198" r="2.5" fill="#ffecb3"/><circle cx="734" cy="198" r="2.5" fill="#ffecb3"/><circle cx="360" cy="130" r="7" fill="#ffecb3"/><circle cx="730" cy="130" r="7" fill="#ffecb3"/><rect x="466" y="120" width="16" height="16" rx="4" fill="#ffeb3b" transform="rotate(45 474 128)"/>
+  </g>
 </svg>
