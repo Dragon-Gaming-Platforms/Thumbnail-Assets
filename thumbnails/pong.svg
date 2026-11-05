@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" role="img" aria-labelledby="title desc">
+  <title id="title">Pong</title>
+  <desc id="desc">Two white paddles, a square ball and a dashed center line on black.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#050505"/><stop offset=".57" stop-color="#1a1a1a"/><stop offset="1" stop-color="#050505"/></linearGradient>
+
+  </defs>
+  <rect width="800" height="260" fill="url(#bg)"/>
+  <path d="M0 228H800" stroke="#fff" stroke-opacity=".35"/>
+  <path d="M29 25V235" stroke="#fff" stroke-width="4"/>
+  <text x="52" y="51" fill="#fff" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="2.2">TABLE TENNIS ARCADE</text>
+  <text x="50" y="110" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="800" letter-spacing="1.2">PONG</text>
+  <text x="53" y="140" fill="#c8c4ba" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="1.4">SERVE · RALLY · FIRST TO 11</text>
+  <rect x="322" y="28" width="446" height="204" rx="17" fill="#141b25" stroke="#6b6670" stroke-opacity=".8"/>
+  <clipPath id="pc"><rect x="323" y="29" width="444" height="202" rx="16"/></clipPath>
+  <g clip-path="url(#pc)">
+<rect x="323" y="29" width="444" height="202" fill="#000"/><rect x="543" y="35" width="4" height="8" fill="#fff" fill-opacity=".6"/><rect x="543" y="51" width="4" height="8" fill="#fff" fill-opacity=".6"/><rect x="543" y="67" width="4" height="8" fill="#fff" fill-opacity=".6"/><rect x="543" y="83" width="4" height="8" fill="#fff" fill-opacity=".6"/><rect x="543" y="99" width="4" height="8" fill="#fff" fill-opacity=".6"/><rect x="543" y="115" width="4" height="8" fill="#fff" fill-opacity=".6"/><rect x="543" y="131" width="4" height="8" fill="#fff" fill-opacity=".6"/><rect x="543" y="147" width="4" height="8" fill="#fff" fill-opacity=".6"/><rect x="543" y="163" width="4" height="8" fill="#fff" fill-opacity=".6"/><rect x="543" y="179" width="4" height="8" fill="#fff" fill-opacity=".6"/><rect x="543" y="195" width="4" height="8" fill="#fff" fill-opacity=".6"/><rect x="543" y="211" width="4" height="8" fill="#fff" fill-opacity=".6"/><rect x="543" y="227" width="4" height="8" fill="#fff" fill-opacity=".6"/><rect x="345" y="90" width="8" height="50" fill="#fff"/><rect x="737" y="130" width="8" height="50" fill="#fff"/><rect x="600" y="110" width="8" height="8" fill="#fff"/><text x="500" y="70" text-anchor="middle" font-family="monospace" font-size="36" fill="#fff">3</text><text x="590" y="70" text-anchor="middle" font-family="monospace" font-size="36" fill="#fff">5</text>
+  </g>
+</svg>

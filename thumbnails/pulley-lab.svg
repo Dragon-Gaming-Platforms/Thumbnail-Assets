@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" role="img" aria-labelledby="title desc">
+  <title id="title">Pulley Lab</title>
+  <desc id="desc">A fixed pulley and a block-and-tackle lifting crates from a ceiling beam.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1a2228"/><stop offset=".57" stop-color="#3a4a55"/><stop offset="1" stop-color="#1a2228"/></linearGradient>
+
+  </defs>
+  <rect width="800" height="260" fill="url(#bg)"/>
+  <path d="M0 228H800" stroke="#ff9800" stroke-opacity=".35"/>
+  <path d="M29 25V235" stroke="#ff9800" stroke-width="4"/>
+  <text x="52" y="51" fill="#ff9800" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="2.2">PHYSICS SANDBOX</text>
+  <text x="50" y="110" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="800" letter-spacing="1.2">PULLEY</text>
+  <text x="50" y="160" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="800" letter-spacing="1.2">LAB</text>
+  <text x="53" y="190" fill="#c8c4ba" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="1.4">FIXED · MOVABLE · BLOCK &amp; TACKLE</text>
+  <rect x="322" y="28" width="446" height="204" rx="17" fill="#141b25" stroke="#6b6670" stroke-opacity=".8"/>
+  <clipPath id="pc"><rect x="323" y="29" width="444" height="202" rx="16"/></clipPath>
+  <g clip-path="url(#pc)">
+<rect x="323" y="29" width="444" height="202" fill="#eef2f5"/><rect x="323" y="29" width="444" height="14" fill="#90a4ae"/><path d="M420 43v30M420 73" stroke="#37474f" stroke-width="3"/><circle cx="420" cy="85" r="16" fill="#607d8b" stroke="#37474f" stroke-width="3"/><circle cx="420" cy="85" r="4" fill="#263238"/><path d="M404 85V190M436 85V140" stroke="#5d4037" stroke-width="3"/><rect x="390" y="190" width="28" height="28" fill="#ff9800" stroke="#e65100"/><circle cx="436" cy="148" r="6" fill="#263238"/><path d="M600 43v20" stroke="#37474f" stroke-width="3"/><circle cx="600" cy="75" r="16" fill="#607d8b" stroke="#37474f" stroke-width="3"/><circle cx="600" cy="75" r="4" fill="#263238"/><circle cx="600" cy="150" r="16" fill="#607d8b" stroke="#37474f" stroke-width="3"/><circle cx="600" cy="150" r="4" fill="#263238"/><path d="M584 75V150M616 75V150M600 166v12M632 75V200" stroke="#5d4037" stroke-width="3"/><rect x="580" y="178" width="40" height="40" fill="#ff9800" stroke="#e65100"/><circle cx="632" cy="206" r="6" fill="#263238"/><text x="700" y="110" font-family="Arial" font-size="13" font-weight="700" fill="#37474f">MA = 2</text><text x="460" y="110" font-family="Arial" font-size="13" font-weight="700" fill="#37474f">MA = 1</text>
+  </g>
+</svg>
