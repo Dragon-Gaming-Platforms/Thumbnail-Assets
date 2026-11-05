@@ -129,10 +129,11 @@ Remaining: **{len(games)} games** ({true_count} generate=true; {len(games) - tru
 ## Queue
 
 """
-    return header + "".join(
+    rows = "".join(
         f"- `{game['id']}` generate={flags.get(game['id'], initial_method(game))}\n"
         for game in games
     )
+    return header + (rows or "No pending games.\n")
 
 
 def gh(*args):

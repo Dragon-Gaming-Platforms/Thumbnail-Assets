@@ -39,6 +39,16 @@ class QueueTests(unittest.TestCase):
         self.assertIn("- `story` generate=false", text)
         self.assertIn("2 games** (0 generate=true; 2 generate=false)", text)
 
+    def test_empty_queue_is_complete_and_has_no_blank_eof(self):
+        text = queue.render_queue([], {}, "abc123")
+        self.assertIn("0 games** (0 generate=true; 0 generate=false)", text)
+        self.assertTrue(text.endswith("## Queue\n\nNo pending games.\n"))
+        self.assertFalse(text.endswith("\n\n"))
+        with tempfile.TemporaryDirectory() as temp:
+            path = Path(temp) / "queue.md"
+            path.write_text(text)
+            self.assertEqual(queue.read_queue(path), {})
+
     def test_queue_round_trip_and_order(self):
         with tempfile.TemporaryDirectory() as temp:
             path = Path(temp) / "queue.md"

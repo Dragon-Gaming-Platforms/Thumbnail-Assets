@@ -1115,3 +1115,76 @@ explicitly uses CC BY-NC 4.0 and requests separate commercial permission in its
 resources in its [README](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/379900747b47eb8702103ed58bcb94934fbf7142/games/openpanzer/README.md#graphical-assets-and-other-resources);
 a verified image-reuse grant for the bundled external assets was not established.
 No AI substitutes were added for these rights blockers.
+
+## Owner-requested original SVG collection — final 17 queue entries
+
+The owner explicitly requested **hand-written SVGs or licensed web images**.
+This supersedes the earlier screenshot-only method for the selected entries:
+original-vector methods were planned in a separate setup commit before artwork.
+The initial 82-entry queue was reviewed bottom-up. Concurrent PRs #21–24 added
+65 original-vector thumbnails while this work was being prepared. Those files,
+notices and queue removals are preserved; our overlapping drafts were discarded.
+**Only the final 17 missing sources are added by this collection.**
+
+**Provenance and terms:** all files below are original, hand-authored SVG
+concept illustrations made in this repository under its **MIT license**. Their
+geometry, paths, maps and type layout were authored for this set. No web images
+were needed or copied. They contain no traced screenshots, embedded images,
+third-party sprites, font files, ROM data, proprietary logos or franchise mascots.
+Game names identify entries, not endorsement. Each SVG has an accessible title
+and description identifying it as an original concept, **not a gameplay capture**.
+Generic game rules/mechanics are represented with original visual expression.
+
+Examples: Wordle and Slitherlink use original letter/loop diagrams; SkiFree
+uses an original skier without the protected monster sprite; invader games
+use generic polygon formations, not classic alien sprites; Space Huggers uses
+an original stick figure; Spades/Solitaire use original ordinary card geometry.
+No original game characters, textures, icons or logos are reproduced.
+
+**Inspection:** names, descriptions and controls were checked at platform
+revision `e4a17d8160637c84afa79a6c43adb4ed80efd0fb`. Each table link records the
+entry HTML/source inspected. Scratch wrappers were inspected only as wrappers;
+their remote gameplay/assets were not fetched. Concepts for those entries use
+catalog mechanics, not claims of screenshot verification. Source links are
+inspection references, **not** reused artwork or license claims for game assets.
+
+**Validation:** every new SVG parsed, rasterized through the publisher's
+`svglib + ReportLab + _renderPM` adapter at 800×260, decoded and visually
+reviewed. Decorative transparency is preblended for consistent fallback
+rendering. Each SVG source is <=40 KiB; local JPEG trials from all 17 renders
+retained 800×260 at <=40 KiB. No scripts, linked resources, external fonts,
+embedded raster data or network requests are in these SVGs. Text uses the
+renderer's ordinary sans-serif font. No generated CI JPEG was hand-edited.
+
+**Reproduction:** `scripts/create_queue_svgs.py --output /new/empty/directory`
+reproduces this fixed, reviewed 17-image collection; `--ids <exact-id> ...`
+selects files. It preflights all targets and refuses overwrites. It does not
+create unreviewed artwork for future games. `scripts/test_queue_svgs.py`
+checks safe SVG elements, exact reproduction, accessibility, unique/reserved
+IDs, deterministic generation and no-overwrite behavior. SVGs are the editable
+source; raster drafts/contact sheets are not committed.
+
+Earlier screenshot/artwork-rights blockers remain valid for copying actual
+game assets. Original vector concepts complete queue entries; they do not
+resolve the underlying games' redistribution rights. Existing HexGL/Raging
+Gardens sources and the separate owner-review notes remain unchanged.
+
+| New SVG | Original concept | Inspected entry (reference only) |
+| --- | --- | --- |
+| `zedinvaders.svg` | Isometric invader defense. | [entry HTML/source](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/e4a17d8160637c84afa79a6c43adb4ed80efd0fb/games/zedinvaders/index.html) |
+| `wordle.svg` | Five letters. six chances.. | [entry HTML/source](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/e4a17d8160637c84afa79a6c43adb4ed80efd0fb/games/wordle/index.html) |
+| `vectoid-td-3d-v1.4.svg` | Build • upgrade • defend. | [Scratch wrapper + catalog mechanics](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Assets/blob/875017c2bb49ba63ec02cd449a450507ba42c9f5/games/vectoid-td-3d-v1.4/index.html) |
+| `tic-tac-toe-3d.svg` | Three layers. one winning line.. | [entry HTML/source](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Assets/blob/875017c2bb49ba63ec02cd449a450507ba42c9f5/games/tic-tac-toe-3d/index.html) |
+| `survivor.svg` | Retro space combat. | [entry HTML/source](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/e4a17d8160637c84afa79a6c43adb4ed80efd0fb/games/survivor/index.html) |
+| `submersible.svg` | Explore below the surface. | [Scratch wrapper + catalog mechanics](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Assets/blob/875017c2bb49ba63ec02cd449a450507ba42c9f5/games/submersible/index.html) |
+| `spashal.svg` | Ride the gravity well. | [entry HTML/source](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/e4a17d8160637c84afa79a6c43adb4ed80efd0fb/games/spashal/index.html) |
+| `spades.svg` | Bid together. win the trick.. | [entry HTML/source](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Assets/blob/875017c2bb49ba63ec02cd449a450507ba42c9f5/games/spades/index.html) |
+| `spacecompany.svg` | Resources to the stars. | [entry HTML/source](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/e4a17d8160637c84afa79a6c43adb4ed80efd0fb/games/SpaceCompany/index.html) |
+| `space-invaders-13k.svg` | Formation • fire • defend. | [entry HTML/source](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/e4a17d8160637c84afa79a6c43adb4ed80efd0fb/games/space-invaders-13k/index.html) |
+| `space-huggers.svg` | Procedural run-and-gun. | [entry HTML/source](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/e4a17d8160637c84afa79a6c43adb4ed80efd0fb/games/space-huggers/index.html) |
+| `solitaire.svg` | Build the foundations. | [entry HTML/source](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/e4a17d8160637c84afa79a6c43adb4ed80efd0fb/games/solitaire/index.html) |
+| `sokoban.svg` | Push. plan. solve.. | [entry HTML/source](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/e4a17d8160637c84afa79a6c43adb4ed80efd0fb/games/sokoban/index.html) |
+| `snowrider.svg` | Carve a path through the snow. | [entry HTML/source](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/e4a17d8160637c84afa79a6c43adb4ed80efd0fb/games/singlefiles/Snowrider.html) |
+| `snake.svg` | Grow without crossing your path. | [entry HTML/source](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/e4a17d8160637c84afa79a6c43adb4ed80efd0fb/games/snake/index.html) |
+| `slitherlink.svg` | One unbroken loop. | [entry HTML/source](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Assets/blob/875017c2bb49ba63ec02cd449a450507ba42c9f5/games/slitherlink/index.html) |
+| `skifree.svg` | Find your line downhill. | [entry HTML/source](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms/blob/e4a17d8160637c84afa79a6c43adb4ed80efd0fb/games/skifree/index.html) |

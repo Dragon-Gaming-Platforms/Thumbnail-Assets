@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="260" viewBox="0 0 800 260" role="img" aria-labelledby="title desc">
+<title id="title">SNOWRIDER — original concept illustration</title>
+<desc id="desc">Hand-authored geometric illustration: CARVE A PATH THROUGH THE SNOW. Not a gameplay screenshot; no game sprites, logos, or source images are used. Original artwork under the repository MIT license. See ARTWORK.md for inspection references.</desc>
+<rect x="0" y="0" width="800" height="260" fill="#2c1b28" rx="0"/>
+<circle cx="716" cy="28" r="160" fill="#382230"/>
+<circle cx="784" cy="241" r="134" fill="#332735"/>
+<line x1="38" y1="35" x2="76" y2="35" stroke="#ff9bb7" stroke-width="4" stroke-linecap="round"/>
+<text x="87" y="39" font-size="10" fill="#9ab0b9" font-family="DejaVu Sans, sans-serif" letter-spacing="1.3">ORIGINAL VECTOR CONCEPT</text>
+<text x="38" y="103" font-size="34" fill="#eff3e9" font-family="DejaVu Sans, sans-serif" font-weight="bold" letter-spacing="-.6">SNOWRIDER</text>
+<text x="40" y="195" font-size="12" fill="#a6ddff" font-family="DejaVu Sans, sans-serif" letter-spacing=".45">CARVE A PATH THROUGH THE SNOW</text>
+<g transform="translate(383 18)">
+<path d="M0 80 L70 20 L130 75 L200 10 L280 76 L350 35 L400 90 V220 H0 Z" fill="#d6e3e4"/>
+<path d="M0 150 Q140 93 245 166 T400 190 V220 H0 Z" fill="#a6c9d3"/>
+<path d="M220 50 Q145 95 208 130 T173 210" fill="none" stroke="#729aaa" stroke-width="3" stroke-dasharray="7 6"/>
+<line x1="53" y1="145" x2="53" y2="123.75" stroke="#7c9b96" stroke-width="3.4" stroke-linecap="round"/>
+<polygon points="39.4,131.4 53.0,100.0 66.6,131.4" fill="#62a79d"/>
+<line x1="310" y1="118" x2="310" y2="96.75" stroke="#7c9b96" stroke-width="3.4" stroke-linecap="round"/>
+<polygon points="296.4,104.4 310.0,73.0 323.6,104.4" fill="#62a79d"/>
+<line x1="348" y1="200" x2="348" y2="178.75" stroke="#7c9b96" stroke-width="3.4" stroke-linecap="round"/>
+<polygon points="334.4,186.4 348.0,154.9 361.6,186.4" fill="#62a79d"/>
+<path d="M171 144 L211 144 L219 152 L230 151 M174 152 H216" fill="none" stroke="#8b645b" stroke-width="5"/>
+<line x1="182" y1="130" x2="182" y2="144" stroke="#ff9bb7" stroke-width="4" stroke-linecap="round"/>
+<line x1="210" y1="130" x2="210" y2="144" stroke="#ff9bb7" stroke-width="4" stroke-linecap="round"/>
+</g>
+</svg>
