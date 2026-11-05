@@ -1,20 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" role="img" aria-labelledby="title desc">
-  <title id="title">Vectoid TD 3D v1.4</title>
-  <desc id="desc">Wireframe triangle towers guard a glowing green path against red diamond enemies.</desc>
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#030808"/><stop offset=".57" stop-color="#0a2a1a"/><stop offset="1" stop-color="#030808"/></linearGradient>
-
-  </defs>
-  <rect width="800" height="260" fill="url(#bg)"/>
-  <path d="M0 228H800" stroke="#00e676" stroke-opacity=".35"/>
-  <path d="M29 25V235" stroke="#00e676" stroke-width="4"/>
-  <text x="52" y="51" fill="#00e676" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="2.2">VECTOR TOWER DEFENSE</text>
-  <text x="50" y="110" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="800" letter-spacing="1.2">VECTOID</text>
-  <text x="50" y="160" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="800" letter-spacing="1.2">TD 3D</text>
-  <text x="53" y="190" fill="#c8c4ba" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="1.4">BUILD · UPGRADE · HOLD THE LINE</text>
-  <rect x="322" y="28" width="446" height="204" rx="17" fill="#141b25" stroke="#6b6670" stroke-opacity=".8"/>
-  <clipPath id="pc"><rect x="323" y="29" width="444" height="202" rx="16"/></clipPath>
-  <g clip-path="url(#pc)">
-<rect x="323" y="29" width="444" height="202" fill="#050a0a"/><path d="M323 231L545 60" stroke="#00e676" stroke-opacity=".12"/><path d="M363 231L545 60" stroke="#00e676" stroke-opacity=".12"/><path d="M403 231L545 60" stroke="#00e676" stroke-opacity=".12"/><path d="M443 231L545 60" stroke="#00e676" stroke-opacity=".12"/><path d="M483 231L545 60" stroke="#00e676" stroke-opacity=".12"/><path d="M523 231L545 60" stroke="#00e676" stroke-opacity=".12"/><path d="M563 231L545 60" stroke="#00e676" stroke-opacity=".12"/><path d="M603 231L545 60" stroke="#00e676" stroke-opacity=".12"/><path d="M643 231L545 60" stroke="#00e676" stroke-opacity=".12"/><path d="M683 231L545 60" stroke="#00e676" stroke-opacity=".12"/><path d="M723 231L545 60" stroke="#00e676" stroke-opacity=".12"/><path d="M763 231L545 60" stroke="#00e676" stroke-opacity=".12"/><path d="M323 90H767" stroke="#00e676" stroke-opacity=".12"/><path d="M323 118H767" stroke="#00e676" stroke-opacity=".12"/><path d="M323 146H767" stroke="#00e676" stroke-opacity=".12"/><path d="M323 174H767" stroke="#00e676" stroke-opacity=".12"/><path d="M323 202H767" stroke="#00e676" stroke-opacity=".12"/><path d="M323 230H767" stroke="#00e676" stroke-opacity=".12"/><path d="M340 200L440 150L520 190L620 130L740 150" fill="none" stroke="#00e676" stroke-width="10" stroke-opacity=".3" stroke-linejoin="round"/><path d="M340 200L440 150L520 190L620 130L740 150" fill="none" stroke="#00e676" stroke-width="2" stroke-linejoin="round"/><polygon points="480,106 494,138 466,138" fill="none" stroke="#18ffff" stroke-width="2"/><circle cx="480" cy="106" r="3" fill="#18ffff"/><polygon points="580,156 594,188 566,188" fill="none" stroke="#18ffff" stroke-width="2"/><circle cx="580" cy="156" r="3" fill="#18ffff"/><polygon points="660,76 674,108 646,108" fill="none" stroke="#18ffff" stroke-width="2"/><circle cx="660" cy="76" r="3" fill="#18ffff"/><rect x="393" y="163" width="14" height="14" fill="none" stroke="#ff1744" stroke-width="2" transform="rotate(45 400 170)"/><rect x="453" y="153" width="14" height="14" fill="none" stroke="#ff1744" stroke-width="2" transform="rotate(45 460 160)"/><rect x="533" y="173" width="14" height="14" fill="none" stroke="#ff1744" stroke-width="2" transform="rotate(45 540 180)"/><path d="M480 106L540 176" stroke="#18ffff" stroke-width="1.5" stroke-dasharray="3 3"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="260" viewBox="0 0 800 260" role="img" aria-labelledby="title desc">
+<title id="title">VECTOID TD 3D v1.4 — original concept illustration</title>
+<desc id="desc">Hand-authored geometric illustration: BUILD • UPGRADE • DEFEND. Not a gameplay screenshot; no game sprites, logos, or source images are used. Original artwork under the repository MIT license. See ARTWORK.md for inspection references.</desc>
+<rect x="0" y="0" width="800" height="260" fill="#142846" rx="0"/>
+<circle cx="716" cy="28" r="160" fill="#1a3050"/>
+<circle cx="784" cy="241" r="134" fill="#223249"/>
+<line x1="38" y1="35" x2="76" y2="35" stroke="#7cbaff" stroke-width="4" stroke-linecap="round"/>
+<text x="87" y="39" font-size="10" fill="#9ab0b9" font-family="DejaVu Sans, sans-serif" letter-spacing="1.3">ORIGINAL VECTOR CONCEPT</text>
+<text x="38" y="103" font-size="34" fill="#eff3e9" font-family="DejaVu Sans, sans-serif" font-weight="bold" letter-spacing="-.6">VECTOID TD</text>
+<text x="38" y="147" font-size="34" fill="#eff3e9" font-family="DejaVu Sans, sans-serif" font-weight="bold" letter-spacing="-.6">3D v1.4</text>
+<text x="40" y="195" font-size="12" fill="#f8d27f" font-family="DejaVu Sans, sans-serif" letter-spacing=".45">BUILD • UPGRADE • DEFEND</text>
+<g transform="translate(383 18)">
+<path d="M10 160 L80 160 L80 65 L245 65 L245 175 L380 175" fill="none" stroke="#46616a" stroke-width="25" stroke-linejoin="round"/>
+<circle cx="131" cy="117" r="27" fill="none" stroke="#7cbaff" stroke-width="1" stroke-dasharray="4 5"/>
+<polygon points="118.0,117.0 131.0,110.5 144.0,117.0 131.0,123.5" fill="#7cbaff"/>
+<polygon points="118.0,117.0 131.0,123.5 131.0,147.5 118.0,141.0" fill="#335069"/>
+<polygon points="131.0,123.5 144.0,117.0 144.0,141.0 131.0,147.5" fill="#20394d"/>
+<line x1="131" y1="122" x2="144" y2="105" stroke="#f8d27f" stroke-width="5" stroke-linecap="round"/>
+<circle cx="208" cy="25" r="27" fill="none" stroke="#7cbaff" stroke-width="1" stroke-dasharray="4 5"/>
+<polygon points="195.0,25.0 208.0,18.5 221.0,25.0 208.0,31.5" fill="#7cbaff"/>
+<polygon points="195.0,25.0 208.0,31.5 208.0,55.5 195.0,49.0" fill="#335069"/>
+<polygon points="208.0,31.5 221.0,25.0 221.0,49.0 208.0,55.5" fill="#20394d"/>
+<line x1="208" y1="30" x2="221" y2="13" stroke="#f8d27f" stroke-width="5" stroke-linecap="round"/>
+<circle cx="300" cy="121" r="27" fill="none" stroke="#7cbaff" stroke-width="1" stroke-dasharray="4 5"/>
+<polygon points="287.0,121.0 300.0,114.5 313.0,121.0 300.0,127.5" fill="#7cbaff"/>
+<polygon points="287.0,121.0 300.0,127.5 300.0,151.5 287.0,145.0" fill="#335069"/>
+<polygon points="300.0,127.5 313.0,121.0 313.0,145.0 300.0,151.5" fill="#20394d"/>
+<line x1="300" y1="126" x2="313" y2="109" stroke="#f8d27f" stroke-width="5" stroke-linecap="round"/>
+<polygon points="57.0,153.0 64.0,160.0 57.0,167.0 50.0,160.0" fill="#f8d27f"/>
+<polygon points="86.0,153.0 93.0,160.0 86.0,167.0 79.0,160.0" fill="#f8d27f"/>
+<polygon points="115.0,58.0 122.0,65.0 115.0,72.0 108.0,65.0" fill="#f8d27f"/>
+<polygon points="144.0,58.0 151.0,65.0 144.0,72.0 137.0,65.0" fill="#f8d27f"/>
+<polygon points="173.0,58.0 180.0,65.0 173.0,72.0 166.0,65.0" fill="#f8d27f"/>
+<polygon points="202.0,58.0 209.0,65.0 202.0,72.0 195.0,65.0" fill="#f8d27f"/>
+</g>
 </svg>

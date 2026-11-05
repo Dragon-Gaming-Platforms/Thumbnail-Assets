@@ -1,19 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" role="img" aria-labelledby="title desc">
-  <title id="title">Skifree</title>
-  <desc id="desc">A skier carves down a white slope past pine trees and a rock.</desc>
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#102030"/><stop offset=".57" stop-color="#2a4a60"/><stop offset="1" stop-color="#102030"/></linearGradient>
-
-  </defs>
-  <rect width="800" height="260" fill="url(#bg)"/>
-  <path d="M0 228H800" stroke="#90caf9" stroke-opacity=".35"/>
-  <path d="M29 25V235" stroke="#90caf9" stroke-width="4"/>
-  <text x="52" y="51" fill="#90caf9" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="2.2">DOWNHILL ARCADE</text>
-  <text x="50" y="110" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="800" letter-spacing="1.2">SKIFREE</text>
-  <text x="53" y="140" fill="#c8c4ba" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="1.4">CARVE · JUMP · OUTRUN THE SLOPE</text>
-  <rect x="322" y="28" width="446" height="204" rx="17" fill="#141b25" stroke="#6b6670" stroke-opacity=".8"/>
-  <clipPath id="pc"><rect x="323" y="29" width="444" height="202" rx="16"/></clipPath>
-  <g clip-path="url(#pc)">
-<rect x="323" y="29" width="444" height="202" fill="#f4f8fb"/><polygon points="380,48 392,70 368,70" fill="#2e7d32"/><polygon points="380,58 389,78 371,78" fill="#388e3c"/><rect x="378" y="78" width="4" height="6" fill="#5d4037"/><polygon points="700,38 712,60 688,60" fill="#2e7d32"/><polygon points="700,48 709,68 691,68" fill="#388e3c"/><rect x="698" y="68" width="4" height="6" fill="#5d4037"/><polygon points="420,168 432,190 408,190" fill="#2e7d32"/><polygon points="420,178 429,198 411,198" fill="#388e3c"/><rect x="418" y="198" width="4" height="6" fill="#5d4037"/><polygon points="650,148 662,170 638,170" fill="#2e7d32"/><polygon points="650,158 659,178 641,178" fill="#388e3c"/><rect x="648" y="178" width="4" height="6" fill="#5d4037"/><polygon points="560,38 572,60 548,60" fill="#2e7d32"/><polygon points="560,48 569,68 551,68" fill="#388e3c"/><rect x="558" y="68" width="4" height="6" fill="#5d4037"/><polygon points="740,178 752,200 728,200" fill="#2e7d32"/><polygon points="740,188 749,208 731,208" fill="#388e3c"/><rect x="738" y="208" width="4" height="6" fill="#5d4037"/><ellipse cx="620" cy="110" rx="12" ry="7" fill="#9e9e9e"/><path d="M450 60q40 20 60 60t40 70" stroke="#cfd8dc" stroke-width="2" fill="none" stroke-dasharray="3 5"/><g transform="translate(545 130) rotate(15)"><path d="M-18 22h36M-14 14h36" stroke="#1565c0" stroke-width="3"/><rect x="-7" y="-14" width="14" height="26" rx="4" fill="#e53935"/><circle cy="-22" r="7" fill="#ffcc80"/><path d="M-7-6l-14 10M7-6l14 10" stroke="#e53935" stroke-width="4"/></g>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="260" viewBox="0 0 800 260" role="img" aria-labelledby="title desc">
+<title id="title">SKIFREE — original concept illustration</title>
+<desc id="desc">Hand-authored geometric illustration: FIND YOUR LINE DOWNHILL. Not a gameplay screenshot; no game sprites, logos, or source images are used. Original artwork under the repository MIT license. See ARTWORK.md for inspection references.</desc>
+<rect x="0" y="0" width="800" height="260" fill="#152b29" rx="0"/>
+<circle cx="716" cy="28" r="160" fill="#1e352e"/>
+<circle cx="784" cy="241" r="134" fill="#22342e"/>
+<line x1="38" y1="35" x2="76" y2="35" stroke="#b6df8b" stroke-width="4" stroke-linecap="round"/>
+<text x="87" y="39" font-size="10" fill="#9ab0b9" font-family="DejaVu Sans, sans-serif" letter-spacing="1.3">ORIGINAL VECTOR CONCEPT</text>
+<text x="38" y="103" font-size="34" fill="#eff3e9" font-family="DejaVu Sans, sans-serif" font-weight="bold" letter-spacing="-.6">SKIFREE</text>
+<text x="40" y="195" font-size="12" fill="#f5c97a" font-family="DejaVu Sans, sans-serif" letter-spacing=".45">FIND YOUR LINE DOWNHILL</text>
+<g transform="translate(383 18)">
+<path d="M0 80 L70 20 L130 75 L200 10 L280 76 L350 35 L400 90 V220 H0 Z" fill="#d6e3e4"/>
+<path d="M0 150 Q140 93 245 166 T400 190 V220 H0 Z" fill="#a6c9d3"/>
+<path d="M220 50 Q145 95 208 130 T173 210" fill="none" stroke="#729aaa" stroke-width="3" stroke-dasharray="7 6"/>
+<line x1="53" y1="145" x2="53" y2="123.75" stroke="#7c9b96" stroke-width="3.4" stroke-linecap="round"/>
+<polygon points="39.4,131.4 53.0,100.0 66.6,131.4" fill="#62a79d"/>
+<line x1="310" y1="118" x2="310" y2="96.75" stroke="#7c9b96" stroke-width="3.4" stroke-linecap="round"/>
+<polygon points="296.4,104.4 310.0,73.0 323.6,104.4" fill="#62a79d"/>
+<line x1="348" y1="200" x2="348" y2="178.75" stroke="#7c9b96" stroke-width="3.4" stroke-linecap="round"/>
+<polygon points="334.4,186.4 348.0,154.9 361.6,186.4" fill="#62a79d"/>
+<circle cx="203" cy="104" r="6" fill="#45667d"/>
+<line x1="203" y1="112" x2="203" y2="129" stroke="#45667d" stroke-width="5" stroke-linecap="round"/>
+<path d="M192 120 L203 115 L215 122 M194 142 L203 129 L213 143" fill="none" stroke="#45667d" stroke-width="4" stroke-linecap="round"/>
+<line x1="188" y1="150" x2="220" y2="140" stroke="#f5c97a" stroke-width="4" stroke-linecap="round"/>
+<line x1="194" y1="156" x2="226" y2="146" stroke="#f5c97a" stroke-width="4" stroke-linecap="round"/>
+</g>
 </svg>

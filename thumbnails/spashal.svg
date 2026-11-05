@@ -1,19 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" role="img" aria-labelledby="title desc">
-  <title id="title">Spashal Gravity Voyager</title>
-  <desc id="desc">A tiny ship slingshots along a dashed path between glowing gravity wells.</desc>
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#05070f"/><stop offset=".57" stop-color="#1a1a3a"/><stop offset="1" stop-color="#05070f"/></linearGradient>
-
-  </defs>
-  <rect width="800" height="260" fill="url(#bg)"/>
-  <path d="M0 228H800" stroke="#ff7043" stroke-opacity=".35"/>
-  <path d="M29 25V235" stroke="#ff7043" stroke-width="4"/>
-  <text x="52" y="51" fill="#ff7043" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="2.2">ORBITAL SLINGSHOT</text>
-  <text x="50" y="110" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="800" letter-spacing="1.2">SPASHAL</text>
-  <text x="53" y="140" fill="#c8c4ba" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="1.4">GRAVITY WELLS · SLINGSHOT · DRIFT</text>
-  <rect x="322" y="28" width="446" height="204" rx="17" fill="#141b25" stroke="#6b6670" stroke-opacity=".8"/>
-  <clipPath id="pc"><rect x="323" y="29" width="444" height="202" rx="16"/></clipPath>
-  <g clip-path="url(#pc)">
-<rect x="323" y="29" width="444" height="202" fill="#05070f"/><circle cx="394" cy="126" r="1" fill="#fff" fill-opacity=".7"/><circle cx="360" cy="85" r="1" fill="#fff" fill-opacity=".7"/><circle cx="350" cy="80" r="1" fill="#fff" fill-opacity=".7"/><circle cx="554" cy="210" r="1" fill="#fff" fill-opacity=".7"/><circle cx="414" cy="110" r="1" fill="#fff" fill-opacity=".7"/><circle cx="691" cy="206" r="1" fill="#fff" fill-opacity=".7"/><circle cx="594" cy="214" r="1" fill="#fff" fill-opacity=".7"/><circle cx="559" cy="92" r="1.5" fill="#fff" fill-opacity=".7"/><circle cx="458" cy="52" r="1" fill="#fff" fill-opacity=".7"/><circle cx="731" cy="67" r="1" fill="#fff" fill-opacity=".7"/><circle cx="376" cy="171" r="1" fill="#fff" fill-opacity=".7"/><circle cx="760" cy="189" r="1" fill="#fff" fill-opacity=".7"/><circle cx="399" cy="221" r="1.5" fill="#fff" fill-opacity=".7"/><circle cx="638" cy="90" r="1" fill="#fff" fill-opacity=".7"/><circle cx="377" cy="94" r="1" fill="#fff" fill-opacity=".7"/><circle cx="533" cy="86" r="1" fill="#fff" fill-opacity=".7"/><circle cx="524" cy="36" r="1" fill="#fff" fill-opacity=".7"/><circle cx="559" cy="87" r="1" fill="#fff" fill-opacity=".7"/><circle cx="733" cy="82" r="1" fill="#fff" fill-opacity=".7"/><circle cx="509" cy="224" r="1" fill="#fff" fill-opacity=".7"/><circle cx="506" cy="64" r="1.5" fill="#fff" fill-opacity=".7"/><circle cx="718" cy="137" r="1" fill="#fff" fill-opacity=".7"/><circle cx="659" cy="171" r="1" fill="#fff" fill-opacity=".7"/><circle cx="342" cy="207" r="1" fill="#fff" fill-opacity=".7"/><circle cx="683" cy="69" r="1" fill="#fff" fill-opacity=".7"/><circle cx="332" cy="60" r="1" fill="#fff" fill-opacity=".7"/><circle cx="711" cy="129" r="1.5" fill="#fff" fill-opacity=".7"/><circle cx="642" cy="46" r="1.5" fill="#fff" fill-opacity=".7"/><circle cx="650" cy="158" r="1" fill="#fff" fill-opacity=".7"/><circle cx="342" cy="136" r="1.5" fill="#fff" fill-opacity=".7"/><circle cx="450" cy="140" r="61.60000000000001" fill="none" stroke="#ff7043" stroke-opacity=".25"/><circle cx="450" cy="140" r="42.0" fill="none" stroke="#ff7043" stroke-opacity=".35"/><circle cx="450" cy="140" r="28" fill="#ff7043"/><circle cx="640" cy="90" r="48.400000000000006" fill="none" stroke="#42a5f5" stroke-opacity=".25"/><circle cx="640" cy="90" r="33.0" fill="none" stroke="#42a5f5" stroke-opacity=".35"/><circle cx="640" cy="90" r="22" fill="#42a5f5"/><circle cx="700" cy="190" r="35.2" fill="none" stroke="#ab47bc" stroke-opacity=".25"/><circle cx="700" cy="190" r="24.0" fill="none" stroke="#ab47bc" stroke-opacity=".35"/><circle cx="700" cy="190" r="16" fill="#ab47bc"/><path d="M360 60C420 80 400 150 480 170S600 140 630 60" fill="none" stroke="#fff" stroke-width="2" stroke-dasharray="5 5" stroke-opacity=".7"/><g transform="translate(630 60) rotate(-60)"><polygon points="-10,-6 12,0 -10,6" fill="#eceff1"/></g>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="260" viewBox="0 0 800 260" role="img" aria-labelledby="title desc">
+<title id="title">SPASHAL — original concept illustration</title>
+<desc id="desc">Hand-authored geometric illustration: RIDE THE GRAVITY WELL. Not a gameplay screenshot; no game sprites, logos, or source images are used. Original artwork under the repository MIT license. See ARTWORK.md for inspection references.</desc>
+<rect x="0" y="0" width="800" height="260" fill="#142846" rx="0"/>
+<circle cx="716" cy="28" r="160" fill="#1a3050"/>
+<circle cx="784" cy="241" r="134" fill="#223249"/>
+<line x1="38" y1="35" x2="76" y2="35" stroke="#7cbaff" stroke-width="4" stroke-linecap="round"/>
+<text x="87" y="39" font-size="10" fill="#9ab0b9" font-family="DejaVu Sans, sans-serif" letter-spacing="1.3">ORIGINAL VECTOR CONCEPT</text>
+<text x="38" y="103" font-size="34" fill="#eff3e9" font-family="DejaVu Sans, sans-serif" font-weight="bold" letter-spacing="-.6">SPASHAL</text>
+<text x="40" y="195" font-size="12" fill="#f8d27f" font-family="DejaVu Sans, sans-serif" letter-spacing=".45">RIDE THE GRAVITY WELL</text>
+<g transform="translate(383 18)">
+<ellipse cx="215" cy="110" rx="145" ry="72" fill="none" stroke="#7cbaff" stroke-width="2" transform="rotate(-22 215 110)" stroke-dasharray="8 7"/>
+<circle cx="220" cy="105" r="49" fill="#f8d27f"/>
+<circle cx="204" cy="90" r="12" fill="#fce2a5"/>
+<circle cx="241" cy="121" r="17" fill="#d09661"/>
+<polygon points="85.0,113.0 108.0,161.0 85.0,151.0 62.0,161.0" fill="#7cbaff"/>
+<polygon points="85.0,128.0 91.0,146.0 79.0,146.0" fill="#14334c"/>
+<path d="M78 161 L85 182 L92 161" fill="#ffc978"/>
+<circle cx="358" cy="64" r="12" fill="#7cbaff"/>
+</g>
 </svg>

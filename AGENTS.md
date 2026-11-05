@@ -36,6 +36,11 @@
   cover crop, avoid tiny text, and keep sources below about 5 MiB.
 - Prefer real gameplay over title/loading screens for screenshot jobs.
 - Generated art must reflect gameplay, not invent a misleading game scene.
+- When the owner explicitly requests hand-written SVG concepts, original
+  mechanic/theme illustrations are permitted even for entries previously
+  planned as screenshots. Mark the selected method before work, and record
+  original-vector provenance. Never trace protected sprites, logos or screenshots;
+  describe concepts as illustrations, not actual gameplay captures.
 - Use only artwork with verified display rights. A code license does not
   automatically license bundled artwork or commercial characters/logos.
 - Record provenance in root `ARTWORK.md` (published with the artwork).

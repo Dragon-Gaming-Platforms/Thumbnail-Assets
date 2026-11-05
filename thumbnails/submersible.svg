@@ -1,19 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" role="img" aria-labelledby="title desc">
-  <title id="title">Submersible</title>
-  <desc id="desc">A yellow submarine dives past seaweed and an orange fish above a dark seabed.</desc>
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#021a2a"/><stop offset=".57" stop-color="#01579b"/><stop offset="1" stop-color="#021a2a"/></linearGradient>
-
-  </defs>
-  <rect width="800" height="260" fill="url(#bg)"/>
-  <path d="M0 228H800" stroke="#ffca28" stroke-opacity=".35"/>
-  <path d="M29 25V235" stroke="#ffca28" stroke-width="4"/>
-  <text x="52" y="51" fill="#ffca28" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="2.2">PIXEL UNDERWATER ADVENTURE</text>
-  <text x="50" y="102" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="36" font-weight="800" letter-spacing="1.2">SUBMERSIBLE</text>
-  <text x="53" y="132" fill="#c8c4ba" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="1.4">DIVE · EXPLORE · SURFACE</text>
-  <rect x="322" y="28" width="446" height="204" rx="17" fill="#141b25" stroke="#6b6670" stroke-opacity=".8"/>
-  <clipPath id="pc"><rect x="323" y="29" width="444" height="202" rx="16"/></clipPath>
-  <g clip-path="url(#pc)">
-<rect x="323" y="29" width="444" height="202" fill="#01579b"/><rect x="323" y="29" width="444" height="100" fill="#0277bd"/><path d="M323 231l40-30 30 20 50-50 40 30 60-40 50 30 40-20 50 40 50-20 30 20v20z" fill="#0d2238"/><path d="M400 190q-8-20 0-40q8 20 0 40z M410 190q-6-14 2-30q6 14-2 30z" fill="#2e7d32"/><path d="M560 200q-8-20 0-40q8 20 0 40z M570 200q-6-14 2-30q6 14-2 30z" fill="#2e7d32"/><path d="M700 180q-8-20 0-40q8 20 0 40z M710 180q-6-14 2-30q6 14-2 30z" fill="#2e7d32"/><g transform="translate(500 110)"><ellipse rx="40" ry="18" fill="#ffca28"/><rect x="-8" y="-30" width="16" height="14" fill="#ffb300"/><circle cx="12" r="7" fill="#80deea" stroke="#333" stroke-width="2"/><circle cx="-14" r="7" fill="#80deea" stroke="#333" stroke-width="2"/><rect x="-50" y="-5" width="12" height="10" fill="#ffb300"/></g><circle cx="520" cy="80" r="2" fill="#fff" fill-opacity=".5"/><circle cx="526" cy="72" r="3" fill="#fff" fill-opacity=".5"/><circle cx="532" cy="64" r="4" fill="#fff" fill-opacity=".5"/><circle cx="538" cy="56" r="2" fill="#fff" fill-opacity=".5"/><circle cx="544" cy="48" r="3" fill="#fff" fill-opacity=".5"/><circle cx="550" cy="40" r="4" fill="#fff" fill-opacity=".5"/><circle cx="556" cy="32" r="2" fill="#fff" fill-opacity=".5"/><circle cx="562" cy="24" r="3" fill="#fff" fill-opacity=".5"/><g transform="translate(660 90)"><ellipse rx="14" ry="8" fill="#ff7043"/><polygon points="-14,0 -24,-8 -24,8" fill="#ff7043"/><circle cx="6" cy="-2" r="2" fill="#111"/></g>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="260" viewBox="0 0 800 260" role="img" aria-labelledby="title desc">
+<title id="title">SUBMERSIBLE — original concept illustration</title>
+<desc id="desc">Hand-authored geometric illustration: EXPLORE BELOW THE SURFACE. Not a gameplay screenshot; no game sprites, logos, or source images are used. Original artwork under the repository MIT license. See ARTWORK.md for inspection references.</desc>
+<rect x="0" y="0" width="800" height="260" fill="#0d2335" rx="0"/>
+<circle cx="716" cy="28" r="160" fill="#102d3d"/>
+<circle cx="784" cy="241" r="134" fill="#1c2d39"/>
+<line x1="38" y1="35" x2="76" y2="35" stroke="#45e0c1" stroke-width="4" stroke-linecap="round"/>
+<text x="87" y="39" font-size="10" fill="#9ab0b9" font-family="DejaVu Sans, sans-serif" letter-spacing="1.3">ORIGINAL VECTOR CONCEPT</text>
+<text x="38" y="103" font-size="34" fill="#eff3e9" font-family="DejaVu Sans, sans-serif" font-weight="bold" letter-spacing="-.6">SUBMERSIBLE</text>
+<text x="40" y="195" font-size="12" fill="#ffca72" font-family="DejaVu Sans, sans-serif" letter-spacing=".45">EXPLORE BELOW THE SURFACE</text>
+<g transform="translate(383 18)">
+<path d="M0 35 Q80 15 160 35 T400 35" fill="none" stroke="#3d7281" stroke-width="2"/>
+<path d="M0 90 Q80 70 160 90 T400 90" fill="none" stroke="#3d7281" stroke-width="2"/>
+<path d="M0 145 Q80 125 160 145 T400 145" fill="none" stroke="#3d7281" stroke-width="2"/>
+<ellipse cx="200" cy="112" rx="75" ry="31" fill="#45e0c1"/>
+<rect x="181" y="67" width="25" height="22" fill="#45e0c1" rx="5"/>
+<path d="M194 72 V56 H213" fill="none" stroke="#45e0c1" stroke-width="8"/>
+<polygon points="132.0,101.0 109.0,86.0 109.0,138.0 132.0,122.0" fill="#ffca72"/>
+<circle cx="174" cy="110" r="10" fill="#163d57" stroke="#ffca72" stroke-width="3"/>
+<circle cx="205" cy="110" r="10" fill="#163d57" stroke="#ffca72" stroke-width="3"/>
+<circle cx="236" cy="110" r="10" fill="#163d57" stroke="#ffca72" stroke-width="3"/>
+<circle cx="283" cy="81" r="6" fill="none" stroke="#8cc5d4" stroke-width="2"/>
+<circle cx="311" cy="46" r="6" fill="none" stroke="#8cc5d4" stroke-width="2"/>
+<circle cx="338" cy="20" r="6" fill="none" stroke="#8cc5d4" stroke-width="2"/>
+<path d="M20 215 Q40 140 55 210 M350 210 Q332 146 370 193" fill="none" stroke="#63b5a4" stroke-width="6"/>
+</g>
 </svg>

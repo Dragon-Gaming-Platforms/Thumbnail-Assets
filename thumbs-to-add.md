@@ -1,7 +1,7 @@
 # Thumbnails to add
 
 Catalog: [Dragon-Gaming-Platforms/Dragon-Gaming-Platforms](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms),
-revision `8ba36accad7073ef77a0163dd0d87bb18d16e86e` (`games.js`).
+revision `e4a35d8160637c84afa79a6c43adb4ed80efd0fb` (`games.js`).
 Remaining: **0 games** (0 generate=true; 0 generate=false).
 
 - `generate=true`: create original artwork based on the actual game's gameplay/theme.
@@ -24,3 +24,4 @@ Remaining: **0 games** (0 generate=true; 0 generate=false).
 
 ## Queue
 
+No pending games.
