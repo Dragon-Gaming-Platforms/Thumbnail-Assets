@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" role="img" aria-labelledby="title desc">
+  <title id="title">Pendulum Studio</title>
+  <desc id="desc">A swinging pendulum with its angle marked and a decaying waveform below.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1220"/><stop offset=".57" stop-color="#1e293b"/><stop offset="1" stop-color="#0b1220"/></linearGradient>
+
+  </defs>
+  <rect width="800" height="260" fill="url(#bg)"/>
+  <path d="M0 228H800" stroke="#f59e0b" stroke-opacity=".35"/>
+  <path d="M29 25V235" stroke="#f59e0b" stroke-width="4"/>
+  <text x="52" y="51" fill="#f59e0b" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="2.2">PHYSICS WORKBENCH</text>
+  <text x="50" y="110" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="800" letter-spacing="1.2">PENDULUM</text>
+  <text x="50" y="160" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="800" letter-spacing="1.2">STUDIO</text>
+  <text x="53" y="190" fill="#c8c4ba" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="1.4">ANGLE · LENGTH · DAMPING</text>
+  <rect x="322" y="28" width="446" height="204" rx="17" fill="#141b25" stroke="#6b6670" stroke-opacity=".8"/>
+  <clipPath id="pc"><rect x="323" y="29" width="444" height="202" rx="16"/></clipPath>
+  <g clip-path="url(#pc)">
+<rect x="323" y="29" width="444" height="202" fill="#0f172a"/><rect x="323" y="29" width="444" height="12" fill="#334155"/><path d="M545 41A130 130 0 0 1 640 100" fill="none" stroke="#475569" stroke-dasharray="4 4"/><path d="M545 41A130 130 0 0 0 450 100" fill="none" stroke="#475569" stroke-dasharray="4 4"/><line x1="545" y1="41" x2="640" y2="140" stroke="#cbd5e1" stroke-width="2"/><circle cx="640" cy="140" r="16" fill="#f59e0b"/><path d="M545 41V100" stroke="#475569"/><path d="M545 80a40 40 0 0 1 28 10" fill="none" stroke="#38bdf8" stroke-width="2"/><text x="560" y="76" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#38bdf8">θ</text><path d="M340 215q25-40 50 0t50 0t50 0t50 0t50 0t50 0t50 0t50 0" fill="none" stroke="#34d399" stroke-width="2" stroke-opacity=".7"/>
+  </g>
+</svg>

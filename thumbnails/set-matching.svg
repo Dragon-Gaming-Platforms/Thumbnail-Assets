@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" role="img" aria-labelledby="title desc">
+  <title id="title">Set Matching</title>
+  <desc id="desc">Three cards with different counts, shapes, colors and fills circled as a set.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1a1a2a"/><stop offset=".57" stop-color="#3a2a4a"/><stop offset="1" stop-color="#1a1a2a"/></linearGradient>
+<pattern id="stripe" width="4" height="4" patternUnits="userSpaceOnUse"><path d="M0 0H4" stroke="#43a047" stroke-width="1.5"/></pattern>
+  </defs>
+  <rect width="800" height="260" fill="url(#bg)"/>
+  <path d="M0 228H800" stroke="#ffb300" stroke-opacity=".35"/>
+  <path d="M29 25V235" stroke="#ffb300" stroke-width="4"/>
+  <text x="52" y="51" fill="#ffb300" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="2.2">PATTERN CARD GAME</text>
+  <text x="50" y="110" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="800" letter-spacing="1.2">SET</text>
+  <text x="50" y="160" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="800" letter-spacing="1.2">MATCHING</text>
+  <text x="53" y="190" fill="#c8c4ba" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="1.4">ALL SAME OR ALL DIFFERENT</text>
+  <rect x="322" y="28" width="446" height="204" rx="17" fill="#141b25" stroke="#6b6670" stroke-opacity=".8"/>
+  <clipPath id="pc"><rect x="323" y="29" width="444" height="202" rx="16"/></clipPath>
+  <g clip-path="url(#pc)">
+<rect x="323" y="29" width="444" height="202" fill="#fff"/><rect x="385" y="60" width="90" height="140" rx="8" fill="#fff" stroke="#bbb"/><rect x="421" y="110.0" width="18" height="40" rx="9" fill="#e53935" stroke="#e53935" stroke-width="2.5"/><rect x="500" y="60" width="90" height="140" rx="8" fill="#fff" stroke="#bbb"/><polygon points="545,88.0 555,108.0 545,128.0 535,108.0" fill="url(#stripe)" stroke="#43a047" stroke-width="2.5"/><polygon points="545,132.0 555,152.0 545,172.0 535,152.0" fill="url(#stripe)" stroke="#43a047" stroke-width="2.5"/><rect x="615" y="60" width="90" height="140" rx="8" fill="#fff" stroke="#bbb"/><path d="M652 66.0q16 0 8 14t8 26q-16 0-8-14t-8-26z" fill="none" stroke="#8e24aa" stroke-width="2.5"/><path d="M652 110.0q16 0 8 14t8 26q-16 0-8-14t-8-26z" fill="none" stroke="#8e24aa" stroke-width="2.5"/><path d="M652 154.0q16 0 8 14t8 26q-16 0-8-14t-8-26z" fill="none" stroke="#8e24aa" stroke-width="2.5"/><rect x="385" y="60" width="320" height="140" rx="10" fill="none" stroke="#ffb300" stroke-width="3" stroke-dasharray="8 5"/>
+  </g>
+</svg>

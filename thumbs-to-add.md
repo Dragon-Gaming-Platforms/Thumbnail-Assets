@@ -2,7 +2,7 @@
 
 Catalog: [Dragon-Gaming-Platforms/Dragon-Gaming-Platforms](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms),
 revision `e0e574d482e1ac5d0753c3452b66cdb0605ca888` (`games.js`).
-Remaining: **37 games** (0 generate=true; 37 generate=false).
+Remaining: **18 games** (0 generate=true; 18 generate=false).
 
 - `generate=true`: create original artwork based on the actual game's gameplay/theme.
 - `generate=false`: capture gameplay or reuse existing artwork after verifying display rights.
@@ -24,25 +24,6 @@ Remaining: **37 games** (0 generate=true; 37 generate=false).
 
 ## Queue
 
-- `magnetism-bench` generate=false
-- `mandelbrot-explorer` generate=false
-- `matchstick-arithmetic` generate=false
-- `midloop` generate=false
-- `moonsun` generate=false
-- `norinori` generate=false
-- `optics-bench` generate=false
-- `orbit-garden` generate=false
-- `pancake-sorting` generate=false
-- `pendulum-studio` generate=false
-- `pentapack` generate=false
-- `prime-spiral-lab` generate=false
-- `prism-relay` generate=false
-- `qr-code-studio` generate=false
-- `quarto` generate=false
-- `reaction-field` generate=false
-- `river-crossing` generate=false
-- `set-matching` generate=false
-- `shikaku` generate=false
 - `signal-dash` generate=false
 - `skyscrapers` generate=false
 - `sorting-studio` generate=false
