@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" role="img" aria-labelledby="title desc">
+  <title id="title">Optics Bench</title>
+  <desc id="desc">Red rays pass through a convex lens forming an inverted green image.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1324"/><stop offset=".57" stop-color="#1e2a44"/><stop offset="1" stop-color="#0b1324"/></linearGradient>
+
+  </defs>
+  <rect width="800" height="260" fill="url(#bg)"/>
+  <path d="M0 228H800" stroke="#7dd3fc" stroke-opacity=".35"/>
+  <path d="M29 25V235" stroke="#7dd3fc" stroke-width="4"/>
+  <text x="52" y="51" fill="#7dd3fc" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="2.2">THIN-LENS RAY LAB</text>
+  <text x="50" y="110" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="800" letter-spacing="1.2">OPTICS</text>
+  <text x="50" y="160" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="800" letter-spacing="1.2">BENCH</text>
+  <text x="53" y="190" fill="#c8c4ba" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="1.4">FOCAL LENGTH · REAL IMAGE</text>
+  <rect x="322" y="28" width="446" height="204" rx="17" fill="#141b25" stroke="#6b6670" stroke-opacity=".8"/>
+  <clipPath id="pc"><rect x="323" y="29" width="444" height="202" rx="16"/></clipPath>
+  <g clip-path="url(#pc)">
+<rect x="323" y="29" width="444" height="202" fill="#0b1324"/><path d="M323 130H767" stroke="#475569" stroke-dasharray="6 4"/><path d="M545 60q22 70 0 140q-22-70 0-140z" fill="#7dd3fc" fill-opacity=".35" stroke="#7dd3fc" stroke-width="2"/><path d="M420 80v50" stroke="#fbbf24" stroke-width="4"/><path d="M420 80l-6 10h12z" fill="#fbbf24"/><path d="M420 80H545L700 185M420 80L545 130L700 185M420 80L480 130L700 185" fill="none" stroke="#f87171" stroke-width="1.5"/><path d="M700 130v55" stroke="#4ade80" stroke-width="4"/><path d="M700 185l-6-10h12z" fill="#4ade80"/><circle cx="480" cy="130" r="4" fill="#e2e8f0"/><text x="480" y="150" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="10" fill="#94a3b8">F</text><circle cx="610" cy="130" r="4" fill="#e2e8f0"/><text x="610" y="150" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="10" fill="#94a3b8">F</text>
+  </g>
+</svg>
