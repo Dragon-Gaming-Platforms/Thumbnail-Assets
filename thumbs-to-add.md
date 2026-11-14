@@ -2,7 +2,7 @@
 
 Catalog: [Dragon-Gaming-Platforms/Dragon-Gaming-Platforms](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms),
 revision `e0e574d482e1ac5d0753c3452b66cdb0605ca888` (`games.js`).
-Remaining: **18 games** (0 generate=true; 18 generate=false).
+Remaining: **0 games** (0 generate=true; 0 generate=false).
 
 - `generate=true`: create original artwork based on the actual game's gameplay/theme.
 - `generate=false`: capture gameplay or reuse existing artwork after verifying display rights.
@@ -24,21 +24,4 @@ Remaining: **18 games** (0 generate=true; 18 generate=false).
 
 ## Queue
 
-- `signal-dash` generate=false
-- `skyscrapers` generate=false
-- `sorting-studio` generate=false
-- `suguru` generate=false
-- `tasquare` generate=false
-- `tatamibari` generate=false
-- `tidepool-steward` generate=false
-- `trees-and-tents` generate=false
-- `triplets` generate=false
-- `ulam-liar-game` generate=false
-- `unit-converter` generate=false
-- `voronoi-workshop` generate=false
-- `water-jugs` generate=false
-- `waveform-lab` generate=false
-- `weather-forge` generate=false
-- `yajilin` generate=false
-- `zebra-logic` generate=false
-- `zx-spectrum-emulator` generate=false
+No pending games.

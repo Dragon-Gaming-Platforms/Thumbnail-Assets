@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" role="img" aria-labelledby="title desc">
+  <title id="title">ZX Spectrum 48K Emulator</title>
+  <desc id="desc">A gray BASIC screen beside a generic black 8-bit computer with a rainbow stripe, noting the free Open82 ROM.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#111"/><stop offset=".57" stop-color="#2a1a1a"/><stop offset="1" stop-color="#111"/></linearGradient>
+
+  </defs>
+  <rect width="800" height="260" fill="url(#bg)"/>
+  <path d="M0 228H800" stroke="#e53935" stroke-opacity=".35"/>
+  <path d="M29 25V235" stroke="#e53935" stroke-width="4"/>
+  <text x="52" y="51" fill="#e53935" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="2.2">RETRO EMULATOR · OPEN ROM</text>
+  <text x="50" y="106" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="40" font-weight="800" letter-spacing="1.2">ZX 48K</text>
+  <text x="50" y="152" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="40" font-weight="800" letter-spacing="1.2">EMULATOR</text>
+  <text x="53" y="182" fill="#c8c4ba" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="1.4">OPEN82 ROM · NO COMMERCIAL GAMES</text>
+  <rect x="322" y="28" width="446" height="204" rx="17" fill="#141b25" stroke="#6b6670" stroke-opacity=".8"/>
+  <clipPath id="pc"><rect x="323" y="29" width="444" height="202" rx="16"/></clipPath>
+  <g clip-path="url(#pc)">
+<rect x="323" y="29" width="444" height="202" fill="#1a1a1f"/><rect x="360" y="50" width="250" height="160" rx="6" fill="#c0c0c0" stroke="#555" stroke-width="6"/><rect x="366" y="56" width="238" height="148" fill="#c0c0c0"/><rect x="380" y="70" width="210" height="120" fill="#fff"/><text x="388" y="90" font-family="monospace" font-size="12" fill="#000">Open82 ROM 48K</text><text x="388" y="108" font-family="monospace" font-size="12" fill="#000"></text><text x="388" y="126" font-family="monospace" font-size="12" fill="#000">10 PRINT "HELLO"</text><text x="388" y="144" font-family="monospace" font-size="12" fill="#000">20 GO TO 10</text><text x="388" y="162" font-family="monospace" font-size="12" fill="#000">RUN</text><rect x="560" y="150" width="30" height="40" fill="#000"/><rect x="640" y="150" width="110" height="46" rx="6" fill="#1a1a1a"/><rect x="650" y="156" width="40" height="8" rx="2" fill="#e53935"/><circle cx="730" cy="173" r="8" fill="#333" stroke="#111" stroke-width="2"/><text x="695" y="70" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" fill="#cfd8dc" letter-spacing="1.5">ZX 48K</text><text x="695" y="90" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="10" fill="#78909c">FREE OPEN82 ROM</text><text x="695" y="106" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="10" fill="#78909c">NO COMMERCIAL GAMES</text><rect x="700" y="150" width="8" height="46" fill="#e53935" transform="skewX(-20)"/><rect x="708" y="150" width="8" height="46" fill="#fdd835" transform="skewX(-20)"/><rect x="716" y="150" width="8" height="46" fill="#43a047" transform="skewX(-20)"/><rect x="724" y="150" width="8" height="46" fill="#29b6f6" transform="skewX(-20)"/>
+  </g>
+</svg>
