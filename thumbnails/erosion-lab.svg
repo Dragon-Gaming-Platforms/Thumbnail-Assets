@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" role="img" aria-labelledby="title desc">
+  <title id="title">Erosion Lab</title>
+  <desc id="desc">Rain carves blue rivers through layered brown terrain.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1a100a"/><stop offset=".57" stop-color="#3a2a1a"/><stop offset="1" stop-color="#1a100a"/></linearGradient>
+
+  </defs>
+  <rect width="800" height="260" fill="url(#bg)"/>
+  <path d="M0 228H800" stroke="#29b6f6" stroke-opacity=".35"/>
+  <path d="M29 25V235" stroke="#29b6f6" stroke-width="4"/>
+  <text x="52" y="51" fill="#29b6f6" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="2.2">TERRAIN SIMULATION</text>
+  <text x="50" y="110" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="800" letter-spacing="1.2">EROSION</text>
+  <text x="50" y="160" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="800" letter-spacing="1.2">LAB</text>
+  <text x="53" y="190" fill="#c8c4ba" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="1.4">RAINFALL · SEDIMENT · VALLEYS</text>
+  <rect x="322" y="28" width="446" height="204" rx="17" fill="#141b25" stroke="#6b6670" stroke-opacity=".8"/>
+  <clipPath id="pc"><rect x="323" y="29" width="444" height="202" rx="16"/></clipPath>
+  <g clip-path="url(#pc)">
+<rect x="323" y="29" width="444" height="202" fill="#3e2723"/><path d="M323 171 q60-40 120-10 t120 0 t120 -20 t80 10 V231H323Z" fill="#5d4037" fill-opacity=".9"/><path d="M323 151 q60-60 120-10 t120 0 t120 -20 t80 10 V231H323Z" fill="#6d4c41" fill-opacity=".9"/><path d="M323 131 q60-80 120-10 t120 0 t120 -20 t80 10 V231H323Z" fill="#8d6e63" fill-opacity=".9"/><path d="M323 111 q60-100 120-10 t120 0 t120 -20 t80 10 V231H323Z" fill="#a1887f" fill-opacity=".9"/><path d="M323 91 q60-120 120-10 t120 0 t120 -20 t80 10 V231H323Z" fill="#bcaaa4" fill-opacity=".9"/><path d="M470 60q10 40-10 80t20 91" fill="none" stroke="#29b6f6" stroke-width="4"/><path d="M620 70q-20 40 10 80t-10 81" fill="none" stroke="#29b6f6" stroke-width="3"/><path d="M460 140q20 20 40 20" fill="none" stroke="#29b6f6" stroke-width="2"/><path d="M340 35l-6 14" stroke="#81d4fa" stroke-width="2" stroke-opacity=".6"/><path d="M380 35l-6 14" stroke="#81d4fa" stroke-width="2" stroke-opacity=".6"/><path d="M420 35l-6 14" stroke="#81d4fa" stroke-width="2" stroke-opacity=".6"/><path d="M460 35l-6 14" stroke="#81d4fa" stroke-width="2" stroke-opacity=".6"/><path d="M500 35l-6 14" stroke="#81d4fa" stroke-width="2" stroke-opacity=".6"/><path d="M540 35l-6 14" stroke="#81d4fa" stroke-width="2" stroke-opacity=".6"/><path d="M580 35l-6 14" stroke="#81d4fa" stroke-width="2" stroke-opacity=".6"/><path d="M620 35l-6 14" stroke="#81d4fa" stroke-width="2" stroke-opacity=".6"/><path d="M660 35l-6 14" stroke="#81d4fa" stroke-width="2" stroke-opacity=".6"/><path d="M700 35l-6 14" stroke="#81d4fa" stroke-width="2" stroke-opacity=".6"/><path d="M740 35l-6 14" stroke="#81d4fa" stroke-width="2" stroke-opacity=".6"/>
+  </g>
+</svg>
