@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" role="img" aria-labelledby="title desc">
+  <title id="title">Sorting Studio</title>
+  <desc id="desc">A bar chart mid-sort with two bars highlighted for comparison and a sorted tail in green.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1220"/><stop offset=".57" stop-color="#1e293b"/><stop offset="1" stop-color="#0b1220"/></linearGradient>
+
+  </defs>
+  <rect width="800" height="260" fill="url(#bg)"/>
+  <path d="M0 228H800" stroke="#38bdf8" stroke-opacity=".35"/>
+  <path d="M29 25V235" stroke="#38bdf8" stroke-width="4"/>
+  <text x="52" y="51" fill="#38bdf8" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="2.2">ALGORITHM VISUALIZER</text>
+  <text x="50" y="110" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="800" letter-spacing="1.2">SORTING</text>
+  <text x="50" y="160" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="800" letter-spacing="1.2">STUDIO</text>
+  <text x="53" y="190" fill="#c8c4ba" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="1.4">BUBBLE · SELECTION · INSERTION</text>
+  <rect x="322" y="28" width="446" height="204" rx="17" fill="#141b25" stroke="#6b6670" stroke-opacity=".8"/>
+  <clipPath id="pc"><rect x="323" y="29" width="444" height="202" rx="16"/></clipPath>
+  <g clip-path="url(#pc)">
+<rect x="323" y="29" width="444" height="202" fill="#0f172a"/><rect x="345" y="155" width="22" height="55" rx="2" fill="#38bdf8"/><rect x="373" y="188" width="22" height="22" rx="2" fill="#38bdf8"/><rect x="401" y="122" width="22" height="88" rx="2" fill="#38bdf8"/><rect x="429" y="177" width="22" height="33" rx="2" fill="#f59e0b"/><rect x="457" y="111" width="22" height="99" rx="2" fill="#f59e0b"/><rect x="485" y="199" width="22" height="11" rx="2" fill="#38bdf8"/><rect x="513" y="133" width="22" height="77" rx="2" fill="#38bdf8"/><rect x="541" y="166" width="22" height="44" rx="2" fill="#38bdf8"/><rect x="569" y="144" width="22" height="66" rx="2" fill="#38bdf8"/><rect x="597" y="100" width="22" height="110" rx="2" fill="#22c55e"/><rect x="625" y="78" width="22" height="132" rx="2" fill="#22c55e"/><rect x="653" y="89" width="22" height="121" rx="2" fill="#22c55e"/><rect x="681" y="56" width="22" height="154" rx="2" fill="#22c55e"/><rect x="709" y="67" width="22" height="143" rx="2" fill="#22c55e"/><rect x="737" y="45" width="22" height="165" rx="2" fill="#22c55e"/><text x="545" y="222" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="10" fill="#94a3b8" letter-spacing="2">COMPARE · SWAP · STEP</text>
+  </g>
+</svg>
