@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" role="img" aria-labelledby="title desc">
+  <title id="title">JS Playground</title>
+  <desc id="desc">A dark code editor with console output beside a white DOM preview of a dotted sine wave.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#111"/><stop offset=".57" stop-color="#2a2a2a"/><stop offset="1" stop-color="#111"/></linearGradient>
+
+  </defs>
+  <rect width="800" height="260" fill="url(#bg)"/>
+  <path d="M0 228H800" stroke="#f59e0b" stroke-opacity=".35"/>
+  <path d="M29 25V235" stroke="#f59e0b" stroke-width="4"/>
+  <text x="52" y="51" fill="#f59e0b" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="2.2">CODE SANDBOX</text>
+  <text x="50" y="110" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="800" letter-spacing="1.2">JS</text>
+  <text x="50" y="148" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="32" font-weight="800" letter-spacing="1.2">PLAYGROUND</text>
+  <text x="53" y="178" fill="#c8c4ba" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="1.4">EDIT · RUN · PREVIEW</text>
+  <rect x="322" y="28" width="446" height="204" rx="17" fill="#141b25" stroke="#6b6670" stroke-opacity=".8"/>
+  <clipPath id="pc"><rect x="323" y="29" width="444" height="202" rx="16"/></clipPath>
+  <g clip-path="url(#pc)">
+<rect x="323" y="29" width="444" height="202" fill="#1e1e1e"/><rect x="323" y="29" width="260" height="202" fill="#252526"/><text x="340" y="56" font-family="monospace" font-size="12" fill="#569cd6">const</text><text x="340" y="76" font-family="monospace" font-size="12" fill="#dcdcaa">  dots = 12;</text><text x="340" y="96" font-family="monospace" font-size="12" fill="#d4d4d4">for (let i = 0; i &lt; dots; i++) {</text><text x="340" y="116" font-family="monospace" font-size="12" fill="#dcdcaa">  draw(i * 30, Math.sin(i));</text><text x="340" y="136" font-family="monospace" font-size="12" fill="#d4d4d4">}</text><text x="340" y="156" font-family="monospace" font-size="12" fill="#ce9178">console.log("ready");</text><rect x="323" y="190" width="260" height="41" fill="#111"/><text x="340" y="214" font-family="monospace" font-size="12" fill="#9ae6b4">&gt; ready</text><rect x="595" y="40" width="160" height="180" rx="6" fill="#fff"/><circle cx="608" cy="130" r="5" fill="#f59e0b"/><circle cx="621" cy="164" r="5" fill="#f59e0b"/><circle cx="634" cy="166" r="5" fill="#f59e0b"/><circle cx="647" cy="136" r="5" fill="#f59e0b"/><circle cx="660" cy="100" r="5" fill="#f59e0b"/><circle cx="673" cy="92" r="5" fill="#f59e0b"/><circle cx="686" cy="119" r="5" fill="#f59e0b"/><circle cx="699" cy="156" r="5" fill="#f59e0b"/><circle cx="712" cy="170" r="5" fill="#f59e0b"/><circle cx="725" cy="146" r="5" fill="#f59e0b"/><circle cx="738" cy="108" r="5" fill="#f59e0b"/><circle cx="751" cy="90" r="5" fill="#f59e0b"/><text x="675" y="60" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="10" fill="#555">PREVIEW</text>
+  </g>
+</svg>

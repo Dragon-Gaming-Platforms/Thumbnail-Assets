@@ -2,7 +2,7 @@
 
 Catalog: [Dragon-Gaming-Platforms/Dragon-Gaming-Platforms](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms),
 revision `e0e574d482e1ac5d0753c3452b66cdb0605ca888` (`games.js`).
-Remaining: **55 games** (0 generate=true; 55 generate=false).
+Remaining: **37 games** (0 generate=true; 37 generate=false).
 
 - `generate=true`: create original artwork based on the actual game's gameplay/theme.
 - `generate=false`: capture gameplay or reuse existing artwork after verifying display rights.
@@ -24,24 +24,6 @@ Remaining: **55 games** (0 generate=true; 55 generate=false).
 
 ## Queue
 
-- `genesis-emulator` generate=false
-- `graph-theory-lab` generate=false
-- `gridlock-chess` generate=false
-- `hebi-ichigo` generate=false
-- `herugolf` generate=false
-- `heyawake` generate=false
-- `hidato` generate=false
-- `interference-studio` generate=false
-- `js-playground` generate=false
-- `kakurasu` generate=false
-- `knights-and-knaves` generate=false
-- `knights-out` generate=false
-- `konane` generate=false
-- `kurotto` generate=false
-- `lines-of-action` generate=false
-- `lits` generate=false
-- `logic-gate-playground` generate=false
-- `lsystem-garden` generate=false
 - `magnetism-bench` generate=false
 - `mandelbrot-explorer` generate=false
 - `matchstick-arithmetic` generate=false
