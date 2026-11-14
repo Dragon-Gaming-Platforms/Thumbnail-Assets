@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" role="img" aria-labelledby="title desc">
+  <title id="title">Chinese Rings</title>
+  <desc id="desc">Seven brass rings threaded on a bar, some lifted and some dropped.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1a1008"/><stop offset=".57" stop-color="#3a2a16"/><stop offset="1" stop-color="#1a1008"/></linearGradient>
+
+  </defs>
+  <rect width="800" height="260" fill="url(#bg)"/>
+  <path d="M0 228H800" stroke="#e0c080" stroke-opacity=".35"/>
+  <path d="M29 25V235" stroke="#e0c080" stroke-width="4"/>
+  <text x="52" y="51" fill="#e0c080" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="2.2">MECHANICAL PUZZLE</text>
+  <text x="50" y="110" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="800" letter-spacing="1.2">CHINESE</text>
+  <text x="50" y="160" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="800" letter-spacing="1.2">RINGS</text>
+  <text x="53" y="190" fill="#c8c4ba" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="1.4">UNLINK · SHORTEST PATH</text>
+  <rect x="322" y="28" width="446" height="204" rx="17" fill="#141b25" stroke="#6b6670" stroke-opacity=".8"/>
+  <clipPath id="pc"><rect x="323" y="29" width="444" height="202" rx="16"/></clipPath>
+  <g clip-path="url(#pc)">
+<rect x="323" y="29" width="444" height="202" fill="#2d2016"/><path d="M360 150H740" stroke="#b08d57" stroke-width="8" stroke-linecap="round"/><path d="M360 150q-20-10 0-20H740q20 10 0 20" fill="none" stroke="#b08d57" stroke-width="6"/><circle cx="400" cy="130" r="22" fill="none" stroke="#e0c080" stroke-width="7"/><path d="M400 152V100" stroke="#8d6e63" stroke-width="4"/><circle cx="452" cy="130" r="22" fill="none" stroke="#e0c080" stroke-width="7"/><path d="M452 152V100" stroke="#8d6e63" stroke-width="4"/><circle cx="504" cy="190" r="22" fill="none" stroke="#e0c080" stroke-width="7"/><path d="M504 168V148" stroke="#8d6e63" stroke-width="4"/><circle cx="556" cy="130" r="22" fill="none" stroke="#e0c080" stroke-width="7"/><path d="M556 152V100" stroke="#8d6e63" stroke-width="4"/><circle cx="608" cy="190" r="22" fill="none" stroke="#e0c080" stroke-width="7"/><path d="M608 168V148" stroke="#8d6e63" stroke-width="4"/><circle cx="660" cy="190" r="22" fill="none" stroke="#e0c080" stroke-width="7"/><path d="M660 168V148" stroke="#8d6e63" stroke-width="4"/><circle cx="712" cy="130" r="22" fill="none" stroke="#e0c080" stroke-width="7"/><path d="M712 152V100" stroke="#8d6e63" stroke-width="4"/><rect x="340" y="90" width="20" height="40" rx="4" fill="#5d4037"/>
+  </g>
+</svg>
