@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" role="img" aria-labelledby="title desc">
+  <title id="title">Nondango</title>
+  <desc id="desc">Four regions with numbers and arrows linking them in a loop.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1c1917"/><stop offset=".57" stop-color="#292524"/><stop offset="1" stop-color="#1c1917"/></linearGradient>
+
+  </defs>
+  <rect width="800" height="260" fill="url(#bg)"/>
+  <path d="M0 228H800" stroke="#fbbf24" stroke-opacity=".35"/>
+  <path d="M29 25V235" stroke="#fbbf24" stroke-width="4"/>
+  <text x="52" y="51" fill="#fbbf24" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="2.2">LOGIC PUZZLE</text>
+  <text x="50" y="110" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="38" font-weight="800" letter-spacing="1.2">NONDANGO</text>
+  <text x="53" y="140" fill="#c8c4ba" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="1.4">NUMBERS · ARROWS · REGIONS</text>
+  <rect x="322" y="28" width="446" height="204" rx="17" fill="#141b25" stroke="#6b6670" stroke-opacity=".8"/>
+  <clipPath id="pc"><rect x="323" y="29" width="444" height="202" rx="16"/></clipPath>
+  <g clip-path="url(#pc)">
+<rect x="323" y="29" width="444" height="202" fill="#f4f1ea"/><rect x="420" y="45" width="250" height="170" fill="#fff" stroke="#a8a29e" stroke-width="2"/><path d="M420 45 L545 45 L545 130 L420 130 Z" fill="#fef9c3" stroke="#a8a29e"/><path d="M545 45 L670 45 L670 130 L545 130 Z" fill="#dbeafe" stroke="#a8a29e"/><path d="M420 130 L545 130 L545 215 L420 215 Z" fill="#dcfce7" stroke="#a8a29e"/><path d="M545 130 L670 130 L670 215 L545 215 Z" fill="#fee2e2" stroke="#a8a29e"/><text x="482" y="95" text-anchor="middle" font-family="DejaVu Sans,Arial" font-size="16" font-weight="700" fill="#44403c">2</text><text x="607" y="95" text-anchor="middle" font-family="DejaVu Sans,Arial" font-size="16" font-weight="700" fill="#44403c">5</text><text x="482" y="180" text-anchor="middle" font-family="DejaVu Sans,Arial" font-size="16" font-weight="700" fill="#44403c">4</text><text x="607" y="180" text-anchor="middle" font-family="DejaVu Sans,Arial" font-size="16" font-weight="700" fill="#44403c">1</text><line x1="482" y1="120" x2="482" y2="150" stroke="#1d4ed8" stroke-width="2.5"/><polygon points="482,150 478.33015592246386,141.78219953718923 485.66984407753614,141.78219953718923" fill="#1d4ed8"/><line x1="607" y1="150" x2="607" y2="120" stroke="#1d4ed8" stroke-width="2.5"/><polygon points="607,120 610.6698440775361,128.21780046281077 603.3301559224639,128.21780046281077" fill="#1d4ed8"/><line x1="545" y1="172" x2="575" y2="172" stroke="#1d4ed8" stroke-width="2.5"/><polygon points="575,172 566.7821995371892,175.66984407753614 566.7821995371892,168.33015592246386" fill="#1d4ed8"/><line x1="545" y1="87" x2="515" y2="87" stroke="#1d4ed8" stroke-width="2.5"/><polygon points="515,87 523.2178004628108,83.33015592246387 523.2178004628108,90.66984407753613" fill="#1d4ed8"/>
+  </g>
+</svg>

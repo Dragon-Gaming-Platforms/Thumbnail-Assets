@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" role="img" aria-labelledby="title desc">
+  <title id="title">Rope Pulley Lab</title>
+  <desc id="desc">Two pulleys with ropes lifting four weights.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#451a03"/><stop offset=".57" stop-color="#78350f"/><stop offset="1" stop-color="#451a03"/></linearGradient>
+
+  </defs>
+  <rect width="800" height="260" fill="url(#bg)"/>
+  <path d="M0 228H800" stroke="#fbbf24" stroke-opacity=".35"/>
+  <path d="M29 25V235" stroke="#fbbf24" stroke-width="4"/>
+  <text x="52" y="51" fill="#fbbf24" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="2.2">PHYSICS LAB</text>
+  <text x="50" y="110" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="32" font-weight="800" letter-spacing="1.2">ROPE PULLEY</text>
+  <text x="50" y="160" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="800" letter-spacing="1.2">LAB</text>
+  <text x="53" y="190" fill="#c8c4ba" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="1.4">PULLEYS · TENSION · FORCE</text>
+  <rect x="322" y="28" width="446" height="204" rx="17" fill="#141b25" stroke="#6b6670" stroke-opacity=".8"/>
+  <clipPath id="pc"><rect x="323" y="29" width="444" height="202" rx="16"/></clipPath>
+  <g clip-path="url(#pc)">
+<rect x="323" y="29" width="444" height="202" fill="#fef3c7"/><rect x="350" y="40" width="390" height="14" fill="#78716c"/><circle cx="450" cy="80" r="22" fill="#d6d3d1" stroke="#57534e" stroke-width="3"/><circle cx="620" cy="80" r="22" fill="#d6d3d1" stroke="#57534e" stroke-width="3"/><circle cx="450" cy="80" r="5" fill="#57534e"/><circle cx="620" cy="80" r="5" fill="#57534e"/><path d="M428 80 L428 150 M472 80 L472 150 M598 80 L598 120 M642 80 L642 120" stroke="#92400e" stroke-width="3"/><rect x="408" y="150" width="40" height="34" rx="5" fill="#b91c1c"/><rect x="452" y="150" width="40" height="34" rx="5" fill="#1d4ed8"/><rect x="578" y="120" width="40" height="34" rx="5" fill="#15803d"/><rect x="622" y="120" width="40" height="34" rx="5" fill="#7c3aed"/><text x="450" y="222" text-anchor="middle" font-family="DejaVu Sans,Arial" font-size="12" font-weight="700" fill="#78716c">mechanical advantage</text>
+  </g>
+</svg>
