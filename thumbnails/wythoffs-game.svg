@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" role="img" aria-labelledby="title desc">
+  <title id="title">Wythoff’s Game</title>
+  <desc id="desc">Two piles of coins with a queen-move arrow between them.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#111827"/><stop offset=".57" stop-color="#1f2937"/><stop offset="1" stop-color="#111827"/></linearGradient>
+
+  </defs>
+  <rect width="800" height="260" fill="url(#bg)"/>
+  <path d="M0 228H800" stroke="#fbbf24" stroke-opacity=".35"/>
+  <path d="M29 25V235" stroke="#fbbf24" stroke-width="4"/>
+  <text x="52" y="51" fill="#fbbf24" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="2.2">IMPARTIAL GAME</text>
+  <text x="50" y="110" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="800" letter-spacing="1.2">WYTHOFF'S</text>
+  <text x="50" y="160" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="800" letter-spacing="1.2">GAME</text>
+  <text x="53" y="190" fill="#c8c4ba" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="1.4">TWO PILES · QUEEN MOVES</text>
+  <rect x="322" y="28" width="446" height="204" rx="17" fill="#141b25" stroke="#6b6670" stroke-opacity=".8"/>
+  <clipPath id="pc"><rect x="323" y="29" width="444" height="202" rx="16"/></clipPath>
+  <g clip-path="url(#pc)">
+<rect x="323" y="29" width="444" height="202" fill="#1f2937"/><rect x="360" y="70" width="120" height="120" rx="8" fill="#374151"/><rect x="520" y="110" width="200" height="80" rx="8" fill="#374151"/><circle cx="380" cy="130" r="5" fill="#e5e7eb"/><circle cx="393" cy="130" r="5" fill="#e5e7eb"/><circle cx="406" cy="130" r="5" fill="#e5e7eb"/><circle cx="419" cy="130" r="5" fill="#e5e7eb"/><circle cx="432" cy="130" r="5" fill="#e5e7eb"/><circle cx="445" cy="130" r="5" fill="#e5e7eb"/><circle cx="458" cy="130" r="5" fill="#e5e7eb"/><circle cx="471" cy="130" r="5" fill="#e5e7eb"/><circle cx="545" cy="150" r="11" fill="#e5e7eb"/><circle cx="575" cy="150" r="11" fill="#e5e7eb"/><circle cx="605" cy="150" r="11" fill="#e5e7eb"/><circle cx="635" cy="150" r="11" fill="#e5e7eb"/><circle cx="665" cy="150" r="11" fill="#e5e7eb"/><text x="420" y="205" text-anchor="middle" font-family="DejaVu Sans,Arial" font-size="14" font-weight="700" fill="#9ca3af">8</text><text x="620" y="205" text-anchor="middle" font-family="DejaVu Sans,Arial" font-size="14" font-weight="700" fill="#9ca3af">5</text><line x1="490" y1="130" x2="515" y2="140" stroke="#fbbf24" stroke-width="2.5"/><polygon points="515,140 506.0070179458639,140.35535021314925 508.7329096940043,133.54062084279803" fill="#fbbf24"/><text x="545" y="60" text-anchor="middle" font-family="DejaVu Sans,Arial" font-size="12" font-weight="700" fill="#fbbf24">queen moves</text>
+  </g>
+</svg>
