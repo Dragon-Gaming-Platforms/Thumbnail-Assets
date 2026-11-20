@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" role="img" aria-labelledby="title desc">
+  <title id="title">Scheduling Lab</title>
+  <desc id="desc">A Gantt chart of overlapping project tasks on a timeline.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1e1b2e"/><stop offset=".57" stop-color="#2e2a45"/><stop offset="1" stop-color="#1e1b2e"/></linearGradient>
+
+  </defs>
+  <rect width="800" height="260" fill="url(#bg)"/>
+  <path d="M0 228H800" stroke="#a78bfa" stroke-opacity=".35"/>
+  <path d="M29 25V235" stroke="#a78bfa" stroke-width="4"/>
+  <text x="52" y="51" fill="#a78bfa" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="2.2">OPERATIONS LAB</text>
+  <text x="50" y="110" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="38" font-weight="800" letter-spacing="1.2">SCHEDULING</text>
+  <text x="50" y="160" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="800" letter-spacing="1.2">LAB</text>
+  <text x="53" y="190" fill="#c8c4ba" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="1.4">TASKS · TIMELINES</text>
+  <rect x="322" y="28" width="446" height="204" rx="17" fill="#141b25" stroke="#6b6670" stroke-opacity=".8"/>
+  <clipPath id="pc"><rect x="323" y="29" width="444" height="202" rx="16"/></clipPath>
+  <g clip-path="url(#pc)">
+<rect x="323" y="29" width="444" height="202" fill="#f4f1ea"/><rect x="360" y="50" width="380" height="160" fill="#fff" stroke="#a8a29e" stroke-width="2"/><rect x="380" y="66" width="100" height="16" rx="8" fill="#38bdf8"/><text x="368" y="78" font-family="DejaVu Sans,Arial" font-size="10" fill="#1c1917">design</text><rect x="490" y="90" width="70" height="16" rx="8" fill="#4ade80"/><text x="368" y="102" font-family="DejaVu Sans,Arial" font-size="10" fill="#1c1917">build</text><rect x="570" y="114" width="70" height="16" rx="8" fill="#fbbf24"/><text x="368" y="126" font-family="DejaVu Sans,Arial" font-size="10" fill="#1c1917">test</text><rect x="650" y="138" width="60" height="16" rx="8" fill="#f472b6"/><text x="368" y="150" font-family="DejaVu Sans,Arial" font-size="10" fill="#1c1917">ship</text><rect x="420" y="162" width="100" height="16" rx="8" fill="#a78bfa"/><text x="368" y="174" font-family="DejaVu Sans,Arial" font-size="10" fill="#1c1917">docs</text><rect x="530" y="186" width="90" height="16" rx="8" fill="#fb923c"/><text x="368" y="198" font-family="DejaVu Sans,Arial" font-size="10" fill="#1c1917">review</text><line x1="360" y1="200" x2="740" y2="200" stroke="#a8a29e" stroke-width="2"/><line x1="360" y1="196" x2="360" y2="204" stroke="#a8a29e" stroke-width="2"/><line x1="423" y1="196" x2="423" y2="204" stroke="#a8a29e" stroke-width="2"/><line x1="486" y1="196" x2="486" y2="204" stroke="#a8a29e" stroke-width="2"/><line x1="549" y1="196" x2="549" y2="204" stroke="#a8a29e" stroke-width="2"/><line x1="612" y1="196" x2="612" y2="204" stroke="#a8a29e" stroke-width="2"/><line x1="675" y1="196" x2="675" y2="204" stroke="#a8a29e" stroke-width="2"/>
+  </g>
+</svg>

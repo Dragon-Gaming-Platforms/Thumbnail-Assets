@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" role="img" aria-labelledby="title desc">
+  <title id="title">Slime Network Lab</title>
+  <desc id="desc">A slime mold network connecting four food sources.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#451a03"/><stop offset=".57" stop-color="#78350f"/><stop offset="1" stop-color="#451a03"/></linearGradient>
+
+  </defs>
+  <rect width="800" height="260" fill="url(#bg)"/>
+  <path d="M0 228H800" stroke="#fbbf24" stroke-opacity=".35"/>
+  <path d="M29 25V235" stroke="#fbbf24" stroke-width="4"/>
+  <text x="52" y="51" fill="#fbbf24" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="2.2">EMERGENCE LAB</text>
+  <text x="50" y="110" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="800" letter-spacing="1.2">SLIME NETWORK</text>
+  <text x="50" y="160" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="800" letter-spacing="1.2">LAB</text>
+  <text x="53" y="190" fill="#c8c4ba" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="1.4">NETWORKS · GROWTH</text>
+  <rect x="322" y="28" width="446" height="204" rx="17" fill="#141b25" stroke="#6b6670" stroke-opacity=".8"/>
+  <clipPath id="pc"><rect x="323" y="29" width="444" height="202" rx="16"/></clipPath>
+  <g clip-path="url(#pc)">
+<rect x="323" y="29" width="444" height="202" fill="#fef3c7"/><circle cx="400" cy="80" r="14" fill="#f59e0b"/><circle cx="400" cy="80" r="7" fill="#fde68a"/><circle cx="690" cy="70" r="14" fill="#f59e0b"/><circle cx="690" cy="70" r="7" fill="#fde68a"/><circle cx="420" cy="190" r="14" fill="#f59e0b"/><circle cx="420" cy="190" r="7" fill="#fde68a"/><circle cx="680" cy="185" r="14" fill="#f59e0b"/><circle cx="680" cy="185" r="7" fill="#fde68a"/><path d="M400 80 C 480 60 600 60 690 70" fill="none" stroke="#fbbf24" stroke-width="5" stroke-opacity=".8"/><path d="M400 80 C 420 130 410 160 420 190" fill="none" stroke="#fbbf24" stroke-width="5" stroke-opacity=".8"/><path d="M690 70 C 700 120 690 150 680 185" fill="none" stroke="#fbbf24" stroke-width="5" stroke-opacity=".8"/><path d="M420 190 C 500 200 600 200 680 185" fill="none" stroke="#fbbf24" stroke-width="5" stroke-opacity=".8"/><path d="M400 80 C 500 130 590 140 680 185" fill="none" stroke="#f59e0b" stroke-width="3" stroke-opacity=".6"/><circle cx="545" cy="130" r="10" fill="#fbbf24"/>
+  </g>
+</svg>

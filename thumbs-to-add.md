@@ -2,7 +2,7 @@
 
 Catalog: [Dragon-Gaming-Platforms/Dragon-Gaming-Platforms](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms),
 revision `592788a98c428caab35faa6f8a3165535ff91f72` (`games.js`).
-Remaining: **35 games** (0 generate=true; 35 generate=false).
+Remaining: **17 games** (0 generate=true; 17 generate=false).
 
 - `generate=true`: create original artwork based on the actual game's gameplay/theme.
 - `generate=false`: capture gameplay or reuse existing artwork after verifying display rights.
@@ -24,24 +24,6 @@ Remaining: **35 games** (0 generate=true; 35 generate=false).
 
 ## Queue
 
-- `nogo` generate=false
-- `nondango` generate=false
-- `notakto` generate=false
-- `optimizer-lab` generate=false
-- `order-and-chaos` generate=false
-- `pathfinding-lab` generate=false
-- `penrose-tiling-lab` generate=false
-- `percolation-lab` generate=false
-- `predator-prey-lab` generate=false
-- `quadrant-five` generate=false
-- `quantum-tunneling-lab` generate=false
-- `queueing-lab` generate=false
-- `renban` generate=false
-- `rope-pulley-lab` generate=false
-- `sandpile-lab` generate=false
-- `scheduling-lab` generate=false
-- `silver-dollar` generate=false
-- `slime-network-lab` generate=false
 - `snort` generate=false
 - `squava` generate=false
 - `strange-attractor-lab` generate=false
