@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" role="img" aria-labelledby="title desc">
+  <title id="title">Hash Lab</title>
+  <desc id="desc">A hash table with named buckets and a lookup arrow.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#111827"/><stop offset=".57" stop-color="#1f2937"/><stop offset="1" stop-color="#111827"/></linearGradient>
+
+  </defs>
+  <rect width="800" height="260" fill="url(#bg)"/>
+  <path d="M0 228H800" stroke="#fbbf24" stroke-opacity=".35"/>
+  <path d="M29 25V235" stroke="#fbbf24" stroke-width="4"/>
+  <text x="52" y="51" fill="#fbbf24" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="2.2">DATA STRUCTURES LAB</text>
+  <text x="50" y="110" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="800" letter-spacing="1.2">HASH</text>
+  <text x="50" y="160" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="800" letter-spacing="1.2">LAB</text>
+  <text x="53" y="190" fill="#c8c4ba" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="1.4">KEYS · BUCKETS · LOOKUP</text>
+  <rect x="322" y="28" width="446" height="204" rx="17" fill="#141b25" stroke="#6b6670" stroke-opacity=".8"/>
+  <clipPath id="pc"><rect x="323" y="29" width="444" height="202" rx="16"/></clipPath>
+  <g clip-path="url(#pc)">
+<rect x="323" y="29" width="444" height="202" fill="#1f2937"/><rect x="360" y="50" width="180" height="160" rx="10" fill="#111827" stroke="#374151"/><rect x="372" y="62" width="156" height="22" rx="5" fill="#1f2937" stroke="#374151"/><text x="382" y="77" font-family="DejaVu Sans,Arial" font-size="11" fill="#e5e7eb">apple</text><text x="515" y="77" text-anchor="middle" font-family="DejaVu Sans,Arial" font-size="11" font-weight="700" fill="#fbbf24">0</text><rect x="372" y="90" width="156" height="22" rx="5" fill="#1f2937" stroke="#374151"/><text x="382" y="105" font-family="DejaVu Sans,Arial" font-size="11" fill="#e5e7eb">kiwi</text><text x="515" y="105" text-anchor="middle" font-family="DejaVu Sans,Arial" font-size="11" font-weight="700" fill="#fbbf24">2</text><rect x="372" y="118" width="156" height="22" rx="5" fill="#1f2937" stroke="#374151"/><text x="382" y="133" font-family="DejaVu Sans,Arial" font-size="11" fill="#e5e7eb">plum</text><text x="515" y="133" text-anchor="middle" font-family="DejaVu Sans,Arial" font-size="11" font-weight="700" fill="#fbbf24">4</text><rect x="372" y="146" width="156" height="22" rx="5" fill="#1f2937" stroke="#374151"/><text x="382" y="161" font-family="DejaVu Sans,Arial" font-size="11" fill="#e5e7eb">fig</text><text x="515" y="161" text-anchor="middle" font-family="DejaVu Sans,Arial" font-size="11" font-weight="700" fill="#fbbf24">6</text><rect x="372" y="174" width="156" height="22" rx="5" fill="#1f2937" stroke="#374151"/><text x="382" y="189" font-family="DejaVu Sans,Arial" font-size="11" fill="#e5e7eb">date</text><text x="515" y="189" text-anchor="middle" font-family="DejaVu Sans,Arial" font-size="11" font-weight="700" fill="#fbbf24">8</text><line x1="545" y1="130" x2="585" y2="130" stroke="#fbbf24" stroke-width="2.5"/><polygon points="585,130 576.7821995371892,133.66984407753614 576.7821995371892,126.33015592246387" fill="#fbbf24"/><rect x="590" y="95" width="150" height="70" rx="10" fill="#292524" stroke="#57534e"/><text x="605" y="122" font-family="DejaVu Sans,Arial" font-size="12" fill="#fbbf24">hash("kiwi")</text><text x="605" y="144" font-family="DejaVu Sans,Arial" font-size="12" fill="#e7e5e4">→ bucket 2</text>
+  </g>
+</svg>

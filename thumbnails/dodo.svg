@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" role="img" aria-labelledby="title desc">
+  <title id="title">Dodo</title>
+  <desc id="desc">Dodo birds on a gridded board, one ringed as the next to move.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#451a03"/><stop offset=".57" stop-color="#78350f"/><stop offset="1" stop-color="#451a03"/></linearGradient>
+
+  </defs>
+  <rect width="800" height="260" fill="url(#bg)"/>
+  <path d="M0 228H800" stroke="#fbbf24" stroke-opacity=".35"/>
+  <path d="M29 25V235" stroke="#fbbf24" stroke-width="4"/>
+  <text x="52" y="51" fill="#fbbf24" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="2.2">ABSTRACT STRATEGY</text>
+  <text x="50" y="110" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="800" letter-spacing="1.2">DODO</text>
+  <text x="53" y="140" fill="#c8c4ba" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="1.4">BIRDS · BOARD · STRATEGY</text>
+  <rect x="322" y="28" width="446" height="204" rx="17" fill="#141b25" stroke="#6b6670" stroke-opacity=".8"/>
+  <clipPath id="pc"><rect x="323" y="29" width="444" height="202" rx="16"/></clipPath>
+  <g clip-path="url(#pc)">
+<rect x="323" y="29" width="444" height="202" fill="#fef3c7"/><rect x="430" y="55" width="230" height="150" fill="#fde68a" stroke="#b45309" stroke-width="2"/><line x1="468" y1="55" x2="468" y2="205" stroke="#d97706" stroke-opacity=".5"/><line x1="507" y1="55" x2="507" y2="205" stroke="#d97706" stroke-opacity=".5"/><line x1="545" y1="55" x2="545" y2="205" stroke="#d97706" stroke-opacity=".5"/><line x1="583" y1="55" x2="583" y2="205" stroke="#d97706" stroke-opacity=".5"/><line x1="622" y1="55" x2="622" y2="205" stroke="#d97706" stroke-opacity=".5"/><line x1="430" y1="92.5" x2="660" y2="92.5" stroke="#d97706" stroke-opacity=".5"/><line x1="430" y1="130.0" x2="660" y2="130.0" stroke="#d97706" stroke-opacity=".5"/><line x1="430" y1="167.5" x2="660" y2="167.5" stroke="#d97706" stroke-opacity=".5"/><g transform="translate(490 95) scale(1 1)"><ellipse cx="0" cy="0" rx="15" ry="12" fill="#78716c"/><circle cx="10" cy="-9" r="6" fill="#78716c"/><polygon points="15,-10 24,-7 15,-4" fill="#f59e0b"/><circle cx="11" cy="-10" r="1.6" fill="#1c1917"/></g><g transform="translate(560 130) scale(-1 1)"><ellipse cx="0" cy="0" rx="15" ry="12" fill="#57534e"/><circle cx="10" cy="-9" r="6" fill="#57534e"/><polygon points="15,-10 24,-7 15,-4" fill="#f59e0b"/><circle cx="11" cy="-10" r="1.6" fill="#1c1917"/></g><g transform="translate(620 170) scale(1 1)"><ellipse cx="0" cy="0" rx="15" ry="12" fill="#78716c"/><circle cx="10" cy="-9" r="6" fill="#78716c"/><polygon points="15,-10 24,-7 15,-4" fill="#f59e0b"/><circle cx="11" cy="-10" r="1.6" fill="#1c1917"/></g><circle cx="490" cy="95" r="20" fill="none" stroke="#b91c1c" stroke-width="2.5" stroke-dasharray="4 3"/>
+  </g>
+</svg>
