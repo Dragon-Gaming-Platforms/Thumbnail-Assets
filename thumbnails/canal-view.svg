@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" role="img" aria-labelledby="title desc">
+  <title id="title">Canal View</title>
+  <desc id="desc">A canal with a towpath, an arched bridge, a narrowboat and two ducks.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#083344"/><stop offset=".57" stop-color="#155e75"/><stop offset="1" stop-color="#083344"/></linearGradient>
+
+  </defs>
+  <rect width="800" height="260" fill="url(#bg)"/>
+  <path d="M0 228H800" stroke="#5eead4" stroke-opacity=".35"/>
+  <path d="M29 25V235" stroke="#5eead4" stroke-width="4"/>
+  <text x="52" y="51" fill="#5eead4" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="2.2">LOGIC PUZZLE</text>
+  <text x="50" y="110" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="800" letter-spacing="1.2">CANAL</text>
+  <text x="50" y="160" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="800" letter-spacing="1.2">VIEW</text>
+  <text x="53" y="190" fill="#c8c4ba" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="1.4">CANALS · BRIDGES · LEVELS</text>
+  <rect x="322" y="28" width="446" height="204" rx="17" fill="#141b25" stroke="#6b6670" stroke-opacity=".8"/>
+  <clipPath id="pc"><rect x="323" y="29" width="444" height="202" rx="16"/></clipPath>
+  <g clip-path="url(#pc)">
+<rect x="323" y="29" width="444" height="202" fill="#164e63"/><rect x="323" y="150" width="444" height="81" fill="#0e7490"/><rect x="323" y="150" width="444" height="8" fill="#67e8f9" fill-opacity=".5"/><rect x="323" y="120" width="444" height="30" fill="#78716c"/><path d="M480 150 L480 100 Q 545 55 610 100 L610 150 Z" fill="#a8a29e"/><path d="M500 150 L500 118 Q 545 88 590 118 L590 150 Z" fill="#164e63"/><rect x="470" y="92" width="150" height="10" fill="#78716c"/><path d="M360 168 L520 168 L505 186 L375 186 Z" fill="#b91c1c"/><rect x="400" y="152" width="70" height="16" fill="#f8fafc"/><rect x="410" y="156" width="14" height="8" fill="#164e63"/><rect x="432" y="156" width="14" height="8" fill="#164e63"/><ellipse cx="660" cy="196" rx="12" ry="7" fill="#facc15"/><circle cx="670" cy="190" r="5" fill="#facc15"/><ellipse cx="700" cy="206" rx="10" ry="6" fill="#f8fafc"/><circle cx="708" cy="201" r="4" fill="#f8fafc"/>
+  </g>
+</svg>

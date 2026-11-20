@@ -1,8 +1,8 @@
 # Thumbnails to add
 
 Catalog: [Dragon-Gaming-Platforms/Dragon-Gaming-Platforms](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms),
-revision `e0e574d482e1ac5d0753c3452b66cdb0605ca888` (`games.js`).
-Remaining: **0 games** (0 generate=true; 0 generate=false).
+revision `592788a98c428caab35faa6f8a3165535ff91f72` (`games.js`).
+Remaining: **71 games** (0 generate=true; 71 generate=false).
 
 - `generate=true`: create original artwork based on the actual game's gameplay/theme.
 - `generate=false`: capture gameplay or reuse existing artwork after verifying display rights.
@@ -24,4 +24,74 @@ Remaining: **0 games** (0 generate=true; 0 generate=false).
 
 ## Queue
 
-No pending games.
+- `creek` generate=false
+- `crystal-growth-lab` generate=false
+- `dao` generate=false
+- `diffusion-lab` generate=false
+- `dodo` generate=false
+- `elementary-automata-lab` generate=false
+- `epidemic-lab` generate=false
+- `error-correction-lab` generate=false
+- `firefly-sync-lab` generate=false
+- `floating-point-lab` generate=false
+- `flow-field-studio` generate=false
+- `fluid-ink-lab` generate=false
+- `fourier-epicycles` generate=false
+- `genetics-lab` generate=false
+- `gopher` generate=false
+- `grundys-game` generate=false
+- `harmonograph-lab` generate=false
+- `hash-lab` generate=false
+- `hexapawn` generate=false
+- `hyperbolic-tiling-lab` generate=false
+- `ifs-fractal-lab` generate=false
+- `ising-lab` generate=false
+- `isolation` generate=false
+- `kalman-lab` generate=false
+- `kayles` generate=false
+- `knightthrough` generate=false
+- `magnetic-pendulum-lab` generate=false
+- `makaro` generate=false
+- `market-lab` generate=false
+- `mini-amazons` generate=false
+- `monte-carlo-lab` generate=false
+- `mu-torere` generate=false
+- `nanro` generate=false
+- `neural-net-lab` generate=false
+- `neutreeko` generate=false
+- `neutron` generate=false
+- `nogo` generate=false
+- `nondango` generate=false
+- `notakto` generate=false
+- `optimizer-lab` generate=false
+- `order-and-chaos` generate=false
+- `pathfinding-lab` generate=false
+- `penrose-tiling-lab` generate=false
+- `percolation-lab` generate=false
+- `predator-prey-lab` generate=false
+- `quadrant-five` generate=false
+- `quantum-tunneling-lab` generate=false
+- `queueing-lab` generate=false
+- `renban` generate=false
+- `rope-pulley-lab` generate=false
+- `sandpile-lab` generate=false
+- `scheduling-lab` generate=false
+- `silver-dollar` generate=false
+- `slime-network-lab` generate=false
+- `snort` generate=false
+- `squava` generate=false
+- `strange-attractor-lab` generate=false
+- `sukoro` generate=false
+- `tapa` generate=false
+- `teeko` generate=false
+- `toads-and-frogs` generate=false
+- `traffic-flow-lab` generate=false
+- `traffic-lights` generate=false
+- `treblecross` generate=false
+- `tsp-lab` generate=false
+- `turing-machine-lab` generate=false
+- `turning-turtles` generate=false
+- `voting-lab` generate=false
+- `wythoffs-game` generate=false
+- `yavalath` generate=false
+- `yin-yang` generate=false
