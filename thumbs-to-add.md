@@ -2,7 +2,7 @@
 
 Catalog: [Dragon-Gaming-Platforms/Dragon-Gaming-Platforms](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms),
 revision `592788a98c428caab35faa6f8a3165535ff91f72` (`games.js`).
-Remaining: **71 games** (0 generate=true; 71 generate=false).
+Remaining: **53 games** (0 generate=true; 53 generate=false).
 
 - `generate=true`: create original artwork based on the actual game's gameplay/theme.
 - `generate=false`: capture gameplay or reuse existing artwork after verifying display rights.
@@ -24,24 +24,6 @@ Remaining: **71 games** (0 generate=true; 71 generate=false).
 
 ## Queue
 
-- `creek` generate=false
-- `crystal-growth-lab` generate=false
-- `dao` generate=false
-- `diffusion-lab` generate=false
-- `dodo` generate=false
-- `elementary-automata-lab` generate=false
-- `epidemic-lab` generate=false
-- `error-correction-lab` generate=false
-- `firefly-sync-lab` generate=false
-- `floating-point-lab` generate=false
-- `flow-field-studio` generate=false
-- `fluid-ink-lab` generate=false
-- `fourier-epicycles` generate=false
-- `genetics-lab` generate=false
-- `gopher` generate=false
-- `grundys-game` generate=false
-- `harmonograph-lab` generate=false
-- `hash-lab` generate=false
 - `hexapawn` generate=false
 - `hyperbolic-tiling-lab` generate=false
 - `ifs-fractal-lab` generate=false

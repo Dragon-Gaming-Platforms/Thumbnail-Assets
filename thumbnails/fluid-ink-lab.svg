@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" role="img" aria-labelledby="title desc">
+  <title id="title">Fluid Ink Lab</title>
+  <desc id="desc">Ink swirling and mixing in clear water.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#082f49"/><stop offset=".57" stop-color="#0c4a6e"/><stop offset="1" stop-color="#082f49"/></linearGradient>
+
+  </defs>
+  <rect width="800" height="260" fill="url(#bg)"/>
+  <path d="M0 228H800" stroke="#38bdf8" stroke-opacity=".35"/>
+  <path d="M29 25V235" stroke="#38bdf8" stroke-width="4"/>
+  <text x="52" y="51" fill="#38bdf8" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="2.2">FLUID SIMULATION</text>
+  <text x="50" y="110" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="800" letter-spacing="1.2">FLUID INK</text>
+  <text x="50" y="160" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="800" letter-spacing="1.2">LAB</text>
+  <text x="53" y="190" fill="#c8c4ba" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="1.4">INK · SWIRL · MIXING</text>
+  <rect x="322" y="28" width="446" height="204" rx="17" fill="#141b25" stroke="#6b6670" stroke-opacity=".8"/>
+  <clipPath id="pc"><rect x="323" y="29" width="444" height="202" rx="16"/></clipPath>
+  <g clip-path="url(#pc)">
+<rect x="323" y="29" width="444" height="202" fill="#e0f2fe"/><path d="M360 130 C 430 60 520 200 600 110 C 660 45 720 90 740 130 C 720 180 640 150 590 185 C 520 230 430 190 360 130 Z" fill="#1e3a8a" fill-opacity=".85"/><path d="M420 130 C 470 95 530 160 580 125 C 620 98 660 120 675 140 C 650 170 590 150 545 175 C 490 205 450 165 420 130 Z" fill="#7c3aed" fill-opacity=".8"/><path d="M480 130 C 510 110 545 145 575 128 C 600 115 620 130 628 142 C 608 160 570 148 540 162 C 505 178 488 152 480 130 Z" fill="#0ea5e9" fill-opacity=".85"/><circle cx="545" cy="130" r="14" fill="#f8fafc" fill-opacity=".9"/>
+  </g>
+</svg>

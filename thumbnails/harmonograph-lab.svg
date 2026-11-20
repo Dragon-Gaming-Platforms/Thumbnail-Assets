@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" role="img" aria-labelledby="title desc">
+  <title id="title">Harmonograph Lab</title>
+  <desc id="desc">A pendulum drawing layered curves on paper.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#020617"/><stop offset=".57" stop-color="#0f172a"/><stop offset="1" stop-color="#020617"/></linearGradient>
+
+  </defs>
+  <rect width="800" height="260" fill="url(#bg)"/>
+  <path d="M0 228H800" stroke="#f472b6" stroke-opacity=".35"/>
+  <path d="M29 25V235" stroke="#f472b6" stroke-width="4"/>
+  <text x="52" y="51" fill="#f472b6" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="2.2">GENERATIVE LAB</text>
+  <text x="50" y="110" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="800" letter-spacing="1.2">HARMONOGRAPH</text>
+  <text x="50" y="160" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="800" letter-spacing="1.2">LAB</text>
+  <text x="53" y="190" fill="#c8c4ba" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="1.4">PENDULUMS · CURVES</text>
+  <rect x="322" y="28" width="446" height="204" rx="17" fill="#141b25" stroke="#6b6670" stroke-opacity=".8"/>
+  <clipPath id="pc"><rect x="323" y="29" width="444" height="202" rx="16"/></clipPath>
+  <g clip-path="url(#pc)">
+<rect x="323" y="29" width="444" height="202" fill="#0f172a"/><path d="M360 130 C 430 40 500 220 570 130 C 620 65 680 60 720 110 C 750 148 720 200 670 195 C 610 189 590 130 545 130 C 500 130 480 190 430 185 C 390 181 380 150 360 130 Z" fill="none" stroke="#f472b6" stroke-width="2.5"/><path d="M360 130 C 420 70 490 200 560 130 C 610 80 670 80 705 120 C 730 150 705 185 665 182 C 620 179 600 130 555 130 C 510 130 495 175 455 172 C 420 169 400 150 360 130 Z" fill="none" stroke="#38bdf8" stroke-width="2" stroke-opacity=".8"/><circle cx="545" cy="130" r="5" fill="#e2e8f0"/><line x1="545" y1="130" x2="545" y2="60" stroke="#94a3b8" stroke-width="2"/><circle cx="545" cy="52" r="8" fill="#94a3b8"/>
+  </g>
+</svg>
