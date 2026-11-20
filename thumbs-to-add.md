@@ -2,7 +2,7 @@
 
 Catalog: [Dragon-Gaming-Platforms/Dragon-Gaming-Platforms](https://github.com/Dragon-Gaming-Platforms/Dragon-Gaming-Platforms),
 revision `592788a98c428caab35faa6f8a3165535ff91f72` (`games.js`).
-Remaining: **17 games** (0 generate=true; 17 generate=false).
+Remaining: **0 games** (0 generate=true; 0 generate=false).
 
 - `generate=true`: create original artwork based on the actual game's gameplay/theme.
 - `generate=false`: capture gameplay or reuse existing artwork after verifying display rights.
@@ -24,20 +24,4 @@ Remaining: **17 games** (0 generate=true; 17 generate=false).
 
 ## Queue
 
-- `snort` generate=false
-- `squava` generate=false
-- `strange-attractor-lab` generate=false
-- `sukoro` generate=false
-- `tapa` generate=false
-- `teeko` generate=false
-- `toads-and-frogs` generate=false
-- `traffic-flow-lab` generate=false
-- `traffic-lights` generate=false
-- `treblecross` generate=false
-- `tsp-lab` generate=false
-- `turing-machine-lab` generate=false
-- `turning-turtles` generate=false
-- `voting-lab` generate=false
-- `wythoffs-game` generate=false
-- `yavalath` generate=false
-- `yin-yang` generate=false
+No pending games.
