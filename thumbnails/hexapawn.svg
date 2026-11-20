@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" role="img" aria-labelledby="title desc">
+  <title id="title">Hexapawn</title>
+  <desc id="desc">A three-by-three board with black and white pawns facing off.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#451a03"/><stop offset=".57" stop-color="#78350f"/><stop offset="1" stop-color="#451a03"/></linearGradient>
+
+  </defs>
+  <rect width="800" height="260" fill="url(#bg)"/>
+  <path d="M0 228H800" stroke="#fbbf24" stroke-opacity=".35"/>
+  <path d="M29 25V235" stroke="#fbbf24" stroke-width="4"/>
+  <text x="52" y="51" fill="#fbbf24" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="2.2">ABSTRACT STRATEGY</text>
+  <text x="50" y="110" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="800" letter-spacing="1.2">HEXAPAWN</text>
+  <text x="53" y="140" fill="#c8c4ba" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="1.4">PAWNS · 3×3 · CAPTURE</text>
+  <rect x="322" y="28" width="446" height="204" rx="17" fill="#141b25" stroke="#6b6670" stroke-opacity=".8"/>
+  <clipPath id="pc"><rect x="323" y="29" width="444" height="202" rx="16"/></clipPath>
+  <g clip-path="url(#pc)">
+<rect x="323" y="29" width="444" height="202" fill="#fef3c7"/><rect x="460" y="55" width="170" height="150" fill="#fde68a" stroke="#b45309" stroke-width="2"/><line x1="517" y1="55" x2="517" y2="205" stroke="#d97706" stroke-opacity=".5"/><line x1="460" y1="105" x2="630" y2="105" stroke="#d97706" stroke-opacity=".5"/><line x1="573" y1="55" x2="573" y2="205" stroke="#d97706" stroke-opacity=".5"/><line x1="460" y1="155" x2="630" y2="155" stroke="#d97706" stroke-opacity=".5"/><g transform="translate(488 80)"><circle cx="0" cy="-8" r="7" fill="#1c1917"/><path d="M-9 10 L-6 -2 L6 -2 L9 10 Z" fill="#1c1917"/></g><g transform="translate(488 180)"><circle cx="0" cy="-8" r="7" fill="#f5f5f4"/><path d="M-9 10 L-6 -2 L6 -2 L9 10 Z" fill="#f5f5f4"/></g><g transform="translate(545 80)"><circle cx="0" cy="-8" r="7" fill="#1c1917"/><path d="M-9 10 L-6 -2 L6 -2 L9 10 Z" fill="#1c1917"/></g><g transform="translate(545 180)"><circle cx="0" cy="-8" r="7" fill="#f5f5f4"/><path d="M-9 10 L-6 -2 L6 -2 L9 10 Z" fill="#f5f5f4"/></g><g transform="translate(602 80)"><circle cx="0" cy="-8" r="7" fill="#1c1917"/><path d="M-9 10 L-6 -2 L6 -2 L9 10 Z" fill="#1c1917"/></g><g transform="translate(602 180)"><circle cx="0" cy="-8" r="7" fill="#f5f5f4"/><path d="M-9 10 L-6 -2 L6 -2 L9 10 Z" fill="#f5f5f4"/></g><line x1="488" y1="100" x2="545" y2="130" stroke="#b91c1c" stroke-width="2"/><polygon points="545,130 536.0187018343953,129.42010064622792 539.4371354107241,122.92507685120329" fill="#b91c1c"/>
+  </g>
+</svg>
