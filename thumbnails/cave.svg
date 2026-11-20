@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" role="img" aria-labelledby="title desc">
+  <title id="title">Cave</title>
+  <desc id="desc">A dark cave with stalactites, glowing crystals and a winding path.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#14121f"/><stop offset=".57" stop-color="#241f3d"/><stop offset="1" stop-color="#14121f"/></linearGradient>
+
+  </defs>
+  <rect width="800" height="260" fill="url(#bg)"/>
+  <path d="M0 228H800" stroke="#c084fc" stroke-opacity=".35"/>
+  <path d="M29 25V235" stroke="#c084fc" stroke-width="4"/>
+  <text x="52" y="51" fill="#c084fc" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="2.2">LOGIC PUZZLE</text>
+  <text x="50" y="110" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="800" letter-spacing="1.2">CAVE</text>
+  <text x="53" y="140" fill="#c8c4ba" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="1.4">CAVES · CRYSTALS · PATHS</text>
+  <rect x="322" y="28" width="446" height="204" rx="17" fill="#141b25" stroke="#6b6670" stroke-opacity=".8"/>
+  <clipPath id="pc"><rect x="323" y="29" width="444" height="202" rx="16"/></clipPath>
+  <g clip-path="url(#pc)">
+<rect x="323" y="29" width="444" height="202" fill="#1e1b2e"/><path d="M323 29 L767 29 L767 70 L700 55 L640 85 L560 60 L480 90 L400 60 L323 80 Z" fill="#0f0d1a"/><path d="M323 231 L767 231 L767 190 L690 205 L610 180 L520 205 L430 185 L323 200 Z" fill="#0f0d1a"/><polygon points="420,120 412,160 420,166 428,160" fill="#c084fc"/><polygon points="445,135 437,165 445,171 453,165" fill="#a855f7"/><polygon points="660,110 652,155 660,161 668,155" fill="#67e8f9"/><circle cx="432" cy="140" r="30" fill="#c084fc" fill-opacity=".18"/><circle cx="660" cy="135" r="32" fill="#67e8f9" fill-opacity=".15"/><path d="M323 215 C 420 190 480 205 560 185 C 620 170 700 180 767 165" fill="none" stroke="#57534e" stroke-width="10" stroke-opacity=".6"/><circle cx="545" cy="196" r="5" fill="#f8fafc"/>
+  </g>
+</svg>

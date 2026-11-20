@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" role="img" aria-labelledby="title desc">
+  <title id="title">Chocona</title>
+  <desc id="desc">A chocolate bar with bites taken out of one corner and a gold coin beside it.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2a1206"/><stop offset=".57" stop-color="#451a03"/><stop offset="1" stop-color="#2a1206"/></linearGradient>
+
+  </defs>
+  <rect width="800" height="260" fill="url(#bg)"/>
+  <path d="M0 228H800" stroke="#d97706" stroke-opacity=".35"/>
+  <path d="M29 25V235" stroke="#d97706" stroke-width="4"/>
+  <text x="52" y="51" fill="#d97706" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="2.2">LOGIC PUZZLE</text>
+  <text x="50" y="110" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="800" letter-spacing="1.2">CHOCONA</text>
+  <text x="53" y="140" fill="#c8c4ba" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="1.4">CHOCOLATE · BITES · GRID</text>
+  <rect x="322" y="28" width="446" height="204" rx="17" fill="#141b25" stroke="#6b6670" stroke-opacity=".8"/>
+  <clipPath id="pc"><rect x="323" y="29" width="444" height="202" rx="16"/></clipPath>
+  <g clip-path="url(#pc)">
+<rect x="323" y="29" width="444" height="202" fill="#451a03"/><rect x="430" y="50" width="230" height="160" rx="8" fill="#78350f"/><rect x="510" y="58" width="32" height="32" rx="5" fill="#92400e" stroke="#451a03" stroke-width="2"/><rect x="546" y="58" width="32" height="32" rx="5" fill="#92400e" stroke="#451a03" stroke-width="2"/><rect x="582" y="58" width="32" height="32" rx="5" fill="#92400e" stroke="#451a03" stroke-width="2"/><rect x="618" y="58" width="32" height="32" rx="5" fill="#92400e" stroke="#451a03" stroke-width="2"/><rect x="474" y="94" width="32" height="32" rx="5" fill="#92400e" stroke="#451a03" stroke-width="2"/><rect x="510" y="94" width="32" height="32" rx="5" fill="#92400e" stroke="#451a03" stroke-width="2"/><rect x="546" y="94" width="32" height="32" rx="5" fill="#92400e" stroke="#451a03" stroke-width="2"/><rect x="582" y="94" width="32" height="32" rx="5" fill="#92400e" stroke="#451a03" stroke-width="2"/><rect x="618" y="94" width="32" height="32" rx="5" fill="#92400e" stroke="#451a03" stroke-width="2"/><rect x="438" y="130" width="32" height="32" rx="5" fill="#92400e" stroke="#451a03" stroke-width="2"/><rect x="474" y="130" width="32" height="32" rx="5" fill="#92400e" stroke="#451a03" stroke-width="2"/><rect x="510" y="130" width="32" height="32" rx="5" fill="#92400e" stroke="#451a03" stroke-width="2"/><rect x="546" y="130" width="32" height="32" rx="5" fill="#92400e" stroke="#451a03" stroke-width="2"/><rect x="582" y="130" width="32" height="32" rx="5" fill="#92400e" stroke="#451a03" stroke-width="2"/><rect x="618" y="130" width="32" height="32" rx="5" fill="#92400e" stroke="#451a03" stroke-width="2"/><rect x="438" y="166" width="32" height="32" rx="5" fill="#92400e" stroke="#451a03" stroke-width="2"/><rect x="474" y="166" width="32" height="32" rx="5" fill="#92400e" stroke="#451a03" stroke-width="2"/><rect x="510" y="166" width="32" height="32" rx="5" fill="#92400e" stroke="#451a03" stroke-width="2"/><rect x="546" y="166" width="32" height="32" rx="5" fill="#92400e" stroke="#451a03" stroke-width="2"/><rect x="582" y="166" width="32" height="32" rx="5" fill="#92400e" stroke="#451a03" stroke-width="2"/><rect x="618" y="166" width="32" height="32" rx="5" fill="#92400e" stroke="#451a03" stroke-width="2"/><path d="M438 58 L474 58 L438 94 Z" fill="#451a03"/><circle cx="600" cy="120" r="26" fill="#fde68a"/><circle cx="600" cy="120" r="26" fill="none" stroke="#d97706" stroke-width="3" stroke-dasharray="5 4"/>
+  </g>
+</svg>

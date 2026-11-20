@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" role="img" aria-labelledby="title desc">
+  <title id="title">Bézier Lab</title>
+  <desc id="desc">A cubic Bézier curve with its dashed control polygon and four control points.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#022c2b"/><stop offset=".57" stop-color="#064e4b"/><stop offset="1" stop-color="#022c2b"/></linearGradient>
+
+  </defs>
+  <rect width="800" height="260" fill="url(#bg)"/>
+  <path d="M0 228H800" stroke="#2dd4bf" stroke-opacity=".35"/>
+  <path d="M29 25V235" stroke="#2dd4bf" stroke-width="4"/>
+  <text x="52" y="51" fill="#2dd4bf" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="2.2">GEOMETRY LAB</text>
+  <text x="50" y="110" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="800" letter-spacing="1.2">BÉZIER</text>
+  <text x="50" y="160" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="800" letter-spacing="1.2">LAB</text>
+  <text x="53" y="190" fill="#c8c4ba" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="1.4">CURVES · CONTROL POINTS</text>
+  <rect x="322" y="28" width="446" height="204" rx="17" fill="#141b25" stroke="#6b6670" stroke-opacity=".8"/>
+  <clipPath id="pc"><rect x="323" y="29" width="444" height="202" rx="16"/></clipPath>
+  <g clip-path="url(#pc)">
+<rect x="323" y="29" width="444" height="202" fill="#042f2e"/><path d="M370 200 C 430 60, 560 220, 700 70" fill="none" stroke="#2dd4bf" stroke-width="3.5"/><path d="M370 200 L470 90 L600 210 L700 70" fill="none" stroke="#f59e0b" stroke-width="2" stroke-dasharray="5 4"/><circle cx="370" cy="200" r="7" fill="#f59e0b" stroke="#042f2e" stroke-width="2"/><circle cx="470" cy="90" r="7" fill="#f59e0b" stroke="#042f2e" stroke-width="2"/><circle cx="600" cy="210" r="7" fill="#f59e0b" stroke="#042f2e" stroke-width="2"/><circle cx="700" cy="70" r="7" fill="#f59e0b" stroke="#042f2e" stroke-width="2"/><circle cx="535" cy="130" r="6" fill="#2dd4bf"/><text x="370" y="222" text-anchor="middle" font-family="DejaVu Sans,Arial" font-size="11" font-weight="700" fill="#f59e0b">P0</text><text x="700" y="222" text-anchor="middle" font-family="DejaVu Sans,Arial" font-size="11" font-weight="700" fill="#f59e0b">P3</text>
+  </g>
+</svg>

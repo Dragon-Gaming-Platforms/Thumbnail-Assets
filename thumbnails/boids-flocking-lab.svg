@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" role="img" aria-labelledby="title desc">
+  <title id="title">Boids Flocking Lab</title>
+  <desc id="desc">A flock of triangle boids with alignment arrows and a cohesion ring.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a1a2e"/><stop offset=".57" stop-color="#12304f"/><stop offset="1" stop-color="#0a1a2e"/></linearGradient>
+
+  </defs>
+  <rect width="800" height="260" fill="url(#bg)"/>
+  <path d="M0 228H800" stroke="#7dd3fc" stroke-opacity=".35"/>
+  <path d="M29 25V235" stroke="#7dd3fc" stroke-width="4"/>
+  <text x="52" y="51" fill="#7dd3fc" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="2.2">FLOCKING SIMULATION</text>
+  <text x="50" y="110" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="800" letter-spacing="1.2">BOIDS</text>
+  <text x="50" y="160" fill="#f5eee1" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="800" letter-spacing="1.2">FLOCKING LAB</text>
+  <text x="53" y="190" fill="#c8c4ba" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="1.4">SEPARATION · ALIGNMENT · COHESION</text>
+  <rect x="322" y="28" width="446" height="204" rx="17" fill="#141b25" stroke="#6b6670" stroke-opacity=".8"/>
+  <clipPath id="pc"><rect x="323" y="29" width="444" height="202" rx="16"/></clipPath>
+  <g clip-path="url(#pc)">
+<rect x="323" y="29" width="444" height="202" fill="#0b1e33"/><g transform="translate(420 80) rotate(11.459155902616466)"><polygon points="12,0 -8,-6 -4,0 -8,6" fill="#38bdf8"/></g><g transform="translate(470 60) rotate(20.05352282957881)"><polygon points="12,0 -8,-6 -4,0 -8,6" fill="#7dd3fc"/></g><g transform="translate(520 90) rotate(5.729577951308233)"><polygon points="12,0 -8,-6 -4,0 -8,6" fill="#7dd3fc"/></g><g transform="translate(570 70) rotate(17.188733853924695)"><polygon points="12,0 -8,-6 -4,0 -8,6" fill="#38bdf8"/></g><g transform="translate(450 130) rotate(14.32394487827058)"><polygon points="12,0 -8,-6 -4,0 -8,6" fill="#7dd3fc"/></g><g transform="translate(510 140) rotate(8.594366926962348)"><polygon points="12,0 -8,-6 -4,0 -8,6" fill="#7dd3fc"/></g><g transform="translate(560 120) rotate(22.918311805232932)"><polygon points="12,0 -8,-6 -4,0 -8,6" fill="#38bdf8"/></g><g transform="translate(610 100) rotate(11.459155902616466)"><polygon points="12,0 -8,-6 -4,0 -8,6" fill="#7dd3fc"/></g><g transform="translate(480 180) rotate(17.188733853924695)"><polygon points="12,0 -8,-6 -4,0 -8,6" fill="#7dd3fc"/></g><g transform="translate(540 190) rotate(5.729577951308233)"><polygon points="12,0 -8,-6 -4,0 -8,6" fill="#38bdf8"/></g><g transform="translate(600 170) rotate(20.05352282957881)"><polygon points="12,0 -8,-6 -4,0 -8,6" fill="#7dd3fc"/></g><g transform="translate(650 150) rotate(8.594366926962348)"><polygon points="12,0 -8,-6 -4,0 -8,6" fill="#7dd3fc"/></g><g transform="translate(430 190) rotate(25.783100780887047)"><polygon points="12,0 -8,-6 -4,0 -8,6" fill="#38bdf8"/></g><g transform="translate(660 200) rotate(14.32394487827058)"><polygon points="12,0 -8,-6 -4,0 -8,6" fill="#7dd3fc"/></g><line x1="430" y1="105" x2="470" y2="100" stroke="#fbbf24" stroke-width="1.6"/><polygon points="470,100 462.3008465416465,104.6607977884396 461.3904702693645,97.37778761018403" fill="#fbbf24"/><line x1="520" y1="115" x2="555" y2="112" stroke="#fbbf24" stroke-width="1.6"/><polygon points="555,112 547.1256309191698,116.35824638804014 546.4988131735997,109.04537268972247" fill="#fbbf24"/><circle cx="545" cy="130" r="26" fill="none" stroke="#fbbf24" stroke-width="1.4" stroke-dasharray="4 4"/>
+  </g>
+</svg>
